@@ -12,17 +12,19 @@
 class Solution {
 private:
     vector<TreeNode*> allPossibleFBT(int n, vector<vector<TreeNode*>>& cache) {
-        vector<TreeNode*> result;
+        // this vector is used for storing root nodes of all possible full binary trees
+        vector<TreeNode*> trees; 
 
-        if(n % 2 ==0 ) {
-           cache[n] = result;
-           return result; 
+        // full-binary not possible for when n is even, so returning empty result
+        if(n % 2 == 0 ) {
+           cache[n] = trees;
+           return trees; 
         }
     
         if(n == 1) {
-            result.push_back(new TreeNode(0));
-            cache[n] = result;
-            return result;
+            trees.push_back(new TreeNode(0));
+            cache[n] = trees;
+            return trees;
         }
 
         if(!cache[n].empty()) return cache[n];
@@ -39,19 +41,30 @@ private:
                     rootNode -> left = leftNode;
                     rootNode -> right = rightNode;
 
-                    result.push_back(rootNode);
+                    trees.push_back(rootNode);
                 }
             }
         }
 
-        cache[n] = result;
-        return result;
+        cache[n] = trees;
+        return trees;
     }
 
 public:
     vector<TreeNode*> allPossibleFBT(int n) {
-        vector<vector<TreeNode*>> cache(n+1);     
+        /* 
+        This problem can be solved using Recursion
+        Recursion is a suitable technique to generate all possible Full Binary Trees
+        
+        Bigger problem can be broken down into smaller sub-problem and results of sub-problems
+        can be utilized to arrive at final solution for bigger problem
 
+        Overlapping sub-problems are found and hence results of sub-problems 
+        can be stored in a data-structure and can be re-used for efficient comput
+        */
+
+        vector<vector<TreeNode*>> cache(n+1);    //  this datastructure is used for memoization of results
+        
         return allPossibleFBT(n, cache);
     }
 };
