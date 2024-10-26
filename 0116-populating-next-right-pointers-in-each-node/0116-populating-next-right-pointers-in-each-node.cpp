@@ -26,14 +26,14 @@ public:
         while(leftMostNode->left) {
             Node* current = leftMostNode;
             while(current) {
-                current->left->next = current->right;
+                current->left->next = current->right; // connecting within same sub-tree
 
-                if(current->next) {
+                if(current->next) { // connecting between 2 different sub-tree component
                     current->right->next = current->next->left;
                 }
-                current = current->next;
+                current = current->next; // traversing between differnt sub-tree within same level
             }
-            leftMostNode = leftMostNode->left;
+            leftMostNode = leftMostNode->left; // going to next level down
         }
 
         return root;
