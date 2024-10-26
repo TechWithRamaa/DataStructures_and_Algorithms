@@ -24,9 +24,9 @@ public:
         Node* leftMostNode = root;
          Node* current = leftMostNode;
 
-        while(leftMostNode->left) {
+        while(leftMostNode->left) {  // checking one-level down from current level
             current = leftMostNode;
-            while(current) {
+            while(current) { // checking at current level
                 current->left->next = current->right; // connecting within same sub-tree
 
                 if(current->next) { // connecting between 2 different sub-tree component
