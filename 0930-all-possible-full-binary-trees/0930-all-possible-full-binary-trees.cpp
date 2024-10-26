@@ -15,6 +15,8 @@ private:
         // this vector is used for storing root nodes of all possible full binary trees
         vector<TreeNode*> trees; 
 
+         if(!cache[n].empty()) return cache[n]; 
+
         // full-binary not possible for when n is even, so returning empty result
         if(n % 2 == 0 ) {
            cache[n] = trees;
@@ -27,8 +29,7 @@ private:
             return trees;
         }
 
-        if(!cache[n].empty()) return cache[n];
-
+        // constructing tree 
         for(int noOfLeftNodes = 1; noOfLeftNodes < n; noOfLeftNodes+=2) {
             int noOfRightNodes = n - 1 - noOfLeftNodes;
 
@@ -64,7 +65,7 @@ public:
         */
 
         vector<vector<TreeNode*>> cache(n+1);    //  this datastructure is used for memoization of results
-        
+
         return allPossibleFBT(n, cache);
     }
 };
