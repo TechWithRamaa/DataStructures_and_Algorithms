@@ -22,9 +22,10 @@ public:
         if(!root) return root;
 
         Node* leftMostNode = root;
+         Node* current = leftMostNode;
 
         while(leftMostNode->left) {
-            Node* current = leftMostNode;
+            current = leftMostNode;
             while(current) {
                 current->left->next = current->right; // connecting within same sub-tree
 
