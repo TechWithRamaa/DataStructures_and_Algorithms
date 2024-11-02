@@ -8,9 +8,8 @@ public:
 
         vector<vector<int>> cache(TRIANGLE_SIZE);
 
-        for(int i = 0; i < TRIANGLE_SIZE; i++){
+        for(int i = 0; i < TRIANGLE_SIZE; i++)
             cache[i] = vector<int>(triangle[i].size(), INITIAL_VALUE);
-        }
 
         return minimumTotal(triangle, cache, TRIANGLE_SIZE, 0, 0); 
     }
