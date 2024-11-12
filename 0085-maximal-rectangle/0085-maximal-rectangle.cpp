@@ -31,9 +31,9 @@ private:
                 s.pop();
 
                 int width;
-                
                 if(s.empty()) width = i;
                 else width = i - s.top() - 1;
+                
                 maxArea = std :: max(maxArea, height * width);
             }
 
