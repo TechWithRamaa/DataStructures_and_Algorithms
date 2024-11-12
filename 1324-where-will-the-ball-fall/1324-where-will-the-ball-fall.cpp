@@ -11,7 +11,7 @@ public:
     }
 
 private:
-    int simulateBallPath(const vector<vector<int>> grid,
+    int simulateBallPath(const vector<vector<int>>& grid,
                          const int startColumn) {
         int m = grid.size();
         int n = grid[0].size();
