@@ -10,12 +10,14 @@
 | [0120-triangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0120-triangle) |
 | [0174-dungeon-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0174-dungeon-game) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Tree
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 ## Recursion
 |  |
 | ------- |
@@ -29,6 +31,7 @@
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 ## Array
 |  |
 | ------- |
@@ -81,6 +84,7 @@
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [1428-jump-game-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1428-jump-game-iii) |
+| [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 ## Simulation
 |  |
 | ------- |
