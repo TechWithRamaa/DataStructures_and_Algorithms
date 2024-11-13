@@ -3,9 +3,7 @@ public:
     int longestSubarray(const vector<int>& nums) {
         const int ATMOST_ZEROS = 1;
 
-        int windowStart = 0;
-        int longestWindow = 0;
-        int zerosCount = 0;
+        int windowStart = 0, longestWindow = 0, zerosCount = 0;
 
         for(int windowEnd = 0; windowEnd < nums.size(); windowEnd++) {
             if(nums[windowEnd] == 0)
