@@ -35,6 +35,7 @@
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0016-3sum-closest) |
 | [0048-rotate-image](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0054-spiral-matrix) |
@@ -124,11 +125,13 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0016-3sum-closest) |
 | [0151-reverse-words-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0151-reverse-words-in-a-string) |
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0016-3sum-closest) |
 ## Counting
 |  |
