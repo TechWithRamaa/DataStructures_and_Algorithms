@@ -10,6 +10,7 @@
 | [0120-triangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0120-triangle) |
 | [0174-dungeon-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0174-dungeon-game) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Tree
 |  |
 | ------- |
@@ -42,6 +43,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [1324-where-will-the-ball-fall](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1324-where-will-the-ball-fall) |
 | [1428-jump-game-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1428-jump-game-iii) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Binary Search
 |  |
@@ -125,4 +127,8 @@
 |  |
 | ------- |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
+## Sliding Window
+|  |
+| ------- |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 <!---LeetCode Topics End-->
