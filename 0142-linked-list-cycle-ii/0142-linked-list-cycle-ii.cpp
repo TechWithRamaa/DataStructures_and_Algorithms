@@ -12,17 +12,20 @@ public:
         if(!head || !head->next)     
             return nullptr;
         
-        ListNode *slow = head, *fast = head, *start = head;
+        ListNode *slow = head, *fast = head, *cycleStart = head;
+
+        // Floyd Cycle detection algorithm to detect cycle in a LL
         while(fast != nullptr && fast->next != nullptr) {
             slow = slow -> next;
             fast = fast -> next -> next;
 
             if(slow == fast) {
-                while(start != slow) {
-                    start = start -> next;
+                // Identifying & returning starting node in the cycle 
+                while(cycleStart != slow) {
+                    cycleStart = cycleStart -> next;
                     slow = slow -> next;
                 }
-                return start;
+                return cycleStart;
             }
         }
         return nullptr;
