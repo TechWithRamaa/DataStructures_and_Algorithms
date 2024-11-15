@@ -22,6 +22,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0206-reverse-linked-list) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
 ## Memoization
 |  |
@@ -84,6 +85,7 @@
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0142-linked-list-cycle-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0142-linked-list-cycle-ii) |
+| [0206-reverse-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0206-reverse-linked-list) |
 ## Depth-First Search
 |  |
 | ------- |
