@@ -11,21 +11,21 @@
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
-        if (head == nullptr || head->next == nullptr) { // Base case for empty or single-node list
+        if (!head || !head->next) { 
             return head;
         }
 
-        // Get the middle node to split the list into two halves
+        // Get the middle node of the given LL
         ListNode* middle = getMiddleNode(head);
         ListNode* leftHead = head;
         ListNode* rightHead = middle->next;
         middle->next = nullptr; // Split the list into two halves
 
-        // Recursively sort both halves
+        // Recursively sort both halves of the LL
         leftHead = sortList(leftHead);
         rightHead = sortList(rightHead);
 
-        // Merge the sorted halves and return the sorted list
+        // Sort & Merge the 2 LLs using MergeSort Algorithm
         return mergeSortedListofTwoLL(leftHead, rightHead);
     }
 
@@ -33,7 +33,7 @@ private:
     ListNode* getMiddleNode(ListNode* head) {
         ListNode *slow = head, *fast = head;
 
-        // Use the slow and fast pointers to find the middle node
+        // Slow and fast pointers to find the middle node
         while (fast->next && fast->next->next) {
             slow = slow->next;
             fast = fast->next->next;
@@ -43,10 +43,10 @@ private:
     }
 
     ListNode* mergeSortedListofTwoLL(ListNode* head1, ListNode* head2) {
-        ListNode dummy(0);  // Dummy node to simplify the merge logic
+        ListNode dummy(0); 
         ListNode* tail = &dummy;
 
-        // Merge the two sorted lists
+        // Merges the two locally sorted lists into a global sorted list 
         while (head1 && head2) {
             if (head1->val < head2->val) {
                 tail->next = head1;
@@ -58,9 +58,9 @@ private:
             tail = tail->next;
         }
 
-        // Attach the remaining nodes of either list (one of these will be null)
+        // Attaches the remaining nodes of either list (one of these will be null)
         tail->next = (head1) ? head1 : head2;
 
-        return dummy.next;  // Return the head of the merged list
+        return dummy.next;  // Returns the head of the merged list
     }
 };
