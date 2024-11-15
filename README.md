@@ -83,6 +83,7 @@
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0142-linked-list-cycle-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0142-linked-list-cycle-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -98,6 +99,7 @@
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0073-set-matrix-zeroes) |
+| [0142-linked-list-cycle-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
 ## Math
 |  |
@@ -130,6 +132,7 @@
 | ------- |
 | [0015-3sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0016-3sum-closest) |
+| [0142-linked-list-cycle-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0151-reverse-words-in-a-string) |
 ## Sorting
 |  |
