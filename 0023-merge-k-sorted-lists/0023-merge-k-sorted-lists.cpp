@@ -24,6 +24,7 @@ public:
 
         return lists[0];
     }
+    
 private:
     ListNode* mergeTwoSortedLists(ListNode* head1, ListNode* head2) {
         if(!head1) return head2;
