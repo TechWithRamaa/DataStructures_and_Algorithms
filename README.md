@@ -85,6 +85,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0138-copy-list-with-random-pointer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0142-linked-list-cycle-ii) |
@@ -115,6 +116,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0148-sort-list) |
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 ## Bit Manipulation
@@ -164,5 +166,10 @@
 ## Merge Sort
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0148-sort-list) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
