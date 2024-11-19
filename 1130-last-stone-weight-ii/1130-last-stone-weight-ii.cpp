@@ -8,7 +8,7 @@ public:
         return dfs(0, 0, stones, memo, totalSum);
     }
 private:
-    int dfs(int index, int currentSum, vector<int>& stones, vector<vector<int>>& memo, int totalSum) {
+    int dfs(int index, int currentSum, vector<int>& stones, vector<vector<int>>& memo, const int totalSum) {
         if (index == stones.size()) 
             return abs(totalSum - 2 * currentSum);
 
