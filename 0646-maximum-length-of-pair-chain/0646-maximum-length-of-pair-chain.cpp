@@ -10,9 +10,10 @@ public:
         const int N = pairs.size(); 
 
         for(int i = 0; i < N; i++) {
-            if(pairs[i][0] > currentEnd) {
+            vector<int>& pair = pairs[i];
+            if(pair[0] > currentEnd) {
                 maxLength += 1;
-                currentEnd = pairs[i][1];
+                currentEnd = pair[1];
             }
         }
 
