@@ -40,6 +40,7 @@
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0016-3sum-closest) |
 | [0033-search-in-rotated-sorted-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
@@ -147,6 +148,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0016-3sum-closest) |
 | [0142-linked-list-cycle-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0142-linked-list-cycle-ii) |
@@ -170,6 +172,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0011-container-with-most-water) |
 | [0134-gas-station](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0134-gas-station) |
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
 ## Merge Sort
