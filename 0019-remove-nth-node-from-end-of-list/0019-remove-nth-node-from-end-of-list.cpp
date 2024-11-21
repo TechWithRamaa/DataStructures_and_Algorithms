@@ -15,10 +15,10 @@ public:
         ListNode* first = dummy;
         ListNode* second = dummy;
 
-        for (int i = 0; i <= n; ++i) 
+        for (int i = 0; i <= n; i++) 
             first = first->next;
         
-        while (first != nullptr) {
+        while(first) {
             first = first->next;
             second = second->next;
         }
