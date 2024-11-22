@@ -5,18 +5,14 @@ public:
         if (N == 0)
             return 0;
 
-        stack<int> st; // Stack to store indices
+        stack<int> st; 
         int waterTrapped = 0;
 
         for (int i = 0; i < N; i++) {
-            // While the stack is not empty and the current bar is taller than
-            // the bar at the stack's top
             while (!st.empty() && height[i] > height[st.top()]) {
                 int top = st.top();
                 st.pop();
-
-                // If the stack is empty after popping, there's no left boundary
-                // for trapping water
+                
                 if (st.empty())
                     break;
 
@@ -31,7 +27,6 @@ public:
                 waterTrapped += width * h;
             }
 
-            // Push the current index to the stack
             st.push(i);
         }
 
