@@ -4,6 +4,7 @@ public:
         const int NO_OF_ROWS = matrix.size();
         const int NO_OF_COLS = matrix[0].size();
 
+        // Saddleback search - Search Space Reduction 
         int x = 0, y = NO_OF_COLS - 1;
 
         while(x < NO_OF_ROWS && y >= 0) {
