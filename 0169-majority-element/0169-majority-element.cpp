@@ -1,7 +1,8 @@
 class Solution {
 public:
     int majorityElement(const vector<int>& nums) {
-        return majorityElementByBoyerMooreVoting(nums);
+        //return majorityElementByBoyerMooreVoting(nums);
+        return majorityElementByHashing(nums);
     }
 
 private:
