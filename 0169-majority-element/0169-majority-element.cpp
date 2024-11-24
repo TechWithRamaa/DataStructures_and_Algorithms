@@ -6,6 +6,7 @@ public:
     }
 
 private:
+    // TC - O(n); SC - O(n)
     int majorityElementByHashing(const vector<int>& nums) {
         unordered_map<int, int> frequencyMap;
         const int N = nums.size();
@@ -20,6 +21,7 @@ private:
         return -1;
     }
 
+    // TC - O(n); SC - O(1)
     int majorityElementByBoyerMooreVoting(const vector<int>& nums) {
         int count = 0;
         int candidate = 0;
