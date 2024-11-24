@@ -20,17 +20,13 @@ public:
                 result.push_back(matrix[index][right]);
             right--;
 
-            // Check again in case boundaries crossed before reverse traveral
-
             // Traverse from right to left
-            for (int index = right; index >= left && top <= bottom; index--)
+            for (int index = right; index >= left && top <= bottom; index--)    // Check again in case boundaries crossed before reverse traveral
                 result.push_back(matrix[bottom][index]);
             bottom--;
 
-            // Check again in case boundaries crossed before reverse traveral
-
             // Traverse upwards
-            for (int index = bottom; index >= top && left <= right; index--)
+            for (int index = bottom; index >= top && left <= right; index--)    // Check again in case boundaries crossed before reverse traveral
                 result.push_back(matrix[index][left]);
             left++;
         }
