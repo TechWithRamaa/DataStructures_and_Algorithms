@@ -1,8 +1,10 @@
 class LRUCache {
 public:
-    LRUCache(int capacity) { this->capacity = capacity; }
+    LRUCache(int capacity) { 
+        this->capacity = capacity; 
+    }
 
-    int get(int key) {
+    int get(const int key) {
         if (map.find(key) == map.end())
             return -1; 
             
@@ -16,7 +18,7 @@ public:
         return value;
     }
 
-    void put(int key, int value) {
+    void put(const int key, const int value) {
         // If the key already exists, remove it
         if (map.find(key) != map.end()) 
             dll.erase(map[key]);
