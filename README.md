@@ -64,6 +64,7 @@
 | [0137-single-number-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0137-single-number-ii) |
 | [0169-majority-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0169-majority-element) |
 | [0174-dungeon-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0174-dungeon-game) |
+| [0238-product-of-array-except-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0322-coin-change) |
@@ -243,6 +244,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
