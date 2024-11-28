@@ -8,6 +8,7 @@ public:
 
         return result;
     }
+    
 private:
    void subsets(const vector<int>& nums, int index, vector<int>& current, vector<vector<int>>& result) {
         if(index >= nums.size()) {
@@ -19,7 +20,7 @@ private:
         current.push_back(nums[index]);
         subsets(nums, index + 1, current, result);
 
-        current.pop_back();
+        current.pop_back(); // back-track
 
         // exclude
         subsets(nums, index + 1, current, result);
