@@ -15,12 +15,13 @@ public:
 private:
     void combinationSum2(vector<int>& candidates, int target, int start, vector<int>& combination,
                          vector<vector<int>>& result, unordered_map<string, vector<vector<int>>> memo) {
+        string key = to_string(start) + "-" + to_string(target);
         if (target == 0) {
             result.push_back(combination);
+            memo[key] = result;
             return;
         }
-
-        string key = to_string(start) + "-" + to_string(target);
+        
         if (memo.find(key) != memo.end()) {
             for (const auto& comb : memo[key]) {
                 result.push_back(comb);
@@ -41,6 +42,6 @@ private:
             combination.pop_back();
         }
 
-         memo[key] = result;
+        memo[key] = result;
     }
 };
