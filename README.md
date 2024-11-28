@@ -49,6 +49,7 @@
 | [0016-3sum-closest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
+| [0040-combination-sum-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0048-rotate-image) |
@@ -277,6 +278,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
