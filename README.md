@@ -53,6 +53,7 @@
 | [0042-trapping-rain-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0048-rotate-image) |
+| [0051-n-queens](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0051-n-queens) |
 | [0054-spiral-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0073-set-matrix-zeroes) |
@@ -280,5 +281,6 @@
 | ------- |
 | [0040-combination-sum-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
