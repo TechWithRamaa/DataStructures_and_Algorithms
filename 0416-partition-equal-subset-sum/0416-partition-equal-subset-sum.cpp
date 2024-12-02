@@ -39,10 +39,8 @@ private:
 
                 prev = cur;
             }
-             return prev[k];
+            return prev[k];
         }
-
-       
     }
 
     bool canPartitionTopDown(int N, const vector<int>& arr) {
