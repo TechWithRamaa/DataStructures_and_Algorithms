@@ -7,6 +7,7 @@
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0042-trapping-rain-water) |
+| [0064-minimum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0064-minimum-path-sum) |
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
 | [0097-interleaving-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0097-interleaving-string) |
 | [0120-triangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0120-triangle) |
@@ -59,6 +60,7 @@
 | [0051-n-queens](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0051-n-queens) |
 | [0054-spiral-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0056-merge-intervals) |
+| [0064-minimum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0075-sort-colors) |
@@ -122,6 +124,7 @@
 | [0037-sudoku-solver](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0054-spiral-matrix) |
+| [0064-minimum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
