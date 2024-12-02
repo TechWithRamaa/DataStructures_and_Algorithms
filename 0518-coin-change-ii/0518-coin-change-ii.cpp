@@ -37,14 +37,15 @@ private:
             prev[amt] = (amt % coins[0] == 0);
         }
 
-        for (int ind = 1; ind < N; ind++) {
+        for (int index = 1; index < N; index++) {
             vector<int> cur(T + 1, 0);
+
             for (int target = 0; target <= T; target++) {
                 int notTaken = prev[target];
 
                 int taken = 0;
-                if (coins[ind] <= target)
-                    taken = cur[target - coins[ind]];
+                if (coins[index] <= target)
+                    taken = cur[target - coins[index]];
 
                 cur[target] = notTaken + taken;
             }
