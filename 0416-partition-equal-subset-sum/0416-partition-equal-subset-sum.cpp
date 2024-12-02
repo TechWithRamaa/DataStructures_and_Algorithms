@@ -1,11 +1,51 @@
 class Solution {
 public:
     bool canPartition(vector<int> nums) {
-        return canPartition(nums.size(), nums);
+        return canPartitionBottomUp(nums.size(), nums);
     }
-    
+
 private:
-    bool canPartition(int N, const vector<int>& arr) {
+    bool canPartitionBottomUp(int N, const vector<int>& arr) {
+        int totalSum = 0;
+
+        for (int element : arr)
+            totalSum += element;
+
+        if (totalSum % 2 == 1)
+            return false;
+        else {
+            int k = totalSum / 2;
+
+            vector<bool> prev(k + 1, false);
+
+            prev[0] = true;
+
+            if (arr[0] <= k)
+                prev[arr[0]] = true;
+
+            for (int ind = 1; ind < N; ind++) {
+                vector<bool> cur(k + 1, false);
+                cur[0] = true;
+
+                for (int target = 1; target <= k; target++) {
+                    bool exclude = prev[target];
+
+                    bool include = false;
+                    if (arr[ind] <= target)
+                        include = prev[target - arr[ind]];
+
+                    cur[target] = exclude || include;
+                }
+
+                prev = cur;
+            }
+             return prev[k];
+        }
+
+       
+    }
+
+    bool canPartitionTopDown(int N, const vector<int>& arr) {
         int totalSum = 0;
 
         for (int element : arr)
@@ -20,8 +60,8 @@ private:
             return subsetSum(N - 1, k, arr, dp);
         }
     }
-
-    bool subsetSum(int index, int target, const vector<int>& arr, vector<vector<int>>& dp) {
+    bool subsetSum(int index, int target, const vector<int>& arr,
+                   vector<vector<int>>& dp) {
         if (target == 0)
             return true;
 
