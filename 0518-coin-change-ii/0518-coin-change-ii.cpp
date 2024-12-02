@@ -31,11 +31,10 @@ private:
     }
 
     int countWaysBottomUp(int T, const vector<int>& coins, const int N) {
-        vector<int> prev(T + 1, 0);
+        vector<int> prev(T + 1, 0); 
 
-        for (int i = 0; i <= T; i++) {
-            if (i % coins[0] == 0)
-                prev[i] = 1;
+        for (int amt = 0; amt <= T; amt++) {
+            prev[amt] = (amt % coins[0] == 0);
         }
 
         for (int ind = 1; ind < N; ind++) {
