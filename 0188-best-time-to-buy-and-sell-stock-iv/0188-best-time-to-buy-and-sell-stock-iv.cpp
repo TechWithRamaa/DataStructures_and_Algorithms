@@ -8,7 +8,7 @@ public:
     }
 
 public:
-    int maximumProfit(vector<int>& arr, int N, int ind, int buy, int cap, vector<vector<vector<int>>>& dp) {
+    int maximumProfit(const vector<int>& arr, const int N, int ind, int buy, int cap, vector<vector<vector<int>>>& dp) {
         if (ind == N || cap == 0)
             return 0;
        
@@ -17,15 +17,14 @@ public:
 
         int profit;
 
-        if (buy == 0) {
+        if (buy == 0)
             profit = max(0 + maximumProfit(arr, N, ind + 1, 0, cap, dp),
                          -arr[ind] + maximumProfit(arr, N, ind + 1, 1, cap, dp));
-        }
 
-        if (buy == 1) {
+        if (buy == 1)
             profit = max(0 + maximumProfit(arr, N, ind + 1, 1, cap, dp),
                         arr[ind] + maximumProfit(arr, N, ind + 1, 0, cap - 1, dp));
-        }
+        
 
         return dp[ind][buy][cap] = profit;
     }
