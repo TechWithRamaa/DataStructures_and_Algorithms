@@ -11,12 +11,7 @@ public:
             else 
                 runningSum = nums[i];
 
-            // Start new business
-            // As runningSum becomes negative
-            // it is better to not join the existing business with debt
-            // so resetting to zero or starting a new business
-            if(runningSum > largestSum)
-                largestSum = runningSum;
+            largestSum = max(largestSum, runningSum);
         } 
 
         return largestSum;
