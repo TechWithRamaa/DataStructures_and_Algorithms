@@ -43,13 +43,11 @@ private:
         const int N = word2.size();
         vector<vector<int>> dp(M + 1, vector<int>(N + 1, -1));
 
-        // Base cases
         for (int i = 0; i <= M; i++)
-            dp[i][0] = i; // Deletion operations
+            dp[i][0] = i; 
         for (int j = 0; j <= N; j++)
-            dp[0][j] = j; // Insertion operations
+            dp[0][j] = j; 
 
-        // Fill the DP table
         for (int i = 1; i <= M; ++i) {
             for (int j = 1; j <= N; ++j) {
                 if (word1[i - 1] == word2[j - 1]) 
