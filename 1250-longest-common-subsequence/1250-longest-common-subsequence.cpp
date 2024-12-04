@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int helper(string& text1, string& text2, int ind1, int ind2,
+    int helper(const string& text1, const string& text2, int ind1, int ind2,
                vector<vector<int>>& dp) {
         if (ind1 < 0 || ind2 < 0)
             return 0;
