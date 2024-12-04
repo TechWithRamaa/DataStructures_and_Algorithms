@@ -2,7 +2,7 @@ class Solution {
 public:
     int minDistance(string word1, string word2) {
         return minDistanceBottomUp(word1, word2);
-        // return minDistanceTopDown(word1, word2);
+        //return minDistanceTopDown(word1, word2);
     }
 
 private:
@@ -29,8 +29,7 @@ private:
         else {
             int insertOp = 1 + minDistanceTopDown(word1, word2, i, j - 1, dp);
             int deleteOp = 1 + minDistanceTopDown(word1, word2, i - 1, j, dp);
-            int replaceOp =
-                1 + minDistanceTopDown(word1, word2, i - 1, j - 1, dp);
+            int replaceOp = 1 + minDistanceTopDown(word1, word2, i - 1, j - 1, dp);
 
             dp[i][j] = min({insertOp, deleteOp, replaceOp});
         }
