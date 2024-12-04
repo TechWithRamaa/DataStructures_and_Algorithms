@@ -9,6 +9,7 @@
 | [0042-trapping-rain-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0064-minimum-path-sum) |
+| [0072-edit-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
 | [0097-interleaving-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0097-interleaving-string) |
 | [0120-triangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0120-triangle) |
@@ -196,6 +197,7 @@
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0032-longest-valid-parentheses) |
+| [0072-edit-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0097-interleaving-string) |
 | [0151-reverse-words-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0151-reverse-words-in-a-string) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
