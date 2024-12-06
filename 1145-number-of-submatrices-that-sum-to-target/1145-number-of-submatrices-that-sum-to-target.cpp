@@ -1,16 +1,16 @@
 class Solution {
 public:
     int numSubmatrixSumTarget(vector<vector<int>>& matrix, int target) {
-        int rows = matrix.size();
-        int cols = matrix[0].size();
+        int M = matrix.size();
+        int N = matrix[0].size();
         int subMatrixcount = 0;
 
-        for (int r1 = 0; r1 < rows; ++r1) {
-            vector<int> colSum(cols, 0); 
+        for (int r1 = 0; r1 < M; r1++) {
+            vector<int> colSum(N, 0); 
             
-            for (int r2 = r1; r2 < rows; ++r2) {
+            for (int r2 = r1; r2 < M; r2++) {
                 
-                for (int c = 0; c < cols; ++c) 
+                for (int c = 0; c < N; c++) 
                     colSum[c] += matrix[r2][c];
                 
 
