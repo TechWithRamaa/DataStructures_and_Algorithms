@@ -11,11 +11,11 @@ private:
 
         vector<vector<int>> dp(n + 2, vector<int>(n + 2, 0));
 
-        for (int length = 2; length <= n + 1; ++length) { 
-            for (int left = 0; left <= n + 1 - length; ++left) {
+        for (int length = 2; length <= n + 1; length++) { 
+            for (int left = 0; left <= n + 1 - length; left++) {
                 int right = left + length;
                
-                for (int k = left + 1; k < right; ++k) {
+                for (int k = left + 1; k < right; k++) {
                     dp[left][right] =
                         max(dp[left][right],
                             dp[left][k] + nums[left] * nums[k] * nums[right] +
