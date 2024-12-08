@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int maxCoins(vector<int>& nums) { return maxCoinsBottomUp(nums); }
+    int maxCoins(vector<int>& nums) { return maxCoinsTopDown(nums); }
 
 private:
     int maxCoinsBottomUp(vector<int>& nums) {
