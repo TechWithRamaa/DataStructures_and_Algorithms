@@ -48,50 +48,45 @@ public:
 
         return result;
     }
-    
+
     vector<vector<int>> getSkyline(vector<vector<int>>& buildings) {
         vector<vector<int>> result;
 
         // Step 1: Create events
         vector<pair<int, int>> events;
         for (const auto& building : buildings) {
-            events.push_back(
-                {building[0], building[2]}); // Start event (x, height)
-            events.push_back(
-                {building[1], -building[2]}); // End event (x, -height)
+            events.push_back({building[0], building[2]});  // Start event
+            events.push_back({building[1], -building[2]}); // End event
         }
 
         // Step 2: Sort events by x-coordinate
         sort(events.begin(), events.end(),
              [](const pair<int, int>& a, const pair<int, int>& b) {
-                 if (a.first == b.first) {
-                     return a.second > b.second; // If x is the same, process
-                                                 // start event before end event
-                 }
+                 if (a.first == b.first)
+                     return a.second > b.second;
+
                  return a.first < b.first;
              });
 
-        // Step 3: Max-heap to store the active building heights (in negative
-        // for max-heap)
+        // Max-heap to store the active building heights
         priority_queue<int> maxHeap;
-        map<int, int>
-            heightCount; // Map to track invalid heights (lazy deletion)
+
+        //(lazy deletion)
+        map<int, int> heightCount; // Map to track invalid heights
+
         maxHeap.push(0); // Initial ground level
 
         int prevMaxHeight = 0;
 
-        // Step 4: Process each event
+        // Process each event
         for (const auto& event : events) {
             int x = event.first;
             int height = event.second;
 
-            if (height > 0) {
-                // Start event: Add height to the heap
-                maxHeap.push(height);
-            } else {
-                // End event: Mark height as ended
-                heightCount[-height]++;
-            }
+            if (height > 0)
+                maxHeap.push(height); // Start event: Add height to the heap
+            else
+                heightCount[-height]++; // End event: Mark height as ended
 
             // Clean the top of the heap if it's an invalid height
             while (!maxHeap.empty() && heightCount[maxHeap.top()] > 0) {
