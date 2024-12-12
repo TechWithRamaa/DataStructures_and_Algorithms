@@ -1,18 +1,17 @@
 class MedianFinder {
 private:
-    std::priority_queue<int> maxHeap; // Max-heap for the lower half
-    std::priority_queue<int, std::vector<int>, std::greater<int>> minHeap; // Min-heap for the upper half
+    priority_queue<int> maxHeap; // Max-heap for the lower half
+    priority_queue<int, vector<int>, greater<int>> minHeap; // Min-heap for the upper half
 public:
     // Initialize the data structure
     MedianFinder() {}
 
     // Add a number into the data structure
     void addNum(int num) {
-        if (maxHeap.empty() || num <= maxHeap.top()) {
+        if (maxHeap.empty() || num <= maxHeap.top())
             maxHeap.push(num);
-        } else {
+        else
             minHeap.push(num);
-        }
 
         // Balance the heaps
         if (maxHeap.size() > minHeap.size() + 1) {
