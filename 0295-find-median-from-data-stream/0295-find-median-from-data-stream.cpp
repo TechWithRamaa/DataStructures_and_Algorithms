@@ -25,11 +25,11 @@ public:
 
     // Find the median of the data stream
     double findMedian() {
-        if (maxHeap.size() == minHeap.size()) {
+        if (maxHeap.size() == minHeap.size()) 
             return (maxHeap.top() + minHeap.top()) / 2.0;
-        } else {
+         else 
             return maxHeap.top();
-        }
+        
     }
 };
 
