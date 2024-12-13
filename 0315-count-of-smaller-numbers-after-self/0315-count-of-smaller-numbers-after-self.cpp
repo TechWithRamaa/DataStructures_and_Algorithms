@@ -9,19 +9,16 @@ public:
             nums_with_indices[i] = {nums[i], i};
         
         mergeSort(nums_with_indices, counts);
-
         return counts;
     }
-
 private:
     void mergeSort(vector<pair<int, int>>& nums, vector<int>& counts) {
         vector<pair<int, int>> temp(nums.size());
         mergeSortHelper(nums, temp, 0, nums.size() - 1, counts);
     }
 
-    void mergeSortHelper(vector<pair<int, int>>& nums,
-                         vector<pair<int, int>>& temp, int left, int right,
-                         vector<int>& counts) {
+    void mergeSortHelper(vector<pair<int, int>>& nums, vector<pair<int, int>>& temp, 
+                                int left, int right, vector<int>& counts) {
         if (left >= right) 
             return;
         
@@ -63,7 +60,6 @@ private:
         }
 
         for (int i = left; i <= right; ++i) 
-            nums[i] = temp[i];
-        
+            nums[i] = temp[i]; 
     }
 };
