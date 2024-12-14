@@ -65,6 +65,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
 | [0037-sudoku-solver](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0040-combination-sum-ii) |
+| [0041-first-missing-positive](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0048-rotate-image) |
@@ -183,6 +184,7 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0037-sudoku-solver) |
+| [0041-first-missing-positive](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0041-first-missing-positive) |
 | [0073-set-matrix-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0073-set-matrix-zeroes) |
 | [0138-copy-list-with-random-pointer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0142-linked-list-cycle-ii) |
