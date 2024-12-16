@@ -2,12 +2,12 @@ class Solution {
 public:
     int shortestSubarray(vector<int>& nums, int k) {
         int n = nums.size();
-        vector<long long> prefix(n + 1, 0); // Prefix sum array
-        for (int i = 0; i < n; ++i) {
+        vector<long long> prefix(n + 1, 0);
+        for (int i = 0; i < n; ++i) 
             prefix[i + 1] = prefix[i] + nums[i];
-        }
+        
 
-        deque<int> dq; // Deque to store indices
+        deque<int> dq; 
         int minLength = INT_MAX;
 
         for (int i = 0; i <= n; ++i) {
@@ -18,9 +18,8 @@ public:
             }
 
             // Maintain deque in increasing order of prefix sums
-            while (!dq.empty() && prefix[i] <= prefix[dq.back()]) {
+            while (!dq.empty() && prefix[i] <= prefix[dq.back()]) 
                 dq.pop_back(); // Remove indices that are no longer useful
-            }
 
             dq.push_back(i); // Add current index to deque
         }
