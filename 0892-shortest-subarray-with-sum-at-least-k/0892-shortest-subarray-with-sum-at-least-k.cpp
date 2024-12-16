@@ -3,6 +3,8 @@ public:
     int shortestSubarray(vector<int>& nums, int k) {
         int n = nums.size();
         vector<long long> prefix(n + 1, 0);
+
+        // Prefix Sum
         for (int i = 0; i < n; ++i) 
             prefix[i + 1] = prefix[i] + nums[i];
         
