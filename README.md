@@ -103,6 +103,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
@@ -127,6 +128,7 @@
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0907-koko-eating-bananas) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
@@ -280,6 +282,7 @@
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -305,6 +308,7 @@
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1127-last-stone-weight](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1127-last-stone-weight) |
 ## Prefix Sum
 |  |
@@ -313,6 +317,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2625-increment-submatrices-by-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2625-increment-submatrices-by-one) |
@@ -369,4 +374,12 @@
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0218-the-skyline-problem) |
+## Queue
+|  |
+| ------- |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 <!---LeetCode Topics End-->
