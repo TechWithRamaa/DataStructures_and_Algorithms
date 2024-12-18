@@ -113,6 +113,7 @@
 | [1324-where-will-the-ball-fall](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1324-where-will-the-ball-fall) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1428-jump-game-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1428-jump-game-iii) |
+| [1435-xor-queries-of-a-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1435-xor-queries-of-a-subarray) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2625-increment-submatrices-by-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2625-increment-submatrices-by-one) |
@@ -223,6 +224,7 @@
 | [0078-subsets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0078-subsets) |
 | [0089-gray-code](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0089-gray-code) |
 | [0137-single-number-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0137-single-number-ii) |
+| [1435-xor-queries-of-a-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1435-xor-queries-of-a-subarray) |
 ## String
 |  |
 | ------- |
@@ -323,6 +325,7 @@
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1145-number-of-submatrices-that-sum-to-target) |
+| [1435-xor-queries-of-a-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1435-xor-queries-of-a-subarray) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2625-increment-submatrices-by-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2625-increment-submatrices-by-one) |
 ## Design
