@@ -14,11 +14,11 @@ public:
         for (const auto& query : queries) {
             int left = query[0];
             int right = query[1];
+            
             if (left == 0) 
                 result.push_back(prefixXOR[right]);
              else 
                 result.push_back(prefixXOR[right] ^ prefixXOR[left - 1]);
-            
         }
 
         return result;
