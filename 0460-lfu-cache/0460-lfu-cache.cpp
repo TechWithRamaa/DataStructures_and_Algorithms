@@ -3,19 +3,17 @@ class LFUCache {
     private:
         int capacity;
         int minFreq; // Tracks the minimum frequency in the cache
-        unordered_map<int, pair<int, int>>
-            keyValueFreq;                       // key -> {value, frequency}
+        unordered_map<int, pair<int, int>>  keyValueFreq; // key -> {value, frequency}
         unordered_map<int, list<int>> freqList; // frequency -> list of keys
-        unordered_map<int, list<int>::iterator>
-            keyIter; // key -> iterator to the key's position in freqList
+        unordered_map<int, list<int>::iterator> keyIter; // key -> iterator to the key's position in freqList
 
-        // Helper function to update the frequency of a key
         void updateFrequency(int key) {
             int freq = keyValueFreq[key].second;
-            freqList[freq].erase(
-                keyIter[key]); // Remove key from its current frequency list
+            freqList[freq].erase(keyIter[key]); // Remove key from its current frequency list
+            
             if (freqList[freq].empty()) {
                 freqList.erase(freq);
+                
                 if (minFreq == freq)
                     minFreq++; // Update minFreq if needed
             }
@@ -31,6 +29,7 @@ class LFUCache {
         int get(int key) {
             if (keyValueFreq.find(key) == keyValueFreq.end())
                 return -1; // Key not found
+            
             updateFrequency(key);
             return keyValueFreq[key].first; // Return the value of the key
         }
@@ -49,8 +48,10 @@ class LFUCache {
                     // Remove the least frequently used key
                     int keyToRemove = freqList[minFreq].front();
                     freqList[minFreq].pop_front();
+                    
                     if (freqList[minFreq].empty())
                         freqList.erase(minFreq);
+                    
                     keyValueFreq.erase(keyToRemove);
                     keyIter.erase(keyToRemove);
                 }
