@@ -33,6 +33,7 @@
 ## Tree
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -51,6 +52,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -84,6 +86,7 @@
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0120-triangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0120-triangle) |
 | [0134-gas-station](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0134-gas-station) |
 | [0137-single-number-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0137-single-number-ii) |
@@ -196,6 +199,7 @@
 | [0037-sudoku-solver](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0041-first-missing-positive) |
 | [0073-set-matrix-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0073-set-matrix-zeroes) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0138-copy-list-with-random-pointer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0146-lru-cache) |
@@ -220,6 +224,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0053-maximum-subarray) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0148-sort-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0169-majority-element) |
 | [0218-the-skyline-problem](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0218-the-skyline-problem) |
