@@ -14,6 +14,7 @@ class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
         vector<int> result;
+
         if (!root)
             return result;
 
@@ -21,18 +22,14 @@ public:
         q.push(root);
 
         while (!q.empty()) {
-            int size = q.size(); // Number of nodes at the current level
+            int size = q.size(); 
             for (int i = 0; i < size; i++) {
                 TreeNode* current = q.front();
                 q.pop();
 
-                // If it's the last node of the current level, add it to the
-                // result
-                if (i == size - 1) {
+                if (i == size - 1) 
                     result.push_back(current->val);
-                }
 
-                // Add children to the queue
                 if (current->left)
                     q.push(current->left);
                 if (current->right)
