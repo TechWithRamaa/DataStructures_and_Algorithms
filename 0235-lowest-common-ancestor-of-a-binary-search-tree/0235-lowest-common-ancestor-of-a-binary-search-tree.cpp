@@ -19,8 +19,8 @@ public:
                 root = root->right;
             else 
                 return root;
-            
         }
+        
         return nullptr;  
     }
 };
