@@ -18,19 +18,15 @@ public:
     }
 private:
        int dfs(TreeNode* node, int& maxSum) {
-        if (!node) return 0; // Base case: null nodes contribute 0 to the path sum
-
-        // Recursively compute the maximum path sum for the left and right subtrees
-        int leftMax = max(0, dfs(node->left, maxSum)); // Ignore negative sums
+        if (!node) return 0; 
+       
+        int leftMax = max(0, dfs(node->left, maxSum)); 
         int rightMax = max(0, dfs(node->right, maxSum));
 
-        // Compute the maximum path sum that passes through the current node
         int currentPathSum = node->val + leftMax + rightMax;
 
-        // Update the global maximum path sum
         maxSum = max(maxSum, currentPathSum);
 
-        // Return the maximum sum of a path ending at this node
         return node->val + max(leftMax, rightMax);
     }
 };
