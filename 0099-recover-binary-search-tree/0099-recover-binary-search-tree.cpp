@@ -16,34 +16,25 @@ public:
         TreeNode* second = nullptr;
         TreeNode* prev = nullptr;
 
-        // Inorder traversal to find the two swapped nodes
         inorder(root, first, second, prev);
 
-        // Swap the values of the two nodes to recover the BST
-        if (first && second) {
+        if (first && second) 
             swap(first->val, second->val);
-        }
     }
 private:
     void inorder(TreeNode* root, TreeNode*& first, TreeNode*& second, TreeNode*& prev) {
         if (!root) return;
 
-        // Traverse the left subtree
         inorder(root->left, first, second, prev);
 
-        // Detect the swapped nodes
         if (prev && root->val < prev->val) {
-            if (!first) {
-                // First violation
+            if (!first) 
                 first = prev;
-            }
-            // Second violation
+
             second = root;
         }
-        // Update prev node
         prev = root;
 
-        // Traverse the right subtree
         inorder(root->right, first, second, prev);
     }
 };
