@@ -1,0 +1,46 @@
+class Solution {
+public:
+    vector<int> JobSequencing(vector<int> &id, vector<int> &deadline,
+                              vector<int> &profit) {
+        int n = id.size();
+        
+        // Create a vector of jobs and store them as tuples {id, deadline, profit}
+        vector<tuple<int, int, int>> jobs(n);
+        for (int i = 0; i < n; i++) {
+            jobs[i] = make_tuple(id[i], deadline[i], profit[i]);
+        }
+        
+        // Sort jobs by profit in descending order
+        sort(jobs.begin(), jobs.end(), [](tuple<int, int, int>& a, tuple<int, int, int>& b) {
+            return get<2>(a) > get<2>(b);  // Compare by profit
+        });
+
+        // Find the maximum deadline to determine the size of the time slots array
+        int maxDeadline = 0;
+        for (int i = 0; i < n; i++) {
+            maxDeadline = max(maxDeadline, get<1>(jobs[i]));
+        }
+
+        // Array to track available time slots
+        vector<bool> slots(maxDeadline + 1, false); // false means the slot is free
+        int jobCount = 0;
+        int totalProfit = 0;
+
+        // Iterate over the jobs and find a slot for each job
+        for (int i = 0; i < n; i++) {
+            // Find a free slot before the job's deadline
+            for (int j = get<1>(jobs[i]); j > 0; j--) {
+                if (!slots[j]) {
+                    // Slot found, assign the job here
+                    slots[j] = true;
+                    jobCount++;
+                    totalProfit += get<2>(jobs[i]);
+                    break;
+                }
+            }
+        }
+
+        // Return the result: [number of jobs, total profit]
+        return {jobCount, totalProfit};
+    }
+};
