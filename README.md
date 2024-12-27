@@ -128,6 +128,7 @@
 | [0907-koko-eating-bananas](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
+| [1036-rotting-oranges](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1127-last-stone-weight) |
 | [1130-last-stone-weight-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1130-last-stone-weight-ii) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1145-number-of-submatrices-that-sum-to-target) |
@@ -165,6 +166,7 @@
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1036-rotting-oranges](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1036-rotting-oranges) |
 | [1428-jump-game-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1428-jump-game-iii) |
 | [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
@@ -185,6 +187,7 @@
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
 | [0174-dungeon-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0174-dungeon-game) |
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
+| [1036-rotting-oranges](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1036-rotting-oranges) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1324-where-will-the-ball-fall](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1324-where-will-the-ball-fall) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1402-count-square-submatrices-with-all-ones) |
