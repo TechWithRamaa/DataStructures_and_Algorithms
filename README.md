@@ -137,6 +137,7 @@
 | [1435-xor-queries-of-a-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1435-xor-queries-of-a-subarray) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
 | [2625-increment-submatrices-by-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2625-increment-submatrices-by-one) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Binary Search
@@ -165,10 +166,12 @@
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1428-jump-game-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1428-jump-game-iii) |
+| [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Union Find
 |  |
 | ------- |
+| [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Matrix
 |  |
@@ -185,6 +188,7 @@
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1324-where-will-the-ball-fall](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1324-where-will-the-ball-fall) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
 | [2625-increment-submatrices-by-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2625-increment-submatrices-by-one) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Linked List
@@ -214,6 +218,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1428-jump-game-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1428-jump-game-iii) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
+| [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
 ## Simulation
 |  |
 | ------- |
