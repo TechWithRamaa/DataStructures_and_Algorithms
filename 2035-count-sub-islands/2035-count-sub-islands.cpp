@@ -1,8 +1,8 @@
 class Solution {
 private:
-    void dfs(vector<vector<int>>& grid1, vector<vector<int>>& grid2, int x,
-             int y, bool& isSubIsland) {
-
+    void dfs(vector<vector<int>>& grid1,
+             vector<vector<int>>& grid2, 
+             int x, int y, bool& isSubIsland) {
         if (grid1[x][y] == 0)
             isSubIsland = false;
 
@@ -35,7 +35,6 @@ public:
                 if (grid2[i][j] == 1) {
                     bool isSubIsland = true;
                     dfs(grid1, grid2, i, j, isSubIsland);
-
                     if (isSubIsland)
                         ++count;
                 }
