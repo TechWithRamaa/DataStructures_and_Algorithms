@@ -3,17 +3,18 @@ private:
     void dfs(vector<vector<int>>& grid1,
              vector<vector<int>>& grid2, 
              int x, int y, bool& isSubIsland) {
-        if (grid1[x][y] == 0)
-            isSubIsland = false;
 
         grid2[x][y] = 0;
 
-        int possibleXDirections[] = {1, -1, 0, 0};
-        int possibleYDirections[] = {0, 0, 1, -1};
+        if (grid1[x][y] == 0) 
+            isSubIsland = false; 
+
+        const int POSSIBLE_X[] = {1, -1, 0, 0};
+        const int POSSIBLE_Y[] = {0, 0, 1, -1};
 
         for (int i = 0; i < 4; i++) {
-            int newX = x + possibleXDirections[i];
-            int newY = y + possibleYDirections[i];
+            int newX = x + POSSIBLE_X[i];
+            int newY = y + POSSIBLE_Y[i];
 
             if (isWithInRange(newX, newY, grid2.size(), grid2[0].size()) && grid2[newX][newY] == 1)
                 dfs(grid1, grid2, newX, newY, isSubIsland);
