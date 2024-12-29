@@ -25,19 +25,18 @@ public:
         if (!node) return nullptr;
 
         // If the node is already cloned, return the clone
-        if (cloneMap.find(node) != cloneMap.end()) {
+        if (cloneMap.find(node) != cloneMap.end()) 
             return cloneMap[node];
-        }
+        
 
         // Clone the current node
         Node* clone = new Node(node->val);
         cloneMap[node] = clone;
 
         // Clone all neighbors recursively
-        for (Node* neighbor : node->neighbors) {
+        for (Node* neighbor : node->neighbors) 
             clone->neighbors.push_back(cloneGraphHelper(neighbor, cloneMap));
-        }
-
+        
         return clone;
     }
 
