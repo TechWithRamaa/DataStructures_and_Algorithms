@@ -21,24 +21,28 @@ public:
 
 class Solution {
 public:
-    unordered_map<Node*, Node*> cloneMap;
+    Node* cloneGraphHelper(Node* node, unordered_map<Node*, Node*>& cloneMap) {
+        if (!node) return nullptr;
 
-    Node* cloneGraph(Node* node) {
-        if (!node)
-            return nullptr;
-
-        // If the node is already cloned, return the cloned node
-        if (cloneMap.find(node) != cloneMap.end()) 
+        // If the node is already cloned, return the clone
+        if (cloneMap.find(node) != cloneMap.end()) {
             return cloneMap[node];
+        }
 
         // Clone the current node
         Node* clone = new Node(node->val);
         cloneMap[node] = clone;
 
         // Clone all neighbors recursively
-        for (Node* neighbor : node->neighbors) 
-            clone->neighbors.push_back(cloneGraph(neighbor));
-        
+        for (Node* neighbor : node->neighbors) {
+            clone->neighbors.push_back(cloneGraphHelper(neighbor, cloneMap));
+        }
+
         return clone;
+    }
+
+    Node* cloneGraph(Node* node) {
+        unordered_map<Node*, Node*> cloneMap; // To store original->clone mapping
+        return cloneGraphHelper(node, cloneMap);
     }
 };
