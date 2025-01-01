@@ -8,16 +8,16 @@ public:
             parent[i] = i;
     }
 
-    int find(int x) {
+    int findParent(int x) {
         if (parent[x] != x)
-            parent[x] = find(parent[x]); // Path compression
+            parent[x] = findParent(parent[x]); // Path compression
 
         return parent[x];
     }
 
-    void unite(int x, int y) {
-        int rootX = find(x);
-        int rootY = find(y);
+    void unionDisjoint(int x, int y) {
+        int rootX = findParent(x);
+        int rootY = findParent(y);
         if (rootX != rootY)
             parent[rootY] = rootX;
     }
@@ -41,14 +41,14 @@ public:
                 if (emailToIndex.find(email) == emailToIndex.end())
                     emailToIndex[email] = i;
                 else
-                    uf.unite(i, emailToIndex[email]);
+                    uf.unionDisjoint(i, emailToIndex[email]);
             }
         }
 
         // Step 2: Group emails by their root account
         unordered_map<int, vector<string>> groupedEmails;
         for (const auto& [email, _] : emailToIndex) {
-            int root = uf.find(emailToIndex[email]);
+            int root = uf.findParent(emailToIndex[email]);
             groupedEmails[root].push_back(email);
         }
 
@@ -58,8 +58,7 @@ public:
             sort(emails.begin(), emails.end());
             vector<string> account;
             account.push_back(emailToName[emails[0]]); // Add the name
-            account.insert(account.end(), emails.begin(),
-                           emails.end()); // Add sorted emails
+            account.insert(account.end(), emails.begin(), emails.end());
             result.push_back(account);
         }
 
