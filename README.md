@@ -117,6 +117,7 @@
 | [0312-burst-balloons](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0312-burst-balloons) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0322-coin-change) |
+| [0330-patching-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0330-patching-array) |
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0416-partition-equal-subset-sum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
@@ -377,6 +378,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0011-container-with-most-water) |
 | [0134-gas-station](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0134-gas-station) |
+| [0330-patching-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0330-patching-array) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
