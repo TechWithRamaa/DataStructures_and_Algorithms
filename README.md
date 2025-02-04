@@ -78,6 +78,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0015-3sum) |
@@ -253,6 +254,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0001-two-sum) |
 | [0037-sudoku-solver](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0041-first-missing-positive) |
 | [0073-set-matrix-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0073-set-matrix-zeroes) |
