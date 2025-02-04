@@ -7,7 +7,7 @@ public:
             frequencyMap[num]++;
         }
 
-        auto comp = [](pair<int, int>& a, pair<int, int>& b) {
+        auto comp = [](const pair<int, int>& a, const pair<int, int>& b) {
             return a.first > b.first;
         };
         priority_queue<pair<int, int>, vector<pair<int, int>>, decltype(comp)> minHeap(comp);
