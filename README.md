@@ -264,6 +264,7 @@
 | [0169-majority-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0460-lfu-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0460-lfu-cache) |
@@ -311,6 +312,7 @@
 | [0097-interleaving-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0097-interleaving-string) |
 | [0151-reverse-words-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
+| [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [1250-longest-common-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1250-longest-common-subsequence) |
@@ -354,6 +356,7 @@
 | [0148-sort-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
