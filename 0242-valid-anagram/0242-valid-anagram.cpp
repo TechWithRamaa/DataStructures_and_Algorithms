@@ -13,11 +13,13 @@ public:
 
         for(char c: t) {
             freq[c - 'a']--;
-            if(freq[c - 'a'] < 0) {
-                return false;
-            }
         }
 
+        for (int count : freq) {
+           if (count != 0) 
+                return false;
+        }
+    
         return true;
     }
 };
