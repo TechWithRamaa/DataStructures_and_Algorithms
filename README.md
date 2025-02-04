@@ -85,6 +85,7 @@
 | [0016-3sum-closest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0033-search-in-rotated-sorted-array) |
+| [0036-valid-sudoku](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0041-first-missing-positive) |
@@ -197,6 +198,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0054-spiral-matrix) |
@@ -257,6 +259,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0049-group-anagrams) |
