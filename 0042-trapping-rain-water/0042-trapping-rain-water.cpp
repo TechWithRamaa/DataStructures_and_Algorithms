@@ -2,8 +2,7 @@ class Solution {
 public:
     int trap(const vector<int>& height) {
         const int N = height.size();
-        if (N == 0)
-            return 0;
+       
 
         stack<int> st; 
         int waterTrapped = 0;
