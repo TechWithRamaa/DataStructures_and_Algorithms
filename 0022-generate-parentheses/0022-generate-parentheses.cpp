@@ -13,6 +13,7 @@ private:
             return;
         }
 
+        // Backtracking, implicity current is popped back before calling next time
         if(open > 0) {
             generateParenthesis(open - 1, close, current + "(", result);
         }
