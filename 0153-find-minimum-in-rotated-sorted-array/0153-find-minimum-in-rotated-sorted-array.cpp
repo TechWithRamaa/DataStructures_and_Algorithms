@@ -4,6 +4,7 @@ public:
         int left = 0;
         int right = nums.size() - 1;
 
+        // plz note down the condition used in while & last statement inside else block
         while (left < right) {
             if (nums[left] < nums[right]) {
                 return nums[left];
