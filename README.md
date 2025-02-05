@@ -265,6 +265,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0041-first-missing-positive) |
@@ -324,6 +325,7 @@
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0032-longest-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0072-edit-distance) |
@@ -398,6 +400,7 @@
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
