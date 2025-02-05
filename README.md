@@ -139,6 +139,7 @@
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
+| [0792-binary-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0792-binary-search) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
@@ -170,6 +171,7 @@
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
+| [0792-binary-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0792-binary-search) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0907-koko-eating-bananas) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
