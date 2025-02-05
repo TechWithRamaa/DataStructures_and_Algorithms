@@ -284,6 +284,7 @@
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0424-longest-repeating-character-replacement](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0460-lfu-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0460-lfu-cache) |
 | [0560-subarray-sum-equals-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
@@ -335,6 +336,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
+| [0424-longest-repeating-character-replacement](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [1250-longest-common-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1250-longest-common-subsequence) |
 | [1668-find-longest-awesome-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1668-find-longest-awesome-substring) |
@@ -401,6 +403,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
