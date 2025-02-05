@@ -28,14 +28,14 @@ public:
         if(!auxillaryStack.empty()) {
             return auxillaryStack.top();
         }
-        throw std::out_of_range("auxillaryStack is empty");
+        throw out_of_range("auxillaryStack is empty");
     }
     
     int getMin() {
         if(!minStack.empty()) {
             return minStack.top();
         }
-        throw std::out_of_range("minStack is empty");
+        throw out_of_range("minStack is empty");
     }
 };
 
