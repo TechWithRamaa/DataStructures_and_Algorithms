@@ -1,32 +1,26 @@
 class Solution {
 public:
-    int trap(const vector<int>& height) {
-        const int N = height.size();
-       
-
-        stack<int> st; 
+     int trap(vector<int>& height) {
+        stack<int> elevations;
         int waterTrapped = 0;
+        
+        for(int i = 0; i < height.size(); i++) {
+            while(!elevations.empty() && height[elevations.top()] < height[i]) {
+                int smallerElevationIndex = elevations.top();
+                elevations.pop();
 
-        for (int i = 0; i < N; i++) {
-            while (!st.empty() && height[i] > height[st.top()]) {
-                int top = st.top();
-                st.pop();
-                
-                if (st.empty())
-                    break;
+                if(elevations.empty()) {
+                    break; // no left boundard exists
+                }
+                int rightBoudaryIndex = i;
+                int leftBoundaryIndex = elevations.top();
+                int trappingHeight = min(height[rightBoudaryIndex], height[leftBoundaryIndex]) - height[smallerElevationIndex];
 
-                // Calculate the width of the trapped water
-                int width = i - st.top() - 1;
+                int width = rightBoudaryIndex - leftBoundaryIndex - 1;
 
-                // The height of the trapped water is determined by the shorter
-                // of the two boundaries
-                int h = min(height[i], height[st.top()]) - height[top];
-
-                // Add the trapped water to the result
-                waterTrapped += width * h;
+                waterTrapped += width * trappingHeight;
             }
-
-            st.push(i);
+            elevations.push(i);
         }
 
         return waterTrapped;
