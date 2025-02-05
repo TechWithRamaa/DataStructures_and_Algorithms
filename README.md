@@ -5,6 +5,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0053-maximum-subarray) |
@@ -328,6 +329,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0072-edit-distance) |
@@ -480,6 +482,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0046-permutations) |
