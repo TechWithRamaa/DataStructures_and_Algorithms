@@ -15,6 +15,7 @@ public:
                 int rightBoudaryIndex = i;
                 int leftBoundaryIndex = elevations.top();
                 int trappingHeight = min(height[rightBoudaryIndex], height[leftBoundaryIndex]) - height[smallerElevationIndex];
+                // the extra variables can be avoided by using it directly
 
                 int width = rightBoudaryIndex - leftBoundaryIndex - 1;
 
