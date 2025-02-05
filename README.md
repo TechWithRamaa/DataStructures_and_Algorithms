@@ -13,6 +13,7 @@
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
 | [0097-interleaving-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0097-interleaving-string) |
 | [0120-triangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0174-dungeon-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -108,6 +109,7 @@
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0120-triangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0134-gas-station) |
 | [0137-single-number-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0137-single-number-ii) |
