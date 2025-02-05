@@ -7,9 +7,8 @@ public:
         int longestSubstring = 0;
 
         for(int end = 0; end < s.length(); end++) {
-            int currentCharacterIndex = s[end] - 'A';
-            frequency[currentCharacterIndex]++;
-            mostFrequentCount = max(mostFrequentCount, frequency[currentCharacterIndex]);
+            frequency[s[end] - 'A']++;
+            mostFrequentCount = max(mostFrequentCount, frequency[s[end] - 'A']);
 
             if(end - start + 1 - mostFrequentCount > k) {
                 frequency[s[start] - 'A']--;
