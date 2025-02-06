@@ -7,8 +7,6 @@ public:
         queue<pair<string, int>> levels;
         levels.push({beginWord, 1});
 
-        int ladderLength = 0;
-
         while(!levels.empty()) {
             string currentWord = levels.front().first;
             int steps = levels.front().second;
@@ -31,6 +29,6 @@ public:
             }
         }
 
-        return ladderLength;
+        return 0;
     }
 };
