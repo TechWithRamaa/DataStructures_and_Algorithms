@@ -182,6 +182,7 @@
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0127-word-ladder](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0210-course-schedule-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0210-course-schedule-ii) |
@@ -277,6 +278,7 @@
 | [0049-group-anagrams](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0127-word-ladder](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0138-copy-list-with-random-pointer) |
@@ -339,6 +341,7 @@
 | [0072-edit-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0125-valid-palindrome) |
+| [0127-word-ladder](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
