@@ -10,7 +10,7 @@ public:
         vector<vector<bool>> visited(ROWS, vector<bool>(COLS));
         queue<pair<int, int>> iNodesQueue;
         iNodesQueue.push({0, 0});
-        visited[0][0] = 1;
+        visited[0][0] = true;
 
         int steps = 1;
 
