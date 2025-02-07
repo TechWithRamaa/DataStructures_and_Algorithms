@@ -21,7 +21,7 @@ public:
                 auto [r, c] = iNodesQueue.front();
                 iNodesQueue.pop();
 
-                if(r == ROWS - 1 && c == COLS-1) return steps;
+                if(r == ROWS - 1 && c == COLS - 1) return steps;
 
                 for(auto [newRow, newCol] : adjacentCells) {
                     int possibleRow = r + newRow;
