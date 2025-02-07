@@ -28,8 +28,8 @@ public:
                     int possibleCol = c + newCol;
 
                     if(isNextMoveWithinBoundary(possibleRow, possibleCol, grid)
-                     && !isNextCellAlreadyVisited(possibleRow, possibleCol, visited)
-                     && isClearCell(possibleRow, possibleCol, grid)) {
+                    && !isNextCellAlreadyVisited(possibleRow, possibleCol, visited)
+                    && isClearCell(possibleRow, possibleCol, grid)) {
                         iNodesQueue.push({possibleRow, possibleCol});
                         visited[possibleRow][possibleCol] = true;
                     }
@@ -52,7 +52,7 @@ private:
         return visited[possibleRow][possibleCol];
     }
 
-     bool isClearCell(int possibleRow, int possibleCol, vector<vector<int>>& grid) {
+    bool isClearCell(int possibleRow, int possibleCol, vector<vector<int>>& grid) {
         return grid[possibleRow][possibleCol] == 0;
     }
 };
