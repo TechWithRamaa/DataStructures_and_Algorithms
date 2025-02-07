@@ -3,49 +3,57 @@ public:
     int orangesRotting(vector<vector<int>>& grid) {
         const int ROWS = grid.size();
         const int COLS = grid[0].size();
-        queue<pair<int, int>> rotten;
-        int freshCount = 0;
 
-        for (int i = 0; i < ROWS; i++) {
-            for (int j = 0; j < COLS; j++) {
-                if (grid[i][j] == 2)
-                    rotten.push({i, j});
-                else if (grid[i][j] == 1)
-                    freshCount++;
+        int freshOrangesCount = 0;
+        int minMinutesTaken = 0;
+
+        queue<pair<int, int>> rottenQueue;
+        for(int i = 0; i < ROWS; i++) {
+            for(int j = 0; j < COLS; j++) {
+                if(grid[i][j] == 2) {
+                    rottenQueue.push({i, j});
+                } else if (grid[i][j] == 1) {
+                    freshOrangesCount += 1;
+                }
             }
         }
 
-        if (freshCount == 0)
-            return 0;
+        if(!freshOrangesCount) return 0;
 
-        int minutes = 0; 
-        vector<pair<int, int>> directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+        vector<pair<int, int>> adjacentDirections = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
-        while (!rotten.empty()) {
-            int size = rotten.size();
-            bool rottenSpread = false; 
+        while(!rottenQueue.empty()) {
+            int numberOfRottenOrangesAtCurrentLevel = rottenQueue.size();
+            bool rottedAnyOrange = false;
 
-            for (int i = 0; i < size; i++) {
-                auto [x, y] = rotten.front();
-                rotten.pop();
+            for(int i = 0; i < numberOfRottenOrangesAtCurrentLevel; i++) {
+                auto [rottenRow, rottenColumn] = rottenQueue.front();
+                rottenQueue.pop();
 
-                for (auto& [dx, dy] : directions) {
-                    int newX = x + dx;
-                    int newY = y + dy;
+                for(auto& possibleNextCell : adjacentDirections) {
+                    int newRow = possibleNextCell.first + rottenRow;
+                    int newCol = possibleNextCell.second + rottenColumn;
 
-                    if (newX >= 0 && newX < ROWS && newY >= 0 && newY < COLS && grid[newX][newY] == 1) {
-                        grid[newX][newY] = 2;      
-                        rotten.push({newX, newY}); 
-                        freshCount--; 
-                        rottenSpread = true;
+                    if(isNextMoveWithinBoundary(newRow, newCol, grid) && grid[newRow][newCol] == 1) {
+                        grid[newRow][newCol] = 2;
+                        freshOrangesCount--;
+                        rottedAnyOrange = true;
+                        rottenQueue.push({newRow, newCol});
                     }
                 }
             }
-
-            if (rottenSpread)
-                minutes++;
+            
+            if (rottedAnyOrange) minMinutesTaken += 1;
         }
 
-        return freshCount == 0 ? minutes : -1;
+        return freshOrangesCount == 0 ? minMinutesTaken : -1;
+    }
+
+private:
+    bool isNextMoveWithinBoundary(int i, int j, vector<vector<int>>& grid) {
+        const int ROWS = grid.size();
+        const int COLS = grid[0].size();
+
+        return i >= 0 && i < ROWS && j >= 0 && j < COLS;
     }
 };
