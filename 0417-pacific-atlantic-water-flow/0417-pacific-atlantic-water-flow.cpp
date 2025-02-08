@@ -3,6 +3,7 @@ public:
     vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
         int ROWS = heights.size();
         int COLS = heights[0].size();
+        
         vector<vector<bool>> visitedAtlantic(ROWS, vector<bool>(COLS, false));
         vector<vector<bool>> visitedPacific(ROWS, vector<bool>(COLS, false));
 
