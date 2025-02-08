@@ -20,11 +20,11 @@ public:
 
         int courses = 0;
         while(!q.empty()) {
-            int course = q.front();
+            int currentCourse = q.front();
             q.pop();
 
             courses += 1;
-            for(auto next : adjList[course]) {
+            for(auto next : adjList[currentCourse]) {
                 if(--inDegrees[next] == 0) {
                     q.push(next);
                 }
