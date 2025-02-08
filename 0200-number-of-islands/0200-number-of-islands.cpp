@@ -25,30 +25,30 @@ private:
         visited[row][col] = true;
         vector<pair<int, int>> directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
-        for (auto [newRow, newCol] : directions) {
-            int possibleRow = newRow + row;
-            int possibleCol = newCol + col;
+        for (auto [aRow, aCol] : directions) {
+            int nextRow = aRow + row;
+            int nextCol = aCol + col;
 
-            if(isWithinBoundary(possibleRow, possibleCol, grid) 
-            && isLand(possibleRow, possibleCol, grid) 
-            && !isVisitedAlready(possibleRow, possibleCol, visited)) {
-                dfs(possibleRow, possibleCol, grid, visited);
+            if(isWithinBoundary(nextRow, nextCol, grid) 
+            && isLand(nextRow, nextCol, grid) 
+            && !isVisitedAlready(nextRow, nextCol, visited)) {
+                dfs(nextRow, nextCol, grid, visited);
             }
         }
     }
 
-    bool isLand(int possibleRow, int possibleCol, vector<vector<char>>& grid) {
-        return grid[possibleRow][possibleCol] == '1'; 
+    bool isLand(int row, int col, vector<vector<char>>& grid) {
+        return grid[row][col] == '1'; 
     }
 
-    bool isVisitedAlready(int possibleRow, int possibleCol, vector<vector<bool>>& visited) {
-        return visited[possibleRow][possibleCol] == true;
+    bool isVisitedAlready(int row, int col, vector<vector<bool>>& visited) {
+        return visited[row][col] == true;
     }
 
-    bool isWithinBoundary(int possibleRow, int possibleCol, vector<vector<char>>& grid) {
+    bool isWithinBoundary(int row, int col, vector<vector<char>>& grid) {
         const int ROWS = grid.size();
         const int COLS = grid[0].size();
 
-        return possibleRow >= 0 && possibleRow < ROWS && possibleCol >= 0 && possibleCol < COLS;
+        return row >= 0 && row < ROWS && col >= 0 && col < COLS;
     }
 };
