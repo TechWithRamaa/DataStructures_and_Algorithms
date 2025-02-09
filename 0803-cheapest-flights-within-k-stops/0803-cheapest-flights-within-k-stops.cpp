@@ -1,7 +1,7 @@
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        unordered_map<int, vector<pair<int, int>>> graph;
+        vector<vector<pair<int, int>>> graph(n); 
 
         for (auto& entry : flights) {
             graph[entry[0]].push_back({entry[1], entry[2]});
