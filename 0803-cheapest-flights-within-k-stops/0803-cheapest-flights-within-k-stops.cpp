@@ -13,8 +13,6 @@ public:
         vector<int> dist(n, INT_MAX);
         dist[src] = 0;
 
-        int steps = 0;
-
         while (!q.empty()) {
             int size = q.size();
 
@@ -38,7 +36,6 @@ public:
                     }
                 }
             }
-            steps++;
         }
 
         return dist[dst] == INT_MAX ? -1 : dist[dst];
