@@ -284,6 +284,7 @@
 | [0210-course-schedule-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0210-course-schedule-ii) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0332-reconstruct-itinerary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0332-reconstruct-itinerary) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0547-number-of-provinces](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0684-redundant-connection) |
@@ -547,6 +548,7 @@
 | [0133-clone-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0210-course-schedule-ii) |
+| [0332-reconstruct-itinerary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0332-reconstruct-itinerary) |
 | [0547-number-of-provinces](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0744-network-delay-time) |
@@ -608,4 +610,8 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [0332-reconstruct-itinerary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0332-reconstruct-itinerary) |
 <!---LeetCode Topics End-->
