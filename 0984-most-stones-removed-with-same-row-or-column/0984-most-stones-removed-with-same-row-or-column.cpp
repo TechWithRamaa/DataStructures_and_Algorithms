@@ -1,10 +1,8 @@
 class UnionFind {
 public:
-    unordered_map<int, int> parent, rank;
+    vector<int> parent, rank;
 
     int find(int x) {
-        if (parent.find(x) == parent.end())
-            parent[x] = x;
         if (parent[x] != x)
             parent[x] = find(parent[x]); // Path compression
         return parent[x];
