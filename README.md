@@ -40,6 +40,7 @@
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0099-recover-binary-search-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
@@ -66,6 +67,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0099-recover-binary-search-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
@@ -278,6 +280,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0099-recover-binary-search-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -409,6 +412,7 @@
 | [0042-trapping-rain-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
+| [0094-binary-tree-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0155-min-stack](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0155-min-stack) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
 ## Monotonic Stack
