@@ -50,6 +50,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0285-inorder-successor-in-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0285-inorder-successor-in-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0863-sum-of-distances-in-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0863-sum-of-distances-in-tree) |
@@ -79,6 +80,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0285-inorder-successor-in-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0285-inorder-successor-in-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -299,6 +301,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0261-graph-valid-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0261-graph-valid-tree) |
+| [0285-inorder-successor-in-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0285-inorder-successor-in-bst) |
 | [0332-reconstruct-itinerary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0332-reconstruct-itinerary) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0547-number-of-provinces](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0547-number-of-provinces) |
@@ -584,6 +587,7 @@
 | [0099-recover-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0099-recover-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0285-inorder-successor-in-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0285-inorder-successor-in-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 ## Data Stream
