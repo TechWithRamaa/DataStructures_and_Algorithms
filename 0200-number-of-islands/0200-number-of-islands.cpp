@@ -1,6 +1,5 @@
 class Solution {
 public:
-
     int numIslands(vector<vector<char>>& grid) {
         int numOfIslands = 0;
         const int ROWS = grid.size();
@@ -20,7 +19,6 @@ public:
     }
 
 private:
-
     void dfs(int row, int col, vector<vector<char>>& grid, vector<vector<bool>>& visited) {
         visited[row][col] = true;
         vector<pair<int, int>> directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
