@@ -19,24 +19,27 @@ public:
 class Solution {
 public:
     Node* connect(Node* root) {
-        if(!root) return root;
-
-        Node* leftMostNode = root;
-         Node* current = leftMostNode;
-
-        while(leftMostNode->left) {  // checking one-level down from current level
-            current = leftMostNode;
-            while(current) { // checking at current level
-                current->left->next = current->right; // connecting within same sub-tree
-
-                if(current->next) { // connecting between 2 different sub-tree component
+        if(!root)
+            return root;
+        
+        Node* leftMostNodeAtEachLevel = root;
+        
+        while(leftMostNodeAtEachLevel->left) {
+            Node* current = leftMostNodeAtEachLevel;
+            
+            while(current) {
+                current->left->next = current->right;
+                
+                if(current->next) {
                     current->right->next = current->next->left;
                 }
-                current = current->next; // traversing between differnt sub-tree within same level
+                
+                current = current->next;
             }
-            leftMostNode = leftMostNode->left; // going to next level down
+            
+            leftMostNodeAtEachLevel = leftMostNodeAtEachLevel->left;
         }
-
+        
         return root;
     }
 };
