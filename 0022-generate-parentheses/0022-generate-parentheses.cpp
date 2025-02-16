@@ -2,25 +2,25 @@ class Solution {
 public:
     vector<string> generateParenthesis(int n) {
         vector<string> result;
-        generateParenthesis(n, n, "", result);
+        string current;
+
+        generateParenthesis(n, n, current, result);
+
         return result;
     }
 
 private:
-    void generateParenthesis(int open, int close, string current, vector<string>& result) {
-        if(open == 0 && close == 0) {
+    void generateParenthesis(int noOfOpen, int noOfClose, string current,
+                             vector<string>& result) {
+        if (noOfClose == 0) {
             result.push_back(current);
             return;
         }
 
-        // Backtracking, implicity current is popped back before calling next time
-        if(open > 0) {
-            generateParenthesis(open - 1, close, current + "(", result);
-        }
+        if (noOfOpen > 0)
+            generateParenthesis(noOfOpen - 1, noOfClose, current + "(", result);
 
-        if(close > open) {
-            generateParenthesis(open, close - 1, current + ")", result);
-        }
-            
+        if (noOfClose > noOfOpen)
+            generateParenthesis(noOfOpen, noOfClose - 1, current + ")", result);
     }
 };
