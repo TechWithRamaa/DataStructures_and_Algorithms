@@ -115,6 +115,7 @@
 | [0074-search-a-2d-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
@@ -255,6 +256,7 @@
 | [0064-minimum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0174-dungeon-game) |
@@ -287,6 +289,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0099-recover-binary-search-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
@@ -403,6 +406,7 @@
 | [0038-count-and-say](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0079-word-search) |
 | [0097-interleaving-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0127-word-ladder) |
@@ -567,6 +571,7 @@
 | [0046-permutations](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0079-word-search) |
 | [0089-gray-code](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0089-gray-code) |
 ## Graph
 |  |
