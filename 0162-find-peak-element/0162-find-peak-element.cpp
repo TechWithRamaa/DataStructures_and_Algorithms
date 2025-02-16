@@ -9,7 +9,7 @@ public:
         }
         return -1;
     }
-    
+
     // Binary Search ~ O(log n)
     int findPeakElement(vector<int>& nums) {
         int left = 0, right = nums.size() - 1;
