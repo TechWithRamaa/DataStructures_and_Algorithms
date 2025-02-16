@@ -11,6 +11,7 @@
 | [0042-trapping-rain-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
@@ -378,6 +379,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0048-rotate-image) |
+| [0062-unique-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0062-unique-paths) |
 | [0089-gray-code](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0089-gray-code) |
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
@@ -668,4 +670,8 @@
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0332-reconstruct-itinerary) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
