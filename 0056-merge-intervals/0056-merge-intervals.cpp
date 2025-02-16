@@ -7,7 +7,7 @@ public:
         
         for(vector<int>& current : intervals) {
             if(!merged.empty() && current[0] <= merged.back()[1]) {
-                merged.back()[1] = max( current[1], merged.back()[1]);
+                merged.back()[1] = max(current[1], merged.back()[1]);
             } else {
                 merged.push_back(current);
             }
