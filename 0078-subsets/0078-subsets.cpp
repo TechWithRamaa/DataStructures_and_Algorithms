@@ -4,25 +4,25 @@ public:
         vector<vector<int>> result;
         vector<int> current;
 
-        subsets(nums, 0, current, result);
+        subsets(0, current, result, nums);
 
         return result;
     }
-    
+
 private:
-   void subsets(const vector<int>& nums, int index, vector<int>& current, vector<vector<int>>& result) {
-        if(index >= nums.size()) {
+    void subsets(int index, vector<int>& current,
+                                vector<vector<int>>& result,
+                                vector<int>& nums) {
+        if(index == nums.size()) {
             result.push_back(current);
             return;
         }
 
-        // include
         current.push_back(nums[index]);
-        subsets(nums, index + 1, current, result);
+        subsets(index + 1, current, result, nums);
+        
+        current.pop_back();
 
-        current.pop_back(); // back-track
-
-        // exclude
-        subsets(nums, index + 1, current, result);
+        subsets(index+1, current, result, nums);
     }
 };
