@@ -1,12 +1,12 @@
 class Solution {
 public:
     // approach 1 - recursion dp ~ O ( 2 ^ n) 
-    // approach 2 - greedy ~ O ( n )
     bool canJumpDP(vector<int>& nums) {
         vector<int> memo(nums.size(), -1);
         return canJump(nums, 0, memo);
     }
 
+    // approach 2 - greedy ~ O ( n )
     bool canJump(vector<int>& nums) {
         int farthest = 0;
 
