@@ -15,7 +15,7 @@ public:
         return {startingPosition, lastPosition};
     }
 
-    // BinarySearch ~ O(log N) + O(log N)
+    // BinarySearch ~ O(log N) + O(log N) 
     vector<int> searchRange(vector<int>& nums, int target) {
         return {findFirstPosition(nums, target), findLastPosition(nums, target)};
     }
