@@ -17,6 +17,11 @@ public:
         return minHeap.size();
     }
 
+    // Sweep Line Algorithm or Line Sweeping with Event Processing
+    // Converts intervals into events
+    // Sorts the events 
+    // Counting active meetings by running a counter
+    // TC ~ O (n log n) ; SC ~ O (n)
     int minMeetingRooms(vector<vector<int>>& intervals) {
         vector<pair<int, int>> events;
 
