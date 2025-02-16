@@ -1,9 +1,26 @@
 class Solution {
 public:
-    // approach 1 - recursion ~ O ( 2 ^ n)
-    bool canJump(vector<int>& nums) {
+    // approach 1 - recursion dp ~ O ( 2 ^ n) 
+    // approach 2 - greedy ~ O ( n )
+    bool canJumpDP(vector<int>& nums) {
         vector<int> memo(nums.size(), -1);
         return canJump(nums, 0, memo);
+    }
+
+    bool canJump(vector<int>& nums) {
+        int farthest = 0;
+
+        for(int i = 0; i < nums.size(); i++) {
+            if(i > farthest) 
+                return false;
+            
+            farthest = max(farthest, i + nums[i]);
+
+            if(farthest >= nums.size() - 1)
+                return true;
+        }
+
+        return false;
     }
 
 private:
