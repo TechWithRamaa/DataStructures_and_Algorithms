@@ -1,13 +1,13 @@
 class Solution {
 public:
     // approach 1 - recursion dp ~ O ( 2 ^ n) 
-    bool canJumpDP(vector<int>& nums) {
+    bool canJump(vector<int>& nums) {
         vector<int> memo(nums.size(), -1);
         return canJump(nums, 0, memo);
     }
 
     // approach 2 - greedy ~ O ( n )
-    bool canJump(vector<int>& nums) {
+    bool canJumpGreedy(vector<int>& nums) {
         int farthest = 0;
 
         for(int i = 0; i < nums.size(); i++) {
@@ -26,7 +26,7 @@ public:
 private:
     bool canJump(vector<int>& nums, int index, vector<int>& memo) {
         if(index == nums.size() - 1) 
-            return memo[index] = true;
+            return memo[index] = 1;
         
         if(memo[index] != -1) 
             return memo[index];
@@ -35,9 +35,9 @@ private:
         
         for(int next = index + 1; next <= maxJumpPosition; next++) {
             if(canJump(nums, next, memo))
-                return memo[index] = true;
+                return memo[index] = 1;
         }
         
-        return memo[index] = false;
+        return memo[index] = 0;
     }
 };
