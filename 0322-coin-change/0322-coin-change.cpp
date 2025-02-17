@@ -1,29 +1,28 @@
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
-        std::vector<int> memo(amount + 1, -2);
-        return coinChangeHelper(coins, amount, memo);
+        vector<vector<int>> dp(coins.size(), vector<int>(amount + 1, -1));
+        
+        int result = coinChange(coins.size() - 1, coins, amount, dp);
+        return (result == INT_MAX - 1) ? -1 : result; 
     }
 
 private:
-    int coinChangeHelper(std::vector<int>& coins, int amount, std::vector<int>& memo) {
-        if (amount == 0)
-            return 0;
-        if (amount < 0)
-            return -1;
-        if (memo[amount] != -2)
-            return memo[amount];
+    int coinChange(int index, vector<int>& coins, int amount, vector<vector<int>>& dp) {
+        if (amount == 0) return 0;  
+        if (index < 0) return INT_MAX - 1; 
 
-        int minCoins = INT_MAX;
+        if (dp[index][amount] != -1) return dp[index][amount]; 
 
-        for (int coin : coins) {
-            int result = coinChangeHelper(coins, amount - coin, memo);
-            if (result >= 0 && result < minCoins) {
-                minCoins = result + 1;
-            }
+        int take = INT_MAX - 1;
+        if (coins[index] <= amount) {
+            int subResult = coinChange(index, coins, amount - coins[index], dp);
+            if (subResult != INT_MAX - 1) 
+                take = 1 + subResult;
         }
 
-        memo[amount] = (minCoins == INT_MAX) ? -1 : minCoins;
-        return memo[amount];
+        int notTake = coinChange(index - 1, coins, amount, dp);
+
+        return dp[index][amount] = min(take, notTake);
     }
 };
