@@ -21,6 +21,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0174-dungeon-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0300-longest-increasing-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0322-coin-change) |
@@ -145,6 +146,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0252-meeting-rooms](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0312-burst-balloons) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
@@ -198,6 +200,7 @@
 | [0162-find-peak-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
