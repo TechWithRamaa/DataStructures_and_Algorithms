@@ -20,8 +20,10 @@ private:
 
         int notTake = lis(index + 1, prevIndex, nums, dp);
 
-        if (prevIndex != -1) 
+        if (prevIndex != -1) {
             dp[index][prevIndex] = max(take, notTake);
+            return dp[index][prevIndex];
+        }
 
         return max(take, notTake);
     }
