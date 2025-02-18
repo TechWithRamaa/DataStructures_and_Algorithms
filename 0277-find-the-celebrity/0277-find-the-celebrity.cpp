@@ -7,7 +7,7 @@ class Solution {
     approach 1 -> Nested loops -> If i knows j but j don't know i, then i cannot be a celebrity ~ O(n ^ 2) 
     approach 2 -> Stack based -> Push all candidates into stack, iteratively pop every candidate until there is atmost 1 candidate in the stack
     approach 3 -> IKnow & KnowMe vectors ~ O (N ^ 2); SC ~ O (2N) 
-    approach 4 -> Two Pointers ~ O ()
+    approach 4 -> Two Pointers ~ O (2N); SC ~ O (1)
     */
 public:
     int findCelebrity(int n) {
@@ -28,7 +28,7 @@ public:
         for(int k = 0; k < n ; k++) {
             if(k == potentialCelebrity)
                 continue;
-                
+
             if(knows(potentialCelebrity, k) || !knows(k, potentialCelebrity)) 
                 return -1;
         }
