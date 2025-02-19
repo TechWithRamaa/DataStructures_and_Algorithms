@@ -2,14 +2,6 @@ class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
         vector<int> result;
-
-        /*
-        Step 1 - Maintain a window using deque of indices
-        Step 2 - Remove elements that window has slided past
-        Step 3 - Remove smaller elements
-        Step 4 - Add Max in the current window into the Deque
-        */
-
         deque<int> dq;
 
         for (int i = 0; i < nums.size(); i++) {
