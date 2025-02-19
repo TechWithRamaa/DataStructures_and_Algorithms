@@ -8,7 +8,8 @@ public:
             freqMap[num]++;
         }
         
-        // {frequency, num}
+        // {frequency, num} - minHeap - keep removing the lowest frequency element
+        // at the end, minHeap will contain the top k frequent elements
         priority_queue<pair<int, int>, vector<pair<int,int>>, greater<>> pq;
         
         for(auto [num, freq] : freqMap) {
