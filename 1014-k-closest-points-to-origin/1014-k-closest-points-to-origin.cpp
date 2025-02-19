@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // TC ~ O (n log k)
+    // SC ~ O (k)
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
         priority_queue<pair<int, vector<int>>> maxHeap;
 
