@@ -1,7 +1,7 @@
 class Solution {
 public:
     // Binary Search + DP ~ O ( n log n )
-    int lengthOfLIS(vector<int>& nums) {
+    int lengthOfLISBS(vector<int>& nums) {
         vector<int> sub; 
 
         for (int num : nums) {
@@ -22,6 +22,24 @@ public:
         vector<vector<int>> dp(n, vector<int>(n, -1));
         return lis(0, -1, nums, dp);
     }
+ 
+    // DP ~ O ( n ^ 2)
+    int lengthOfLIS(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> dp(n, 1); // dp[i] starts with 1 (each element is an LIS of length 1)
+
+        int maxLength = 1;
+        for (int i = 1; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                if (nums[j] < nums[i]) {
+                  dp[i] = max(dp[i], dp[j] + 1);
+                }
+            }
+            maxLength = max(maxLength, dp[i]);
+        }
+
+        return maxLength;
+}
 
 private:
     int lis(int index, int prevIndex, vector<int>& nums,
