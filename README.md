@@ -172,6 +172,7 @@
 | [0907-koko-eating-bananas](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
 | [0990-verifying-an-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0990-verifying-an-alien-dictionary) |
+| [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1127-last-stone-weight) |
@@ -392,6 +393,7 @@
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
 | [0371-sum-of-two-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0371-sum-of-two-integers) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+| [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -406,6 +408,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -500,6 +503,7 @@
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
+| [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Counting
@@ -552,6 +556,7 @@
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1127-last-stone-weight) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
 ## Prefix Sum
@@ -679,6 +684,7 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 ## Eulerian Circuit
 |  |
 | ------- |
@@ -691,4 +697,8 @@
 |  |
 | ------- |
 | [0277-find-the-celebrity](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0277-find-the-celebrity) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
