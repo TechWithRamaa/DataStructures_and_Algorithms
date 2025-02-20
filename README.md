@@ -64,6 +64,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0206-reverse-linked-list) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
 ## Memoization
@@ -389,6 +390,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0062-unique-paths) |
 | [0089-gray-code](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0089-gray-code) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
