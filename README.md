@@ -392,6 +392,7 @@
 | [0062-unique-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0062-unique-paths) |
 | [0089-gray-code](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0089-gray-code) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0171-excel-sheet-column-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0171-excel-sheet-column-number) |
 | [0172-factorial-trailing-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0172-factorial-trailing-zeroes) |
 | [0202-happy-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0202-happy-number) |
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
@@ -440,6 +441,7 @@
 | [0125-valid-palindrome](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0151-reverse-words-in-a-string) |
+| [0171-excel-sheet-column-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0171-excel-sheet-column-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
