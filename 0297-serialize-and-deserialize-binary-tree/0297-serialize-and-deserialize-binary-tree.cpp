@@ -61,7 +61,7 @@ public:
             q.pop();
 
             if (tokens[i] != "#") {
-                node->left = new TreeNode(stoi(tokens[i]));
+                node->left  = new TreeNode(stoi(tokens[i]));
                 q.push(node->left);
             }
 
@@ -75,6 +75,7 @@ public:
                 node->right = new TreeNode(stoi(tokens[i]));
                 q.push(node->right);
             }
+          
             i++;
         }
         return root;
