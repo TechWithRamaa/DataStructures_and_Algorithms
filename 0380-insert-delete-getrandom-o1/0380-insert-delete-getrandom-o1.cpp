@@ -15,6 +15,7 @@ public:
         elements.push_back(val);
         int lastIndex = elements.size() - 1;
         indexMap[val] = lastIndex;
+        
         return true;
     }
     
@@ -37,6 +38,7 @@ public:
     
     int getRandom() {
         int randomIndex = rand() % elements.size();
+        
         return elements[randomIndex];
     }
 };
