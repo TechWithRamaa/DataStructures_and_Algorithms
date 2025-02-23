@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // 2D to 1D + sort + binary search + greedy
     int maxDistance(int side, vector<vector<int>>& points, int k) {
         int n = points.size();
         vector<long long> t(n);
