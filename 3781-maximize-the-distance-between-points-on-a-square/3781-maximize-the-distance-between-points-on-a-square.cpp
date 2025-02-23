@@ -73,3 +73,48 @@ private:
         return false;
     }
 };
+
+class Solution0 {
+public:
+    // Approach1 failing for case 2
+    int maxDistanceApproach1(int side, vector<vector<int>>& points, int k) {
+        sort(points.begin(), points.end());
+        
+        int low = 0, high = side * 2;
+        int bestMaxDistance = 0;       
+
+        while(low <= high) {
+            int mid = low + (high - low) / 2;
+            if(canWeGroupKPointsAtThisDistance(mid, k, points)) {
+                bestMaxDistance = mid;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        return bestMaxDistance;
+    }
+private:    
+    bool canWeGroupKPointsAtThisDistance(int d, int k, const vector<vector<int>>& points) {
+        const int N = points.size();
+
+        vector<int> pointA = points[0];
+        k -= 1;
+
+        for(int i = 1; i < N && k > 0; i++) {
+            vector<int> pointB = points[i];
+            int manhattanDist = getManhattanDistance(pointA, pointB);
+            if(manhattanDist >= d) {
+                k -= 1;
+                pointA = pointB;
+            }
+        }
+
+        return k <= 0;
+    }
+
+    int getManhattanDistance(const vector<int>& pointA, const vector<int>& pointB) {
+        return abs(pointA[0] - pointB[0]) + abs(pointA[1] - pointB[1]);
+    }
+};
