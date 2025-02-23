@@ -3,7 +3,6 @@ public:
     long long maxSum(vector<vector<int>>& grid, vector<int>& limits, int k) {
         priority_queue<int> maxHeap;
 
-       
         for (int i = 0; i < grid.size(); i++) {
             sort(grid[i].rbegin(), grid[i].rend());
 
