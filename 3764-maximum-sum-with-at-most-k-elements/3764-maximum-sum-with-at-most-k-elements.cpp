@@ -3,13 +3,12 @@ public:
     long long maxSum(vector<vector<int>>& grid, vector<int>& limits, int k) {
         priority_queue<int> maxHeap;
 
-        int n = grid.size();
-        for (int i = 0; i < n; i++) {
-            // Sort each row in descending order
+       
+        for (int i = 0; i < grid.size(); i++) {
             sort(grid[i].rbegin(), grid[i].rend());
 
             // Take the top 'limits[i]' elements and push into maxHeap
-            for (int j = 0; j < min((int)grid[i].size(), limits[i]); j++) {
+            for (int j = 0; j < limits[i]; j++) {
                 maxHeap.push(grid[i][j]);
             }
         }
