@@ -7,7 +7,6 @@ public:
         for (int i = 0; i < grid.size(); i++) {
             sort(grid[i].rbegin(), grid[i].rend());
 
-            // Take the top 'limits[i]' elements and push into maxHeap
             for (int j = 0; j < limits[i]; j++) {
                 maxHeap.push(grid[i][j]);
             }
