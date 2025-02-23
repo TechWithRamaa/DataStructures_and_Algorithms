@@ -26,9 +26,13 @@ public:
 private:
     // Map a boundary point (x,y) to a coordinate in [0, 4*side)
     long long mapPoint(int side, int x, int y) {
+        // Bottom edge: (x,0) -> t = x.
         if (y == 0) return x; 
+        // Right edge: (side, y) -> t = side + y.
         if (x == side) return side + y;
+        // Top edge: (x, side) -> t = 3*side - x.
         if (y == side) return 3LL * side - x;
+        // Left edge: (0, y) -> t = 4*side - y.
         return 4LL * side - y;
     }
     
