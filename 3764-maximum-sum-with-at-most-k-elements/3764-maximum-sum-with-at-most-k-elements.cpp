@@ -1,7 +1,7 @@
 class Solution {
 public:
     long long maxSum(vector<vector<int>>& grid, vector<int>& limits, int k) {
-        priority_queue<long long> maxHeap;
+        priority_queue<int> maxHeap;
 
         int n = grid.size();
         for (int i = 0; i < n; i++) {
