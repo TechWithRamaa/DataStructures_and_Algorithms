@@ -213,6 +213,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0374-guess-number-higher-or-lower](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0374-guess-number-higher-or-lower) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
@@ -739,6 +740,7 @@
 |  |
 | ------- |
 | [0277-find-the-celebrity](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0277-find-the-celebrity) |
+| [0374-guess-number-higher-or-lower](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0374-guess-number-higher-or-lower) |
 ## Geometry
 |  |
 | ------- |
