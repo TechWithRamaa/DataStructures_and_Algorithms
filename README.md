@@ -145,6 +145,7 @@
 | [0169-majority-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0169-majority-element) |
 | [0174-dungeon-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0189-rotate-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0217-contains-duplicate) |
@@ -418,6 +419,7 @@
 | [0166-fraction-to-recurring-decimal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0166-fraction-to-recurring-decimal) |
 | [0171-excel-sheet-column-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0171-excel-sheet-column-number) |
 | [0172-factorial-trailing-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0172-factorial-trailing-zeroes) |
+| [0189-rotate-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0202-happy-number) |
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
 | [0371-sum-of-two-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0371-sum-of-two-integers) |
@@ -516,6 +518,7 @@
 | [0148-sort-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0202-happy-number) |
 | [0251-flatten-2d-vector](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0251-flatten-2d-vector) |
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
