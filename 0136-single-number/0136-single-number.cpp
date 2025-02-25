@@ -1,0 +1,10 @@
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int unique = 0;
+        for (int num : nums) {
+            unique ^= num; // XOR each number into unique
+        }
+        return unique;
+    }
+};
