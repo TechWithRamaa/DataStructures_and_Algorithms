@@ -4,6 +4,7 @@ public:
     // Approach 1 - HashSet 
     // Approach 2 - HashMap
     // Approach 3 - XOR
+    // Approach 4 - Sorting + Linear Scan
     int singleNumber(vector<int>& nums) {
         int unique = 0;
         for (int num : nums) {
