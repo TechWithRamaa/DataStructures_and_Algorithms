@@ -159,6 +159,7 @@
 | [0251-flatten-2d-vector](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0251-flatten-2d-vector) |
 | [0252-meeting-rooms](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
+| [0283-move-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0312-burst-balloons) |
@@ -532,6 +533,7 @@
 | [0251-flatten-2d-vector](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0251-flatten-2d-vector) |
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
 | [0277-find-the-celebrity](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0277-find-the-celebrity) |
+| [0283-move-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Sorting
