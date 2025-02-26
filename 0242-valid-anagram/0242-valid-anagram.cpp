@@ -1,6 +1,8 @@
 class Solution {
 public:
-    bool isAnagram(string s, string t) {
+    // Approach - Sorting
+    // TC ~ O ( N log N )
+    bool isAnagram2(string s, string t) {
         if (s.length() != t.length())
             return false;
 
@@ -9,10 +11,10 @@ public:
 
         return s == t;
     }
-    
+
     // Approach - Frequency
     // TC ~ O ( n )
-    bool isAnagram2(string s, string t) {
+    bool isAnagram(string s, string t) {
         if (s.size() != t.size()) {
             return false;
         }
