@@ -31,4 +31,10 @@ public:
 
         return first.substr(0, i);
     }
+
+    // Approach 3
+    // Binary Search
+    // Suitable for large vectors
+    // TC ~ O ( n log m )
+
 };
