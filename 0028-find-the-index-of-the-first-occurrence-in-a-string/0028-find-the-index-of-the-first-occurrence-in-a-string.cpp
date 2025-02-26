@@ -29,10 +29,11 @@ public:
             if(right == m) {
                 return left;
             }
-            
+
             left++;
         }
 
         return -1;
     }
+
 };
