@@ -4,14 +4,16 @@ public:
         int maxProfit = 0;
 
         // Brute-Force
-        // for(int buyIndex = 0; buyIndex < prices.size() - 1; buyIndex++) {
-        //     for(int sellIndex = buyIndex + 1; sellIndex < prices.size(); sellIndex++) {
-        //         if(prices[sellIndex] > prices[buyIndex]) {
-        //             int profit = prices[sellIndex] - prices[buyIndex];
-        //             maxProfit = max(profit, maxProfit);
-        //         }
-        //     }
-        // }
+        /*
+        for(int buyIndex = 0; buyIndex < prices.size() - 1; buyIndex++) {
+            for(int sellIndex = buyIndex + 1; sellIndex < prices.size(); sellIndex++) {
+                if(prices[sellIndex] > prices[buyIndex]) {
+                    int profit = prices[sellIndex] - prices[buyIndex];
+                    maxProfit = max(profit, maxProfit);
+                }
+            }
+        }
+        */
 
         // single pass 
         int minBuyPrice = prices[0];
