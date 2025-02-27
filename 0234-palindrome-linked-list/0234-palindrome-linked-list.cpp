@@ -30,6 +30,8 @@ public:
         if(!head || !head->next)
             return true;
 
+        cout << head;
+
         ListNode* middle = getMiddleNode(head);
         ListNode* secondHalfStart = reverseLL(middle);
 
