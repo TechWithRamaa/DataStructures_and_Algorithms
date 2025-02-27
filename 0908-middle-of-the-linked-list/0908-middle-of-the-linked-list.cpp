@@ -13,7 +13,7 @@ public:
     // Approach 1 - Counting Based
     // Two Pass 
     // TC ~ O ( n )
-    ListNode* middleNode(ListNode* head) {
+    ListNode* middleNode1(ListNode* head) {
         int count = 0;
         ListNode* current = head;
 
@@ -33,6 +33,21 @@ public:
         // current points at exact second middle in case of even number of nodes in the linked list
         
         return current; 
+    }
+
+    // Approach 2 - Fast & Slow Pointer
+    // One pass
+    // Slow pointer exactly stops at middle node
+    // TC ~ O ( n )
+    ListNode* middleNode(ListNode* head) {
+        ListNode *slow = head, *fast = head;
+
+        while(fast && fast->next) {
+            slow = slow -> next;
+            fast = fast -> next -> next;
+        }
+
+        return slow;
     }
 
 
