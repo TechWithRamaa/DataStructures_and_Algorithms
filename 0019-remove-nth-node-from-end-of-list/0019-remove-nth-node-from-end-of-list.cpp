@@ -12,7 +12,7 @@ class Solution {
 public:
     // Two-pass approach 
     // ~ O ( 2 * n )
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
+    ListNode* removeNthFromEnd1(ListNode* head, int n) {
         // I keep forgetting the dummy node
         // dummy node will take care of deleting head node
         // using the same logic as old nodes are deleted
@@ -55,10 +55,20 @@ public:
         return newHead;
     }
 
-    ListNode* removeNthFromEnd2(ListNode* head, int n) {
+    // Single-pass approach
+    // ~ O ( n )
+    // Two pointers (not exactly fast and slow pointers)
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
         ListNode* dummy = new ListNode(0, head);
+
         ListNode* first = dummy;
         ListNode* second = dummy;
+
+        // just initialize two pointers
+        // as you note the names, it is not slow & fast 
+        // as clearly it s not slow & fast pointer approach
+        // as they re normal pointers, start from head 
+        // no drama 
 
         for (int i = 0; i <= n; i++) 
             first = first->next;
