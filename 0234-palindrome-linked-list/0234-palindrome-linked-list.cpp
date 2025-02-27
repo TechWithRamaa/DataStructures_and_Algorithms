@@ -25,7 +25,7 @@ public:
     // Reverse the second of the LL
     // Compare the Palindrome for first half & reversed half
     // Reverse the second half for restoration
-    
+
     bool isPalindrome(ListNode* head) {
         if(!head || !head->next)
             return true;
@@ -48,7 +48,7 @@ public:
             secondHalfHead = secondHalfHead->next;
         }
 
-        reverseLL(secondHalfStart);
+        //reverseLL(secondHalfStart);
 
         return result;   
     }
