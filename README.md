@@ -71,6 +71,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
 ## Memoization
 |  |
@@ -328,6 +329,7 @@
 | [0146-lru-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0460-lfu-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0460-lfu-cache) |
 | [0908-middle-of-the-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0908-middle-of-the-linked-list) |
 ## Depth-First Search
@@ -516,6 +518,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0155-min-stack) |
+| [0234-palindrome-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
 ## Monotonic Stack
 |  |
@@ -544,6 +547,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0202-happy-number) |
+| [0234-palindrome-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0251-flatten-2d-vector](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0251-flatten-2d-vector) |
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
 | [0277-find-the-celebrity](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0277-find-the-celebrity) |
