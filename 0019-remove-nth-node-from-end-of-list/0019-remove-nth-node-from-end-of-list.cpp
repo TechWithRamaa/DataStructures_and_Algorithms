@@ -13,6 +13,10 @@ public:
     // Two-pass approach 
     // Counting based
     // ~ O ( 2 * n )
+
+    // *******************************
+    // The whole crux of it is that you need to stop one node before the node to be deleted
+    // *******************************
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         // I keep forgetting the dummy node
         // dummy node will take care of deleting head node
