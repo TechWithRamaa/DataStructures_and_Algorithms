@@ -1,15 +1,18 @@
 class Solution {
 public:
-
+    // Approach 2 -> Hashset
+    // TC ~ O ( N ^ 2 * log S )
+    // Improvisation from the brute force
+    // Internal loop is optimized
     int lenLongestFibSubseq(vector<int>& arr) {
-        int n = arr.size();
+        const int N = arr.size();
         unordered_set<int> s(arr.begin(), arr.end()); // Fast lookup set
         
         int maxLength = 0;
         
         // Try every pair as the start of a Fibonacci-like sequence
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
+        for (int i = 0; i < N; i++) {
+            for (int j = i + 1; j < N; j++) {
                 int a = arr[i], b = arr[j];
                 int length = 2; // The sequence starts with two numbers
                 
@@ -27,7 +30,7 @@ public:
         
         return maxLength >= 3 ? maxLength : 0;
     }
-    
+
     // Appproach 1 -> BruteForce
     // TC ~ O ( n ^ 3)
     int lenLongestFibSubseq3(vector<int>& arr) {
