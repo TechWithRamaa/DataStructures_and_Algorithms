@@ -29,11 +29,22 @@ public:
     bool isPalindrome(ListNode* head) {
         if(!head || !head->next)
             return true;
-
-        cout << head;
+        
+        ListNode* temp = head;
+        while(temp) {
+            cout << temp->val << " - " ;
+            temp = temp->next;
+        }
 
         ListNode* middle = getMiddleNode(head);
         ListNode* secondHalfStart = reverseLL(middle);
+
+        cout << endl;
+        temp = secondHalfStart;
+        while(temp) {
+            cout << temp->val << " - " ;
+            temp = temp->next;
+        }
 
         ListNode* firstHalfHead = head;
         ListNode* secondHalfHead = secondHalfStart;
