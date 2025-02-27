@@ -30,21 +30,8 @@ public:
         if(!head || !head->next)
             return true;
         
-        ListNode* temp = head;
-        while(temp) {
-            cout << temp->val << " - " ;
-            temp = temp->next;
-        }
-
         ListNode* middle = getMiddleNode(head);
         ListNode* secondHalfStart = reverseLL(middle);
-
-        cout << endl;
-        temp = secondHalfStart;
-        while(temp) {
-            cout << temp->val << " - " ;
-            temp = temp->next;
-        }
 
         ListNode* firstHalfHead = head;
         ListNode* secondHalfHead = secondHalfStart;
