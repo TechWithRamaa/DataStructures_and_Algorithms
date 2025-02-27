@@ -67,7 +67,7 @@ public:
         // just initialize two pointers
         // as you note the names, it is not slow & fast 
         // as clearly it s not slow & fast pointer approach
-        // as they re normal pointers, start from head 
+        // as they re normal pointers, start from ****** dummy head ******* 
         // no drama 
 
         for (int i = 0; i <= n; i++) 
@@ -81,6 +81,10 @@ public:
         // Remove the nth node
         ListNode* nodeToRemove = second->next;
         second->next = second->next->next;
+
+        // the best part of this logic
+        // is that it works for deleting
+        // head, middle, tail nodes
 
         delete nodeToRemove;
 
