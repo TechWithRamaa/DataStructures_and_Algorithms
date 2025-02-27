@@ -11,21 +11,22 @@
 class Solution {
 public:
     // Two-pass approach 
+    // Counting based
     // ~ O ( 2 * n )
-    ListNode* removeNthFromEnd1(ListNode* head, int n) {
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
         // I keep forgetting the dummy node
         // dummy node will take care of deleting head node
         // using the same logic as old nodes are deleted
         
-        ListNode* dummy = new ListNode(0);
-        dummy->next = head;
-
         ListNode* current = head;
         int length = 0;
         while(current) {
             length += 1;
             current = current->next;
         }
+        
+        ListNode* dummy = new ListNode(0);
+        dummy->next = head;
 
         length -= n;
         current = dummy;
@@ -58,7 +59,7 @@ public:
     // Single-pass approach
     // ~ O ( n )
     // Two pointers (not exactly fast and slow pointers)
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
+    ListNode* removeNthFromEnd2(ListNode* head, int n) {
         ListNode* dummy = new ListNode(0, head);
 
         ListNode* first = dummy;
