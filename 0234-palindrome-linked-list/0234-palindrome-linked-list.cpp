@@ -48,7 +48,7 @@ public:
             secondHalfHead = secondHalfHead->next;
         }
 
-        //reverseLL(secondHalfStart);
+        reverseLL(secondHalfStart); // restoring the input
 
         return result;   
     }
