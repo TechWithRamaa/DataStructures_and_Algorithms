@@ -34,9 +34,20 @@ public:
             current = current->next;
         }
 
+        // Key trick to note here is 
+        // couting pass starts from actual head
+        // positioning the nodeToDelete starts from dummy head
+
         ListNode* nodeToDelete = current->next;
         current->next = current->next->next;
         delete nodeToDelete;
+
+        // this above piece takes care of 
+        // 3 cases of delete
+
+        // 1) delete head
+        // 2) delete middle
+        // 3) delete end
 
         ListNode* newHead = dummy->next;
         delete dummy;
