@@ -214,6 +214,7 @@
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
 | [2551-apply-operations-to-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2551-apply-operations-to-an-array) |
 | [2625-increment-submatrices-by-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2625-increment-submatrices-by-one) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Binary Search
 |  |
@@ -428,6 +429,7 @@
 | [1668-find-longest-awesome-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1668-find-longest-awesome-substring) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Math
 |  |
 | ------- |
@@ -564,6 +566,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0908-middle-of-the-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0908-middle-of-the-linked-list) |
 | [2551-apply-operations-to-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2551-apply-operations-to-an-array) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Sorting
 |  |
 | ------- |
