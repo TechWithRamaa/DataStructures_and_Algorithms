@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // Approach 1 
+    // BruteForce ~ O ( N ) ; TC ~ O (N)
     vector<int> pivotArray(vector<int>& nums, int pivot) {
         vector<int> less, equal, greater;
 
