@@ -25,27 +25,28 @@ public:
     }
 
     // Approach 2 -> Counter In-Place approach
-    // TC ~ O ( N ) ; SC ~ O ( 1 ) 
+    // TC ~ O ( N ) ; SC ~ O ( 1 )
     vector<int> pivotArray(vector<int>& nums, int pivot) {
-        vector<int> result;
+        vector<int> result(nums.size());
 
-        for(auto num : nums) {
-            if(num < pivot) {
-                result.push_back(num);
+        int index = 0;
+        for (auto num : nums) {
+            if (num < pivot) {
+                result[index++] = num;
             }
-        }   
+        }
 
-        for(auto num : nums) {
-            if(num == pivot) {
-                result.push_back(num);
+        for (auto num : nums) {
+            if (num == pivot) {
+                result[index++] = num;
             }
-        } 
+        }
 
-         for(auto num : nums) {
-            if(num > pivot) {
-                result.push_back(num);
+        for (auto num : nums) {
+            if (num > pivot) {
+                result[index++] = num;
             }
-        } 
+        }
 
         return result;
     }
