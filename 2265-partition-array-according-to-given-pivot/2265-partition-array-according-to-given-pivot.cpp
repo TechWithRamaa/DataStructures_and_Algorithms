@@ -13,9 +13,8 @@ public:
             }
         }
 
-        // Concatenating the three vectors
         vector<int> result;
-        result.reserve(nums.size()); // Optimize memory allocation
+        result.reserve(nums.size());
         result.insert(result.end(), less.begin(), less.end());
         result.insert(result.end(), equal.begin(), equal.end());
         result.insert(result.end(), greater.begin(), greater.end());
