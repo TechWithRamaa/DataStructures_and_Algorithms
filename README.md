@@ -454,6 +454,7 @@
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
+| [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 ## Divide and Conquer
 |  |
 | ------- |
