@@ -26,7 +26,7 @@ public:
 
     // Approach 2 -> Counter In-Place approach
     // TC ~ O ( N ) ; SC ~ O ( 1 )
-    vector<int> pivotArray(vector<int>& nums, int pivot) {
+    vector<int> pivotArray2(vector<int>& nums, int pivot) {
         vector<int> result(nums.size());
 
         int index = 0;
@@ -46,6 +46,39 @@ public:
             if (num > pivot) {
                 result[index++] = num;
             }
+        }
+
+        return result;
+    }
+
+    // Approach 3 -> Counting + Partition based
+    // TC ~ O ( N ) ; SC ~ O ( 1 )
+    vector<int> pivotArray(vector<int>& nums, int pivot) {
+        int countLeft = 0, countMid = 0;
+
+        // Step 1: Count occurrences
+        for (int num : nums) {
+            if (num < pivot)
+                countLeft++;
+            else if (num == pivot)
+                countMid++;
+        }
+
+        // Compute starting indices
+        int leftIndex = 0;
+        int midIndex = countLeft;
+        int rightIndex = countLeft + countMid;
+
+        vector<int> result(nums.size());
+
+        // Step 2: Fill the result array in one pass
+        for (int num : nums) {
+            if (num < pivot)
+                result[leftIndex++] = num;
+            else if (num == pivot)
+                result[midIndex++] = num;
+            else
+                result[rightIndex++] = num;
         }
 
         return result;
