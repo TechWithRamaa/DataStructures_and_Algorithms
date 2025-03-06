@@ -1,7 +1,7 @@
 class Solution {
 public:
     // Approach 1
-    // Bruteforce -> TC ~ O ( n ^ 2 )
+    // Bruteforce -> TC ~ O ( n ^ 4 )
     vector<int> findMissingAndRepeatedValues1(vector<vector<int>>& grid) {
         int n = grid.size();
         int N = n * n;
