@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // Approach - Sieve of Eratosthenes
+    // TC ~ O ( n log log n )
     int countPrimes(int n) {
         int noOfPrimes = 0;
 
