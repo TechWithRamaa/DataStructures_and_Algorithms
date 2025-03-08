@@ -1,6 +1,28 @@
 class Solution {
 public:
+
+    // Approach 2
+    // Set 
+    // Extra memory
+    // TC ~ O ( n ) ; SC ~ O ( n )
     int findDuplicate(vector<int>& nums) {
+       unordered_set<int> s;
+
+        for(auto num : nums) {
+            if(s.count(num) > 0) {
+                return num;
+            }
+            s.insert(num);
+        }
+
+        return -1;
+    }
+
+    // Approach 1 
+    // BruteForce 
+    // Alter the orginal array
+    // TC ~ O ( n log n )
+    int findDuplicate1(vector<int>& nums) {
         sort(nums.begin(), nums.end());
 
         if(nums.size() == 2) {
