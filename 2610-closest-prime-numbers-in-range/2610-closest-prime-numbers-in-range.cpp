@@ -6,6 +6,8 @@ public:
         vector<bool> isPrime(limit + 1, true);
         isPrime[0] = isPrime[1] = false;
 
+        // upper limit, when left, right is [2, 30]
+        // when i = 6, 6 * 6 becomes 36 which is breaching the upper limit
         for (int i = 2; i * i <= limit; i++) {
             if (isPrime[i]) {
                 for (int j = i * i; j <= limit; j += i) {
@@ -30,7 +32,7 @@ public:
         int minDiff = INT_MAX;
         vector<int> result(2, -1);
 
-        for (size_t i = 1; i < primes.size(); i++) {
+        for (int i = 1; i < primes.size(); i++) {
             int diff = primes[i] - primes[i - 1];
             if (diff < minDiff) {
                 minDiff = diff;
