@@ -19,7 +19,7 @@ private:
         if(!leftSubTree && !rightSubTree)
             return true;
 
-        if(!leftSubTree || !rightSubTree || leftSubTree->val != rightSubTree->val) 
+        if((!leftSubTree || !rightSubTree) || (leftSubTree->val != rightSubTree->val)) 
             return false;
 
         return isSymmetric(leftSubTree->left, rightSubTree->right)
