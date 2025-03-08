@@ -7,7 +7,7 @@ public:
     where converting all white blocks inside that window 
     to black requires the fewest changes.  
     */
-    
+
     int minimumRecolors(string blocks, int k) {
         int whiteCount = 0;
         int minimumWhiteInAWindow = 0;
@@ -19,9 +19,9 @@ public:
         }
 
         minimumWhiteInAWindow = whiteCount;
-        int start = 0;
+
         for(int end = k; end < blocks.length(); end++) {
-            if(blocks[start] == 'W') {
+            if(blocks[end - k] == 'W') {
                     whiteCount--;
             }
 
@@ -30,7 +30,6 @@ public:
             }
 
             minimumWhiteInAWindow = min(minimumWhiteInAWindow, whiteCount);
-            start++;
         }
 
         return minimumWhiteInAWindow;
