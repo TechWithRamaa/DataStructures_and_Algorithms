@@ -37,6 +37,9 @@ public:
     }
 
     /*  Approach 2
+    if you need to pick k cards, you can take 
+    x cards from the left and k−x cards from the right. 
+    Then, you simply compute the sum for each combination and take the maximum.
     */
     int maxScore(vector<int>& cardPoints, int k) {
          int n = cardPoints.size();
@@ -46,7 +49,7 @@ public:
         for (int i = n - k; i < n; i++) {
             currentScore += cardPoints[i];
         }
-        
+
         int maxScore = currentScore;
         
         // Try taking cards from the left instead one by one.
@@ -58,6 +61,5 @@ public:
         
         return maxScore;
     }
-
    
 };
