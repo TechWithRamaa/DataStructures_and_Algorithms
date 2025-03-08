@@ -1,11 +1,38 @@
 class Solution {
 public:
 
-    // Approach 2
-    // Set 
-    // Extra memory
+    // Approach 3
+    // Binary Search on the Value Space - Very important
+    // Extra memory - not allowed
     // TC ~ O ( n ) ; SC ~ O ( n )
     int findDuplicate(vector<int>& nums) {
+       int left = 1 , right = nums.size() - 1;
+
+       while(left < right) {
+            int mid = left + (right - left) / 2;
+            int count = 0;
+
+            for(int num : nums) {
+                if(num <= mid) {
+                    count++;
+                }
+            }
+
+            if(count > mid) {
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
+       }
+
+       return left;
+    }
+
+    // Approach 2
+    // Set 
+    // Extra memory - not allowed
+    // TC ~ O ( n ) ; SC ~ O ( n )
+    int findDuplicate2(vector<int>& nums) {
        unordered_set<int> s;
 
         for(auto num : nums) {
@@ -20,7 +47,7 @@ public:
 
     // Approach 1 
     // BruteForce 
-    // Alter the orginal array
+    // Alter the orginal array - not allowed
     // TC ~ O ( n log n )
     int findDuplicate1(vector<int>& nums) {
         sort(nums.begin(), nums.end());
