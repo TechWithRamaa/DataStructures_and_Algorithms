@@ -3,8 +3,7 @@ public:
 
     // Approach 3
     // Binary Search on the Value Space - Very important
-    // Extra memory - not allowed
-    // TC ~ O ( n ) ; SC ~ O ( n )
+    // TC ~ O ( n log n ) 
     int findDuplicate(vector<int>& nums) {
        int left = 1 , right = nums.size() - 1;
 
