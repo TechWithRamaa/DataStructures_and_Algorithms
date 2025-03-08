@@ -166,6 +166,7 @@
 | [0268-missing-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0283-move-zeroes) |
 | [0286-walls-and-gates](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0286-walls-and-gates) |
+| [0287-find-the-duplicate-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0312-burst-balloons) |
@@ -236,6 +237,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0268-missing-number) |
 | [0278-first-bad-version](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0278-first-bad-version) |
+| [0287-find-the-duplicate-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -498,6 +500,7 @@
 | [0136-single-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0137-single-number-ii) |
 | [0268-missing-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0371-sum-of-two-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0371-sum-of-two-integers) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1435-xor-queries-of-a-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1435-xor-queries-of-a-subarray) |
@@ -585,6 +588,7 @@
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
 | [0277-find-the-celebrity](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0277-find-the-celebrity) |
 | [0283-move-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0344-reverse-string) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
