@@ -50,6 +50,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0099-recover-binary-search-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -84,6 +85,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0099-recover-binary-search-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -256,6 +258,7 @@
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0127-word-ladder](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0130-surrounded-regions) |
@@ -357,6 +360,7 @@
 | [0079-word-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0099-recover-binary-search-tree) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0130-surrounded-regions](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0130-surrounded-regions) |
