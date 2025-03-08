@@ -225,6 +225,7 @@
 | [1402-count-square-submatrices-with-all-ones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1428-jump-game-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1428-jump-game-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1435-xor-queries-of-a-subarray) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
@@ -675,6 +676,7 @@
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1046-max-consecutive-ones-iii) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -728,6 +730,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1435-xor-queries-of-a-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1435-xor-queries-of-a-subarray) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2625-increment-submatrices-by-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2625-increment-submatrices-by-one) |
 ## Design
