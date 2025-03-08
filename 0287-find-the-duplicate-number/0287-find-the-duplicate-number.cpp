@@ -2,7 +2,7 @@ class Solution {
 public:
     // Approach 4
     // Cycle Detection (Floyd's Tortoise & Hare) - Very important
-    // TC ~ O ( n log n )
+    // TC ~ O ( n )
     int findDuplicate(vector<int>& nums) {
         int slow = nums[0], fast = nums[0];
 
