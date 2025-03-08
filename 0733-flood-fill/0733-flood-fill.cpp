@@ -32,7 +32,9 @@ private:
             int nextR = nr + sr;
             int nextC = nc + sc;
 
-            if(nextR >= 0 && nextR < ROWS && nextC >= 0 && nextC < COLS && image[nextR][nextC] == fromColor && !visited[nextR][nextC]) {
+            if(nextR >= 0 && nextR < ROWS && nextC >= 0 && nextC < COLS 
+                && image[nextR][nextC] == fromColor 
+                && !visited[nextR][nextC]) {
                 dfs(image, visited, nextR, nextC, toColor, fromColor);
             }
         }
