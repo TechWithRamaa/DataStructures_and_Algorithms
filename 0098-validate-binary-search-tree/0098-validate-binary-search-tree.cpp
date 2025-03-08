@@ -12,7 +12,7 @@
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
-        return isValidBST(root, (long long) LLONG_MIN , (long long) LLONG_MAX);
+        return isValidBST(root, LLONG_MIN , LLONG_MAX);
     }
 private:
     bool isValidBST(TreeNode* root, long long leftBound, long long rightBound) {
