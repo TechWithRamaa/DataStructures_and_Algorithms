@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Dyanmic Sized Sliding Window
     int longestOnes(vector<int>& nums, int k) {
         int maxConsecutiveOnes = 0;
         int start = 0, end = 0;
