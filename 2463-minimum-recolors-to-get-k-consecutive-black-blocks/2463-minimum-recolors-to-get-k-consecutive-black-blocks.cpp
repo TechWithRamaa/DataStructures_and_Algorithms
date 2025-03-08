@@ -1,5 +1,13 @@
 class Solution {
 public:
+    /* Problem Statement Restated 
+    Essentially, the problem is asking:
+
+    Find a sliding window of length k in the string 
+    where converting all white blocks inside that window 
+    to black requires the fewest changes.  
+    */
+    
     int minimumRecolors(string blocks, int k) {
         int whiteCount = 0;
         int minimumWhiteInAWindow = 0;
