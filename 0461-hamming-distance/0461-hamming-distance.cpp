@@ -26,4 +26,16 @@ public:
 
         return count;
     }
+
+    // some gyan
+    // bit wise logic
+
+    // flips all bits after left most set bit including itself => n - 1
+    // which is equal to subtracting the decimal number by 1
+    
+    // extract the last set bit => & 1
+
+    // divided the number by 2 => >> 1
+
+    // gives differences btwn 2 numbers => x ^ y
 };
