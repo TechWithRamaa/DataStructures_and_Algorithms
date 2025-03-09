@@ -1,8 +1,7 @@
 class Solution {
 public:
- 
     int numberOfAlternatingGroups(vector<int>& colors, int k) {
-        int n = colors.size();
+        int N = colors.size();
         int count = 0;
         int violationCount = 0;
 
@@ -12,52 +11,27 @@ public:
                 violationCount++;
             }
         }
-        if (violationCount == 0) count++;
+        if (violationCount == 0)
+            count++;
 
         // Step 2: Sliding window
-        for (int i = 1; i < n; i++) {
-            int prevOut = (i - 1) % n;      // Element going out
-            int newIn = (i + k - 1) % n;    // Element coming in
+        for (int i = 1; i < N; i++) {
+            int prevOut = (i - 1) % N;   // Element going out
+            int newIn = (i + k - 1) % N; // Element coming in
 
             // Remove the effect of the outgoing element
-            if (colors[prevOut] == colors[(prevOut + 1) % n]) {
+            if (colors[prevOut] == colors[(prevOut + 1) % N]) {
                 violationCount--;
             }
 
             // Add the effect of the incoming element
-            if (colors[newIn] == colors[(newIn - 1 + n) % n]) {
+            if (colors[newIn] == colors[(newIn - 1 + N) % N]) {
                 violationCount++;
             }
 
             // If no violations, this window is alternating
-            if (violationCount == 0) count++;
-        }
-
-        return count;
-    }
-
-    int numberOfAlternatingGroups2(vector<int>& colors, int k) {
-        int n = colors.size();
-        int count = 0;
-
-        // Function to check if a window of size k is alternating
-        auto isAlternatingWindow = [&](int start) -> bool {
-            for (int j = 0; j < k - 1; j++) {
-                int curIdx = (start + j) % n;
-                int nextIdx = (start + j + 1) % n;
-                if (colors[curIdx] == colors[nextIdx]) {
-                    return false; // Found two consecutive same colors → NOT
-                                  // alternating
-                }
-            }
-            return true;
-        };
-
-        // Sliding window over circular array
-        for (int i = 0; i < n; i++) {
-            if (isAlternatingWindow(i)) {
+            if (violationCount == 0)
                 count++;
-            }
         }
 
         return count;
