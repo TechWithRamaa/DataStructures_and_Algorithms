@@ -549,6 +549,7 @@
 | [0461-hamming-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0461-hamming-distance) |
 | [1435-xor-queries-of-a-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1435-xor-queries-of-a-subarray) |
 | [1668-find-longest-awesome-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1668-find-longest-awesome-substring) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## String
 |  |
 | ------- |
