@@ -8,8 +8,9 @@ public:
             int complement = target - nums[i];
             if(complementIndexMap.find(complement) != complementIndexMap.end()) {
                 return {complementIndexMap[complement], i};
-            }
+            } else {
             complementIndexMap[nums[i]] = i;
+            }
         }
 
         return {};
