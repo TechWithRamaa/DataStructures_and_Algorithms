@@ -1,5 +1,17 @@
 class Solution {
 public:
+    // key components to note are 
+
+    // solution set should not contain duplicate triplets
+    // one key idea to identify duplicates is when array is sorted
+    // so we are SORTING the array
+    
+    // how we skip the duplicates
+    // we can use while loop to skip until duplicates are bypassed
+
+    // we reduce this problem from threeSum to (1Sum and 2Sum)
+    // and we use 2 pointer approach for that 2Sum - subproblem
+    
     vector<vector<int>> threeSum(vector<int>& nums) {
         vector<vector<int>> result;
 
