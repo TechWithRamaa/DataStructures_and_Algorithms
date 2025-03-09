@@ -195,6 +195,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
+| [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
 | [0416-partition-equal-subset-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
@@ -503,6 +504,7 @@
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
 | [0371-sum-of-two-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
+| [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
 | [0412-fizz-buzz](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0412-fizz-buzz) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
@@ -753,6 +755,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
+| [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
 | [0460-lfu-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0460-lfu-cache) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -891,6 +894,7 @@
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
+| [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
 ## String Matching
 |  |
 | ------- |
