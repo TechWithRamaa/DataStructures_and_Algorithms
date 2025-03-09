@@ -20,7 +20,7 @@ public:
             int newIn = (i + k - 1) % N; // Element coming in
 
             // Remove the effect of the outgoing element
-            if (colors[prevOut] == colors[(prevOut + 1) % N]) {
+            if (colors[prevOut] == colors[(prevOut + 1) + N % N]) {
                 violationCount--;
             }
 
