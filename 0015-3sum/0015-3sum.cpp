@@ -14,6 +14,7 @@ public:
 
     // we need to make sure that none of the elements in the triplets is repeating
 
+    // SORTING + 2 POINTER + skipping duplicates
     vector<vector<int>> threeSum(vector<int>& nums) {
         vector<vector<int>> result;
 
