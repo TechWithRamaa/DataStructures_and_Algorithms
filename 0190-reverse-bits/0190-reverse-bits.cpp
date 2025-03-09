@@ -7,7 +7,7 @@ public:
             int lastBit = n & 1; // extracts last bit
             result = result << 1; // multiplies by 2 or left shift by 1 bit
             result = result | lastBit; // appends the extracted bit to result
-            n = n >> 1;
+            n = n >> 1; // divides the n by 2 or right shift by 1 bit
         }
 
         return result;
