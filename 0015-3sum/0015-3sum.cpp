@@ -11,7 +11,9 @@ public:
 
     // we reduce this problem from threeSum to (1Sum and 2Sum)
     // and we use 2 pointer approach for that 2Sum - subproblem
-    
+
+    // we need to make sure that none of the elements in the triplets is repeating
+
     vector<vector<int>> threeSum(vector<int>& nums) {
         vector<vector<int>> result;
 
@@ -23,8 +25,12 @@ public:
         // -4, -1, -1, 0, 1, 2
 
         for(int i = 0; i < nums.size(); i++) {
+            // bypassing the duplicates for first element
             if(i > 0 && nums[i-1] == nums[i])
                 continue;
+
+            // fixing the first element
+            // and later adopting 2 pointer technique
 
             int left = i + 1;
             int right = nums.size() - 1;
@@ -35,13 +41,15 @@ public:
                 if(sum == 0) {
                     result.push_back({nums[i], nums[left], nums[right]});
 
+                    // bypassing the duplicates for second element
                     while(left < right && nums[left] == nums[left + 1])
                        left++;
 
+                     // bypassing the duplicates for third element
                     while(left < right && nums[right] == nums[right - 1])
                        right--;
 
-                    left++;
+                    left++; 
                     right--;
                 } else if (sum < 0) 
                     left++;
