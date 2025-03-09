@@ -7,7 +7,8 @@ public:
         int count = 0;
 
         while(n > 0) {
-            n &= n - 1;
+            int t = n - 1;
+            n = n & t;
             count++;
         }
 
