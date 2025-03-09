@@ -1,5 +1,9 @@
 class Solution {
 public:
+    // Problem transformed into 
+    // maximum length of the subarray sum of 0
+
+    // so we re going with PrefixSum + HashMap
     int findMaxLength(vector<int>& nums) {
         unordered_map<int, int> prefixIndex;
         // <k, v> -> <prefixSum, index>
