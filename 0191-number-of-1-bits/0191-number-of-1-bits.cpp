@@ -1,6 +1,23 @@
 class Solution {
 public:
+    // Approach - Brian Kernighan’s Algorithm
+    // TC ~ O ( log n ) 
+    // Goes through only set bits
     int hammingWeight(int n) {
+        int count = 0;
+
+        while(n > 0) {
+            n &= n - 1;
+            count++;
+        }
+
+        return count;
+    }
+
+    // TC ~ O ( log n )
+    // Approach - Goes through every bit
+    // Hamming Weight is nothing but the count of set bits
+    int hammingWeight1(int n) {
         int count = 0;
         
         while(n > 0) {
