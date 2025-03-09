@@ -10,7 +10,8 @@ public:
             int previous = ( current - 1 + N ) % N;
             int next = ( current + 1 ) % N;
 
-            if(colors[previous] != colors[current] && colors[current] != colors[next]) {
+            if(colors[previous] != colors[current] 
+                && colors[current] != colors[next]) {
                 solution++;
             }
         }
