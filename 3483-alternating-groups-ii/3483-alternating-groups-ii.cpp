@@ -16,7 +16,7 @@ public:
 
         // Step 2: Sliding window
         for (int i = 1; i < N; i++) {
-            int prevOut = (i - 1) % N;   // Element going out
+            int prevOut = (i - 1) + N % N;   // Element going out
             int newIn = (i + k - 1) % N; // Element coming in
 
             // Remove the effect of the outgoing element
