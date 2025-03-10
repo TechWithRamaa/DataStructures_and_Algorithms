@@ -486,6 +486,7 @@
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3227-find-missing-and-repeated-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3227-find-missing-and-repeated-values) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Math
 |  |
 | ------- |
@@ -595,6 +596,7 @@
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2999-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2999-check-if-strings-can-be-made-equal-with-operations-i) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Stack
 |  |
 | ------- |
@@ -707,6 +709,7 @@
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3463-alternating-groups-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3463-alternating-groups-i) |
 | [3483-alternating-groups-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3483-alternating-groups-ii) |
+| [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Greedy
 |  |
 | ------- |
