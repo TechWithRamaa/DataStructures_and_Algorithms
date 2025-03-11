@@ -7,24 +7,24 @@ public:
 
         long long runningSum = 0;
         unordered_set<int> distinctNumbers;
-        for(int right = 0; right < N; right++) {
-            
-            while(distinctNumbers.count(nums[right]) > 0) {
+        for (int right = 0; right < N; right++) {
+
+            while (distinctNumbers.count(nums[right]) > 0) {
                 distinctNumbers.erase(nums[left]);
-                 runningSum -= nums[left];
+                runningSum -= nums[left];
                 left++;
             }
 
             distinctNumbers.insert(nums[right]);
             runningSum += nums[right];
 
-            if(k == right - left + 1) {
+            if (k == right - left + 1) {
                 maxSubArraySum = max(maxSubArraySum, runningSum);
 
                 distinctNumbers.erase(nums[left]);
                 runningSum -= nums[left];
                 left++;
-            }          
+            }
         }
 
         return maxSubArraySum;
