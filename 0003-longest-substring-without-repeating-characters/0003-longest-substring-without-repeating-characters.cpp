@@ -21,6 +21,7 @@ public:
         return maxLength;
     }*/
 
+    /*
     // HashMap approach aids in quicker shrinking of windows
     int lengthOfLongestSubstring(string s) {
         unordered_map<char, int> lastIndicesMap; // stores the last index of every character encountered
@@ -40,6 +41,25 @@ public:
         }
         return maxLength;
      }
+     */
+    
+    // Set approach - Shrinks the window by 1 unit
+    int lengthOfLongestSubstring(string s) {
+        unordered_set<char> window;
+        int left = 0;
+        int maxSubStringLength = 0;
+        
+        for(int right = 0; right < s.length(); right++) {
+            while(window.count(s[right])) {
+                window.erase(s[left]);
+                left++;
+            } 
+            window.insert(s[right]);
+            maxSubStringLength = max(maxSubStringLength, right - left + 1);
+        }
+        
+        return maxSubStringLength;
+    }
 
 
 };
