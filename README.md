@@ -474,6 +474,7 @@
 | [0460-lfu-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0460-lfu-cache) |
 | [0525-contiguous-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -592,6 +593,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0412-fizz-buzz](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0412-fizz-buzz) |
 | [0424-longest-repeating-character-replacement](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0990-verifying-an-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0990-verifying-an-alien-dictionary) |
 | [1170-shortest-common-supersequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1170-shortest-common-supersequence) |
@@ -656,6 +658,7 @@
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0344-reverse-string) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0908-middle-of-the-linked-list) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2551-apply-operations-to-an-array) |
@@ -705,6 +708,7 @@
 | [0076-minimum-window-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
