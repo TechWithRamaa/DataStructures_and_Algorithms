@@ -244,6 +244,7 @@
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
 | [2551-apply-operations-to-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2551-apply-operations-to-an-array) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2625-increment-submatrices-by-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2625-increment-submatrices-by-one) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
@@ -280,6 +281,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Breadth-First Search
 |  |
@@ -707,6 +709,7 @@
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
+| [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Sliding Window
 |  |
 | ------- |
