@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Dynamic Sliding Window
     int minSubArrayLen(int target, vector<int>& nums) {
         int minLength = INT_MAX;
 
