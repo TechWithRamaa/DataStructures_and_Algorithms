@@ -465,6 +465,7 @@
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0268-missing-number) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -592,6 +593,7 @@
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0344-reverse-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0412-fizz-buzz](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0412-fizz-buzz) |
@@ -712,6 +714,7 @@
 | [0076-minimum-window-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0239-sliding-window-maximum) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
