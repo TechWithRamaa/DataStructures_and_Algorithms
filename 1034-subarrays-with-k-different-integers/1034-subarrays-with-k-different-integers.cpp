@@ -35,7 +35,7 @@ private:
                 left++;
             }
 
-            noOfSubArrays += right - left + 1; 
+            noOfSubArrays += right - left + 1; // magical here 
         }
 
         return noOfSubArrays;
