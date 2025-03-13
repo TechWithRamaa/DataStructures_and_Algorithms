@@ -4,7 +4,7 @@ public:
     // whenever you re given exactly K
     // we transform into Inclusion Exclusion principle as details below
 
-    // it is too risky, it involves hell a lot of computations
+    // exact k is too risky, it involves hell a lot of computations
     // so we transform into known standard problems
     // we have transformed into Dynamic Sliding Window problem
     // Longest SubArray Sum with atmost K distinct numbers
