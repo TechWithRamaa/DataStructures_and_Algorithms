@@ -253,6 +253,7 @@
 | [3227-find-missing-and-repeated-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3227-find-missing-and-repeated-values) |
 | [3463-alternating-groups-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3463-alternating-groups-i) |
 | [3483-alternating-groups-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3483-alternating-groups-ii) |
+| [3643-zero-array-transformation-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3643-zero-array-transformation-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -285,6 +286,7 @@
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
+| [3643-zero-array-transformation-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3643-zero-array-transformation-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -797,6 +799,7 @@
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2625-increment-submatrices-by-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2625-increment-submatrices-by-one) |
+| [3643-zero-array-transformation-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3643-zero-array-transformation-ii) |
 ## Design
 |  |
 | ------- |
