@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Vairable or Dynamic Sliding Window
     int maxSubarrayLength(vector<int>& nums, int k) {
         int maxSubArrayLength = INT_MIN;
 
