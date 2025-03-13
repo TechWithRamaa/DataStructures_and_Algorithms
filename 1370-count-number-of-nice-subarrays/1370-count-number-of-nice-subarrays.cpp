@@ -1,6 +1,11 @@
 class Solution {
 public:
-    int numberOfSubarrays1(vector<int>& nums, int k) {
+    // Approach 2 
+    // Prefix Sum approach
+
+    // Tranform this problem into Number of subarrays having exactly k sum 
+    // by considering all odd numbers as 1 & even numbers as 0
+    int numberOfSubarrays(vector<int>& nums, int k) {
         int subArrayCount = 0, prefixSum = 0;
 
         // <k, v> => prefixSum, count 
@@ -24,7 +29,7 @@ public:
     // Variable or Dynamic Sliding Window
     // Exactly K in a Sliding Window approach is difficult to solve
     // So we atMost formula to solve this challenge in Sliding Window
-    int numberOfSubarrays(vector<int>& nums, int k) {
+    int numberOfSubarrays1(vector<int>& nums, int k) {
         // Helper function to count subarrays with at most 'k' odd numbers
 
         // Exactly K = AtMost(K) - AtMost(K - 1)
