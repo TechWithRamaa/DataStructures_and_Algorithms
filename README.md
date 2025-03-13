@@ -250,6 +250,7 @@
 | [2625-increment-submatrices-by-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2625-increment-submatrices-by-one) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
+| [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3227-find-missing-and-repeated-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3227-find-missing-and-repeated-values) |
 | [3463-alternating-groups-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3463-alternating-groups-i) |
 | [3483-alternating-groups-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3483-alternating-groups-ii) |
@@ -502,6 +503,7 @@
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3227-find-missing-and-repeated-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3227-find-missing-and-repeated-values) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Math
@@ -741,6 +743,7 @@
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3463-alternating-groups-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3463-alternating-groups-i) |
 | [3483-alternating-groups-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
