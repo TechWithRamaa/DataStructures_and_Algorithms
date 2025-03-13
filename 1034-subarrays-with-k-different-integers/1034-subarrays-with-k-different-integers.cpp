@@ -10,7 +10,7 @@ public:
     // Longest SubArray Sum with atmost K distinct numbers
 
     // Math formula
-    // Exactly K  =At most K − At most (K - 1)
+    // Exactly K = At most K − At most (K - 1)
     int subarraysWithKDistinct(vector<int>& nums, int k) {
         return atMostK(nums, k) - atMostK(nums, k - 1);
     }
