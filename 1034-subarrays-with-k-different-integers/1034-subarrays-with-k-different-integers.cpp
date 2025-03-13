@@ -16,7 +16,7 @@ public:
     }
 
 private:
-    // template from Longest SubArray Sum with atmost K distinct numbers
+    // template from Longest SubArray with atmost K distinct numbers
     int atMostK(vector<int>& nums, int k) {
         int noOfSubArrays = 0;
         
