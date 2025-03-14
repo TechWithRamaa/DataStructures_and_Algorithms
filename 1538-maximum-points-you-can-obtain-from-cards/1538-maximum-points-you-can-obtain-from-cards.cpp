@@ -11,7 +11,7 @@ public:
     behind, so that the sum of the removed cards (which is the total sum minus
     this minimum sum) is maximized.
     */
-    int maxScore(vector<int>& cardPoints, int k) {
+    int maxScore1(vector<int>& cardPoints, int k) {
         int N = cardPoints.size();
         int totalSum = accumulate(cardPoints.begin(), cardPoints.end(), 0);
 
@@ -36,7 +36,7 @@ public:
     x cards from the left and k−x cards from the right. 
     Then, you simply compute the sum for each combination and take the maximum.
     */
-    int maxScore1(vector<int>& cardPoints, int k) {
+    int maxScore(vector<int>& cardPoints, int k) {
          int n = cardPoints.size();
 
         // Initially, take all k cards from the right end.
@@ -50,7 +50,8 @@ public:
         // Try taking cards from the left instead one by one.
         // x is the number of cards taken from the left, and k - x from the right.
         for (int x = 0; x < k; x++) {
-            currentScore = currentScore - cardPoints[n - k + x] + cardPoints[x];
+            currentScore -= cardPoints[n - k + x];
+            currentScore += cardPoints[x];
             maxScore = max(maxScore, currentScore);
         }
         
