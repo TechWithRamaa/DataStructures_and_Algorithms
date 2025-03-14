@@ -11,29 +11,24 @@ public:
     behind, so that the sum of the removed cards (which is the total sum minus
     this minimum sum) is maximized.
     */
-    int maxScore1(vector<int>& cardPoints, int k) {
-        int windowSize = cardPoints.size() - k;
+    int maxScore(vector<int>& cardPoints, int k) {
+        int N = cardPoints.size();
+        int totalSum = accumulate(cardPoints.begin(), cardPoints.end(), 0);
 
-        int totalSum = 0;
-        for (auto point : cardPoints) {
-            totalSum += point;
+        if (k == N) return totalSum;
+
+        int windowSize = N - k;  // Window size for the cards we are NOT picking
+        int minWindowSum = accumulate(cardPoints.begin(), cardPoints.begin() + windowSize, 0);
+
+        int currentWindowSum = minWindowSum;
+        for (int i = windowSize; i < N; i++) {
+            currentWindowSum -=  cardPoints[i - windowSize];
+            currentWindowSum += cardPoints[i];
+
+            minWindowSum = min(minWindowSum, currentWindowSum);
         }
 
-        int subArraySum = 0;
-        for (int i = 0; i < windowSize; i++) {
-            subArraySum += cardPoints[i];
-        }
-
-        int maxPoints = totalSum - subArraySum;
-
-        for (int end = windowSize; end < cardPoints.size(); end++) {
-            subArraySum -= cardPoints[end - windowSize];
-            subArraySum += cardPoints[end];
-
-            maxPoints = max(totalSum - subArraySum, maxPoints);
-        }
-
-        return maxPoints;
+        return totalSum - minWindowSum;
     }
 
     /*  Approach 2
@@ -41,7 +36,7 @@ public:
     x cards from the left and k−x cards from the right. 
     Then, you simply compute the sum for each combination and take the maximum.
     */
-    int maxScore(vector<int>& cardPoints, int k) {
+    int maxScore1(vector<int>& cardPoints, int k) {
          int n = cardPoints.size();
 
         // Initially, take all k cards from the right end.
