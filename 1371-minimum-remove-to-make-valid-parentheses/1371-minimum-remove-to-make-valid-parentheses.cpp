@@ -1,5 +1,9 @@
 class Solution {
 public:
+    // Approach 1 
+    // Using Stack to mark ) or ( as invalid
+    // Constructing result by eliminating invalid parenthesis
+    // TC ~ O ( N ) and SC ~ O ( N )
     string minRemoveToMakeValid(string s) {
         stack<int> openParentheses;
 
