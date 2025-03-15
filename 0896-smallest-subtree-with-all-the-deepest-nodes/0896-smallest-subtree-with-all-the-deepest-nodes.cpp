@@ -11,6 +11,7 @@
  */
 class Solution {
 public:
+    // Approach - Combination of LCA & Depth of the Binary tree problems
     TreeNode* subtreeWithAllDeepest(TreeNode* root) {
         return getLCAoftheDeepestNodes(root).second;
     }
