@@ -73,6 +73,7 @@
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 ## Recursion
 |  |
@@ -114,6 +115,7 @@
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 ## Array
 |  |
@@ -326,6 +328,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1428-jump-game-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1428-jump-game-iii) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
@@ -433,6 +436,7 @@
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1428-jump-game-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1428-jump-game-iii) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1663-detect-cycles-in-2d-grid) |
@@ -503,6 +507,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1145-number-of-submatrices-that-sum-to-target) |
+| [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1370-count-number-of-nice-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1668-find-longest-awesome-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1668-find-longest-awesome-substring) |
