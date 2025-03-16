@@ -18,7 +18,7 @@ public:
 
         while(i < nonZeroVector.size() && j < vec.nonZeroVector.size()) {
             if(nonZeroVector[i].first == vec.nonZeroVector[j].first) {
-                result += nonZeroVector[i].second * vec.nonZeroVector[j].second;
+                dotProduct += nonZeroVector[i].second * vec.nonZeroVector[j].second;
                 i++;
                 j++;
             } else if (nonZeroVector[i].first < vec.nonZeroVector[j].first) {
@@ -28,7 +28,7 @@ public:
             }
         }
 
-        return static_cast<int>(result);
+        return dotProduct;
     }
 };
 
