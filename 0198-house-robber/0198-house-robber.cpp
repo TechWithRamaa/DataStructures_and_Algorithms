@@ -20,10 +20,8 @@ public:
             return nums[0];
         }
 
-    
-        int secondLast = nums[0], last = max(nums[0], nums[1]);
-        int maxRob = last;
-        for(int i = 2; i < nums.size(); i++) {
+        int maxRob = 0, secondLast = 0, last = 0;
+        for(int i = 0; i < nums.size(); i++) {
             int rob = nums[i] + secondLast;
             int dontRob = last;
 
