@@ -12,6 +12,7 @@
 class Solution {
 public:
     // Approach - Combination of LCA & Depth of the Binary tree problems
+    // Post Order DFS Traversal
     TreeNode* subtreeWithAllDeepest(TreeNode* root) {
         return getLCAoftheDeepestNodes(root).second;
     }
