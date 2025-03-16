@@ -257,6 +257,7 @@
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1663-detect-cycles-in-2d-grid) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -530,6 +531,7 @@
 | [1370-count-number-of-nice-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1668-find-longest-awesome-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1668-find-longest-awesome-substring) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -710,6 +712,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0908-middle-of-the-linked-list) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -852,6 +855,7 @@
 | [0460-lfu-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0460-lfu-cache) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1713-dot-product-of-two-sparse-vectors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 ## Doubly-Linked List
 |  |
 | ------- |
