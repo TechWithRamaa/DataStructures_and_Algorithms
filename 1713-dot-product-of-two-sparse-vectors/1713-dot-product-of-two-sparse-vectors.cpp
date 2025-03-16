@@ -35,6 +35,11 @@ public:
     }
 };
 
+
+// Approach 2 
+// Choosing Data Structure for storing the sparse vector is the key problem here 
+// We can use unordered_map<int, int> for storing sparse vector efficiently (less space)
+// best suited when only 1 vector is sparse
 class SparseVector {
 
 public: 
@@ -48,6 +53,8 @@ public:
         }
     }
 
+    // TC ~ O ( min (m, n) )
+    // Best suited when only 1 vector is sparse
     int dotProduct(SparseVector& vec) {
         int result = 0;
         for(auto [key, value] : nonZeroMap) {
