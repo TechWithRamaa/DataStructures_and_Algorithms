@@ -640,6 +640,7 @@
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0344-reverse-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0387-first-unique-character-in-a-string) |
+| [0408-valid-word-abbreviation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0408-valid-word-abbreviation) |
 | [0412-fizz-buzz](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0412-fizz-buzz) |
 | [0424-longest-repeating-character-replacement](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -710,6 +711,7 @@
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0344-reverse-string) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0408-valid-word-abbreviation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0408-valid-word-abbreviation) |
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0908-middle-of-the-linked-list) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
