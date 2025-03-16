@@ -1,7 +1,7 @@
 class Solution {
 public:
     // It is a brilliant trick or pattern to watch out for in the problem
-    // statement Minimize the Maximum or Maximize the minimum It means search on
+    // statement Minimize the Maximum or Maximize the minimum It means search on the answer space
     // the approach is Binary Search on the Answer space
     // TC ~ O ( log n )
     int minCapability(vector<int>& nums, int k) {
