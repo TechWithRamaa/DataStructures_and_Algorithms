@@ -4,15 +4,59 @@ public:
     // depending the company & the depth required,
     // they ll dive into complex optimisitc approaches
 
-    // 1 => BruteForce
-    // 2 =>
-    // 3 => Sorting
+    // 1 => Quick sort [when n is large & no extra space allowed]
+    // 2 => MinHeap [when k is considerably smaller than n]
+    // 3 => Sorting [when k is almost equal to n]
     // 4 => Binary Search [when values fall in a predictable range]
     // 5 => Counting Sort [when the range is small or known range]
-    //
 
-    // ~ O(n log k)
-    int findKthLargest1(vector<int>& nums, int k) {
+    // Then END .. Choose wisely
+
+    // 1 => Quick sort [when n is large & no extra space allowed]
+    // Average TC ~ O ( n ) ; Worst TC ~ O ( n ^ 2) ; SC ~ O ( 1 )
+    int partition(std::vector<int>& nums, int low, int high) {
+        // Randomly choose a pivot
+        int pivotIndex = low + rand() % (high - low + 1);
+        std::swap(nums[pivotIndex], nums[high]); // Swap with the last element
+
+        int pivot = nums[high];
+        int i = low - 1;
+
+        for (int j = low; j < high; ++j) {
+            if (nums[j] <= pivot) {
+                ++i;
+                std::swap(nums[i], nums[j]);
+            }
+        }
+
+        std::swap(nums[i + 1], nums[high]);
+        return i + 1;
+    }
+
+    int quickSelect(std::vector<int>& nums, int low, int high, int k) {
+        while (low <= high) {
+            int pivotIndex = partition(nums, low, high);
+
+            if (pivotIndex == k) {
+                return nums[k];
+            } else if (pivotIndex < k) {
+                low = pivotIndex + 1;
+            } else {
+                high = pivotIndex - 1;
+            }
+        }
+
+        return -1; // Should not reach here if input is valid
+    }
+
+    int findKthLargestQuickSelect(std::vector<int>& nums, int k) {
+        int n = nums.size();
+        return quickSelect(nums, 0, n - 1, n - k);
+    }
+
+    // 2 => MinHeap [when k is considerably smaller than n]
+    // TC ~ O(n log k) ; SC ~ O (k)
+    int findKthLargest(vector<int>& nums, int k) {
         priority_queue<int, vector<int>, greater<>> minHeap;
 
         for (auto num : nums) {
@@ -25,7 +69,9 @@ public:
         return minHeap.top();
     }
 
-    int findKthLargest(vector<int>& nums, int k) {
+    // 3 => Sorting [when input array is not huge]
+    // TC ~ O ( N log N ) ; SC ~ depending on the sorting algo.
+    int findKthLargestSorting(vector<int>& nums, int k) {
         sort(nums.rbegin(), nums.rend());
         return nums[k - 1];
     }
