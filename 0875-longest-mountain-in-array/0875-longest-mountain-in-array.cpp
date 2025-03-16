@@ -35,6 +35,6 @@ public:
             }
         }
 
-        return maxLen >= 3 ? maxLen : 0;
+        return maxLen;
     }
 };
