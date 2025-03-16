@@ -1,5 +1,11 @@
 class Solution {
 public:
+    // 2 pointer approach
+    // TC ~ O ( n )
+    // always categorize into 2 types
+    // is it a digit or a alphabet
+    // logic becomes simple 
+    
     bool validWordAbbreviation(string word, string abbr) {
         int W = word.length();
         int A = abbr.length();
