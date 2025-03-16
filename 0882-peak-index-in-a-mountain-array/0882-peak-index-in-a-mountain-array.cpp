@@ -1,5 +1,8 @@
 class Solution {
 public:
+    // Binary Search on the Index Space
+    // TC ~ O ( log n )
+    // Same as LeetCode 162 - Find Peak Element
     int peakIndexInMountainArray(vector<int>& arr) {
         int left = 0, right = arr.size();
 
