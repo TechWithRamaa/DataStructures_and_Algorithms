@@ -39,6 +39,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0863-sum-of-distances-in-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0863-sum-of-distances-in-tree) |
+| [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
@@ -234,6 +235,7 @@
 | [0733-flood-fill](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0792-binary-search) |
+| [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -715,6 +717,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0408-valid-word-abbreviation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0408-valid-word-abbreviation) |
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
+| [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
 | [0908-middle-of-the-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0908-middle-of-the-linked-list) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -1009,4 +1012,5 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0204-count-primes) |
+| [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
 <!---LeetCode Topics End-->
