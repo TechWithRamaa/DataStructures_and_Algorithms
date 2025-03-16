@@ -1,9 +1,13 @@
-class SparseVector {
+// Approach 1 
+// Choosing Data Structure for storing the sparse vector is the key problem here 
+// We can use vector<pair<int, int>> for storing sparse vector efficiently (less space)
+// best suited when both the vectors are sparse
+class SparseVector1 {
 
 public:
     vector<pair<int, int>> nonZeroVector;
 
-    SparseVector(vector<int> &nums) {
+    SparseVector1(vector<int> &nums) {
         for(int i = 0; i < nums.size(); i++) {
             if(nums[i] != 0) {
                 nonZeroVector.push_back({i, nums[i]});
@@ -11,11 +15,10 @@ public:
         }
     }
     
-    // Return the dotProduct of two sparse vectors
-    int dotProduct(SparseVector& vec) {
+    // TC ~ O ( n + m ) for vector<pair<int, int>>
+    int dotProduct(SparseVector1& vec) {
         int i = 0, j = 0, dotProduct = 0;
-        long long result = 0; // Use long long for safety
-
+    
         while(i < nonZeroVector.size() && j < vec.nonZeroVector.size()) {
             if(nonZeroVector[i].first == vec.nonZeroVector[j].first) {
                 dotProduct += nonZeroVector[i].second * vec.nonZeroVector[j].second;
@@ -29,6 +32,31 @@ public:
         }
 
         return dotProduct;
+    }
+};
+
+class SparseVector {
+
+public: 
+    unordered_map<int, int> nonZeroMap;
+
+    SparseVector(vector<int>& nums) {
+        for(int i = 0; i < nums.size(); i++) {
+            if(nums[i] != 0) {
+                nonZeroMap[i] = nums[i];
+            }
+        }
+    }
+
+    int dotProduct(SparseVector& vec) {
+        int result = 0;
+        for(auto [key, value] : nonZeroMap) {
+            if(vec.nonZeroMap.count(key) > 0) {
+                result += nonZeroMap[key] * vec.nonZeroMap[key];
+            }
+        }
+
+        return result;
     }
 };
 
