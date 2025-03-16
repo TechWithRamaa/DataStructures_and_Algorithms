@@ -1,18 +1,9 @@
 class Solution {
 public:
-    bool canRob(vector<int>& nums, int k, int capability) {
-        int count = 0;
-        for (int i = 0; i < nums.size(); i++) {
-            if (nums[i] <= capability) {
-                count++;
-                i++; // Skip next house to ensure non-adjacency
-            }
-            if (count >= k)
-                return true;
-        }
-        return false;
-    }
-
+    // It is a brilliant trick or pattern to watch out for in the problem
+    // statement Minimize the Maximum or Maximize the minimum It means search on
+    // the answer Binary Search on the Answer space
+    // TC ~ O ( log n )
     int minCapability(vector<int>& nums, int k) {
         int low = *min_element(nums.begin(), nums.end());
         int high = *max_element(nums.begin(), nums.end());
@@ -28,5 +19,19 @@ public:
         }
 
         return low;
+    }
+
+private:
+    bool canRob(vector<int>& nums, int k, int capability) {
+        int count = 0;
+        for (int i = 0; i < nums.size(); i++) {
+            if (nums[i] <= capability) {
+                count++;
+                i++; // Skip next house to ensure non-adjacency
+            }
+            if (count >= k)
+                return true;
+        }
+        return false;
     }
 };
