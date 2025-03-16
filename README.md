@@ -234,6 +234,7 @@
 | [0733-flood-fill](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0792-binary-search) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0907-koko-eating-bananas) |
@@ -301,6 +302,7 @@
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
 | [0792-binary-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0792-binary-search) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0907-koko-eating-bananas](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1046-max-consecutive-ones-iii) |
