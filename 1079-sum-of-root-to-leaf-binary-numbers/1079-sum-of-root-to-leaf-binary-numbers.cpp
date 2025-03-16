@@ -22,7 +22,8 @@ private:
             return 0;
         }
 
-        currentVal = currentVal * 2 + root->val;
+        //currentVal = currentVal * 2 + root->val;
+        currentVal = (currentVal << 1) | root->val;
 
         // if it is a leaf 
         // terminating condition
