@@ -215,6 +215,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0454-4sum-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0454-4sum-ii) |
+| [0485-max-consecutive-ones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0485-max-consecutive-ones) |
 | [0518-coin-change-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0525-contiguous-array) |
 | [0542-01-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0542-01-matrix) |
