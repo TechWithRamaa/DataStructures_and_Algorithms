@@ -22,7 +22,10 @@ private:
             return 0;
         }
 
-        //currentVal = currentVal * 2 + root->val;
+        // Decimal calcuation by converting binary value into decimal value
+        // currentVal = currentVal * 2 + root->val;
+
+        // Binary Calculation using Bitwise operators
         currentVal = (currentVal << 1) | root->val;
 
         // if it is a leaf 
