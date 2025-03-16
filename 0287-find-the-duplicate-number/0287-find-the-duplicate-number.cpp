@@ -3,7 +3,7 @@ public:
     // Approach 4
     // Cycle Detection (Floyd's Tortoise & Hare) - Very important
     // TC ~ O ( n )
-    int findDuplicate(vector<int>& nums) {
+    int findDuplicate4(vector<int>& nums) {
         int slow = nums[0], fast = nums[0];
 
         do {
@@ -23,18 +23,12 @@ public:
     // Approach 3
     // Binary Search on the Value Space - Very important
     // TC ~ O ( n log n )
-    int findDuplicate3(vector<int>& nums) {
+    int findDuplicate(vector<int>& nums) {
         int left = 1, right = nums.size() - 1;
 
         while (left < right) {
             int mid = left + (right - left) / 2;
-            int count = 0;
-
-            for (int num : nums) {
-                if (num <= mid) {
-                    count++;
-                }
-            }
+            int count = getCount(nums, mid);
 
             if (count > mid) {
                 right = mid;
@@ -45,6 +39,18 @@ public:
 
         return left;
     }
+
+    int getCount(vector<int>& nums, int mid) {
+        int count = 0;
+        for(int num : nums) {
+            if(num <= mid) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+
 
     // Approach 2
     // Set
