@@ -1,5 +1,14 @@
 class Solution {
 public:
+    // Although BruteForce exists & it takes TC ~ O ( n ^ 2)
+    // We go with a Greedy Approach in 1 pass
+    
+    // Traverse from right to left 
+    // Add the indices to result if no taller building exists to its right
+    // keep updating the taller building in each iteration
+    // finally return the reversed list as per the expectations of the problem
+
+    // TC ~ O ( n + n [reverse] ) ; SC ~ O ( 1 )
     vector<int> findBuildings(vector<int>& heights) {
         int N = heights.size();
         vector<int> result;
