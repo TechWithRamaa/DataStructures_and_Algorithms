@@ -45,7 +45,7 @@ public:
             for(int i = 1; i < account.size(); i++) {
                 emailToAccount[account[i]] = name;
                 
-                if(i == 1) 
+                if(i == 1) // avoiding self loop
                     continue;
                 
                 graph[account[1]].push_back(account[i]);
