@@ -18,14 +18,16 @@ public:
     }
 
     // Approach 2
-    // TC ~ O ( 2 * n ) ; SC ~ O ( 1 )
+    // TC ~ O ( n ) ; SC ~ O ( 1 )
     bool divideArray(vector<int>& nums) {
         vector<int> freqVector(501, 0);
 
+        // n 
         for (int num : nums) {
             freqVector[num]++;
         }
 
+        // 501 times means constant TC
         for (int freq : freqVector) {
             if (freq % 2 != 0)
                 return false;
