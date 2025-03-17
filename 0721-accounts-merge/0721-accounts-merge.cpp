@@ -25,6 +25,15 @@ public:
 
 class Solution {
 public:
+    // 1 => Graph Construction with AdjacencyList along with mapping of email with their account owner
+    // 2 => DFS for component exploration on the email for every distinct exploration
+    // 3 => Sorting as expected in the result
+
+    // 1 => TC ~ O ( m )
+    // 2 => TC ~ O ( m )
+    // 3 => TC ~ O ( m log m )
+    // final => TC ~ O ( m + m + m log m ) => O ( m log m )
+    // final => TC ~ O ( m + m + m ... ) => O ( m )
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
         unordered_map<string, vector<string>> graph;
         unordered_map<string, string> emailToAccount;
