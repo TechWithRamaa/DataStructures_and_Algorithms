@@ -26,6 +26,58 @@ public:
 class Solution {
 public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
+        unordered_map<string, vector<string>> graph;
+        unordered_map<string, string> emailToAccount;
+
+        // graph & emailToAccount is constructed
+        for(const auto& account : accounts) {
+            string name = account[0];
+
+            for(int i = 1; i < account.size(); i++) {
+                emailToAccount[account[i]] = name;
+                
+                if(i == 1) 
+                    continue;
+                
+                graph[account[1]].push_back(account[i]);
+                graph[account[i]].push_back(account[1]);
+            }
+        }
+
+        vector<vector<string>> result;
+
+        unordered_set<string> visitedSet;
+        for(auto [email, account] : emailToAccount) {
+            if(!visitedSet.count(email)) {
+                
+                vector<string> component;
+                dfs(email, component, visitedSet, graph);
+
+                sort(component.begin(), component.end());
+
+                component.insert(component.begin(), account);
+                result.push_back(component);
+            }
+        }
+
+        return result;
+    }
+
+    private: 
+        void dfs(string email, vector<string>& component, 
+                    unordered_set<string>& visited, unordered_map<string, vector<string>>& graph) {
+            visited.insert(email);
+            component.push_back(email);
+
+            for(auto& neighbor : graph[email]) {
+                if(!visited.count(neighbor)) {
+                    dfs(neighbor, component, visited, graph);
+                }
+            }
+
+        }
+
+    vector<vector<string>> accountsMerge1(vector<vector<string>>& accounts) {
         unordered_map<string, int> emailToIndex;
         unordered_map<string, string> emailToName;
         int n = accounts.size();
