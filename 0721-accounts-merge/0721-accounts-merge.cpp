@@ -39,24 +39,24 @@ public:
         unordered_map<string, string> emailToAccount;
 
         // graph & emailToAccount is constructed
-        for(const auto& account : accounts) {
-            string name = account[0];
+        for(const auto& accountDetails : accounts) {
+            string name = accountDetails[0];
 
-            for(int i = 1; i < account.size(); i++) {
-                emailToAccount[account[i]] = name;
+            for(int i = 1; i < accountDetails.size(); i++) {
+                emailToAccount[accountDetails[i]] = name;
                 
                 if(i == 1) // avoiding self loop
                     continue;
                 
-                graph[account[1]].push_back(account[i]);
-                graph[account[i]].push_back(account[1]);
+                graph[accountDetails[1]].push_back(accountDetails[i]);
+                graph[accountDetails[i]].push_back(accountDetails[1]);
             }
         }
 
         vector<vector<string>> result;
 
         unordered_set<string> visitedSet;
-        for(auto [email, account] : emailToAccount) {
+        for(auto [email, accountName] : emailToAccount) {
             if(!visitedSet.count(email)) {
                 
                 vector<string> component;
@@ -64,7 +64,7 @@ public:
 
                 sort(component.begin(), component.end());
 
-                component.insert(component.begin(), account);
+                component.insert(component.begin(), accountName);
                 result.push_back(component);
             }
         }
