@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // Dynamic Sliding Window
+    // TC ~ O ( n ) ; SC ~ O ( 1 )
     int longestNiceSubarray(vector<int>& nums) {
         int longestSubarray = 0;
         int left = 0, cumulativeSetBits = 0;
