@@ -1,3 +1,4 @@
+// Traditional Implementation of DSU
 class UnionDisjointSet {
 private:
     vector<int> parent, rank;
@@ -11,21 +12,21 @@ public:
             parent[i] = i;
     }
 
-    int getParent(int x) {
+    int getRoot(int x) {
         if(parent[x] != x) 
-            parent[x] = getParent(parent[x]);
+            parent[x] = getRoot(parent[x]);
         
         return parent[x];
     }
 
     void unionOfXAndY(int x, int y) {
-        int rootX = parent[x];
-        int rootY = parent[y];
+        int rootX = getRoot(x);
+        int rootY = getRoot(y);
 
         if(rootX != rootY) {
             if(rank[rootX] > rank[rootY]) {
                 parent[rootY] = rootX;
-            } else if (rootX < rank[rootY]) {
+            } else if (rank[rootX] < rank[rootY]) {
                 parent[rootX] = rootY;
             } else {
                 parent[rootX] = rootY;
@@ -36,6 +37,46 @@ public:
 
 };
 
+// My go-to approach
+class Solution {
+public:
+    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
+        unordered_map<string, int> emailToAccountIndexMap;
+        UnionDisjointSet disjointSet(accounts.size());
+
+        for(int i = 0; i < accounts.size(); i++) {
+            string accountName = accounts[i][0];
+
+            for(int j = 1; j < accounts[i].size(); j++) {
+                string email = accounts[i][j];
+                if(emailToAccountIndexMap.find(email) == emailToAccountIndexMap.end()) {
+                    emailToAccountIndexMap[email] = i;
+                } else {
+                    // merging of 2 accounts having atleast 1 common email 
+                    disjointSet.unionOfXAndY(emailToAccountIndexMap[email], i); 
+                }
+            }
+        }
+
+        unordered_map<int, vector<string>> groupingEmailByRootParent;
+        for(auto [email, accountIndex] : emailToAccountIndexMap) {
+            int rootParent = disjointSet.getRoot(accountIndex);
+            groupingEmailByRootParent[rootParent].push_back(email);
+        }
+
+        vector<vector<string>> result;
+        for(auto [rootParent, emails] : groupingEmailByRootParent) {
+            sort(emails.begin(), emails.end());
+            emails.insert(emails.begin(), accounts[rootParent][0]);
+            result.push_back(emails);
+        }
+
+        return result;
+    }
+        
+};
+
+// Contextual Implementation of DSU according to the problem's nature
 class DSU {
 public:
     DSU() {}
@@ -61,13 +102,12 @@ private:
     unordered_map<string, string> parent;
 };
 
-class Solution {
+class Solution3 {
 public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
         DSU dsu;
         unordered_map<string, string> emailToName;
-        unordered_map<string, unordered_set<string>> unions;
-
+      
         // Step 1: Union emails and map each email to the corresponding name
         for (const auto& account : accounts) {
             const string& name = account[0];
@@ -78,6 +118,7 @@ public:
         }
 
         // Step 2: Group emails by their root parent
+        unordered_map<string, unordered_set<string>> unions;
         for (const auto& [email, _] : emailToName) {
             unions[dsu.find(email)].insert(email);
         }
@@ -95,11 +136,13 @@ public:
     }
 };
 
+// Graph Construction + DFS approach
 class Solution1 {
 public:
     // 1 => Graph Construction with AdjacencyList along with mapping of email
-    // with their account owner 2 => DFS for component exploration on the email
-    // for every distinct exploration 3 => Sorting as expected in the result
+    // with their account owner
+    // 2 => DFS for component exploration on the email for every distinct exploration
+    // 3 => Sorting as expected in the result
 
     // 1 => TC ~ O ( m )
     // 2 => TC ~ O ( m )
