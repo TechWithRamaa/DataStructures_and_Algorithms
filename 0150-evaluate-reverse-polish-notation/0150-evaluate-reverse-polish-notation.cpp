@@ -25,11 +25,13 @@ public:
 
                 s.push(result);
             } else {
-               
                 s.push(stoi(token));
             }
         }
         
-        return s.top();
+        int result = s.top();
+        s.pop();
+
+        return result;
     }
 };
