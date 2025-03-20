@@ -44,12 +44,13 @@ public:
     vector<int> minimumCost(int n, vector<vector<int>>& edges, vector<vector<int>>& query) {
         DisjointUnionSet dsu(n);
 
-        // Group the adjacent edges into the same root
+        // Group the ADJACENT edges into the same root
         for(auto edge: edges) {
             int u = edge[0], v = edge[1], w = edge[2];
             dsu.unionOfXAndY(u, v);
         }
 
+        // IDENTIFY THE MINIMUM COST IN A COMPONENT
         unordered_map<int, int> rootComponentToCost;
         for(auto edge : edges) {
             int u = edge[0], v = edge[1], w = edge[2];
