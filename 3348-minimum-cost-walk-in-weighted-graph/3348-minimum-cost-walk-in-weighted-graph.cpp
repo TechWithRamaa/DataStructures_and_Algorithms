@@ -41,6 +41,11 @@ public:
 
 class Solution {
 public:
+    // CRUX - BITWISE AND OEPERATOR & DSU
+    // KEYWORD - WALK, BITWISE AND OF ALL WEIGHTS IN A WALK (NOT PATH)
+    // ✅ Since AND values can only decrease or stay the same, 
+    // there's no need to explore paths individually — 
+    // your component-wise tracking achieves the same result efficiently.
     vector<int> minimumCost(int n, vector<vector<int>>& edges, vector<vector<int>>& query) {
         DisjointUnionSet dsu(n);
 
