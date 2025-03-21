@@ -271,6 +271,7 @@
 | [1909-buildings-with-an-ocean-view](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2478-longest-nice-subarray) |
@@ -549,6 +550,7 @@
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1668-find-longest-awesome-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1668-find-longest-awesome-substring) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2308-divide-array-into-equal-pairs) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
@@ -679,6 +681,7 @@
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1668-find-longest-awesome-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1668-find-longest-awesome-substring) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2999-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2999-check-if-strings-can-be-made-equal-with-operations-i) |
@@ -944,6 +947,7 @@
 | [0863-sum-of-distances-in-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0863-sum-of-distances-in-tree) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Binary Search Tree
 |  |
@@ -995,6 +999,7 @@
 | ------- |
 | [0207-course-schedule](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0210-course-schedule-ii) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Shortest Path
 |  |
 | ------- |
