@@ -3,10 +3,10 @@ public:
     // Approach 1 
     // Kahns algorithm - Topological sorting
     // Dependency Graph -> A must be completed before B
-    
+
     // graph has to be constructed using Dependency Graph Construction
     // inDegree vector has to be constructed -> no of prerequisites for a given node
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+    bool canFinish2(int numCourses, vector<vector<int>>& prerequisites) {
         vector<int> inDegree(numCourses, 0);
         vector<vector<int>> graph(numCourses);
 
@@ -41,4 +41,44 @@ public:
 
         return coursesTaken == numCourses;
     }
+
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        vector<vector<int>> graph(numCourses);
+
+        for(auto& pre: prerequisites) {
+            int a = pre[0], b = pre[1];
+            graph[b].push_back(a);
+        }
+
+        vector<int> visited(numCourses, 0);
+        for(int i = 0; i < numCourses; i++) {
+            if(visited[i] == 0) {
+                if(hasCycle(graph, visited, i) == true)
+                    return false;
+            }
+        }
+
+        return true;
+    }
+
+private:
+
+    bool hasCycle(vector<vector<int>>& graph, vector<int>& visited, int node) {
+        if(visited[node] == 1) 
+            return true;
+
+        if(visited[node] == 2) 
+            return false;
+
+        visited[node] = 1;
+        for(auto neighbor : graph[node]) {
+            if(hasCycle(graph, visited, neighbor) == true) {
+                return true;
+            }
+        }
+
+        visited[node] = 2;
+        return false;
+    }
+
 };
