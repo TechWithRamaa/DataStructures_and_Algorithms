@@ -3,23 +3,20 @@ public:
     vector<string> findAllRecipes(vector<string>& recipes,
                                   vector<vector<string>>& ingredients,
                                   vector<string>& supplies) {
-        unordered_map<string, vector<string>> graph; // Adjacency list
-        unordered_map<string, int> inDegree; // Tracks missing ingredients
-        unordered_set<string> available(
-            supplies.begin(),
-            supplies.end()); // Fast lookup for available ingredients
+        unordered_map<string, vector<string>> graph; 
+        unordered_map<string, int> inDegree;
+        unordered_set<string> available(supplies.begin(), supplies.end());
 
-        queue<string> q;       // Queue for BFS
-        vector<string> result; // Stores the final recipes we can make
+        queue<string> q;
+        vector<string> result;
 
         // Step 1: Build the Graph & Compute inDegree
         for (int i = 0; i < recipes.size(); i++) {
             string recipe = recipes[i];
-            inDegree[recipe] = 0; // Initialize recipe inDegree
+            inDegree[recipe] = 0;
 
             for (string& ingredient : ingredients[i]) {
-                if (available.count(ingredient) ==
-                    0) { // Only track missing dependencies
+                if (available.count(ingredient) == 0) { 
                     graph[ingredient].push_back(recipe);
                     inDegree[recipe]++;
                 }
@@ -38,7 +35,7 @@ public:
             q.pop();
 
             // Make the current recipe available for other recipes
-            available.insert(curr);
+            //available.insert(curr);
 
             // Process dependent recipes
             for (string& nextRecipe : graph[curr]) {
