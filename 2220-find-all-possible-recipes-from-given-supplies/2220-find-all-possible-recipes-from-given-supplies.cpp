@@ -25,7 +25,7 @@ public:
             // If recipe has no missing dependencies, it can be made immediately
             if (inDegree[recipe] == 0) {
                 q.push(recipe);
-                result.push_back(recipe);
+                //result.push_back(recipe);
             }
         }
 
@@ -34,16 +34,13 @@ public:
             string curr = q.front();
             q.pop();
 
-            // Make the current recipe available for other recipes
-            //available.insert(curr);
+            result.push_back(curr);
 
-            // Process dependent recipes
             for (string& nextRecipe : graph[curr]) {
                 inDegree[nextRecipe]--;
 
-                if (inDegree[nextRecipe] == 0) { // Can now be made
+                if (inDegree[nextRecipe] == 0) { 
                     q.push(nextRecipe);
-                    result.push_back(nextRecipe);
                 }
             }
         }
