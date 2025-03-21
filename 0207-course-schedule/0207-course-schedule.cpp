@@ -1,5 +1,11 @@
 class Solution {
 public:
+    // Approach 1 
+    // Kahns algorithm - Topological sorting
+    // Dependency Graph -> A must be completed before B
+    
+    // graph has to be constructed using Dependency Graph Construction
+    // inDegree vector has to be constructed -> no of prerequisites for a given node
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         vector<int> inDegree(numCourses, 0);
         vector<vector<int>> graph(numCourses);
