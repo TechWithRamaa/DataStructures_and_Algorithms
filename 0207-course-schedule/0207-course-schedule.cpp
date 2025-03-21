@@ -42,6 +42,12 @@ public:
         return coursesTaken == numCourses;
     }
 
+    // Approach 2 
+    // DFS - Cycle detection
+    // CRUX of this cycle detection 
+    //0 (Unvisited)	- The node hasn't been visited yet - We can EXPLORE
+    //1 (Visiting)	- The node is currently in the recursion stack (processing)
+    //2 (Safe/Visited) - The node and all its dependencies have been processed, and it's in a safe path
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> graph(numCourses);
 
