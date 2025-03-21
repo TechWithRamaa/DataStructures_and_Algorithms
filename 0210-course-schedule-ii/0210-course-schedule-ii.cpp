@@ -2,20 +2,21 @@ class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         vector<int> inDegree(numCourses, 0);
-        vector<vector<int>> adjList(numCourses);
+        vector<vector<int>> graph(numCourses);
         vector<int> courseOrder;
 
         // Build adjacency list and compute in-degrees
         for (const auto& prereq : prerequisites) {
-           adjList[prereq[1]].push_back(prereq[0]);
-           inDegree[prereq[0]]++;
+            int a = prereq[0], b = prereq[1];
+            graph[b].push_back(a);
+            inDegree[a]++;
         }
 
         // Initialize a queue with all courses having in-degree 0
         queue<int> q;
         for (int i = 0; i < numCourses; i++) {
-          if(inDegree[i] == 0) 
-            q.push(i);
+            if (inDegree[i] == 0)
+                q.push(i);
         }
 
         // Process courses in topological order
@@ -24,12 +25,12 @@ public:
             q.pop();
 
             courseOrder.push_back(currentCourse);
-            
-            for(auto& next: adjList[currentCourse]) {
+
+            for (auto& next : graph[currentCourse]) {
                 inDegree[next]--;
-                if(inDegree[next] == 0) 
+                if (inDegree[next] == 0)
                     q.push(next);
-            }          
+            }
         }
 
         // Check if topological sorting is valid (covers all courses)
