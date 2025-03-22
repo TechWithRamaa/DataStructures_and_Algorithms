@@ -31,9 +31,50 @@ public:
 
     // Approach 2
     // in few lines
-    int maximumCount(vector<int>& nums) {
+    int maximumCount3(vector<int>& nums) {
         int negCount = lower_bound(nums.begin(), nums.end(), 0) - nums.begin();
         int posCount = nums.end() - upper_bound(nums.begin(), nums.end(), 0);
         return max(negCount, posCount);
+    }
+
+    // Approach 3
+    // Using our own binary search 
+    // for finding first zero index 
+    // and for finding first postive index
+    int maximumCount(vector<int>& nums) {
+        int negCount = findFirstZero(nums) - 0;
+        int posCount = nums.size() - findFirstPositive(nums);
+
+        return max(negCount, posCount);
+    }
+
+private:
+    int findFirstZero(vector<int>& nums) {
+        int left = 0, right = nums.size();
+        while(left < right) {
+            int mid = left + ((right - left) / 2);
+
+            if(nums[mid] >= 0) {
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
+        }
+
+        return left;
+    }
+
+    int findFirstPositive(vector<int>& nums) {
+        int left = 0, right = nums.size();
+        while(left < right) {
+            int mid = left + (right - left) / 2;
+
+            if(nums[mid] <= 0) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }           
+        }
+         return left;
     }
 };
