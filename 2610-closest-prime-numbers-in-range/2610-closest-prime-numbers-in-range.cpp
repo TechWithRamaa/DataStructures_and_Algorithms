@@ -3,7 +3,7 @@ public:
     vector<int> closestPrimes(int left, int right) {
         // Step 1: Use the Sieve of Eratosthenes to mark prime numbers
         int limit = right;
-        vector<bool> isPrime(limit + 1, true);
+        vector<bool> isPrime(limit + 1, true); // by default, everything is marked true
         isPrime[0] = isPrime[1] = false;
 
         // upper limit, when left, right is [2, 30]
@@ -11,7 +11,7 @@ public:
         for (int i = 2; i * i <= limit; i++) {
             if (isPrime[i]) {
                 for (int j = i * i; j <= limit; j += i) {
-                    isPrime[j] = false;
+                    isPrime[j] = false; // WE RUN THE ALGORITHM TO ELIMINATE THE NON-prime
                 }
             }
         }
