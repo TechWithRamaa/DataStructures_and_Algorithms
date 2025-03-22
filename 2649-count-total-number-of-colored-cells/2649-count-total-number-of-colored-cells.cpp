@@ -37,8 +37,8 @@ public:
 
     // that s why we have used set because we are lazy
     // set underneath uses Red Black AVL tree
-    // so log (n) for lookup and insertion
-
+    // so ~ O(1) for lookup and insertion
+    // dont use this, TLE because of iefficient hash
     long long coloredCells3(int n) {
     auto hashLambda = [] (const pair<int, int>& p) {  // Add `&` to avoid unnecessary copies
         return hash<int>()(p.first) ^ (hash<int>()(p.second) << 1);
