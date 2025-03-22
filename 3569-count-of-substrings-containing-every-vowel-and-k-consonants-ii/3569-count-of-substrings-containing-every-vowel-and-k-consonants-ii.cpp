@@ -1,5 +1,5 @@
 class Solution {
-public:
+private:
     bool isVowel(char c) {
         return (c == 'a' or c == 'e' or c == 'i' or c == 'o' or c == 'u');
     }
