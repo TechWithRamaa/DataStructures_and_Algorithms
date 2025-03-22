@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // Fixed Sliding Window of k is expected to be maintained with the 
+    // alternating group property
     int numberOfAlternatingGroups(vector<int>& colors, int k) {
         int N = colors.size();
         int count = 0;
@@ -16,7 +18,7 @@ public:
 
         // Step 2: Sliding window
         for (int i = 1; i < N; i++) {
-            int prevOut = (i - 1) + N % N;   // Element going out
+            int prevOut = ((i - 1) + N) % N;   // Element going out
             int newIn = (i + k - 1) % N; // Element coming in
 
             // Remove the effect of the outgoing element
