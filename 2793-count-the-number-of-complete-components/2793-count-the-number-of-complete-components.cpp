@@ -1,5 +1,11 @@
 class Solution {
 public:
+    // Typical DFS
+    // TC ~ O ( V + E )
+    // CRUX
+    // how do you count the noOfNodes in a connected component 
+    // how do you count the noOfEdges in a connected component
+    
     int countCompleteComponents(int n, vector<vector<int>>& edges) {
         int noOfCompleteComponents = 0;
 
