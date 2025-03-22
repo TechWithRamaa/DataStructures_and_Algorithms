@@ -8,6 +8,7 @@ public:
     to black requires the fewest changes.
     */
 
+    // Fixed Sliding Window
     int minimumRecolors(string blocks, int k) {
         int whiteCount = 0;
         int minimumWhiteInAWindow = 0;
