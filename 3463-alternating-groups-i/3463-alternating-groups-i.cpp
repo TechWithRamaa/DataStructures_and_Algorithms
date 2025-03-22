@@ -7,6 +7,8 @@ public:
         int N = colors.size();
 
         for(int current = 0; current < N; current++) {
+            // for dealing with negative indices
+            // adding + N before taking Mod N ensures it naturally adjusts the indices
             int previous = ( current - 1 + N ) % N;
             int next = ( current + 1 ) % N;
 
