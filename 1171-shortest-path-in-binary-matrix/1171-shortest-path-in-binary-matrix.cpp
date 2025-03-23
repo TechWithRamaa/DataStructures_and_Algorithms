@@ -17,10 +17,12 @@ public:
         while(!iNodesQueue.empty()) {
             int size = iNodesQueue.size();
 
+            // Level Size BFS
             for(int i = 0; i < size; i++) {
                 auto [r, c] = iNodesQueue.front();
                 iNodesQueue.pop();
 
+                // Destination
                 if(r == ROWS - 1 && c == COLS - 1) return steps;
 
                 for(auto [newRow, newCol] : adjacentCells) {
@@ -35,6 +37,8 @@ public:
                     }
                 }
             }
+
+            // step is incremented after 1 entire level is completed
             steps += 1;
         } 
 
