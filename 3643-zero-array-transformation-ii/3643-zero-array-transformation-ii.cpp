@@ -76,8 +76,9 @@ private:
         vector<long long> temp(nums.begin(), nums.end());
         for (int i = 0; i < n; i++) {
             if (i > 0)
-                diff[i] += diff[i - 1]; // Reconstruct prefix sum
-            temp[i] += diff[i];
+                diff[i] += diff[i - 1]; // Reconstruct prefix sum for the difference array
+
+            temp[i] += diff[i]; // apply the final difference on the input nums array
 
             // If any element is still greater than zero, transformation failed
             if (temp[i] > 0)
