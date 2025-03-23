@@ -228,6 +228,7 @@
 | [0487-max-consecutive-ones-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0487-max-consecutive-ones-ii) |
 | [0518-coin-change-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0525-contiguous-array) |
+| [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
@@ -349,6 +350,7 @@
 | [0322-coin-change](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0322-coin-change) |
 | [0339-nested-list-weight-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0339-nested-list-weight-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
+| [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0684-redundant-connection) |
@@ -407,6 +409,7 @@
 | [0286-walls-and-gates](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0286-walls-and-gates) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
+| [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1036-rotting-oranges) |
@@ -463,6 +466,7 @@
 | [0337-house-robber-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0337-house-robber-iii) |
 | [0339-nested-list-weight-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0339-nested-list-weight-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
+| [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0543-diameter-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0684-redundant-connection) |
