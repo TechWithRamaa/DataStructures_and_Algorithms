@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Approach - MultiSource BFS
     int orangesRotting(vector<vector<int>>& grid) {
         const int ROWS = grid.size();
         const int COLS = grid[0].size();
@@ -26,6 +27,7 @@ public:
             int numberOfRottenOrangesAtCurrentLevel = rottenQueue.size();
             bool rottedAnyOrange = false;
 
+            // Level Size wise BFS
             for(int i = 0; i < numberOfRottenOrangesAtCurrentLevel; i++) {
                 auto [rottenRow, rottenColumn] = rottenQueue.front();
                 rottenQueue.pop();
@@ -43,6 +45,8 @@ public:
                 }
             }
             
+            // Incrementing time only after completing 1 level fully
+            // and only if rottedAnyOrange was set to true
             if (rottedAnyOrange) minMinutesTaken += 1;
         }
 
