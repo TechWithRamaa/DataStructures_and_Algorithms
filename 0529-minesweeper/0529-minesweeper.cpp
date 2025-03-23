@@ -1,3 +1,59 @@
+/* 
+
+*******************************************************
+Problem becomes simpler onces we understand this logic
+*******************************************************
+
+Start at the Click Position:
+
+Begin processing from the cell given by the click.
+
+Check for a Mine:
+
+    If the cell is a mine ('M'):
+
+    Change it to 'X' to indicate a mine was revealed (game over).
+
+    Return the board immediately.
+
+Explore the Grid (if not a mine):
+
+    If the cell is not a mine ('E'):
+
+    You'll start exploring adjacent cells.
+
+    Count Adjacent Mines:
+
+    For the current cell, check all 8 directions (up, down, left, right, and the 4 diagonals).
+
+    Count how many of these adjacent cells contain a mine.
+
+    Update the Current Cell:
+
+    If the mine count > 0:
+
+        Change the current cell to the digit (as a character) corresponding to the count.
+
+        Stop further expansion from this cell.
+
+    If the mine count == 0:
+
+        Change the cell to 'B' (blank).
+
+        Recursively or iteratively (using DFS/BFS) reveal all adjacent unrevealed cells (those marked as 'E').
+
+        Continue Until No More Cells Can be Revealed:
+
+        Process all cells that can be expanded following the same rules.
+
+These are the critical steps expected from candidates when solving the Minesweeper problem. They reflect the need to:
+
+    Handle the base case (clicking on a mine).
+
+    Properly count adjacent mines.
+
+    Use recursion or an iterative approach to reveal the board correctly.
+*/
 class Solution {
 public:
     vector<vector<char>> updateBoard(vector<vector<char>>& board,
