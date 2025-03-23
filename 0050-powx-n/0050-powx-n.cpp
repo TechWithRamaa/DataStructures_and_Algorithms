@@ -1,5 +1,8 @@
 class Solution {
 public:
+    // Efficient approach 
+    // Fast Power (Exponentiation by Squaring)
+    // TC ~ O ( log n )
     double myPow(double x, int n) {
         // Handle edge case where n is INT_MIN to avoid overflow
         long long N = n;
