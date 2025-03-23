@@ -6,38 +6,41 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
- * right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        map<int, map<int, multiset<int>>> nodes;
+        map<int, map<int, multiset<int>>> nodeMap;
 
-        queue<pair<TreeNode*, pair<int, int>>> q;
-        q.push({root, {0, 0}});
+        queue<pair<TreeNode*, pair<int, int>>> que;
+        que.push({root, {0, 0}});
 
-        while (!q.empty()) {
-            auto [node, pos] = q.front();
-            q.pop();
+        while(!que.empty()) {
+            auto [node, position] = que.front();
+            que.pop();
 
-            int row = pos.first, col = pos.second;
-            nodes[col][row].insert(node->val);
+            int colIndex = position.first;
+            int rowIndex = position.second;
 
-            if (node->left) 
-                q.push({node->left, {row + 1, col - 1}});
-            if (node->right) 
-                q.push({node->right, {row + 1, col + 1}});
+            nodeMap[colIndex][rowIndex].insert(node->val);
+
+            if(node->left) 
+                que.push({node->left, {colIndex - 1, rowIndex + 1}});
+            
+            if(node->right)
+                que.push({node->right, {colIndex + 1, rowIndex + 1}});
         }
 
+
         vector<vector<int>> result;
-        for (auto& [col, rows] : nodes) {
-            vector<int> column;
-            for (auto& [row, values] : rows) 
-                column.insert(column.end(), values.begin(), values.end());
-            
-            result.push_back(column);
+        for(auto [columnIndex, rows] : nodeMap) {
+            vector<int> temporary;
+            for(auto [rowIndex, mset] : rows) {
+                temporary.insert(temporary.end(), mset.begin(), mset.end());
+            }
+            result.push_back(temporary);
         }
 
         return result;
