@@ -31,11 +31,31 @@ public:
         return -1; // No valid k found
     }
 
+    // Efficient Approach 
+    // Difference Array + Prefix Sum + Binary Search 
     int minZeroArray(vector<int>& nums, vector<vector<int>>& queries) {
         return minOperations(nums, queries);
     }
 
 private:
+
+    int minOperations(vector<int>& nums, vector<vector<int>>& queries) {
+        // Identify the range for Search Space
+        int left = 0, right = queries.size(), ans = -1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2; // Binary search midpoint
+            if (canTransform(nums, queries, mid)) {
+                ans = mid; // Possible answer, try reducing k further
+                right = mid - 1;
+            } else {
+                left = mid + 1; // Need more queries to zero the array
+            }
+        }
+
+        return ans;
+    }
+
     bool canTransform(vector<int>& nums, vector<vector<int>>& queries, int k) {
         int n = nums.size();
         vector<int> diff(n + 1, 0); // Difference array
@@ -65,21 +85,5 @@ private:
         }
 
         return true; // All elements successfully reduced to zero
-    }
-
-    int minOperations(vector<int>& nums, vector<vector<int>>& queries) {
-        int left = 0, right = queries.size(), ans = -1;
-
-        while (left <= right) {
-            int mid = left + (right - left) / 2; // Binary search midpoint
-            if (canTransform(nums, queries, mid)) {
-                ans = mid; // Possible answer, try reducing k further
-                right = mid - 1;
-            } else {
-                left = mid + 1; // Need more queries to zero the array
-            }
-        }
-
-        return ans;
     }
 };
