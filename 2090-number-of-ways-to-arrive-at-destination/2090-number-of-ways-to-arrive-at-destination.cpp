@@ -3,50 +3,44 @@ public:
     int countPaths(int n, vector<vector<int>>& roads) {
         const int MOD = 1e9 + 7;
 
-        // Step 1: Construct adjacency list
         vector<vector<pair<int, int>>> graph(n);
-        for (auto& road : roads) {
-            int u = road[0], v = road[1], time = road[2];
-            graph[u].push_back({v, time});
-            graph[v].push_back({u, time});
+        for(auto& road : roads) {
+            int u = road[0], v = road[1], t = road[2];
+            graph[u].emplace_back(v, t);
+            graph[v].emplace_back(u, t);
         }
 
-        // Step 2: Dijkstra's Algorithm to find shortest paths
-        vector<long long> dist(n, LLONG_MAX);
-        vector<int> ways(n, 0);
-        priority_queue<pair<long long, int>, vector<pair<long long, int>>,
-                       greater<>>
-            pq;
+        priority_queue<pair<long long, int>, vector<pair<long long, int>>, greater<>> minHeap;
+        vector<long long> minTime(n, LLONG_MAX);
+        vector<long long> ways(n, 0);
 
-        // Start from node 0
-        dist[0] = 0;
+        minTime[0] = 0;
         ways[0] = 1;
-        pq.push({0, 0}); // {distance, node}
+        minHeap.emplace(0, 0);
 
-        while (!pq.empty()) {
-            auto [curDist, node] = pq.top();
-            pq.pop();
+        while(!minHeap.empty()) {
+            auto [currTime, node] = minHeap.top();
+            minHeap.pop();
 
-            if (curDist > dist[node])
+            if(currTime > minTime[node])
                 continue;
+            
+             for (auto& [neighbor, travelTime] : graph[node]) {  
 
-            for (auto& [neighbor, travelTime] : graph[node]) {
-                long long newDist = curDist + travelTime;
+                long long newTime = currTime + travelTime;
 
-                // Found a shorter path to neighbor
-                if (newDist < dist[neighbor]) {
-                    dist[neighbor] = newDist;
-                    ways[neighbor] =
-                        ways[node]; // Reset ways to new shortest path
-                    pq.push({newDist, neighbor});
-                }
-                // Found another way to reach with the same shortest distance
-                else if (newDist == dist[neighbor]) {
+                if (newTime < minTime[neighbor]) {
+                    // Found a shorter path to `neighbor`
+                    minTime[neighbor] = newTime;
+                    ways[neighbor] = ways[node];  // Reset ways count
+                    minHeap.emplace(newTime, neighbor);
+                } 
+                else if (newTime == minTime[neighbor]) {
+                    // Found another shortest path to `neighbor`
                     ways[neighbor] = (ways[neighbor] + ways[node]) % MOD;
                 }
             }
         }
-
         return ways[n - 1];
     }
 };
