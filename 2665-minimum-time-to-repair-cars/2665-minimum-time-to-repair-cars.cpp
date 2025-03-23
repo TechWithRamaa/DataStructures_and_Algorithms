@@ -41,4 +41,11 @@ private:
         }
         return totalCarsRepaired >= cars;
     }
+    /* Why this intuition ?
+    Instead of directly computing the time using \U0001d45f × \U0001d45b x n,
+    we are working in reverse to determine how many cars a mechanic can repair within a given time. 
+    
+    This is needed because we are using binary search on time,
+    checking whether a given time is sufficient to repair all cars.
+    */
 };
