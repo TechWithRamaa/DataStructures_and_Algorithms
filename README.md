@@ -51,6 +51,7 @@
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Tree
 |  |
 | ------- |
@@ -956,6 +957,7 @@
 | [0863-sum-of-distances-in-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0863-sum-of-distances-in-tree) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2793-count-the-number-of-complete-components](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -1009,6 +1011,7 @@
 | ------- |
 | [0207-course-schedule](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0210-course-schedule-ii) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Shortest Path
 |  |
@@ -1016,6 +1019,7 @@
 | [0744-network-delay-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Bucket Sort
 |  |
 | ------- |
