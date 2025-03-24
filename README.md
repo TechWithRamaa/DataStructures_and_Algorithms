@@ -289,6 +289,7 @@
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3227-find-missing-and-repeated-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3227-find-missing-and-repeated-values) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3430-count-days-without-meetings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3430-count-days-without-meetings) |
 | [3463-alternating-groups-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3463-alternating-groups-i) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3483-alternating-groups-ii) |
@@ -791,6 +792,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [3430-count-days-without-meetings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3430-count-days-without-meetings) |
 ## Counting
 |  |
 | ------- |
