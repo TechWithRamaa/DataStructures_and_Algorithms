@@ -1,5 +1,11 @@
 class Solution {
+    // The most beautiful & interesting problem is here 
+    // Approach 1 -> Merging ( 2 pointer ) + finding Median
+    // Approach 2 -> Balanced Heaps 
+    // Approach 3 -> Binary Search (since here inputs are static, so we can fix the RANGE )
 public:
+    // Approach 3 -> TC ~ O (log min(m, n))
+    
     double findMedianSortedArrays(const vector<int>& nums1, const vector<int>& nums2) {
         return nums1.size() > nums2.size() ? findMedian(nums2, nums1) : findMedian(nums1, nums2);
     }
