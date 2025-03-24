@@ -35,7 +35,9 @@ public:
         return days - isMeetingScheduled.size();
     }
 
-    // Approach 3
+    // Approach 3 
+    // Sorting + Merging the overlapping meetings + counting the meetings
+    // TC ~ O ( n log n + n )
     int countDays(int days, vector<vector<int>>& meetings) {
         int meetingCount = 0;
 
