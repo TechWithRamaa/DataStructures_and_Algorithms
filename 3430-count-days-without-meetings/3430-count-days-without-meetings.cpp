@@ -37,6 +37,7 @@ public:
 
     // Approach 3 
     // Sorting + Merging the overlapping meetings + counting the meetings
+    // Memory Efficient
     // TC ~ O ( n log n + n )
     int countDays(int days, vector<vector<int>>& meetings) {
         int meetingCount = 0;
