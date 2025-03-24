@@ -1,4 +1,10 @@
 class Solution {
+    // Multiple approaches to solve this problem exists
+    // Very interesting application of Data Structures & Algorithms
+    
+    // Approach 1 ~ MultiSet
+    // Approach 2 ~ maxHeap
+    // Approach 3 ~ QuickSelect 
 public:
     // TC ~ O (n log k)
     // SC ~ O (k)
