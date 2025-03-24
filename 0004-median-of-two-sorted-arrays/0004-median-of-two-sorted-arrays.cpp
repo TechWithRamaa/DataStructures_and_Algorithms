@@ -1,13 +1,16 @@
 class Solution {
-    // The most beautiful & interesting problem is here 
+    // The most beautiful & interesting problem is here
     // Approach 1 -> Merging ( 2 pointer ) + finding Median
-    // Approach 2 -> Balanced Heaps 
-    // Approach 3 -> Binary Search (since here inputs are static, so we can fix the RANGE )
+    // Approach 2 -> Balanced Heaps
+    // Approach 3 -> Binary Search (since here inputs are static, so we can fix
+    // the RANGE )
 public:
     // Approach 3 -> TC ~ O (log min(m, n))
-    
-    double findMedianSortedArrays(const vector<int>& nums1, const vector<int>& nums2) {
-        return nums1.size() > nums2.size() ? findMedian(nums2, nums1) : findMedian(nums1, nums2);
+
+    double findMedianSortedArrays(const vector<int>& nums1,
+                                  const vector<int>& nums2) {
+        return nums1.size() > nums2.size() ? findMedian(nums2, nums1)
+                                           : findMedian(nums1, nums2);
     }
 
 private:
@@ -18,24 +21,29 @@ private:
         int low = 0, high = M;
 
         while (low <= high) {
-            int cut1 = low + (high - low) / 2;
-            int cut2 = (M + N + 1) / 2 - cut1;
+            int i = (low + high) / 2;    // Partition index for nums1
+            int j = (M + N + 1) / 2 - i; // Partition index for nums2
 
-            int left1 = (cut1 == 0) ? INT_MIN : nums1[cut1 - 1];
-            int right1 = (cut1 == M) ? INT_MAX : nums1[cut1];
+            // Edge cases: -∞ if out of bounds
+            int maxLeftX = (i == 0) ? INT_MIN : nums1[i - 1];
+            int minRightX = (i == M) ? INT_MAX : nums1[i];
+            int maxLeftY = (j == 0) ? INT_MIN : nums2[j - 1];
+            int minRightY = (j == N) ? INT_MAX : nums2[j];
 
-            int left2 = (cut2 == 0) ? INT_MIN : nums2[cut2 - 1];
-            int right2 = (cut2 == N) ? INT_MAX : nums2[cut2];
-
-            if (left1 <= right2 && left2 <= right1) { // validates if sorting order is ensured
-                if ((M + N) % 2 == 0)   
-                    return (double) ((max(left1, left2) + min(right1, right2)) / 2.0); // even no of elements in logical merged array
-                else
-                    return (double) (max(left1, left2)); // odd no of elements in logical merged array
-            } else if (left1 > right2)
-                high = cut1 - 1; // Consider left half by adjusting high
-            else
-                low = cut1 + 1; // Consider right half by adjusting low
+            if (maxLeftX <= minRightY && maxLeftY <= minRightX) {
+                // Found the correct partition
+                if ((M + N) % 2 == 0) {
+                    return (max(maxLeftX, maxLeftY) + min(minRightX, minRightY)) / 2.0;
+                } else {
+                    return max(maxLeftX, maxLeftY);
+                }
+            } else if (maxLeftX > minRightY) {
+                // Move `i` left
+                high = i - 1;
+            } else {
+                // Move `i` right
+                low = i + 1;
+            }
         }
         return 0;
     }
