@@ -225,6 +225,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0454-4sum-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0454-4sum-ii) |
+| [0480-sliding-window-median](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0480-sliding-window-median) |
 | [0485-max-consecutive-ones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0485-max-consecutive-ones) |
 | [0487-max-consecutive-ones-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0487-max-consecutive-ones-ii) |
 | [0518-coin-change-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0518-coin-change-ii) |
@@ -542,6 +543,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0454-4sum-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0454-4sum-ii) |
 | [0460-lfu-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0460-lfu-cache) |
+| [0480-sliding-window-median](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0480-sliding-window-median) |
 | [0525-contiguous-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
@@ -815,6 +817,7 @@
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0480-sliding-window-median](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0480-sliding-window-median) |
 | [0487-max-consecutive-ones-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0487-max-consecutive-ones-ii) |
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
@@ -867,6 +870,7 @@
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
+| [0480-sliding-window-median](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
