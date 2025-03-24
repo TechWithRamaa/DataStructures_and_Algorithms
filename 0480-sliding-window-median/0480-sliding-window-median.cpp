@@ -24,6 +24,10 @@ public:
     }
 
     // Approach 2
+    // Lazy Removal
+    // Finding Median in Running Data Streams using MaxHeap & minHeap
+    // TC ~ O ( n log n)
+    // SC ~ O ( k ) for heap and ~ O ( n - k ) for HashMap
     vector<double> medianSlidingWindow(vector<int>& nums, int k) {
 
         vector<double> medians;
