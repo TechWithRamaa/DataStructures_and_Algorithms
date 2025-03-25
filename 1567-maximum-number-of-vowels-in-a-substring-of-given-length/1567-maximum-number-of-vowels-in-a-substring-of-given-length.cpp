@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Fixed Sliding Window
     int maxVowels(string s, int k) {
         unordered_set vowelSet = {'a', 'e', 'i', 'o', 'u'};
         int maxCount = 0;
@@ -14,11 +15,13 @@ public:
         maxCount = vowelsCount;
 
         for(int end = k; end < s.length(); end++) {
+            // Outgoing element
             if(vowelSet.count(s[end - k])) {
                 vowelsCount--;
             }
 
-             if(vowelSet.count(s[end])) {
+            // Incoming eleement
+            if(vowelSet.count(s[end])) {
                 vowelsCount++;
             }
 
