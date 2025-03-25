@@ -256,6 +256,7 @@
 | [1036-rotting-oranges](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1036-rotting-oranges) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1046-max-consecutive-ones-iii) |
+| [1107-minimum-swaps-to-group-all-1s-together](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1127-last-stone-weight](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1127-last-stone-weight) |
 | [1130-last-stone-weight-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1130-last-stone-weight-ii) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1145-number-of-submatrices-that-sum-to-target) |
@@ -831,6 +832,7 @@
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1046-max-consecutive-ones-iii) |
+| [1107-minimum-swaps-to-group-all-1s-together](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1370-count-number-of-nice-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
