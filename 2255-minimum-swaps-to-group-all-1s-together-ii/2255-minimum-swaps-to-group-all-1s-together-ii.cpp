@@ -81,6 +81,8 @@ public:
 
         int minSwaps = countZeroes;
         int N = nums.size();
+        
+        // second window starts from 1
         for (int i = 1; i < N; i++) {
 
             int outIdx = (i - 1) % N;
