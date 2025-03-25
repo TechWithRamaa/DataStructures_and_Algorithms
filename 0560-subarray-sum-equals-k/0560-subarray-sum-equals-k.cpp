@@ -7,23 +7,26 @@ public:
     // prefix sum + hashmap
     // O ~ ( N ) - both TC & SC
     int subarraySum(const vector<int>& nums, const int k) {
-        unordered_map<int, int> prefixSumCount;
+       
         // map has this structure = <prefixSum, count>
+        unordered_map<int, int> prefixSumCount;
 
         // sub-array with sum as zero exists and has 1 such sub-array (empty-sub-array)
         prefixSumCount[0] = 1;
 
-        int count = 0;
-        int currentSum = 0;
+        int subArrayCount = 0;
+        int runningSum = 0;
 
         for(const auto& num: nums) {
-            currentSum += num;
-            if(prefixSumCount.find(currentSum - k) != prefixSumCount.end())
-                count += prefixSumCount[currentSum - k];
+            runningSum += num;
 
-            prefixSumCount[currentSum]++;
+            // if any subarray exists with target sum k, this will execute
+            if(prefixSumCount.find(runningSum - k) != prefixSumCount.end())
+                subArrayCount += prefixSumCount[runningSum - k];
+
+            prefixSumCount[runningSum]++;
         }
 
-        return count;
+        return subArrayCount;
     }
 };
