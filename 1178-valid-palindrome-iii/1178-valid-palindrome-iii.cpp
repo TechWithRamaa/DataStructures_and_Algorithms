@@ -1,5 +1,8 @@
 class Solution {
 public:
+    // The solution is extended from Longest Palindrome Subsequence problem
+    // LC - 516
+    // TC ~ O ( N * N )
     bool isValidPalindrome(string s, int k) {
         int lps = longestPalindromeSubsequence(s);
         return s.size() - lps <= k;
