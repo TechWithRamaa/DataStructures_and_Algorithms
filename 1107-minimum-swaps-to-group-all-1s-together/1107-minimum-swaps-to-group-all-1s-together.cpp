@@ -5,21 +5,15 @@ public:
     // that would give the minimum swaps required
     // Fixed Sliding Window
     int minSwaps(vector<int>& data) {
-        int countOnes = 0;
 
-        for(auto num : data) {
-            if(num == 1)    
-                countOnes++;
-        }
+        int countOnes = count(data.begin(), data.end(), 1);
 
-        int countZeroes = 0;
-        for(int i = 0; i < countOnes; i++) {
-            if(data[i] == 0) 
-                countZeroes++;
-        }
-
+        int countZeroes = count(data.begin(), data.begin() + countOnes, 0);
+        
         int minimumSwaps = countZeroes;
+
         for(int i = countOnes; i < data.size(); i++) {
+
             // outgoing element
             if(data[i - countOnes] == 0)
                 countZeroes--;
