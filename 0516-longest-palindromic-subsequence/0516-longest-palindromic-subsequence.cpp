@@ -1,5 +1,14 @@
 class Solution {
 public:
+    // Approach 1 -> Top Down -> Recursion + Memoization - Inefficient
+
+    // Approach 2 -> Bottom Up -> Filling DP array as if 
+    // we are expanding from the center of the palindrome 
+    // Dynamic Programming - Nested Loops - Tabulation
+    // TC ~ O ( N ^ 2)
+    // Very natural to fill the array if we think of core palindrome property
+    // of expanding the center and finding for each length wise and skipping 
+    // few characters if it dont match because we are fining palidromic sub-sequence
     int longestPalindromeSubseq(string s) {
         int N = s.length();
 
