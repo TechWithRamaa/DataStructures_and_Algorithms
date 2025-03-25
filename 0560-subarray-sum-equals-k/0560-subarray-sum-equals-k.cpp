@@ -1,11 +1,12 @@
 class Solution {
     // 4 or 5 approaches are available
     // BruteForce -> Approach 1 -> Nested loops -> TC ~ O ( n * n )
+    // BruteForce -> Approach 1 -> Recursion & Dynamic Programming -> TC ~ O ( exponential or n * n)
     // Optimized  -> Approach 2 -> Prefix Sum + HashMap ->TC ~ O ( n )
     // Optimized  -> Approach 3 -> Window Sliding -> TC ~ O ( n ) works only positives
     // Optimized for range queries -> Approach 4 -> Fenwick / Segment Tree -> O (N log N)
     // good for updates / queries
-    
+
 public:
     // very very high potential technique
     // works on negatives, zeroes, positives
