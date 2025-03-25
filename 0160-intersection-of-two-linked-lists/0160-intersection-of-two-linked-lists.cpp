@@ -8,6 +8,15 @@
  */
 class Solution {
 public:
+    /*
+        Both pointers traverse the same total length
+
+        If lists have different lengths, one pointer will catch up after switching to the other list.
+
+        This equalizes their distances.
+
+        TC ~ O ( m + n )
+    */
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         ListNode* l1 = headA;
         ListNode* l2 = headB;
