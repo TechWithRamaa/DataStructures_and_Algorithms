@@ -10,6 +10,17 @@
 
 class Solution {
 public:
+    // Approach 1 
+    // Recursive - Tap into the property of BST unlike the LCA, LCA III on Binary trees
+    // We dont have to traverse all the paths
+    // Efficient if we leverage the Binary Search property
+    // O ( log n ) for Balanced BST
+
+    // Approach 2
+    // Iterative - Tap into the property of BST unlike the LCA, LCA III on Binary trees
+    // We dont have to traverse all the paths
+    // Efficient if we leverage the Binary Search property
+    // O ( log n ) for Balanced BST
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         while (root) {
             if (p->val < root->val && q->val < root->val) 
