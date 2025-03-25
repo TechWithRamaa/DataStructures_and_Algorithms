@@ -533,6 +533,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
+| [0266-palindrome-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0268-missing-number) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
@@ -639,6 +640,7 @@
 | [0137-single-number-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0137-single-number-ii) |
 | [0190-reverse-bits](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0191-number-of-1-bits) |
+| [0266-palindrome-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0371-sum-of-two-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0371-sum-of-two-integers) |
@@ -679,6 +681,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0224-basic-calculator](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
+| [0266-palindrome-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0266-palindrome-permutation) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
