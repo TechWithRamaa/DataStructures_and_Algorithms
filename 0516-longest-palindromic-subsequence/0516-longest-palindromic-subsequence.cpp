@@ -9,6 +9,11 @@ public:
     // Very natural to fill the array if we think of core palindrome property
     // of expanding the center and finding for each length wise and skipping 
     // few characters if it dont match because we are fining palidromic sub-sequence
+
+    // Approach 3 -> Bottom Up -> 
+    // Dynamic Programming - Nested Loops - Space Optimization
+    // TC ~ O ( N ^ 2)
+    
     int longestPalindromeSubseq(string s) {
         int N = s.length();
 
