@@ -11,6 +11,11 @@ public:
 
 class Solution {
 public:
+    /*
+        Identical to 2 Linked lists intersection
+        2 pointers 
+        TC ~ O ( h )
+    */
     Node* lowestCommonAncestor(Node* p, Node* q) {
         Node* a = p;
         Node* b = q;
