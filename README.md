@@ -277,6 +277,7 @@
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2478-longest-nice-subarray) |
@@ -839,6 +840,7 @@
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2478-longest-nice-subarray) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
