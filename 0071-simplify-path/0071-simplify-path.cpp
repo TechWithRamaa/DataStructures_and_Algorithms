@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // Tokenization + Stack 
+    // ~ O ( n )
     string simplifyPath(string path) {
         stringstream ss(path);
         string token;
