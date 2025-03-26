@@ -6,6 +6,8 @@ public:
     // deque has handles like pop_front() and pop_back()
     // and also push_front() and push_back()
 
+    // KEY CRUX - Monotonic Decreasing Deque
+
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
         vector<int> result;
         deque<int> dq;
