@@ -1,5 +1,16 @@
 class Solution {
 public:
+    // Approach Name - Dijkstra-like Expansion or "Flood Fill with Priority Queue
+    // or otherwise - Increasing cost traversal
+    // very efficient than BruteForce
+
+    /* Final Complexity
+    Sorting Queries: \U0001d442(\U0001d444 log \U0001d444)
+    Grid Expansion (Dijkstra-like approach): \U0001d442((\U0001d440×\U0001d441) log(\U0001d440×\U0001d441))
+    Processing Queries: \U0001d442(\U0001d444)
+
+    Thus, the total time complexity is: \U0001d442(\U0001d444 log \U0001d444 + (\U0001d440×\U0001d441) log (\U0001d440×\U0001d441))
+    */
     vector<int> maxPoints(vector<vector<int>>& grid, vector<int>& queries) {
         int M = grid.size();
         int N = grid[0].size();
