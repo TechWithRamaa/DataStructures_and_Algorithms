@@ -1,5 +1,14 @@
 class Solution {
 public:
+    // Approach 1 -> Next Great Element
+    // Monotonic Stack -> Decreasing order ( Bottom to Top)
+    // Instead of doubling the array & identifying the nge
+    // We efficiently identify the nge for circular array using the below Approach
+    
+    // We start iterating from double the size 
+    // While accessing the elements, we use i % N 
+    
+    // These steps simply simulate the doubling technique, but efficiently 
     vector<int> nextGreaterElements(vector<int>& nums) {
         vector<int> nge(nums.size(), -1);
         stack<int> st;
