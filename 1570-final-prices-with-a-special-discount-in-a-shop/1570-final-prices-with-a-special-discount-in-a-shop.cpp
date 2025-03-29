@@ -1,5 +1,8 @@
 class Solution {
 public:
+    // Approach 1 - Identifying discount for each item in the price array
+    // Monotonic Stack - Increasing order (from bottom to top)
+    // TC ~ O ( N )
     vector<int> finalPrices(vector<int>& prices) {
         vector<int> finalPrices(prices.begin(), prices.end());
 
