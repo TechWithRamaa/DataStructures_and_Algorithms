@@ -1,5 +1,11 @@
 class Solution {
 public:
+    // Approach1 - BruteForce -> TC ~ O ( N * N )
+    // Approach2 - Monotonic Stack -> TC ~ O ( N )
+
+    // For NGE - we have to start from right to left
+    // Leverage Monotonic Stack
+    // For NGE - the order maintained is Decreasing order ( from down to top )
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
         unordered_map<int, int> nge2;
 
@@ -13,7 +19,7 @@ public:
             // step 2 -> assign nge 
             nge2[nums2[i]] = !st.empty() ? st.top() : -1;
 
-            // step 3 -> push the current element
+            // step 3 -> push the current element 
             st.push(nums2[i]);
         }
 
