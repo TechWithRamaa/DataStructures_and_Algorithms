@@ -6,11 +6,14 @@ public:
         stack<int> st;
 
         for (int i = nums2.size() - 1; i >= 0; i--) {
+            // step 1 -> pop smaller elements
             while (!st.empty() && st.top() <= nums2[i])
                 st.pop();
 
+            // step 2 -> assign nge 
             nge2[nums2[i]] = !st.empty() ? st.top() : -1;
 
+            // step 3 -> push the current element
             st.push(nums2[i]);
         }
 
