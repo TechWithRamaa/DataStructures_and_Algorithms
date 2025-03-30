@@ -229,6 +229,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0454-4sum-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0454-4sum-ii) |
+| [0456-132-pattern](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0456-132-pattern) |
 | [0480-sliding-window-median](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0480-sliding-window-median) |
 | [0485-max-consecutive-ones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0485-max-consecutive-ones) |
 | [0487-max-consecutive-ones-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0487-max-consecutive-ones-ii) |
@@ -332,6 +333,7 @@
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0374-guess-number-higher-or-lower](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0374-guess-number-higher-or-lower) |
+| [0456-132-pattern](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0456-132-pattern) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
@@ -754,6 +756,7 @@
 | [0224-basic-calculator](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0224-basic-calculator) |
 | [0234-palindrome-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0316-remove-duplicate-letters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0316-remove-duplicate-letters) |
+| [0456-132-pattern](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
@@ -772,6 +775,7 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
 | [0316-remove-duplicate-letters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0316-remove-duplicate-letters) |
+| [0456-132-pattern](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0739-daily-temperatures) |
@@ -1008,6 +1012,7 @@
 | ------- |
 | [0218-the-skyline-problem](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0218-the-skyline-problem) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0456-132-pattern](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0456-132-pattern) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
 ## Backtracking
 |  |
