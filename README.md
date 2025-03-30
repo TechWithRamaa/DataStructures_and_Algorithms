@@ -281,6 +281,7 @@
 | [1663-detect-cycles-in-2d-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
+| [1792-find-the-most-competitive-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1909-buildings-with-an-ocean-view](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -766,6 +767,7 @@
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [1792-find-the-most-competitive-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1909-buildings-with-an-ocean-view](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 | [3001-apply-operations-to-maximize-score](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3001-apply-operations-to-maximize-score) |
 ## Monotonic Stack
@@ -783,6 +785,7 @@
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [1792-find-the-most-competitive-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1909-buildings-with-an-ocean-view](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 | [3001-apply-operations-to-maximize-score](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3001-apply-operations-to-maximize-score) |
 ## Two Pointers
@@ -929,6 +932,7 @@
 | [0680-valid-palindrome-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
+| [1792-find-the-most-competitive-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [3001-apply-operations-to-maximize-score](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3001-apply-operations-to-maximize-score) |
 ## Merge Sort
