@@ -1,5 +1,18 @@
 class Solution {
 public:
+    // Approach 1 
+    // Unordered Map + Stack + Unordered step
+    // Almost identical to Monotonic stack problems
+    // but it s a evolved variant of classic Monotonic Stack problems
+
+    // Here Stack is used to hold answers instead of using as a tool
+
+    /*
+    \U0001f3c6 The Key Mental Model for This Problem
+        Whenever you see a problem that asks you to build a unique sequence
+        with the smallest lexicographical order, 
+        consider using a stack in a constructive way instead of a filtering way.
+    */
     string removeDuplicateLetters(string s) {
         unordered_map<char, int> freqMap;
 
