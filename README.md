@@ -725,6 +725,7 @@
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
 | [0807-custom-sort-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0807-custom-sort-string) |
 | [0990-verifying-an-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0990-verifying-an-alien-dictionary) |
+| [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1170-shortest-common-supersequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1170-shortest-common-supersequence) |
 | [1178-valid-palindrome-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1178-valid-palindrome-iii) |
 | [1250-longest-common-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1250-longest-common-subsequence) |
@@ -759,6 +760,7 @@
 | [0739-daily-temperatures](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
+| [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1909-buildings-with-an-ocean-view](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
@@ -775,6 +777,7 @@
 | [0739-daily-temperatures](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
+| [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1909-buildings-with-an-ocean-view](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 | [3001-apply-operations-to-maximize-score](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3001-apply-operations-to-maximize-score) |
@@ -921,6 +924,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
 | [0680-valid-palindrome-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
+| [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [3001-apply-operations-to-maximize-score](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3001-apply-operations-to-maximize-score) |
 ## Merge Sort
