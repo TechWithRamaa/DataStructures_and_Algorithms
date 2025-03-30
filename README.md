@@ -635,6 +635,7 @@
 | [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
 | [0412-fizz-buzz](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0412-fizz-buzz) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
+| [0670-maximum-swap](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0670-maximum-swap) |
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1370-count-number-of-nice-subarrays) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
@@ -934,6 +935,7 @@
 | [0334-increasing-triplet-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0334-increasing-triplet-subsequence) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
+| [0670-maximum-swap](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0670-maximum-swap) |
 | [0680-valid-palindrome-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
