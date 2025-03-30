@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // prefixSum + monotonic increasing stack + max
+    // revise - nse to the left & right 
     int maxSumMinProduct(vector<int>& nums) {
         int N = nums.size();
 
@@ -14,7 +16,7 @@ public:
 
         stack<int> st;
 
-        // Previous Smaller Elements
+        // Next Smaller Elements to the left
         for (int i = 0; i < N; i++) {
             while (!st.empty() && nums[st.top()] >= nums[i])
                 st.pop();
@@ -28,7 +30,7 @@ public:
         while (!st.empty())
             st.pop();
 
-        // Next Smaller Elements
+        // Next Smaller Elements to the right 
         for (int i = N - 1; i >= 0; i--) {
             while (!st.empty() && nums[st.top()] > nums[i])
                 st.pop();
