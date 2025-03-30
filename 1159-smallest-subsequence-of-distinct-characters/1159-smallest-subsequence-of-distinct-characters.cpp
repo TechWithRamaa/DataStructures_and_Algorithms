@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Exact problem of LC 316 - Removal of duplicate letters & returning smallest lexicographic order
     string smallestSubsequence(string s) {
         unordered_map<char, int> freqMap;
 
