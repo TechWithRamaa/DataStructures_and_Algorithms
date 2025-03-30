@@ -1,6 +1,7 @@
 class Solution {
 public:
-    // Approach 1 ~ BruteForce 
+    // Approach 1 ~ BruteForce
+    // TC ~ O ( N ) 
     int findKthPositive1(vector<int>& arr, int k) {
         int missingCount = 0, num = 1, i = 0;
 
@@ -21,7 +22,8 @@ public:
     }
 
     // Approach 2 ~ Missing Count -> Number Theory
-    int findKthPositive(vector<int>& arr, int k) {
+    // TC ~ O ( N )
+    int findKthPositive2(vector<int>& arr, int k) {
 
         for(int i = 0; i < arr.size(); i++) {
             int missingCount = arr[i] - ( i + 1); 
@@ -32,5 +34,24 @@ public:
         }
 
         return arr.size() + k;
+    }
+
+    // Approach 3 ~ Binary Search
+    // TC ~ O ( log N )
+    int findKthPositive(vector<int>& arr, int k) {
+        int left = 0, right = arr.size() - 1;
+
+        while(left <= right) {
+            int mid = left + (right - left) / 2;
+
+            int missingCount = arr[mid] - (mid + 1);
+
+            if(missingCount < k) 
+                left = mid + 1;
+            else 
+                right = mid - 1;
+        }
+
+        return k + left;
     }
 };
