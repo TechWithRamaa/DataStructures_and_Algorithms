@@ -28,11 +28,12 @@ private:
 
         int ROWS = board.size();
         int COLS = board[0].size();
+        
         if (i < 0 || j < 0 || i >= ROWS || j >= COLS || visited[i][j] ||
             board[i][j] != word[index])
             return false;
 
-        visited[i][j] = true;
+        visited[i][j] = true; // backtracking 
 
         const vector<pair<int, int>> directions = {
             {-1, 0}, {0, 1}, {1, 0}, {0, -1}};
@@ -43,7 +44,7 @@ private:
             if (dfs(newRow, newCol, visited, word, index + 1, board))
                 return true;
         }
-        visited[i][j] = false;
+        visited[i][j] = false; // backtracking
 
         return false;
     }
