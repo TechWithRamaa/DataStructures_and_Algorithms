@@ -199,6 +199,7 @@
 | [0200-number-of-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0209-minimum-size-subarray-sum) |
+| [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0217-contains-duplicate) |
@@ -435,6 +436,7 @@
 | [0130-surrounded-regions](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0174-dungeon-game) |
 | [0200-number-of-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0286-walls-and-gates](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0286-walls-and-gates) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
@@ -715,6 +717,7 @@
 | [0166-fraction-to-recurring-decimal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0166-fraction-to-recurring-decimal) |
 | [0171-excel-sheet-column-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0171-excel-sheet-column-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
 | [0224-basic-calculator](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
 | [0266-palindrome-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0266-palindrome-permutation) |
@@ -1044,6 +1047,7 @@
 | [0078-subsets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0079-word-search) |
 | [0089-gray-code](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0089-gray-code) |
+| [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
 ## Graph
 |  |
 | ------- |
@@ -1111,6 +1115,7 @@
 | ------- |
 | [0014-longest-common-prefix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 ## Topological Sort
 |  |
