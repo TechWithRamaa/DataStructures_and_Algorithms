@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // DP Pattern - House Robber
     long long mostPoints(vector<vector<int>>& questions) {
         int N = questions.size();
 
