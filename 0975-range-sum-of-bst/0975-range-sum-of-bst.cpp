@@ -17,14 +17,16 @@ public:
 
         int sum = 0;
 
-        if(root->val >= low && root->val <= high) 
-            sum += root->val;
+        
 
         if(root->val > low && root->left) 
             sum += rangeSumBST(root->left, low, high);
 
         if(root->val < high && root->right) 
             sum += rangeSumBST(root->right, low, high);
+
+            if(root->val >= low && root->val <= high) 
+            sum += root->val;
 
         return sum;
     }
