@@ -70,7 +70,7 @@ public:
         current = head;
         while(current) {
             if(current->random) 
-                current->next->random = current->random->next;
+                current->next->random = current->random->next; // clone's random not original's random
             
             current = current->next->next;
         }
