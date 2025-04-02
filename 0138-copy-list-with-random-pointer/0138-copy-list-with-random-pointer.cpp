@@ -5,7 +5,7 @@ public:
     int val;
     Node* next;
     Node* random;
-    
+
     Node(int _val) {
         val = _val;
         next = NULL;
@@ -19,12 +19,40 @@ public:
     Node* copyRandomList(Node* head) {
         if(!head)
             return head;
-        
-        // Deep copy or cloning the list, 
+
+        unordered_map<Node*, Node*> nodeMap;
+
+        Node* current = head;
+
+        // step 1 -> create copy nodes & store in a hashtable
+        while(current) {
+            Node* copy = new Node(current->val);
+            nodeMap[current] = copy;
+
+            current = current->next;
+        }
+
+        current = head;
+        // step 2 -> connect clone nodes as they re currently disconnected
+        while(current) {
+            nodeMap[current]->next = nodeMap[current->next];
+            nodeMap[current]->random = nodeMap[current->random];
+
+            current = current->next;
+        }
+
+        return nodeMap[head];
+    }
+
+    Node* copyRandomList2(Node* head) {
+        if (!head)
+            return head;
+
+        // Deep copy or cloning the list,
         // deep copy of node is stored in the same list
         // cloned node is stored next to original nodes
         Node* current = head;
-        while(current) {
+        while (current) {
             Node* copy = new Node(current->val);
             copy->next = current->next;
             current->next = copy;
@@ -34,8 +62,8 @@ public:
         // Including random references cloned nodes from original nodes
         current = head;
         Node* cloned = head->next;
-        while(current) {
-            if(current->random) 
+        while (current) {
+            if (current->random)
                 current->next->random = current->random->next;
 
             current = current->next->next;
@@ -45,7 +73,7 @@ public:
         current = head;
         Node* clonedHead = head->next;
         Node* clone = clonedHead;
-        while(current) {
+        while (current) {
             current->next = current->next->next;
             if (clone->next) {
                 clone->next = clone->next->next;
