@@ -16,7 +16,9 @@ public:
 
 class Solution {
 public:
-    Node* copyRandomList(Node* head) {
+    // BruteForce - Using Extra Memory
+    // Hashtable & Two pass solution
+    Node* copyRandomList1(Node* head) {
         if(!head)
             return head;
 
@@ -44,7 +46,10 @@ public:
         return nodeMap[head];
     }
 
-    Node* copyRandomList2(Node* head) {
+    // Optimized - In Memory processing
+    // Interleaving current & copy nodes 
+    // Three pass solution 
+    Node* copyRandomList(Node* head) {
         if (!head)
             return head;
 
