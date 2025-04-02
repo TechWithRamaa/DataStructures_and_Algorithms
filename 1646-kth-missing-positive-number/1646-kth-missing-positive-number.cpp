@@ -19,7 +19,7 @@ public:
         return arr[N - 1] + k;
     }
 
-    // Binary Search
+    // Binary Search [search space is array indices]
     // TC ~ O ( log N )
     int findKthPositive(vector<int>& arr, int k) {
         int N = arr.size();
