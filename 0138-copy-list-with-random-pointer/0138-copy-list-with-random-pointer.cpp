@@ -50,6 +50,53 @@ public:
     // Interleaving current & copy nodes 
     // Three pass solution 
     Node* copyRandomList(Node* head) {
+        if(!head) 
+            return head;
+        
+        Node* current = head;
+
+        // create copy nodes, 
+        // between original nodes
+        // Interleaving process
+        while(current) {
+            Node* copy = new Node(current->val);
+            copy->next = current->next;
+            current->next = copy;
+
+            current = copy->next;
+        }
+
+        // copy random pointers inside cloned list
+        current = head;
+        while(current) {
+            if(current->random) 
+                current->next->random = current->random->next;
+            
+            current = current->next->next;
+        }
+        
+        current = head;
+        Node* copyHead = current->next;
+        Node* clone = current->next;
+        while(current) {
+            current->next = current->next->next;
+
+            // clone->next will be null before current->next
+            // as current is before clone
+            // clone will reach null first 
+            // so this check only needed for clone
+            if(clone->next)
+                clone->next = clone->next->next;
+
+            current = current->next;
+            clone = clone->next;
+        }
+
+        return copyHead;
+    }
+
+
+    Node* copyRandomList3(Node* head) {
         if (!head)
             return head;
 
