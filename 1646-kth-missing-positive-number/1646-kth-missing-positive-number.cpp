@@ -1,5 +1,8 @@
 class Solution {
 public:
+    // BruteForce 
+    // Comparison against the actual number and the given array
+    // TC ~ O ( n )
     int findKthPositive(vector<int>& arr, int k) {
         int N = arr.size();
 
