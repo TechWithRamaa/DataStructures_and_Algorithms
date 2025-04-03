@@ -45,11 +45,15 @@ public:
 
         // head changes after rotation
         // break the circular link at the new last node
+        // we park before the new head
+
         temp = head;
         for(int i = 1; i < (length - k); i++) 
             temp = temp->next;
         
-
+        // take the new head after rotation
+        // mark the next of last node before new head as nullptr
+        
         ListNode* newHead = temp->next;
         temp->next = nullptr;
 
