@@ -76,7 +76,7 @@ public:
         Node* copy = head -> next;
         while(current) {
             current->next = current->next->next;
-            if(copy->next) 
+            if(copy->next) // copy might encounter tail/null first
                 copy->next = copy->next->next;
             
             current = current->next;
