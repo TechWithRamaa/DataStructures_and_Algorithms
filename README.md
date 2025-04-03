@@ -78,6 +78,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0543-diameter-of-binary-tree) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0863-sum-of-distances-in-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0863-sum-of-distances-in-tree) |
@@ -129,6 +130,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0543-diameter-of-binary-tree) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -481,6 +483,7 @@
 | [0206-reverse-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0460-lfu-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0460-lfu-cache) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0908-middle-of-the-linked-list) |
 ## Depth-First Search
 |  |
@@ -516,6 +519,7 @@
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0744-network-delay-time) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -781,6 +785,7 @@
 | [0503-next-greater-element-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0739-daily-temperatures) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0937-online-stock-span](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
@@ -1032,6 +1037,7 @@
 | ------- |
 | [0146-lru-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0460-lfu-cache) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 ## Segment Tree
 |  |
 | ------- |
@@ -1089,6 +1095,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0285-inorder-successor-in-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0285-inorder-successor-in-bst) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0975-range-sum-of-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0975-range-sum-of-bst) |
