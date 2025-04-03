@@ -1,6 +1,6 @@
-class LRUCache {
+class LRUCache1 {
 public:
-    LRUCache(int capacity) { 
+    LRUCache1(int capacity) { 
         this->capacity = capacity; 
     }
 
@@ -47,3 +47,79 @@ private:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
+
+class LRUCache {
+public:
+    LRUCache(int cap) {
+        capacity = cap;
+        head = new Node(-1, -1);
+        tail = new Node(-1, -1);
+
+        head->next = tail;
+        tail->prev = head;
+    }
+
+    int get(int key) {
+        if(cache.find(key) == cache.end())
+            return -1;
+        
+        Node *node = cache[key];
+        moveToHead(node);
+        return node->value; 
+    }
+
+    void put(int key, int value) {
+        if(cache.find(key) != cache.end()) {
+            Node *node = cache[key];
+            node->value = value;
+            moveToHead(node);
+        } else {
+            if(capacity == cache.size()) {
+                Node *lru = removeTail();
+                cache.erase(lru->key);
+                delete lru;
+            }
+
+            Node *newNode = new Node(key, value);
+            addToHead(newNode);
+            cache[key] = newNode;
+        }
+    }
+
+private:
+    // DLL for maintaining the k, v pairs according to access order
+    struct Node {
+        int key, value;
+        Node *next, *prev;
+
+        Node(int k, int v) : key(k), value(v), next(nullptr), prev(nullptr) {}
+    };
+
+    int capacity;
+    unordered_map<int, Node*> cache;
+    Node *head, *tail;
+ 
+    
+    void addToHead(Node *node) {
+        node->next = head->next; 
+        head->next->prev = node;
+        head->next = node;
+        node->prev = head;
+    }
+
+    void moveToHead(Node* node) {
+        removeNode(node);
+        addToHead(node);
+    }
+
+    void removeNode(Node* node) {
+        node->next->prev = node->prev;
+        node->prev->next = node->next;
+    }
+
+    Node* removeTail() {
+        Node *lru = tail->prev;
+        removeNode(lru);
+        return lru;
+    }
+};
