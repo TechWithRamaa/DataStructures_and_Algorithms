@@ -10,31 +10,83 @@
  */
 class Solution {
 public:
+    // Approach 1 -> BruteForce
+    // Merge Sequentially k lists
+
+    // Approach 2 -> Optimized
+    // Merge lists in parallel
+
+    // Approach 3 -> Priority Queue / Heap
+
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        if(lists.empty()) return nullptr;
+        int k = lists.size();
 
-        int n = lists.size();
-
-        while(n > 1) {
-            for(int i = 0; i < n/2; i++) 
-                lists[i] = mergeTwoSortedLists(lists[i], lists[n - 1 - i]);
+        if(k == 0) 
+            return nullptr;
         
-            n = (n + 1 ) / 2;
+        while(k > 1) {
+            for(int i = 0; i < k / 2; i++)
+                lists[i] = merge(lists[i], lists[(k - 1 - i)]);
+
+            k = (k + 1) / 2;
         }
 
+        return lists[0];  
+    }
+
+    ListNode* merge(ListNode *l1, ListNode *l2) {
+        if(!l1)
+            return l2;
+        
+        if(!l2)
+            return l1;
+        
+        ListNode dummy(0);
+        ListNode *current = &dummy;
+
+        while(l1 && l2) {
+            if(l1->val <= l2->val) {
+                current->next = l1;
+                l1 = l1->next;
+            } else {
+                current->next = l2;
+                l2 = l2->next;
+            }
+            current = current->next;
+        }
+
+        if(l1)
+            current->next = l1;
+        if(l2)
+            current->next = l2;
+
+        return dummy.next;
+    }
+
+    // Approach 2 (repeated for practice)
+    ListNode* mergeKLists2(vector<ListNode*>& lists) {
+        if (lists.empty())
+            return nullptr;
+
+        int n = lists.size();
+        while (n > 1) {
+            for (int i = 0; i < n / 2; i++)
+                lists[i] = mergeTwoSortedLists(lists[i], lists[n - 1 - i]);
+            n = (n + 1) / 2;
+        }
         return lists[0];
     }
-    
 private:
     ListNode* mergeTwoSortedLists(ListNode* head1, ListNode* head2) {
-        if(!head1) return head2;
-        if(!head2) return head1;
+        if (!head1)
+            return head2;
+        if (!head2)
+            return head1;
 
         ListNode dummy(0);
         ListNode* current = &dummy;
-
-        while(head1 && head2) {
-            if(head1->val <= head2->val) {
+        while (head1 && head2) {
+            if (head1->val <= head2->val) {
                 current->next = head1;
                 head1 = head1->next;
             } else {
@@ -44,7 +96,6 @@ private:
             current = current->next;
         }
         current->next = (head1) ? head1 : head2;
-
         return dummy.next;
     }
 };
