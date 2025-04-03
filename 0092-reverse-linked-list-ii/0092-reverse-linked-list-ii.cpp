@@ -31,7 +31,7 @@ public:
         
         // park 1 temp variable before actual left
         // so that can be connected with the reversed sublist
-        ListNode* nodeBeforeReversal = temp;
+        ListNode* mainListEnd = temp;
 
         // applying standard reveral logic
         // for sublist reversal
@@ -51,7 +51,7 @@ public:
         // sublist is reversed
         // prev is parked at the head of the sublist
         // main list is connected to the reversed sublist
-        nodeBeforeReversal->next = prev;
+        mainListEnd->next = prev;
 
         // connecting the tail of the sublist to the mainlist
         leftHead->next = current;
