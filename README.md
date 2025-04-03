@@ -94,6 +94,7 @@
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0021-merge-two-sorted-lists) |
+| [0024-swap-nodes-in-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0024-swap-nodes-in-pairs) |
 | [0050-powx-n](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0224-basic-calculator) |
@@ -466,6 +467,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0023-merge-k-sorted-lists) |
+| [0024-swap-nodes-in-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0024-swap-nodes-in-pairs) |
 | [0092-reverse-linked-list-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0092-reverse-linked-list-ii) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0138-copy-list-with-random-pointer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0138-copy-list-with-random-pointer) |
