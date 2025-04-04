@@ -1,5 +1,23 @@
 class Solution {
 public:
+    /*
+    \U0001f527 Approach:
+        BFS traversal from all nodes
+
+        Use mask to represent the set of visited nodes
+
+        Use seen to avoid revisiting the same (node, mask) state
+
+        \U0001f522 How Many Total States?
+        
+        Each state is represented as (node, mask), where:
+
+        node is one of n nodes.
+
+        mask is a bitmask of visited nodes (2^n possible values).
+
+        Thus, total states = n * 2^n. ✅
+    */
     int shortestPathLength(vector<vector<int>>& graph) {
         int N = graph.size();
 
