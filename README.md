@@ -32,6 +32,7 @@
 | [0322-coin-change](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0322-coin-change) |
 | [0337-house-robber-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0337-house-robber-iii) |
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
+| [0410-split-array-largest-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0416-partition-equal-subset-sum) |
 | [0487-max-consecutive-ones-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0487-max-consecutive-ones-ii) |
 | [0516-longest-palindromic-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0516-longest-palindromic-subsequence) |
@@ -232,6 +233,7 @@
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
+| [0410-split-array-largest-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
@@ -347,6 +349,7 @@
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0374-guess-number-higher-or-lower](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0374-guess-number-higher-or-lower) |
+| [0410-split-array-largest-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0456-132-pattern](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0456-132-pattern) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
@@ -955,6 +958,7 @@
 | [0316-remove-duplicate-letters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0316-remove-duplicate-letters) |
 | [0330-patching-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0330-patching-array) |
 | [0334-increasing-triplet-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0334-increasing-triplet-subsequence) |
+| [0410-split-array-largest-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
 | [0670-maximum-swap](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0670-maximum-swap) |
@@ -998,6 +1002,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
+| [0410-split-array-largest-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0525-contiguous-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
