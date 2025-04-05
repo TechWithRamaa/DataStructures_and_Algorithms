@@ -300,6 +300,7 @@
 | [1909-buildings-with-an-ocean-view](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1985-maximum-subarray-min-product](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1985-maximum-subarray-min-product) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -665,6 +666,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1370-count-number-of-nice-subarrays) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2610-closest-prime-numbers-in-range](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2649-count-total-number-of-colored-cells) |
@@ -709,6 +711,7 @@
 | [1435-xor-queries-of-a-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1435-xor-queries-of-a-subarray) |
 | [1668-find-longest-awesome-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1668-find-longest-awesome-substring) |
 | [1881-closest-subsequence-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1881-closest-subsequence-sum) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2308-divide-array-into-equal-pairs) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2478-longest-nice-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2478-longest-nice-subarray) |
@@ -1080,6 +1083,7 @@
 | [0079-word-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0079-word-search) |
 | [0089-gray-code](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0089-gray-code) |
 | [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Graph
 |  |
 | ------- |
@@ -1185,6 +1189,7 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0062-unique-paths) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Interactive
 |  |
 | ------- |
@@ -1220,6 +1225,7 @@
 | ------- |
 | [0204-count-primes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0204-count-primes) |
 | [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Bitmask
 |  |
 | ------- |
