@@ -223,6 +223,7 @@
 | [0286-walls-and-gates](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0300-longest-increasing-subsequence) |
+| [0307-range-sum-query-mutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0307-range-sum-query-mutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0312-burst-balloons) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
@@ -1037,6 +1038,7 @@
 | [0251-flatten-2d-vector](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0251-flatten-2d-vector) |
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0307-range-sum-query-mutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0307-range-sum-query-mutable) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
@@ -1055,6 +1057,7 @@
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0218-the-skyline-problem) |
+| [0307-range-sum-query-mutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0307-range-sum-query-mutable) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
 ## Ordered Set
@@ -1123,6 +1126,7 @@
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0218-the-skyline-problem) |
+| [0307-range-sum-query-mutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0307-range-sum-query-mutable) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
 ## Line Sweep
 |  |
