@@ -1,5 +1,18 @@
 class Solution {
 public:
+    /*
+    BFS over string-encoded state space
+    Note down the state keyword in the problem statement
+
+    \U0001f9e0 Common Concepts Across These:
+    
+    1) Use BFS for shortest path in unweighted transformations.
+    2) Represent the state compactly: string, array, bitmask.
+    3) Maintain a visited set to avoid cycles.
+    4) Swap, change characters, or mutate to get next states.
+    5) Stop BFS when you reach the goal state.
+
+    */
     int slidingPuzzle(vector<vector<int>>& board) {
         string start = "";
 
