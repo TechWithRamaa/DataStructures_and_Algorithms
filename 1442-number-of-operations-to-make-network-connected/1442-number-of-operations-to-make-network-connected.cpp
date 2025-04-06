@@ -1,3 +1,6 @@
+// Disjoint Union Set
+// Use the concept of No of Nodes & No of Edges formula
+
 class DJU {
 private:
     vector<int> parent, rank;
