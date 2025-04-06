@@ -1,3 +1,22 @@
+/*
+Maximize the number of edges that can be removed while ensuring that 
+both Alice and Bob can fully traverse the graph 
+(i.e., the graph remains fully connected for both).
+
+✅ Key Idea:
+Use Disjoint Set Union (DSU) data structure (also called Union-Find).
+
+Prioritize type 3 edges (usable by both Alice and Bob) since they contribute to both graphs simultaneously.
+
+Use greedy strategy to connect as many components as possible and remove redundant edges.
+
+-------------
+Dont traverse & create MST, it s not weighted 
+we use Network Connectivity concept 
+
+Apply Greedy to Prioritize Type 3 edges
+1 based indexing - Make not of it 
+*/
 class DJU {
 private:
     vector<int> parent, rank;
