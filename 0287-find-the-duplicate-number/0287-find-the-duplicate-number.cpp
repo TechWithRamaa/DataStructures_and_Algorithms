@@ -24,7 +24,7 @@ public:
     // Binary Search on the Value Space - Very important
     // TC ~ O ( n log n )
     int findDuplicate(vector<int>& nums) {
-        int left = 1, right = nums.size() - 1;
+        int left = 1, right = nums.size();
 
         while (left < right) {
             int mid = left + (right - left) / 2;
