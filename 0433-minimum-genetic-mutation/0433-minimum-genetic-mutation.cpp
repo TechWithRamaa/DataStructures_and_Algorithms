@@ -1,5 +1,8 @@
 class Solution {
 public:
+    // BFS - String Search State
+    // Calculating Neighbors is the key aspect of this problem
+    // which is done brilliantly
     int minMutation(string startGene, string endGene, vector<string>& bank) {
 
         unordered_set<string> validState(bank.begin(), bank.end());
