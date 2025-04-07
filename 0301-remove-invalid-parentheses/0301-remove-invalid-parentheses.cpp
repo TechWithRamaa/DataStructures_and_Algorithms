@@ -12,7 +12,7 @@ class Solution {
     
     Start with the input string.
 
-    At each level of BFS, remove one parenthesis at every possible position.
+    At each level of BFS, REMOVE one parenthesis at every possible position.
 
     Once we find valid strings, stop and return all valid strings at that level.
     */
