@@ -8,14 +8,12 @@ public:
         levels.push({beginWord, 1});
 
         while(!levels.empty()) {
-            string currentWord = levels.front().first;
-            int steps = levels.front().second;
+            auto [currentWord, steps] = levels.front();
             levels.pop();
 
-            if(currentWord == endWord) {
+            if(currentWord == endWord) 
                 return steps;
-            }
-
+            
             for(int i = 0; i < currentWord.length(); i++) {
                 char originalChar = currentWord[i];
                 for(char c = 'a'; c <= 'z'; c++) {
