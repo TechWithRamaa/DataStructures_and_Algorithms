@@ -1,5 +1,11 @@
 class Solution {
 public:
+    /*
+        BFS - String Mutation State Space
+        we dont ve to erase from givenWords to avoid re-visiting
+
+        we can simply maintain a visited set like other similar problems
+    */
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
         unordered_set<string> givenWords(wordList.begin(), wordList.end());
         if(givenWords.count(endWord) < 0) return 0; 
