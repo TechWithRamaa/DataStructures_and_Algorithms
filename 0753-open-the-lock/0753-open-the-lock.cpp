@@ -1,5 +1,8 @@
 class Solution {
 public:
+    // BFS - String Search State
+    // Calculating Neighbors is the key aspect of this problem
+    // which is done brilliantly
     int openLock(vector<string>& deadends, string target) {
 
         unordered_set<string> blockingSet(deadends.begin(), deadends.end());
