@@ -1,5 +1,16 @@
 class Solution {
 public:
+    /*
+    Simulated Manual Multiplication
+
+    result[i + j + 1] += mul
+    
+    Handle carry by updating:
+        result[i + j + 1] = sum % 10
+        result[i + j] += sum / 10
+        
+    Skip leading zeros    
+    */
     string multiply(string num1, string num2) {
         if (num1 == "0" || num2 == "0")
             return "0";
