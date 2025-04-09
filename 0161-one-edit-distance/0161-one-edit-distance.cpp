@@ -1,5 +1,8 @@
 class Solution {
 public:
+    // Greedy 
+    // DP is not needed as we just need to check exactly 1 distance away
+    // and return TRUE or FALSE
     bool isOneEditDistance(string s, string t) {
         int M = s.size(), N = t.size();
 
