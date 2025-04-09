@@ -36,6 +36,7 @@ public:
 
          while (num > 0) {
             int chunk = num % 1000;
+            
             if (chunk != 0) {
                 string part = helper(chunk);
                 
@@ -44,6 +45,7 @@ public:
 
                 result = part + (result.empty() ? "" : " " + result);
             }
+            
             num /= 1000;
             i++;
         }
