@@ -566,6 +566,7 @@
 | ------- |
 | [0043-multiply-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0067-add-binary) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0412-fizz-buzz](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0412-fizz-buzz) |
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
@@ -664,6 +665,7 @@
 | [0050-powx-n](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0070-climbing-stairs) |
 | [0089-gray-code](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0089-gray-code) |
@@ -715,6 +717,7 @@
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0029-divide-two-integers) |
+| [0067-add-binary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0078-subsets) |
 | [0089-gray-code](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0089-gray-code) |
 | [0136-single-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0136-single-number) |
@@ -754,6 +757,7 @@
 | [0038-count-and-say](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0038-count-and-say) |
 | [0043-multiply-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0076-minimum-window-substring) |
