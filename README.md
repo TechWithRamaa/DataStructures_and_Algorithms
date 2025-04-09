@@ -564,6 +564,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0054-spiral-matrix) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0412-fizz-buzz](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0412-fizz-buzz) |
@@ -658,6 +659,7 @@
 | [0007-reverse-integer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0007-reverse-integer) |
 | [0013-roman-to-integer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0029-divide-two-integers) |
+| [0043-multiply-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0062-unique-paths) |
@@ -750,6 +752,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0032-longest-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0038-count-and-say) |
+| [0043-multiply-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0072-edit-distance) |
