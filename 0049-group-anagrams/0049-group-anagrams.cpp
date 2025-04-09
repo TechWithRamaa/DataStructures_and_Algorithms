@@ -11,8 +11,8 @@ public:
         }
 
         vector<vector<string>> result;
-        for(auto &entry: groups) {
-            result.push_back(entry.second);
+        for(auto [key, valueList]: groups) {
+            result.push_back(valueList);
         }
 
         return result;
