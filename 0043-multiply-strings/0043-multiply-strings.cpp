@@ -24,11 +24,10 @@ public:
         }
 
         string product;
-        bool leadingZero = true;
 
         for (int digit : result) {
-            if (leadingZero && digit == 0) continue;
-            leadingZero = false;
+            if (product.empty() && digit == 0) 
+                continue;
             product.push_back(digit + '0');
         }
 
