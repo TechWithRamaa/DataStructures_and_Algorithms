@@ -199,6 +199,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0157-read-n-characters-given-read4](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0157-read-n-characters-given-read4) |
+| [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0162-find-peak-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0162-find-peak-element) |
 | [0163-missing-ranges](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0163-missing-ranges) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -569,6 +570,7 @@
 | [0054-spiral-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0067-add-binary) |
 | [0157-read-n-characters-given-read4](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0157-read-n-characters-given-read4) |
+| [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0412-fizz-buzz](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0412-fizz-buzz) |
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
@@ -1229,6 +1231,7 @@
 |  |
 | ------- |
 | [0157-read-n-characters-given-read4](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0157-read-n-characters-given-read4) |
+| [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0277-find-the-celebrity](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0277-find-the-celebrity) |
 | [0278-first-bad-version](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0374-guess-number-higher-or-lower) |
