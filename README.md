@@ -59,6 +59,7 @@
 | [1881-closest-subsequence-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1881-closest-subsequence-sum) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2262-solving-questions-with-brainpower) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Tree
 |  |
 | ------- |
@@ -701,6 +702,7 @@
 | [2649-count-total-number-of-colored-cells](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2649-count-total-number-of-colored-cells) |
 | [3001-apply-operations-to-maximize-score](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3227-find-missing-and-repeated-values) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -814,6 +816,7 @@
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2999-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2999-check-if-strings-can-be-made-equal-with-operations-i) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Stack
 |  |
