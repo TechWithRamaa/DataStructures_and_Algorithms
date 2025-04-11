@@ -72,6 +72,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0173-binary-search-tree-iterator](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0173-binary-search-tree-iterator) |
@@ -126,6 +127,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0173-binary-search-tree-iterator](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0173-binary-search-tree-iterator) |
@@ -500,6 +502,7 @@
 | [0024-swap-nodes-in-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0024-swap-nodes-in-pairs) |
 | [0061-rotate-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0061-rotate-list) |
 | [0092-reverse-linked-list-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0092-reverse-linked-list-ii) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0138-copy-list-with-random-pointer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0141-linked-list-cycle) |
@@ -521,6 +524,7 @@
 | [0099-recover-binary-search-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0099-recover-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0130-surrounded-regions](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0130-surrounded-regions) |
@@ -828,6 +832,7 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0094-binary-tree-inorder-traversal) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0173-binary-search-tree-iterator) |
