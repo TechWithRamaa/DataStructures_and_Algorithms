@@ -61,6 +61,8 @@ public:
             }
         }
 
+        // a valid order must have all unique nodes 
+        // otherwise cycle exits
         return lexOrder.size() < inDegree.size() ? "" : lexOrder;
     }
 };
