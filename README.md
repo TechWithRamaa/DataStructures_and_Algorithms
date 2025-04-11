@@ -242,6 +242,7 @@
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0312-burst-balloons) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0315-count-of-smaller-numbers-after-self) |
+| [0317-shortest-distance-from-all-buildings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0322-coin-change](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0322-coin-change) |
 | [0330-patching-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0330-patching-array) |
 | [0334-increasing-triplet-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0334-increasing-triplet-subsequence) |
@@ -413,6 +414,7 @@
 | [0286-walls-and-gates](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0301-remove-invalid-parentheses) |
+| [0317-shortest-distance-from-all-buildings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0322-coin-change](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0322-coin-change) |
 | [0339-nested-list-weight-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0339-nested-list-weight-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
@@ -483,6 +485,7 @@
 | [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0286-walls-and-gates](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0286-walls-and-gates) |
+| [0317-shortest-distance-from-all-buildings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
