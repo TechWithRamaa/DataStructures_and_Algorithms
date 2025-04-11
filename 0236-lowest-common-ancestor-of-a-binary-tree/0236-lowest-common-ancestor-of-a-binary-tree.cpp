@@ -9,6 +9,9 @@
  */
 class Solution {
 public:
+    // Approach -> Post Order DFS Traversal
+    // Searching for p & q - keep in mind
+    // TC ~ O ( N )
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         if(!root || root == p || root == q) {
             return root;
