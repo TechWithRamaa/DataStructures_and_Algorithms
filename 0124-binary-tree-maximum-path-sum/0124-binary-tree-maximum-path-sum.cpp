@@ -11,6 +11,9 @@
  */
 class Solution {
 public:
+    /*
+        Post-order DFS traversal
+    */
     int maxPathSum(TreeNode* root) {
         int maxSum = INT_MIN; // Initialize to smallest integer value
         dfs(root, maxSum);
