@@ -9,6 +9,16 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+/*
+    3 Approaches are there 
+
+    1) Reverse Post-Order traversal using Recursion
+    2) Reverse Post-Order traversal using Iteration & Stack
+    3) Morris traversal
+
+    Implemented Reverse Post-Order (Right -> Left -> Root) here
+*/
 class Solution {
 public:
     TreeNode *prev = nullptr;
