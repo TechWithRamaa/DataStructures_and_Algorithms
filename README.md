@@ -85,6 +85,7 @@
 | [0257-binary-tree-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0257-binary-tree-paths) |
 | [0285-inorder-successor-in-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0337-house-robber-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
@@ -143,6 +144,7 @@
 | [0257-binary-tree-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0257-binary-tree-paths) |
 | [0285-inorder-successor-in-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0337-house-robber-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
@@ -414,6 +416,7 @@
 | [0286-walls-and-gates](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0301-remove-invalid-parentheses) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0322-coin-change](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0322-coin-change) |
 | [0339-nested-list-weight-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0339-nested-list-weight-sum) |
@@ -555,6 +558,7 @@
 | [0269-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0269-alien-dictionary) |
 | [0285-inorder-successor-in-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0332-reconstruct-itinerary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0332-reconstruct-itinerary) |
 | [0337-house-robber-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0337-house-robber-iii) |
 | [0339-nested-list-weight-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0339-nested-list-weight-sum) |
@@ -631,6 +635,7 @@
 | [0266-palindrome-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0268-missing-number) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
@@ -959,6 +964,7 @@
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
