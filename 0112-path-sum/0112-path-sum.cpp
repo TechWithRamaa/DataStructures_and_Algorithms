@@ -10,6 +10,9 @@
  * };
  */
 class Solution {
+    /*
+    Pre-Order DFS Traversal
+    */
 public:
     bool hasPathSum(TreeNode* root, int targetSum) {
         return preOrderDFS(root, 0, targetSum); 
