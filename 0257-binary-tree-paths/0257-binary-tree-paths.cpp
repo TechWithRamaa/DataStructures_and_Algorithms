@@ -11,6 +11,9 @@
  */
 class Solution {
 public:
+    /*
+        Pre-Order DFS Traversal
+    */
     vector<string> binaryTreePaths(TreeNode* root) {
         vector<string> result;
         string currentPath;
