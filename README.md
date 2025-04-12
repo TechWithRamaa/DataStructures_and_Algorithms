@@ -682,6 +682,7 @@
 | [2888-minimum-index-of-a-valid-split](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3227-find-missing-and-repeated-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3227-find-missing-and-repeated-values) |
+| [3548-find-the-count-of-good-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -729,6 +730,7 @@
 | [3001-apply-operations-to-maximize-score](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3227-find-missing-and-repeated-values) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3548-find-the-count-of-good-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3548-find-the-count-of-good-integers) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -1269,6 +1271,7 @@
 | ------- |
 | [0062-unique-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [3548-find-the-count-of-good-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3548-find-the-count-of-good-integers) |
 ## Interactive
 |  |
 | ------- |
@@ -1308,6 +1311,7 @@
 | [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2998-count-symmetric-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2998-count-symmetric-integers) |
+| [3548-find-the-count-of-good-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3548-find-the-count-of-good-integers) |
 ## Bitmask
 |  |
 | ------- |
