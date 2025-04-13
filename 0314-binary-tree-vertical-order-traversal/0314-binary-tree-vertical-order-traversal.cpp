@@ -12,14 +12,7 @@
  */
 class Solution {
 public:
-    // Approach - BFS
-    // CRUX - Choosing the right data structure to maintain the traversal in the
-    // order asked in the problem statement
-
-    // key is to come up with a custom data structure that helps us to manage
-    // the the data in the order .. which internally takes care of sorting
-
-    // hero - map<int, map<int, multiset<int>>> nodeMap;
+   
     vector<vector<int>> verticalOrder(TreeNode* root) {
         if (!root)
             return {};
