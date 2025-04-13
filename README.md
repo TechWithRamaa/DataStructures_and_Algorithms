@@ -113,6 +113,7 @@
 | [0273-integer-to-english-words](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0273-integer-to-english-words) |
 | [0326-power-of-three](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0326-power-of-three) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
+| [2050-count-good-numbers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2050-count-good-numbers) |
 ## Memoization
 |  |
 | ------- |
@@ -723,6 +724,7 @@
 | [1370-count-number-of-nice-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1370-count-number-of-nice-subarrays) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2050-count-good-numbers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2610-closest-prime-numbers-in-range](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2649-count-total-number-of-colored-cells) |
