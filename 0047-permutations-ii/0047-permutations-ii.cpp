@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Approach - Sorting + In-place swap + Backtracking
     vector<vector<int>> permuteUnique(vector<int>& nums) {
         vector<vector<int>> result;
 
