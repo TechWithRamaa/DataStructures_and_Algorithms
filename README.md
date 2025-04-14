@@ -637,6 +637,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
+| [0246-strobogrammatic-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0246-strobogrammatic-number) |
 | [0266-palindrome-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0268-missing-number) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
@@ -816,6 +817,7 @@
 | [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
 | [0224-basic-calculator](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
+| [0246-strobogrammatic-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0246-strobogrammatic-number) |
 | [0257-binary-tree-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0257-binary-tree-paths) |
 | [0266-palindrome-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0266-palindrome-permutation) |
 | [0269-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0269-alien-dictionary) |
@@ -933,6 +935,7 @@
 | [0189-rotate-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0234-palindrome-linked-list) |
+| [0246-strobogrammatic-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0246-strobogrammatic-number) |
 | [0251-flatten-2d-vector](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0251-flatten-2d-vector) |
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
 | [0277-find-the-celebrity](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0277-find-the-celebrity) |
