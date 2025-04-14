@@ -11,7 +11,7 @@ public:
         while (left < right) {
             int mid =  left + (right - left) / 2;
 
-            // \U0001f500 Pivot is to the righ
+            // \U0001f500 Pivot is to the right
             if (nums[mid] > nums[right]) {
                 left = mid + 1;
             }
