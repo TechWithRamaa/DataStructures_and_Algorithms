@@ -4,11 +4,7 @@ public:
         int left = 0, right = nums.size() - 1;
 
         // shrink the search range until left == right
-        while(left < right) {
-            // // already sorted
-            // if(nums[left] <= nums[right])
-            //     return nums[left];
-            
+        while(left < right) {            
             int mid = left + (right - left) / 2 ;
             
             // right half is unsorted
