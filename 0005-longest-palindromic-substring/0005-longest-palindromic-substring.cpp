@@ -5,6 +5,7 @@ public:
 
     // logic of expanding from center from  all possible positions
     // 2 pointer for checking if the current window is a palindrome or not
+    // Approach - Expand around center, not DP
     string longestPalindrome(string s) {
         string result = "";
         
