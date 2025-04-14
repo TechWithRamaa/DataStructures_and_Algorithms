@@ -22,7 +22,6 @@ private:
                 if(n == totalLength && p.first == '0')
                     continue;
                 result.push_back(p.first + s + p.second);
-                cout << result.back() << endl;
             }
         }
 
