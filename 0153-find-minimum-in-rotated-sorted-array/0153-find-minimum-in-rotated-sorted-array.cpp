@@ -9,7 +9,7 @@ public:
         // plz note down the condition used in while & last statement inside
         // else block
         while (left < right) {
-            int mid =  (left + right) / 2;
+            int mid =  left + (right - left) / 2;
 
             // \U0001f500 Pivot is to the righ
             if (nums[mid] > nums[right]) {
