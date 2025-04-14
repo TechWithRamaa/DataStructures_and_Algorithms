@@ -315,6 +315,7 @@
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1646-kth-missing-positive-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1646-kth-missing-positive-number) |
+| [1656-count-good-triplets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1656-count-good-triplets) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
@@ -1317,6 +1318,7 @@
 | ------- |
 | [0204-count-primes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0204-count-primes) |
 | [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
+| [1656-count-good-triplets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2998-count-symmetric-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2998-count-symmetric-integers) |
 | [3548-find-the-count-of-good-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3548-find-the-count-of-good-integers) |
