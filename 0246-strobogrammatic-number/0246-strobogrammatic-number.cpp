@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // Approach 1 
+    // Two Pointer approach
     bool isStrobogrammatic(string num) {
 
         unordered_map<char, char> strobos = {{'0', '0'}, 
