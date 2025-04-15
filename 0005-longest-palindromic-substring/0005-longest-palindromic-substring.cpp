@@ -32,6 +32,8 @@ private:
         return s.substr(start+1, end - start - 1);
     }
 public:
+    // Approach 2 
+    // Expand around center - Simple * Intuitive
     string longestPalindrome(string s) {
         int start = 0, maxLen = 0;
 
