@@ -8,14 +8,14 @@ public:
         unordered_map<int, int> modIndex;
         modIndex[0] = -1;
 
-        for(int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++) {
             prefixSum += nums[i];
             int mod = (k == 0) ? prefixSum : prefixSum % k;
 
-            if(modIndex.count(mod)){
-                if(i - modIndex[mod] >= 2)
+            if (modIndex.count(mod)) {
+                if (i - modIndex[mod] >= 2)
                     return true;
-            } else 
+            } else
                 modIndex[mod] = i;
         }
 
