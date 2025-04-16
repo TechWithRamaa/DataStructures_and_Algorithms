@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Saving prefix sums (or mod of prefix sums) in a HashMap.
     bool checkSubarraySum(vector<int>& nums, int k) {
         int N = nums.size();
 
