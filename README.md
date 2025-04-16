@@ -23,6 +23,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0139-word-break) |
 | [0174-dungeon-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0198-house-robber) |
@@ -121,6 +122,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0139-word-break) |
 | [0787-sliding-puzzle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0787-sliding-puzzle) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
 ## Binary Tree
@@ -213,6 +215,7 @@
 | [0134-gas-station](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0137-single-number-ii) |
+| [0139-word-break](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -635,6 +638,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0146-lru-cache) |
@@ -819,6 +823,7 @@
 | [0097-interleaving-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0151-reverse-words-in-a-string) |
 | [0161-one-edit-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0161-one-edit-distance) |
 | [0166-fraction-to-recurring-decimal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0166-fraction-to-recurring-decimal) |
@@ -1263,6 +1268,7 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
