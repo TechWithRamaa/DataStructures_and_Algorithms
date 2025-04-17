@@ -38,7 +38,6 @@ public:
 
             // Shrink the window while we have enough pairs
             while (pairs >= k) {
-                // All subarrays [left ... right], [left+1 ... right], ... are valid
                 res += nums.size() - right;
 
                 freq[nums[left]]--;
