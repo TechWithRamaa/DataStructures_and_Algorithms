@@ -1368,4 +1368,8 @@
 | ------- |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [1881-closest-subsequence-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1881-closest-subsequence-sum) |
+## Database
+|  |
+| ------- |
+| [0177-nth-highest-salary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0177-nth-highest-salary) |
 <!---LeetCode Topics End-->
