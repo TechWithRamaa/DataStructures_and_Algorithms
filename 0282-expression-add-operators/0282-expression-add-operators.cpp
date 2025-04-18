@@ -7,7 +7,9 @@ public:
     }
 
 private:
-    void dfs(const string& num, int target, int index, long eval, long prevOperand, string path, vector<string>& result) {
+    void dfs(const string& num, int target, int index, long eval,
+     long prevOperand, string path, vector<string>& result) {
+
         if (index == num.size()) {
             if (eval == target) {
                 result.push_back(path);
@@ -17,6 +19,8 @@ private:
 
         for (int i = index; i < num.size(); ++i) {
             // Avoid numbers with leading zero
+            // checks if it is a single digit number or 
+            // multi-digit number
             if (i != index && num[index] == '0') break;
 
             string currStr = num.substr(index, i - index + 1);
