@@ -6,9 +6,20 @@
 #include <deque>
 
 using namespace std;
+/*
+\U0001f501 Template Recap:
 
+=> This is Hierholzer’s Algorithm for finding Eulerian paths:
+1) Use a graph.
+2) DFS recursively, removing edges as you go.
+3) Once you hit a dead-end, backtrack and add nodes to the answer.
+4) Finally, reverse the result.
+
+*/
 class Solution {
 public:
+    // You are building a valid Eulerian path in lexicographical order.
+    // DFS + reverse path-building trick using min heap for ordering
     vector<string> findItinerary(vector<vector<string>>& tickets) {
         unordered_map<string, multiset<string>> adj;
         
