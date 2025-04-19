@@ -195,6 +195,7 @@
 | [0057-insert-interval](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0066-plus-one) |
+| [0068-text-justification](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0075-sort-colors) |
@@ -616,6 +617,7 @@
 | [0043-multiply-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0067-add-binary) |
+| [0068-text-justification](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0068-text-justification) |
 | [0157-read-n-characters-given-read4](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0157-read-n-characters-given-read4) |
 | [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
@@ -825,6 +827,7 @@
 | [0043-multiply-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0067-add-binary) |
+| [0068-text-justification](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0076-minimum-window-substring) |
