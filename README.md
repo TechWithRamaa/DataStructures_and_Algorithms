@@ -267,6 +267,7 @@
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
+| [0399-evaluate-division](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0399-evaluate-division) |
 | [0410-split-array-largest-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
@@ -443,6 +444,7 @@
 | [0317-shortest-distance-from-all-buildings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0322-coin-change](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0322-coin-change) |
 | [0339-nested-list-weight-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0339-nested-list-weight-sum) |
+| [0399-evaluate-division](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0433-minimum-genetic-mutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0433-minimum-genetic-mutation) |
 | [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
@@ -479,6 +481,7 @@
 | [0130-surrounded-regions](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0261-graph-valid-tree) |
+| [0399-evaluate-division](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
@@ -586,6 +589,7 @@
 | [0332-reconstruct-itinerary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0332-reconstruct-itinerary) |
 | [0337-house-robber-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0337-house-robber-iii) |
 | [0339-nested-list-weight-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0339-nested-list-weight-sum) |
+| [0399-evaluate-division](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0543-diameter-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0543-diameter-of-binary-tree) |
@@ -860,6 +864,7 @@
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0344-reverse-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0387-first-unique-character-in-a-string) |
+| [0399-evaluate-division](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0399-evaluate-division) |
 | [0408-valid-word-abbreviation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0408-valid-word-abbreviation) |
 | [0412-fizz-buzz](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0412-fizz-buzz) |
 | [0424-longest-repeating-character-replacement](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0424-longest-repeating-character-replacement) |
@@ -1226,6 +1231,7 @@
 | [0269-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0269-alien-dictionary) |
 | [0277-find-the-celebrity](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0277-find-the-celebrity) |
 | [0332-reconstruct-itinerary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0332-reconstruct-itinerary) |
+| [0399-evaluate-division](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0744-network-delay-time) |
@@ -1305,6 +1311,7 @@
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0399-evaluate-division) |
 | [0744-network-delay-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
