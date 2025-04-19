@@ -34,9 +34,11 @@ private:
         for (string part : parts) {
             if (part.empty() || part.size() > 4) return false;
 
-            for (char ch : part) {
-                if (!isxdigit(ch)) return false;
-            }
+            // for (char ch : part) {
+            //     if (!isxdigit(ch)) return false;
+            // }
+            
+            if (!all_of(part.begin(), part.end(), ::isxdigit)) return false;
         }
 
         return true;
