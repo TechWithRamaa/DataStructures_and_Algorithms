@@ -34,7 +34,7 @@ public:
         // Next Smaller elements
         // Maintain Increasing Monotonic Stack
         for(int i = N - 1; i >= 0; i--) {
-            // step 1 -> pop bigger elementsep
+            // step 1 -> pop bigger elements
             while(!st.empty() && heights[st.top()] >= heights[i])
                 st.pop();
 
