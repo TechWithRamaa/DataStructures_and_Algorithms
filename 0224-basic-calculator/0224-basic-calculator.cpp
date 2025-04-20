@@ -1,5 +1,8 @@
 class Solution {
 public:
+    // Stack-Based Evaluation (Sign Stack Method)
+    // only signs are added into stack
+    
     int calculate(string s) {
         int sign = 1;
         stack<int> st;
