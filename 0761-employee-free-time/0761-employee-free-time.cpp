@@ -13,7 +13,10 @@ public:
     }
 };
 */
-
+/*
+\U0001f4a1 If there are multiple gaps between merged intervals, 
+    then there are multiple common free time intervals.
+*/
 class Solution {
 public:
     vector<Interval> employeeFreeTime(vector<vector<Interval>>& schedule) {
