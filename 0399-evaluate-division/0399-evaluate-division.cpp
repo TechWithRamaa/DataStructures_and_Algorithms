@@ -6,13 +6,13 @@ public:
                double value) {
         if (current == target)
             return value;
+        
         visited.insert(current);
 
         for (auto& [neighbor, weight] : graph[current]) {
             if (visited.count(neighbor))
                 continue;
-            double result =
-                dfs(neighbor, target, visited, graph, value * weight);
+            double result =  dfs(neighbor, target, visited, graph, value * weight);
             if (result != -1.0)
                 return result;
         }
@@ -99,15 +99,15 @@ private:
         while (!q.empty()) {
             auto [node, product] = q.front();
             q.pop();
+            
+            if(node == dest)
+                return product;
 
             for (const auto& [neighbor, weight] : graph[node]) {
                 if (visited.count(neighbor))
                     continue;
 
                 double nextProduct = product * weight;
-
-                if (neighbor == dest)
-                    return nextProduct;
 
                 visited.insert(neighbor);
                 q.push({neighbor, nextProduct});
