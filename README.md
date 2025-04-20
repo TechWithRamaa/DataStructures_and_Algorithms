@@ -301,6 +301,7 @@
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0739-daily-temperatures) |
 | [0753-open-the-lock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0753-open-the-lock) |
+| [0761-employee-free-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0761-employee-free-time) |
 | [0787-sliding-puzzle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0787-sliding-puzzle) |
 | [0792-binary-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0792-binary-search) |
 | [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
@@ -1038,6 +1039,7 @@
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
+| [0761-employee-free-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0761-employee-free-time) |
 | [0807-custom-sort-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0807-custom-sort-string) |
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -1141,6 +1143,7 @@
 | [0480-sliding-window-median](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0744-network-delay-time) |
+| [0761-employee-free-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0761-employee-free-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
