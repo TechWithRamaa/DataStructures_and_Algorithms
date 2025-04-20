@@ -291,6 +291,7 @@
 | [0542-01-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
+| [0636-exclusive-time-of-functions](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0636-exclusive-time-of-functions) |
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
@@ -925,6 +926,7 @@
 | [0456-132-pattern](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0503-next-greater-element-ii) |
+| [0636-exclusive-time-of-functions](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0636-exclusive-time-of-functions) |
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0739-daily-temperatures) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
