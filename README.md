@@ -93,6 +93,7 @@
 | [0652-find-duplicate-subtrees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0652-find-duplicate-subtrees) |
 | [0655-print-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0655-print-binary-tree) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+| [0765-serialize-and-deserialize-n-ary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0765-serialize-and-deserialize-n-ary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0863-sum-of-distances-in-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0863-sum-of-distances-in-tree) |
@@ -460,6 +461,7 @@
 | [0733-flood-fill](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0744-network-delay-time) |
 | [0753-open-the-lock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0753-open-the-lock) |
+| [0765-serialize-and-deserialize-n-ary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0765-serialize-and-deserialize-n-ary-tree) |
 | [0787-sliding-puzzle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0787-sliding-puzzle) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0801-is-graph-bipartite) |
@@ -606,6 +608,7 @@
 | [0733-flood-fill](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0744-network-delay-time) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+| [0765-serialize-and-deserialize-n-ary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0765-serialize-and-deserialize-n-ary-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -884,6 +887,7 @@
 | [0680-valid-palindrome-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0753-open-the-lock) |
+| [0765-serialize-and-deserialize-n-ary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0765-serialize-and-deserialize-n-ary-tree) |
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
 | [0807-custom-sort-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0807-custom-sort-string) |
 | [0990-verifying-an-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0990-verifying-an-alien-dictionary) |
