@@ -11,7 +11,6 @@
  */
 class Solution {
 public:
-    public:
     int getHeight(TreeNode* root) {
         if (!root) return 0;
 
