@@ -4,6 +4,8 @@ public:
         stack<int> elevations;
         int waterTrapped = 0;
         
+        // find the dip
+        // find the left wall and right wall
         for(int i = 0; i < height.size(); i++) {
             while(!elevations.empty() && height[elevations.top()] < height[i]) {
                 int smallerElevationIndex = elevations.top();
