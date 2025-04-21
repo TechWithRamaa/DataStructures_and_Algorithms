@@ -436,6 +436,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0126-word-ladder-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0133-clone-graph) |
@@ -660,6 +661,7 @@
 | [0073-set-matrix-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0126-word-ladder-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0133-clone-graph) |
@@ -856,6 +858,7 @@
 | [0079-word-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0079-word-search) |
 | [0097-interleaving-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0125-valid-palindrome) |
+| [0126-word-ladder-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0151-reverse-words-in-a-string) |
@@ -1236,6 +1239,7 @@
 | [0078-subsets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0079-word-search) |
 | [0089-gray-code](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0089-gray-code) |
+| [0126-word-ladder-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0126-word-ladder-ii) |
 | [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
 | [0257-binary-tree-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0257-binary-tree-paths) |
 | [0282-expression-add-operators](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0282-expression-add-operators) |
