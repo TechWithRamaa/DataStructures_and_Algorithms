@@ -1,7 +1,7 @@
 class Solution {
 public:
-    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst,
-                          int k) {
+    int findCheapestPrice1(int n, vector<vector<int>>& flights, int src,
+                           int dst, int k) {
         vector<vector<pair<int, int>>> graph(n);
 
         for (auto& flight : flights) {
@@ -37,33 +37,35 @@ public:
     }
 
     // Djikshtra's algorithm
-    int findCheapestPrice2(int n, vector<vector<int>>& flights, int src, int dst,
-                          int k) {
-        vector<vector<pair<int, int>>> graph(n);
-        for (auto& f : flights) {
-            graph[f[0]].emplace_back(f[1], f[2]);
-        }
 
-        // {cost so far, node, stops so far}
-        priority_queue<tuple<int, int, int>, vector<tuple<int, int, int>>,
-                       greater<>>
+    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
+        vector<vector<pair<int, int>>> adj(n);
+        for (auto e : flights) {
+            adj[e[0]].push_back({e[1], e[2]});
+        }
+        vector<int> stops(n, numeric_limits<int>::max());
+        priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>>
             pq;
-        pq.emplace(0, src, 0);
+        // {dist_from_src_node, node, number_of_stops_from_src_node}
+        pq.push({0, src, 0});
 
         while (!pq.empty()) {
-            auto [cost, node, stops] = pq.top();
+            auto temp = pq.top();
             pq.pop();
-
-            if (node == dst)
-                return cost;
-            if (stops > k)
+            int dist = temp[0];
+            int node = temp[1];
+            int steps = temp[2];
+            // We have already encountered a path with a lower cost and fewer
+            // stops, or the number of stops exceeds the limit.
+            if (steps > stops[node] || steps > k + 1)
                 continue;
-
-            for (auto& [nei, price] : graph[node]) {
-                pq.emplace(cost + price, nei, stops + 1);
+            stops[node] = steps;
+            if (node == dst)
+                return dist;
+            for (auto& [neighbor, price] : adj[node]) {
+                pq.push({dist + price, neighbor, steps + 1});
             }
         }
-
         return -1;
     }
 };
