@@ -1,45 +1,38 @@
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        vector<vector<pair<int, int>>> graph(n); 
+    vector<vector<pair<int, int>>> graph(n);
 
-        for (auto& entry : flights) {
-            graph[entry[0]].push_back({entry[1], entry[2]});
-        }
+    for (auto& flight : flights) {
+        graph[flight[0]].emplace_back(flight[1], flight[2]);
+    }
 
-        queue<pair<int, pair<int, int>>> q;
-        q.push({0, {src, 0}});
+    queue<tuple<int, int, int>> q; // {node, cost so far, stops so far}
+    q.emplace(src, 0, 0);
 
-        vector<int> dist(n, INT_MAX);
-        dist[src] = 0;
+    vector<int> minCost(n, INT_MAX);
+    minCost[src] = 0;
 
-        while (!q.empty()) {
-            int size = q.size();
+    while (!q.empty()) {
+        auto [node, cost, stops] = q.front();
+        q.pop();
 
-            for (int i = 0; i < size; i++) {
-                auto entry = q.front();
-                q.pop();
-                
-                int stops = entry.first;
-                int node = entry.second.first;
-                int cost = entry.second.second;
+        if (stops > k) continue;
 
-                if(stops > k) continue;
+        for (auto& [neighbor, price] : graph[node]) {
+            int newCost = cost + price;
 
-                for (auto& [neighbor, price] : graph[node]) {
-                    int newCost = cost + price;
-
-                    // Only update if we find a cheaper way in the current step
-                    if (newCost < dist[neighbor] && stops <= k) {
-                        dist[neighbor] = newCost;
-                        q.push({stops + 1, {neighbor, newCost}});
-                    }
-                }
+            // If the new cost is cheaper, or we still have stops left to explore
+            if (newCost < minCost[neighbor]) {
+                minCost[neighbor] = newCost;
+                q.emplace(neighbor, newCost, stops + 1);
             }
         }
-
-        return dist[dst] == INT_MAX ? -1 : dist[dst];
     }
+
+    return minCost[dst] == INT_MAX ? -1 : minCost[dst];
+}
+
 
     // Djikshtra's algorithm
     int findCheapestPriceOption2(int n, vector<vector<int>>& flights, int src,
