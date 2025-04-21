@@ -28,7 +28,6 @@ public:
         if (cloneMap.find(node) != cloneMap.end()) 
             return cloneMap[node];
         
-
         // Clone the current node
         Node* clone = new Node(node->val);
         cloneMap[node] = clone;
