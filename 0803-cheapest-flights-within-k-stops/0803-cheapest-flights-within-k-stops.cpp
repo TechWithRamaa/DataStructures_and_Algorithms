@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // BFS Variation
+    // BFS + Relaxation with minDist[]
     int findCheapestPrice1(int n, vector<vector<int>>& flights, int src,
                            int dst, int k) {
         vector<vector<pair<int, int>>> graph(n);
@@ -36,7 +38,8 @@ public:
         return minCost[dst] == INT_MAX ? -1 : minCost[dst];
     }
 
-    // Djikshtra's algorithm
+    // Variant of Djikshtra's algorithm
+    // Priority Queue (Min-Heap) Usage + Early Exit +  Avoiding Redundant States via stops[] Array + No classic dist[] 
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
         vector<vector<pair<int, int>>> adj(n);
         for (auto e : flights) {
