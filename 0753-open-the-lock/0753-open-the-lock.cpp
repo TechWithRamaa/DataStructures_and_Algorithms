@@ -35,8 +35,7 @@ public:
 
                 current[i] = (((c - '0') + 9) % 10) + '0';
 
-                if (visited.count(current) == 0 &&
-                    blockingSet.count(current) == 0) {
+                if (!visited.count(current) && !blockingSet.count(current)) {
                     visited.insert(current);
                     q.emplace(current, turns + 1);
                 }
