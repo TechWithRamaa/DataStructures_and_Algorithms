@@ -308,6 +308,7 @@
 | [0787-sliding-puzzle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0787-sliding-puzzle) |
 | [0792-binary-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0797-rabbits-in-forest) |
+| [0833-bus-routes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0833-bus-routes) |
 | [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
@@ -476,6 +477,7 @@
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0833-bus-routes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0833-bus-routes) |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
@@ -720,6 +722,7 @@
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0797-rabbits-in-forest) |
 | [0807-custom-sort-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0807-custom-sort-string) |
+| [0833-bus-routes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0833-bus-routes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0905-length-of-longest-fibonacci-subsequence) |
