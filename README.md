@@ -294,6 +294,7 @@
 | [0636-exclusive-time-of-functions](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0636-exclusive-time-of-functions) |
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0674-longest-continuous-increasing-subsequence) |
+| [0679-24-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0679-24-game) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
@@ -773,6 +774,7 @@
 | [0523-continuous-subarray-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0523-continuous-subarray-sum) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0670-maximum-swap](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0670-maximum-swap) |
+| [0679-24-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0679-24-game) |
 | [0797-rabbits-in-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0797-rabbits-in-forest) |
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1370-count-number-of-nice-subarrays) |
@@ -1246,6 +1248,7 @@
 | [0257-binary-tree-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0257-binary-tree-paths) |
 | [0282-expression-add-operators](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0282-expression-add-operators) |
 | [0301-remove-invalid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0301-remove-invalid-parentheses) |
+| [0679-24-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0679-24-game) |
 | [0787-sliding-puzzle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0787-sliding-puzzle) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Graph
