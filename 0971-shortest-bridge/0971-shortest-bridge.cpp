@@ -3,6 +3,17 @@ public:
     int n;
     vector<vector<int>> dirs{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 
+    /*
+    \U0001f30a Intuition:
+    
+    First, find one of the islands using DFS.
+
+    Mark all the cells of that island and add them to a queue.
+
+    From this queue, do a BFS expansion level-by-level until you hit the second island.
+
+    The number of levels expanded before touching the second island is the answer. 
+    */
     int shortestBridge(vector<vector<int>>& grid) {
         n = grid.size();
 
