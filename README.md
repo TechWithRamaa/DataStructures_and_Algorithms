@@ -477,6 +477,7 @@
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0813-all-paths-from-source-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0813-all-paths-from-source-to-target) |
 | [0833-bus-routes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0833-bus-routes) |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -629,6 +630,7 @@
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0813-all-paths-from-source-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0813-all-paths-from-source-to-target) |
 | [0863-sum-of-distances-in-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0863-sum-of-distances-in-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
@@ -1264,6 +1266,7 @@
 | [0301-remove-invalid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0301-remove-invalid-parentheses) |
 | [0679-24-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0679-24-game) |
 | [0787-sliding-puzzle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0787-sliding-puzzle) |
+| [0813-all-paths-from-source-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0813-all-paths-from-source-to-target) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Graph
 |  |
@@ -1281,6 +1284,7 @@
 | [0744-network-delay-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0813-all-paths-from-source-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0813-all-paths-from-source-to-target) |
 | [0863-sum-of-distances-in-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0863-sum-of-distances-in-tree) |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0984-most-stones-removed-with-same-row-or-column) |
