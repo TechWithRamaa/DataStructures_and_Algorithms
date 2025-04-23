@@ -23,12 +23,13 @@ public:
         // Initialize BFS with the source bus stop
         q.push(source);
         visitedStops.insert(source);
+        
         int busesTaken = 0;
 
         while (!q.empty()) {
             int size = q.size();
             ++busesTaken;
-            
+
             for (int i = 0; i < size; ++i) {
                 int stop = q.front();
                 q.pop();
