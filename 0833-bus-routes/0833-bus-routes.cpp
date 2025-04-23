@@ -28,6 +28,7 @@ public:
         while (!q.empty()) {
             int size = q.size();
             ++busesTaken;
+            
             for (int i = 0; i < size; ++i) {
                 int stop = q.front();
                 q.pop();
@@ -36,12 +37,15 @@ public:
                 for (int bus : stopToBuses[stop]) {
                     if (visitedBuses.find(bus) != visitedBuses.end())
                         continue;
+
                     visitedBuses.insert(bus);
 
                     // Step 4: Add all stops of the current bus to the queue
                     for (int nextStop : routes[bus]) {
+
                         if (nextStop == target)
                             return busesTaken;
+
                         if (visitedStops.find(nextStop) == visitedStops.end()) {
                             visitedStops.insert(nextStop);
                             q.push(nextStop);
