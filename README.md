@@ -266,6 +266,7 @@
 | [0322-coin-change](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0322-coin-change) |
 | [0330-patching-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0330-patching-array) |
 | [0334-increasing-triplet-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0334-increasing-triplet-subsequence) |
+| [0346-moving-average-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0349-intersection-of-two-arrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0349-intersection-of-two-arrays) |
@@ -1221,6 +1222,7 @@
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0304-range-sum-query-2d-immutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0307-range-sum-query-mutable) |
+| [0346-moving-average-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0346-moving-average-from-data-stream) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
@@ -1318,6 +1320,7 @@
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
+| [0346-moving-average-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0346-moving-average-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0937-online-stock-span) |
 ## Binary Indexed Tree
@@ -1336,6 +1339,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0239-sliding-window-maximum) |
+| [0346-moving-average-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0346-moving-average-from-data-stream) |
 | [0387-first-unique-character-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
