@@ -708,6 +708,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0353-design-snake-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0353-design-snake-game) |
+| [0359-logger-rate-limiter](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
@@ -1228,6 +1229,7 @@
 | [0346-moving-average-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0346-moving-average-from-data-stream) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0353-design-snake-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0353-design-snake-game) |
+| [0359-logger-rate-limiter](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
 | [0460-lfu-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0460-lfu-cache) |
@@ -1325,6 +1327,7 @@
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0346-moving-average-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0346-moving-average-from-data-stream) |
+| [0359-logger-rate-limiter](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0359-logger-rate-limiter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0937-online-stock-span) |
 ## Binary Indexed Tree
