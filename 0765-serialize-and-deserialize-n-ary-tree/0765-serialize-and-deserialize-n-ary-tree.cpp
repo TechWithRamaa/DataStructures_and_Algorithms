@@ -25,8 +25,9 @@ before its children, capturing both the node's value and
 the number of its children in one pass. 
 
 During serialization, we record each node as <value> <number_of_children> 
-and recursively serialize its children. Deserialization is just as clean — 
+and recursively serialize its children. 
 
+Deserialization is just as clean — 
 we read the value and child count from the stream 
 (using istringstream for space-separated parsing) and recursively rebuild the tree. 
 
