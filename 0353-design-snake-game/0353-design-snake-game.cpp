@@ -1,4 +1,10 @@
 class SnakeGame {
+/*
+\U0001f9e0 Mental Model:
+Think of the snake as a queue — each move pops from the back (tail) and pushes a new head.
+Use unordered_set for collision detection — if the new head is in the set, it's a collision.
+Simulate growth by not removing the tail when eating food.
+*/
 private:
     int width, height, score, foodIndex;
 
