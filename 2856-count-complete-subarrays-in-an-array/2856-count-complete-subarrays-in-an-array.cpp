@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Dynamic Window Sliding problem - Almost similar to Sliding Window Maximum with a slight modification
     int countCompleteSubarrays(vector<int>& nums) {
         unordered_map<int, int> freqMap;
 
@@ -8,6 +9,7 @@ public:
         }
 
         int distinctElements = freqMap.size();
+
         unordered_map<int, int> windowFreqMap;
         int windowDistinctElements = 0, left = 0, count = 0;
 
@@ -20,7 +22,7 @@ public:
             }
 
             while (windowDistinctElements == distinctElements) {
-                count += (nums.size() - right);
+                count += (nums.size() - right); // <= core trick here
 
                 // shrink
                 windowFreqMap[nums[left]]--;
