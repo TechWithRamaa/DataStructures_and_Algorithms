@@ -1,5 +1,9 @@
 class Solution {
 public:
+    /*
+        Sliding Window with Position Tracking
+        Tracking Last Occurrences
+    */
     long long countSubarrays(vector<int>& nums, int minK, int maxK) {
         int n = nums.size();
         long long ans = 0;
@@ -17,7 +21,7 @@ public:
             }
             int validStart = min(lastMin, lastMax);
             if (validStart > lastInvalid) {
-                ans += (validStart - lastInvalid);
+                ans += (validStart - lastInvalid); // <- core trick
             }
         }
 
