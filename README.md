@@ -364,6 +364,7 @@
 | [2308-divide-array-into-equal-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2478-longest-nice-subarray) |
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2551-apply-operations-to-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2551-apply-operations-to-an-array) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -1130,6 +1131,7 @@
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2478-longest-nice-subarray) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -1354,12 +1356,14 @@
 | [0387-first-unique-character-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0239-sliding-window-maximum) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2527-count-subarrays-with-fixed-bounds) |
 ## Trie
 |  |
 | ------- |
