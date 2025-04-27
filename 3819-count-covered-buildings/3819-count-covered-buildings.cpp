@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Finding Neighbors using Binar Search 
     int countCoveredBuildings(int n, vector<vector<int>>& buildings) {
         map<int, set<int>> rows, cols;
 
