@@ -1,22 +1,28 @@
 class Solution {
-public:
-    bool dfs(int mask, int mod, vector<int>& nums, int k, vector<int>& pow10, vector<vector<int>>& dp, vector<int>& path) {
-        int n = nums.size();
-        if (mask == (1 << n) - 1) {
+private:
+    bool dfs(int mask, int mod, vector<int>& nums, 
+             int k, vector<int>& pow10, 
+             vector<vector<int>>& dp, vector<int>& path) {
+
+        int N = nums.size();
+
+        if (mask == (1 << N) - 1) {
             return mod == 0;
         }
         if (dp[mask][mod] != -1) {
             return false;
         }
 
-        for (int i = 0; i < n; ++i) {
+        for (int i = 0; i < N; ++i) {
             if (!(mask & (1 << i))) { // if i-th number not picked yet
                 int len = to_string(nums[i]).size();
                 int newMod = (mod * pow10[len] + nums[i]) % k;
                 path.push_back(nums[i]);
+
                 if (dfs(mask | (1 << i), newMod, nums, k, pow10, dp, path)) {
                     return true;
                 }
+                
                 path.pop_back();
             }
         }
@@ -24,7 +30,7 @@ public:
         dp[mask][mod] = 0; // memoize as impossible
         return false;
     }
-
+public:
     vector<int> concatenatedDivisibility(vector<int>& nums, int k) {
         sort(nums.begin(), nums.end());
         int n = nums.size();
@@ -40,6 +46,7 @@ public:
         if (dfs(0, 0, nums, k, pow10, dp, path)) {
             return path;
         }
+        
         return {}; // no valid permutation found
     }
 };
