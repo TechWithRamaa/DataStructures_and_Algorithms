@@ -362,6 +362,7 @@
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2280-count-good-triplets-in-an-array) |
 | [2308-divide-array-into-equal-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2308-divide-array-into-equal-pairs) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2478-longest-nice-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2478-longest-nice-subarray) |
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2527-count-subarrays-with-fixed-bounds) |
@@ -433,6 +434,7 @@
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2280-count-good-triplets-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2280-count-good-triplets-in-an-array) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2690-house-robber-iv) |
@@ -1130,6 +1132,7 @@
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2478-longest-nice-subarray) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2527-count-subarrays-with-fixed-bounds) |
@@ -1216,6 +1219,7 @@
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1985-maximum-subarray-min-product](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1985-maximum-subarray-min-product) |
 | [2249-count-the-hidden-sequences](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2249-count-the-hidden-sequences) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2625-increment-submatrices-by-one](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2625-increment-submatrices-by-one) |
 | [2915-count-of-interesting-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2915-count-of-interesting-subarrays) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
