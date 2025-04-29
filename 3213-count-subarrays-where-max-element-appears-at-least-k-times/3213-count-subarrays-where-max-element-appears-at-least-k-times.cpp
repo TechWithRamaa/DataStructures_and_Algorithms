@@ -13,12 +13,19 @@ public:
                 count++;
             }
 
-            // shrink window from the left until count of maxNum >= k
             while (count >= k) {
-                // once count >= k, we can count (n - right) valid subarrays starting at left
+            //     // For visual clarity, print all subarrays [left...end], where end ranges from right to n-1
+            //     for (int end = right; end < n; ++end) {
+            //         cout << "[";
+            //         for (int i = left; i <= end; ++i) {
+            //             cout << nums[i];
+            //             if (i < end) cout << ", ";
+            //         }
+            //         cout << "]" << endl;
+            //     }
+
                 result += (n - right);
 
-                // now shrink from left
                 if (nums[left] == maxNum) {
                     count--;
                 }
