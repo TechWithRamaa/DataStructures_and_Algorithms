@@ -11,7 +11,8 @@ public:
     }
     
     int getHits(int timestamp) {
-        while(!hits.empty() && timestamp - hits.front() >= 300) {
+        // As time moves forward, old entries expire and get popped from the front.
+        while(!hits.empty() && (timestamp - hits.front()) >= 300) {
             hits.pop();
         }
 
