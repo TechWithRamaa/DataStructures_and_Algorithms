@@ -630,6 +630,7 @@
 | [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0543-diameter-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0547-number-of-provinces) |
+| [0642-design-search-autocomplete-system](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0642-design-search-autocomplete-system) |
 | [0652-find-duplicate-subtrees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0652-find-duplicate-subtrees) |
 | [0655-print-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0655-print-binary-tree) |
 | [0684-redundant-connection](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0684-redundant-connection) |
@@ -932,6 +933,7 @@
 | [0468-validate-ip-address](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0468-validate-ip-address) |
 | [0516-longest-palindromic-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
+| [0642-design-search-autocomplete-system](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0642-design-search-autocomplete-system) |
 | [0680-valid-palindrome-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0753-open-the-lock) |
@@ -1083,6 +1085,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
+| [0642-design-search-autocomplete-system](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0642-design-search-autocomplete-system) |
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0761-employee-free-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0761-employee-free-time) |
@@ -1193,6 +1196,7 @@
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0480-sliding-window-median](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
+| [0642-design-search-autocomplete-system](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0642-design-search-autocomplete-system) |
 | [0744-network-delay-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0744-network-delay-time) |
 | [0761-employee-free-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0761-employee-free-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -1252,6 +1256,7 @@
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0381-insert-delete-getrandom-o1-duplicates-allowed) |
 | [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
 | [0460-lfu-cache](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0460-lfu-cache) |
+| [0642-design-search-autocomplete-system](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0642-design-search-autocomplete-system) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0937-online-stock-span) |
@@ -1348,6 +1353,7 @@
 | [0346-moving-average-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0362-design-hit-counter) |
+| [0642-design-search-autocomplete-system](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0642-design-search-autocomplete-system) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0937-online-stock-span) |
 ## Binary Indexed Tree
@@ -1388,6 +1394,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0642-design-search-autocomplete-system](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0642-design-search-autocomplete-system) |
 ## Topological Sort
 |  |
 | ------- |
