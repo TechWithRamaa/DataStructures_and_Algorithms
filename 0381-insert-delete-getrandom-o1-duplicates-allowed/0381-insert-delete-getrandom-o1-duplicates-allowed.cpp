@@ -1,10 +1,9 @@
 class RandomizedCollection {
-public:
-    map<int, set<int>> m; // used to map element with the indices where it is
-                          // present in vector v
-    vector<int>
-        elements; // used to store all the elements (contains duplicate as well)
+private:
+    map<int, set<int>> m;
+    vector<int> elements;
 
+public:
     RandomizedCollection() {}
 
     bool insert(int val) {
@@ -53,10 +52,5 @@ public:
         return true;
     }
 
-    int getRandom() {
-        return elements
-            [rand() % elements.size()]; // rand() is used to get a random number
-                                        // and it is % by v.size() so that the
-                                        // result is within the size of vector v
-    }
+    int getRandom() { return elements[rand() % elements.size()]; }
 };
