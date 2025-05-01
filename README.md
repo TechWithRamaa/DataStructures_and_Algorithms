@@ -357,6 +357,7 @@
 | [1993-sum-of-all-subset-xor-totals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2249-count-the-hidden-sequences](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2249-count-the-hidden-sequences) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -438,6 +439,7 @@
 | [1646-kth-missing-positive-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2280-count-good-triplets-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -1097,6 +1099,7 @@
 | [1881-closest-subsequence-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1881-closest-subsequence-sum) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -1177,6 +1180,7 @@
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2681-put-marbles-in-bags](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2681-put-marbles-in-bags) |
 | [3001-apply-operations-to-maximize-score](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3001-apply-operations-to-maximize-score) |
 ## Merge Sort
@@ -1380,6 +1384,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Monotonic Queue
@@ -1387,6 +1392,7 @@
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0239-sliding-window-maximum) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2527-count-subarrays-with-fixed-bounds) |
 ## Trie
 |  |
