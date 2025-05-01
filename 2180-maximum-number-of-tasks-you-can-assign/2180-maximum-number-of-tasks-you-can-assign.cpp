@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // Binary Search on Answer + Greedy  
+    // Very Interesting
     int maxTaskAssign(vector<int>& tasks, vector<int>& workers, int pills, int strength) {
         sort(tasks.begin(), tasks.end());
         sort(workers.begin(), workers.end());
