@@ -403,6 +403,7 @@
 | [3483-alternating-groups-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3483-alternating-groups-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3643-zero-array-transformation-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
@@ -581,6 +582,7 @@
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3227-find-missing-and-repeated-values) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Linked List
 |  |
 | ------- |
@@ -1227,6 +1229,7 @@
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2681-put-marbles-in-bags) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -1353,6 +1356,7 @@
 | [2793-count-the-number-of-complete-components](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1435,6 +1439,7 @@
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Bucket Sort
 |  |
 | ------- |
