@@ -9,6 +9,7 @@ class FooBar {
         this.n = n;
     }
 
+    // critical section
     public synchronized void foo(Runnable printFoo) throws InterruptedException {
         
         for (int i = 0; i < n; i++) {
@@ -23,6 +24,7 @@ class FooBar {
         }
     }
 
+    // critical section
     public synchronized void bar(Runnable printBar) throws InterruptedException {
         
         for (int i = 0; i < n; i++) {
