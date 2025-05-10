@@ -1521,4 +1521,5 @@
 |  |
 | ------- |
 | [1203-print-in-order](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1203-print-in-order) |
+| [1316-fizz-buzz-multithreaded](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1316-fizz-buzz-multithreaded) |
 <!---LeetCode Topics End-->
