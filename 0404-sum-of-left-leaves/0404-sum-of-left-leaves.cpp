@@ -9,6 +9,24 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+/*
+Always remember this Tree template
+
+Base case: if (!root) return 0;
+
+int result = 0;
+
+if (relevant_condition_on_node)
+    result += X;
+
+result += recur(root->left);
+result += recur(root->right);
+
+return result;
+
+
+*/ 
 class Solution {
 public:
     int sumOfLeftLeaves(TreeNode* root) {
