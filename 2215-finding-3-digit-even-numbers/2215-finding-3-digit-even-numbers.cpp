@@ -3,35 +3,21 @@ public:
     vector<int> findEvenNumbers(vector<int>& digits) {
         unordered_map<int, int> freqMap;
 
-        for(int num : digits) {
-           freqMap[num]++; 
-        }
+        for (int d : digits) 
+            freqMap[d]++;
 
         vector<int> result;
-        for(int num = 100; num < 1000; num++) {
-            int temp = num;
-            bool isPossible = true;
-            unordered_map<int, int> tempFreqMap = freqMap;
 
-            while(temp) {
-                int digit = temp % 10;
-                
-                if(tempFreqMap[digit] > 0) {
-                    tempFreqMap[digit]--;
-                    temp = temp / 10;
-                } else {
-                    isPossible = false;
-                    break;
-                }
-            }
+        for (int num = 100; num <= 998; num += 2) { // only even numbers
+            int a = num / 100; // extract first digit
+            int b = (num / 10) % 10; // extract second digit
+            int c = num % 10; // extract third digit
 
-            if(isPossible && ((num % 2) == 0)) {
+            unordered_map<int, int> tempMap = freqMap;
+            if (--tempMap[a] >= 0 && --tempMap[b] >= 0 && --tempMap[c] >= 0) {
                 result.push_back(num);
             }
         }
-
-
-        sort(result.begin(), result.end());
 
         return result;
     }
