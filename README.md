@@ -64,6 +64,7 @@
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2262-solving-questions-with-brainpower) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2415-count-the-number-of-ideal-arrays) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3637-count-number-of-balanced-permutations) |
@@ -399,6 +400,7 @@
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [2915-count-of-interesting-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2915-count-of-interesting-subarrays) |
 | [3001-apply-operations-to-maximize-score](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3001-apply-operations-to-maximize-score) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
@@ -989,6 +991,7 @@
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2999-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2999-check-if-strings-can-be-made-equal-with-operations-i) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3630-total-characters-in-string-after-transformations-ii) |
@@ -1223,6 +1226,7 @@
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2681-put-marbles-in-bags](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2681-put-marbles-in-bags) |
 | [3001-apply-operations-to-maximize-score](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3001-apply-operations-to-maximize-score) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 ## Merge Sort
 |  |
