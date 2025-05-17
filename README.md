@@ -10,6 +10,7 @@
 | [0022-generate-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0062-unique-paths) |
@@ -121,6 +122,7 @@
 | [0010-regular-expression-matching](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0010-regular-expression-matching) |
 | [0021-merge-two-sorted-lists](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0024-swap-nodes-in-pairs) |
+| [0044-wildcard-matching](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0224-basic-calculator) |
@@ -929,6 +931,7 @@
 | [0032-longest-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0038-count-and-say) |
 | [0043-multiply-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0043-multiply-strings) |
+| [0044-wildcard-matching](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0068-text-justification) |
@@ -1208,6 +1211,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0011-container-with-most-water) |
+| [0044-wildcard-matching](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0044-wildcard-matching) |
 | [0055-jump-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0134-gas-station) |
