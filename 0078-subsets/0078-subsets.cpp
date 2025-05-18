@@ -1,6 +1,25 @@
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
+        int n = nums.size();
+        vector<vector<int>> result;
+
+        for (int mask = 0; mask < (1 << n); ++mask) {
+            vector<int> subset;
+
+            for (int i = 0; i < n; ++i) {
+                if (mask & (1 << i)) {
+                    subset.push_back(nums[i]);
+                }
+            }
+
+            result.push_back(subset);
+        }
+
+        return result;
+    }
+
+    vector<vector<int>> subsets1(vector<int>& nums) {
         vector<vector<int>> result;
         vector<int> current;
 
@@ -11,29 +30,28 @@ public:
 
 private:
     // Approach 1 -> Recursion
-    void subsets1(int index, vector<int>& current,
-                                vector<vector<int>>& result,
-                                vector<int>& nums) {
-        if(index == nums.size()) {
+    void subsets1(int index, vector<int>& current, vector<vector<int>>& result,
+                  vector<int>& nums) {
+        if (index == nums.size()) {
             result.push_back(current);
             return;
         }
 
         current.push_back(nums[index]);
         subsets(index + 1, current, result, nums);
-        
+
         current.pop_back();
 
-        subsets(index+1, current, result, nums);
+        subsets(index + 1, current, result, nums);
     }
 
-     // Approach 2 -> Recursion but odered from shorter to bigger subsets
-     void subsets(int index, vector<int>& current,
-                    vector<vector<int>>& result, vector<int>& nums) {
+    // Approach 2 -> Recursion but odered from shorter to bigger subsets
+    void subsets(int index, vector<int>& current, vector<vector<int>>& result,
+                 vector<int>& nums) {
 
         result.push_back(current);
 
-        for(int i = index; i < nums.size(); i++) {
+        for (int i = index; i < nums.size(); i++) {
             current.push_back(nums[i]);
             subsets(i + 1, current, result, nums);
             current.pop_back();
