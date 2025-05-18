@@ -775,6 +775,7 @@
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0753-open-the-lock) |
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
+| [0782-jewels-and-stones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0782-jewels-and-stones) |
 | [0797-rabbits-in-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0797-rabbits-in-forest) |
 | [0807-custom-sort-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0807-custom-sort-string) |
 | [0833-bus-routes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0833-bus-routes) |
@@ -985,6 +986,7 @@
 | [0753-open-the-lock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0753-open-the-lock) |
 | [0765-serialize-and-deserialize-n-ary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0765-serialize-and-deserialize-n-ary-tree) |
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
+| [0782-jewels-and-stones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0782-jewels-and-stones) |
 | [0807-custom-sort-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0807-custom-sort-string) |
 | [0868-push-dominoes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0868-push-dominoes) |
 | [0990-verifying-an-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0990-verifying-an-alien-dictionary) |
