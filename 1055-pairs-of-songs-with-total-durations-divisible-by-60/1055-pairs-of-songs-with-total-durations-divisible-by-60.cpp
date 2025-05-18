@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // Based on 2 Sum pattern, 
+    // modified for finding no of pairs matching the target constraint
     int numPairsDivisibleBy60(vector<int>& time) {
         unordered_map<int, int> complementMap;
         int noOfPairs = 0;
