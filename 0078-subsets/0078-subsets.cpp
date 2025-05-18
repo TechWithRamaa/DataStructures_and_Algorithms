@@ -10,7 +10,8 @@ public:
     }
 
 private:
-    void subsets(int index, vector<int>& current,
+    // Approach 1 -> Recursion
+    void subsets1(int index, vector<int>& current,
                                 vector<vector<int>>& result,
                                 vector<int>& nums) {
         if(index == nums.size()) {
@@ -24,5 +25,18 @@ private:
         current.pop_back();
 
         subsets(index+1, current, result, nums);
+    }
+
+     // Approach 2 -> Recursion but odered from shorter to bigger subsets
+     void subsets(int index, vector<int>& current,
+                    vector<vector<int>>& result, vector<int>& nums) {
+
+        result.push_back(current);
+
+        for(int i = index; i < nums.size(); i++) {
+            current.push_back(nums[i]);
+            subsets(i + 1, current, result, nums);
+            current.pop_back();
+        }
     }
 };
