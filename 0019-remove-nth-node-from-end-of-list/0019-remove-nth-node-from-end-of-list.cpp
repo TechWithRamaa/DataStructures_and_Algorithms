@@ -64,10 +64,11 @@ public:
     // ~ O ( n )
     // Two pointers (not exactly fast and slow pointers)
     ListNode* removeNthFromEnd2(ListNode* head, int n) {
-        ListNode* dummy = new ListNode(0, head);
+        ListNode dummy(0);
+        dummy.next = head;
 
-        ListNode* first = dummy;
-        ListNode* second = dummy;
+        ListNode* first = &dummy;
+        ListNode* second = &dummy;
 
         // just initialize two pointers
         // as you note the names, it is not slow & fast 
@@ -75,9 +76,11 @@ public:
         // as they re normal pointers, start from ****** dummy head ******* 
         // no drama 
 
+        // n + 1 times because we start first from dummy
         for (int i = 0; i <= n; i++) 
             first = first->next;
         
+        // second exactly stops before n-th node
         while(first) {
             first = first->next;
             second = second->next;
@@ -93,9 +96,6 @@ public:
 
         delete nodeToRemove;
 
-        ListNode* newHead = dummy->next;
-        delete dummy;
-
-        return newHead;
+        return dummy.next;
     }
 };
