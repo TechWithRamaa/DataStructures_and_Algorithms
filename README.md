@@ -288,6 +288,7 @@
 | [0353-design-snake-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0353-design-snake-game) |
 | [0362-design-hit-counter](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0362-design-hit-counter) |
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
+| [0370-range-addition](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0370-range-addition) |
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0381-insert-delete-getrandom-o1-duplicates-allowed) |
 | [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
@@ -1283,6 +1284,7 @@
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0304-range-sum-query-2d-immutable) |
+| [0370-range-addition](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0370-range-addition) |
 | [0410-split-array-largest-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0523-continuous-subarray-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0525-contiguous-array) |
