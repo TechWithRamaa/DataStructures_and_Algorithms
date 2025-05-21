@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // Difference Array 
+    // O ( K + length )
     vector<int> getModifiedArray(int length, vector<vector<int>>& updates) {
         vector<int> diffArray(length, 0);
 
