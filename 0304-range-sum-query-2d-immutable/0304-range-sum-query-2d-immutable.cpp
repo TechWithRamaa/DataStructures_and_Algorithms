@@ -19,12 +19,12 @@ public:
         }
     }
     
-    int sumRegion(int row1, int col1, int row2, int col2) {
-        int top = row1 > 0 ? prefixSum[row1 - 1][col2] : 0;
-        int left = col1 > 0 ? prefixSum[row2][col1 - 1] : 0;
-        int topLeft = row1 > 0 && col1 > 0 ? prefixSum[row1 - 1][col1 - 1] : 0;
+    int sumRegion(int r1, int c1, int r2, int c2) {
+        int top = r1 > 0 ? prefixSum[r1 - 1][c2] : 0;
+        int left = c1 > 0 ? prefixSum[r2][c1 - 1] : 0;
+        int topLeft = r1 > 0 && c1 > 0 ? prefixSum[r1 - 1][c1 - 1] : 0;
 
-        return prefixSum[row2][col2] - top - left + topLeft;
+        return prefixSum[r2][c2] - top - left + topLeft;
     }
 };
 
