@@ -338,6 +338,7 @@
 | [0971-shortest-bridge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0971-shortest-bridge) |
 | [0990-verifying-an-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0990-verifying-an-alien-dictionary) |
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1028-interval-list-intersections](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1028-interval-list-intersections) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1036-rotting-oranges) |
@@ -787,6 +788,7 @@
 | [0940-fruit-into-baskets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0940-fruit-into-baskets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0990-verifying-an-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0990-verifying-an-alien-dictionary) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
@@ -1292,6 +1294,7 @@
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1145-number-of-submatrices-that-sum-to-target) |
