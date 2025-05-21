@@ -270,6 +270,7 @@
 | [0286-walls-and-gates](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0300-longest-increasing-subsequence) |
+| [0303-range-sum-query-immutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0307-range-sum-query-mutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -1280,6 +1281,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
+| [0303-range-sum-query-immutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0304-range-sum-query-2d-immutable) |
 | [0410-split-array-largest-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0523-continuous-subarray-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0523-continuous-subarray-sum) |
@@ -1312,6 +1314,7 @@
 | [0251-flatten-2d-vector](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0251-flatten-2d-vector) |
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0303-range-sum-query-immutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0304-range-sum-query-2d-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0307-range-sum-query-mutable) |
 | [0346-moving-average-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0346-moving-average-from-data-stream) |
