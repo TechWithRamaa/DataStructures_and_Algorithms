@@ -29,7 +29,7 @@ public:
             runningSum += num;
 
             // if any subarray exists with target sum k, this will execute
-            if(prefixSumCount.find(runningSum - k) != prefixSumCount.end())
+            if(prefixSumCount.count(runningSum - k))
                 subArrayCount += prefixSumCount[runningSum - k];
 
             prefixSumCount[runningSum]++;
