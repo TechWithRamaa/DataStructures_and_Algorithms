@@ -1,7 +1,6 @@
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
-        if (matrix.empty() || matrix[0].empty()) return; // Early return if the matrix is empty
         
         const int ROWS = matrix.size();
         const int COLUMNS = matrix[0].size();
