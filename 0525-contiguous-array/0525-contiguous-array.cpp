@@ -18,7 +18,7 @@ public:
 
             // If this sum was seen before, we have a subarray with equal 0's
             // and 1's
-            if (prefixIndex.find(sum) != prefixIndex.end()) {
+            if (prefixIndex.count(sum)) {
                 maxLen = max(maxLen, i - prefixIndex[sum]);
             } else {
                 // Store the first occurrence of this sum
