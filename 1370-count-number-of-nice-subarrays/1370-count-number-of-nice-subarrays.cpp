@@ -15,7 +15,7 @@ public:
         for (int num : nums) {
             prefixSum += (num % 2); 
 
-            if (freq.find(prefixSum - k) != freq.end()) {
+            if (freq.count(prefixSum - k)) {
                 subArrayCount += freq[prefixSum - k];
             }
 
