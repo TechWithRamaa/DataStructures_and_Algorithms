@@ -5,11 +5,11 @@ public:
         int longestSeq = 0;
 
         for(int element: seen) {
-            if(seen.find(element - 1) == seen.end()) {
+            if(!seen.count(element - 1)) {
                 int currentLong = 1;
                 int currentElement = element;
 
-                while(seen.find(currentElement + 1) != seen.end()) {
+                while(seen.count(currentElement + 1)) {
                     currentLong += 1;
                     currentElement += 1;
                 }
