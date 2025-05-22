@@ -6,20 +6,20 @@ public:
     // Tranform this problem into Number of subarrays having exactly k sum 
     // by considering all odd numbers as 1 & even numbers as 0
     int numberOfSubarrays2(vector<int>& nums, int k) {
-        int subArrayCount = 0, prefixSum = 0;
+        int subArrayCount = 0, runningSum = 0;
 
         // <k, v> => prefixSum, count 
         unordered_map<int, int> freq;
         freq[0] = 1; // Base case for zero prefix sum
 
         for (int num : nums) {
-            prefixSum += (num % 2); 
+            runningSum += (num % 2); 
 
-            if (freq.count(prefixSum - k)) {
-                subArrayCount += freq[prefixSum - k];
+            if (freq.count(runningSum - k)) {
+                subArrayCount += freq[runningSum - k];
             }
 
-            freq[prefixSum]++;
+            freq[runningSum]++;
         }
 
         return subArrayCount;
