@@ -14,51 +14,52 @@ public:
     string serialize(TreeNode* root) {
         stringstream ss;
         preorder(root, ss);
+
         return ss.str();
     }
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        if (data.empty())
+        if(data.empty())
             return nullptr;
-
+        
+        vector<int> tokens;
+        string token;
         stringstream ss(data);
-        vector<int> preorderVals;
-        string val;
 
-        while (getline(ss, val, ',')) {
-            preorderVals.push_back(stoi(val));
+        while(getline(ss, token, ',')) {
+            tokens.push_back(stoi(token));
         }
 
         int index = 0;
-        return build(preorderVals, index, INT_MIN, INT_MAX);
+        return buildBST(index, tokens, INT_MIN, INT_MAX);
     }
 
 private:
     void preorder(TreeNode* root, stringstream& ss) {
-        if (!root) 
+        if(!root)
             return;
-
+        
         ss << root->val << ",";
 
         preorder(root->left, ss);
         preorder(root->right, ss);
     }
 
-    TreeNode* build(vector<int>& vals, int& index, int lower, int upper) {
-        if (index == vals.size()) 
+    TreeNode* buildBST(int& index, vector<int>& preOrderVals, int lowerBound, int upperBound) {
+        if(index == preOrderVals.size())
             return nullptr;
 
-        int val = vals[index];
-        
-        if (val < lower || val > upper) 
+        int value = preOrderVals[index];
+
+        if(value < lowerBound || value > upperBound) 
             return nullptr;
 
-        TreeNode* root = new TreeNode(val);
+        TreeNode* root = new TreeNode(value);
         index++;
 
-        root->left = build(vals, index, lower, val);
-        root->right = build(vals, index, val, upper);
+        root->left = buildBST(index, preOrderVals, lowerBound, value);
+        root->right = buildBST(index, preOrderVals, value, upperBound);
 
         return root;
     }
