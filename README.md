@@ -990,6 +990,7 @@
 | [0449-serialize-and-deserialize-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0449-serialize-and-deserialize-bst) |
 | [0468-validate-ip-address](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0468-validate-ip-address) |
 | [0516-longest-palindromic-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0516-longest-palindromic-subsequence) |
+| [0551-student-attendance-record-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0551-student-attendance-record-i) |
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
 | [0642-design-search-autocomplete-system](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0642-design-search-autocomplete-system) |
 | [0680-valid-palindrome-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0680-valid-palindrome-ii) |
