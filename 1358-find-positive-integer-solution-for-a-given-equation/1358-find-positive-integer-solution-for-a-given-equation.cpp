@@ -13,6 +13,9 @@
 
 class Solution {
 public:
+    // Saddleback search
+    // Tap into Monotoncity property to optimize the search speculate
+    // Search space gets reduced to 2000 from 1 million
     vector<vector<int>> findSolution(CustomFunction& customfunction, int z) {
         vector<vector<int>> result;
         
