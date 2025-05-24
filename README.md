@@ -416,6 +416,7 @@
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
+| [3194-find-words-containing-character](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3194-find-words-containing-character) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3227-find-missing-and-repeated-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3227-find-missing-and-repeated-values) |
@@ -1015,6 +1016,7 @@
 | [2999-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2999-check-if-strings-can-be-made-equal-with-operations-i) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+| [3194-find-words-containing-character](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3194-find-words-containing-character) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3630-total-characters-in-string-after-transformations-ii) |
