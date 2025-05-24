@@ -4,6 +4,8 @@ public:
         Very important problem
         Trick is building a undirected graph for fast traversing
         even though the input is a Directed Acyclic Graph ( A Tree )
+
+        Normal Traversal (DFS) is used
     */
     int minReorder(int n, vector<vector<int>>& connections) {
         vector<vector<int>> graph(n);
