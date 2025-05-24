@@ -328,6 +328,7 @@
 | [0739-daily-temperatures](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0739-daily-temperatures) |
 | [0753-open-the-lock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0753-open-the-lock) |
 | [0761-employee-free-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0761-employee-free-time) |
+| [0762-find-anagram-mappings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0762-find-anagram-mappings) |
 | [0787-sliding-puzzle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0787-sliding-puzzle) |
 | [0792-binary-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0797-rabbits-in-forest) |
@@ -790,6 +791,7 @@
 | [0652-find-duplicate-subtrees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0652-find-duplicate-subtrees) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0753-open-the-lock) |
+| [0762-find-anagram-mappings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0762-find-anagram-mappings) |
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
 | [0782-jewels-and-stones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0782-jewels-and-stones) |
 | [0797-rabbits-in-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0797-rabbits-in-forest) |
