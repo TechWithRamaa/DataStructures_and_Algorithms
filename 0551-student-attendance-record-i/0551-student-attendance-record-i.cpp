@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Scan through the string
     bool checkRecord(string s) {
         int lates = 0, absents = 0;
 
