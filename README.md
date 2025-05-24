@@ -470,6 +470,7 @@
 | [0907-koko-eating-bananas](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
 | [1646-kth-missing-positive-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -871,6 +872,7 @@
 | [0679-24-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0679-24-game) |
 | [0797-rabbits-in-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0797-rabbits-in-forest) |
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
+| [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
 | [1370-count-number-of-nice-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1370-count-number-of-nice-subarrays) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1500-count-largest-group) |
@@ -1127,6 +1129,7 @@
 | [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
 | [0908-middle-of-the-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0908-middle-of-the-linked-list) |
 | [1028-interval-list-intersections](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1028-interval-list-intersections) |
+| [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1881-closest-subsequence-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1881-closest-subsequence-sum) |
@@ -1547,6 +1550,7 @@
 | [0277-find-the-celebrity](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0277-find-the-celebrity) |
 | [0278-first-bad-version](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0374-guess-number-higher-or-lower) |
+| [1358-find-positive-integer-solution-for-a-given-equation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1358-find-positive-integer-solution-for-a-given-equation) |
 ## Geometry
 |  |
 | ------- |
