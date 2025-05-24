@@ -33,6 +33,8 @@ k+1 = moves remaining
 
 Cache results to avoid recomputation
 */
+
+// Modeling with Recursion + State Compression
 class Solution {
 public:
     int N;
