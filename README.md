@@ -64,6 +64,7 @@
 | [1628-count-submatrices-with-all-ones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1628-count-submatrices-with-all-ones) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1881-closest-subsequence-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1881-closest-subsequence-sum) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2262-solving-questions-with-brainpower) |
@@ -145,6 +146,7 @@
 | [0139-word-break](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0139-word-break) |
 | [0787-sliding-puzzle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0787-sliding-puzzle) |
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1986-largest-color-value-in-a-directed-graph) |
 ## Binary Tree
 |  |
 | ------- |
@@ -827,6 +829,7 @@
 | [1668-find-longest-awesome-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1668-find-longest-awesome-substring) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2215-finding-3-digit-even-numbers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2215-finding-3-digit-even-numbers) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -1210,6 +1213,7 @@
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2308-divide-array-into-equal-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2308-divide-array-into-equal-pairs) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
@@ -1447,6 +1451,7 @@
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2793-count-the-number-of-complete-components](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2793-count-the-number-of-complete-components) |
@@ -1525,6 +1530,7 @@
 | [0207-course-schedule](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0210-course-schedule-ii) |
 | [0269-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0269-alien-dictionary) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Shortest Path
