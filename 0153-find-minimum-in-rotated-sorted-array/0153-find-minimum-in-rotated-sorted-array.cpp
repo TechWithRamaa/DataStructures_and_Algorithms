@@ -11,11 +11,11 @@ public:
         while (left < right) {
             int mid =  left + (right - left) / 2;
 
-            // \U0001f500 Pivot is to the right
+            // Pivot is to the right
             if (nums[mid] > nums[right]) {
                 left = mid + 1;
             }
-            // ✅ Pivot is at mid or to the left
+            // Pivot is at mid or to the left
             else {
                 right = mid;
             }
