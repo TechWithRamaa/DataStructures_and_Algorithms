@@ -1,7 +1,7 @@
 class Solution {
 public:
     // the minimum element is the pivot of rotation
-    // we need to look for the pivot in the unsorted half
+    // we need to look for the pivot in the decreasing half
     int findMin(vector<int>& nums) {
         int left = 0;
         int right = nums.size() - 1;
