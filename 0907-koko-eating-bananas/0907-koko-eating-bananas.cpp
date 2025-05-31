@@ -4,11 +4,10 @@ public:
         int left = 1;
         int right = *max_element(piles.begin(), piles.end());
     
-
-        while(left <= right) {
+        while(left < right) {
             int mid = left + (right - left) / 2;
             if(canKokoFinish(piles, H, mid)) {
-                right = mid - 1;
+                right = mid;
             } else {
                 left = mid + 1;
             }
