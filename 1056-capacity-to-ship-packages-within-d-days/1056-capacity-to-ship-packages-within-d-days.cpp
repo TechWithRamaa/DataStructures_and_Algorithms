@@ -1,5 +1,8 @@
 class Solution {
 public:
+    // Binary Search on Answer Space
+    // Capacity is the search space 
+    // finding left & right is the task 
     int shipWithinDays(vector<int>& weights, int days) {
         int totalWeight = 0, maxCapacity = 0;
 
