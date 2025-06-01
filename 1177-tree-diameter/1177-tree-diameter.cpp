@@ -40,6 +40,6 @@ private:
         // The length of the longest path through the node
         diameter = max(diameter, max1 + max2);
 
-        return 1 + max(max1, max2);
+        return 1 + max(max1, max2); // height of the node’s subtree
     }
 };
