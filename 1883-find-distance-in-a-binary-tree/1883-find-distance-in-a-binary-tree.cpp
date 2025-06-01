@@ -34,6 +34,7 @@ private:
         return left ? left : right;        
     }
 
+    // pre-order DFS
     int findDepth(TreeNode* root, int target, int depth = 0) {
         if(!root)
             return -1;
