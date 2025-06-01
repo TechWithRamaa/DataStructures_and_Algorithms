@@ -6,7 +6,8 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 class Solution {
@@ -18,19 +19,17 @@ public:
 
 private:
     pair<int, TreeNode*> getLCAOfDeepestLeaves(TreeNode* root) {
-        if(!root) {
+        if (!root) 
             return {0, nullptr};
-        }
 
         auto left = getLCAOfDeepestLeaves(root->left);
         auto right = getLCAOfDeepestLeaves(root->right);
 
-        if(left.first > right.first) {
+        if (left.first > right.first)
             return {left.first + 1, left.second};
-        } else  if(left.first < right.first) {
+        else if (left.first < right.first)
             return {right.first + 1, right.second};
-        } else {
-             return {left.first + 1, root};
-        }
+        else
+            return {left.first + 1, root};
     }
 };
