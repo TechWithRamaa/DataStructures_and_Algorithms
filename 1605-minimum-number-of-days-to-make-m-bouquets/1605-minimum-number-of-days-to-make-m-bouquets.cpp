@@ -25,7 +25,7 @@ public:
         int low = 1, high = *max_element(bloomDay.begin(), bloomDay.end());
 
         while (low < high) {
-            int mid = (low + high) / 2;
+            int mid = low + ((high - low) / 2);
 
             if (canMakeBouquets(bloomDay, m, k, mid)) {
                 high = mid;
