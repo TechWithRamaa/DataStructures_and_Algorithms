@@ -16,6 +16,7 @@ public:
         return max(finalPair.first, finalPair.second);
     }
 private:
+    // POST-ORDER DFS
     pair<int, int> robHouses(TreeNode* root) {
         if(!root) {
             return {0, 0};
