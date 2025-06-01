@@ -9,7 +9,32 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
 class Solution {
+public:
+    int pathSum(TreeNode* root, int targetSum) {
+        if (!root) return 0;
+
+        return countPaths(root, targetSum)
+             + pathSum(root->left, targetSum)
+             + pathSum(root->right, targetSum);
+    }
+
+private:
+    int countPaths(TreeNode* node, long long remainingSum) {
+        if (!node) return 0;
+
+        int count = 0;
+        if (node->val == remainingSum) count++;
+
+        count += countPaths(node->left, remainingSum - node->val);
+        count += countPaths(node->right, remainingSum - node->val);
+
+        return count;
+    }
+};
+
+class Solution1 {
 public:
     int pathSum(TreeNode* root, int targetSum) {
         unordered_map<long long, int> prefixSums;
