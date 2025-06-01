@@ -20,6 +20,8 @@ public:
 private:
     // returns depth or height & updates maxDiameter at each node
     // post order DFS traversal
+    // longest path btwn any two nodes
+    // path may or may not pass through the root
     int diameterOfBinaryTree(TreeNode* root, int& maxDiameter) {
         if(!root) 
             return 0;
