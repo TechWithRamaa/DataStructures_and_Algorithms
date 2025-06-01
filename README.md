@@ -123,6 +123,7 @@
 | [1254-deepest-leaves-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1254-deepest-leaves-sum) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Recursion
 |  |
@@ -195,6 +196,7 @@
 | [1254-deepest-leaves-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1254-deepest-leaves-sum) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Array
 |  |
 | ------- |
@@ -562,6 +564,7 @@
 | [1663-detect-cycles-in-2d-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2793-count-the-number-of-complete-components) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2914-find-the-safest-path-in-a-grid) |
@@ -730,6 +733,7 @@
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2438-find-closest-node-to-given-two-nodes) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2793-count-the-number-of-complete-components](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2793-count-the-number-of-complete-components) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Simulation
@@ -843,6 +847,7 @@
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2308-divide-array-into-equal-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2308-divide-array-into-equal-pairs) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
+| [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2626-count-the-number-of-good-subarrays) |
