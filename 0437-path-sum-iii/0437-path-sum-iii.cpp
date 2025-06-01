@@ -10,7 +10,7 @@
  * };
  */
 
-class Solution {
+class Solution1 {
 public:
     int pathSum(TreeNode* root, int targetSum) {
         if (!root) return 0;
@@ -34,7 +34,7 @@ private:
     }
 };
 
-class Solution1 {
+class Solution {
 public:
     int pathSum(TreeNode* root, int targetSum) {
         unordered_map<long long, int> prefixSums;
@@ -61,4 +61,14 @@ private:
 
         return count;
     }
+
+    /*
+    
+    | Technique            | Role                                                                               |
+    | -------------------- | ---------------------------------------------------------------------------------- |
+    | **Pre-order DFS**    | Traverse top-down, so prefix sums are built in root-to-current-node order.         |
+    | **Prefix Sum**       | Allow **O(1)** lookup of matching paths instead of recomputing all subpaths.       |
+    | **Combined Benefit** | From O(N²) → **O(N)**, while covering **all downward paths starting at any node**. |
+
+    */
 };
