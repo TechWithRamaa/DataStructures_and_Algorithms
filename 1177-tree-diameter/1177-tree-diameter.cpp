@@ -19,6 +19,7 @@ public:
     }
 
 private:
+    // post-order dfs
     int dfs(int node, int parent, vector<vector<int>>& graph, int& diameter) {
         int max1 = 0, max2 = 0;
 
@@ -34,9 +35,9 @@ private:
             } else if (height > max2) {
                 max2 = height;
             }
-
         }
 
+        // The length of the longest path through the node
         diameter = max(diameter, max1 + max2);
 
         return 1 + max(max1, max2);
