@@ -20,7 +20,7 @@ public:
 */
 
 class Solution {
-public:
+private:
     Node* cloneGraphHelper(Node* node, unordered_map<Node*, Node*>& cloneMap) {
         if (!node) return nullptr;
 
@@ -38,7 +38,7 @@ public:
         
         return clone;
     }
-
+public:
     Node* cloneGraph(Node* node) {
         unordered_map<Node*, Node*> cloneMap; // To store original->clone mapping
         return cloneGraphHelper(node, cloneMap);
