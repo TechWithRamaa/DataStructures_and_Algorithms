@@ -1,11 +1,18 @@
 class Solution {
 public:
     // Key Intuition
-    /*
+    
+    /* Pattern: Next lexicographic order of a permutation
        Scan from right → find first drop (nums[i] < nums[i+1]).
+
        Find the smallest larger element in the right suffix & swap.
        Reverse the suffix to get the smallest next permutation.
     */
+
+    // Greedy + Next Permutation
+    // Lexicography + Combinatorial 
+    // Lexicographic + Greedy Swap + Reverse Tail
+
     void nextPermutation(vector<int>& nums) {
         int N = nums.size();
         int i = N - 2;
