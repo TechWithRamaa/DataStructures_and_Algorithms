@@ -1,5 +1,11 @@
 class Solution {
 public:
+    /*
+    Yes, allowing duplicates affects the runtime complexity.
+    Because in the worst case, when nums[left] == nums[mid] == nums[right], 
+    you can't reduce the search space logarithmically, and 
+    may end up doing a linear scan, leading to O(n) time complexity.
+    */
     bool search(const vector<int>& nums, const int TARGET) {
         int left = 0, right = nums.size() - 1;
 
