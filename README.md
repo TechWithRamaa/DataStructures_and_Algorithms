@@ -25,6 +25,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0152-maximum-product-subarray) |
 | [0174-dungeon-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0198-house-robber) |
@@ -257,6 +258,7 @@
 | [0137-single-number-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0152-maximum-product-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0157-read-n-characters-given-read4](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0157-read-n-characters-given-read4) |
