@@ -6,9 +6,10 @@ public:
 
         int runningMax = nums[0], runningMin = nums[0];
 
+        // made a mistake of considering nums[0] twice
         for(int i = 1; i < nums.size(); i++) {
             int num = nums[i];
-            
+
             if(num < 0)
                 swap(runningMax, runningMin);
 
