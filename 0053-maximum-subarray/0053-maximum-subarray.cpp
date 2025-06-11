@@ -1,6 +1,8 @@
 class Solution {
 public:
-    int maxSubArrayApproach1(vector<int>& nums) {
+    // Kadane's Variation in two different styles
+    // TC ~ O ( n )
+    int maxSubArray(vector<int>& nums) {
         int maxSum = INT_MIN;
         int runningSum = 0;
 
@@ -16,7 +18,7 @@ public:
         return maxSum;
     }
 
-    int maxSubArray(vector<int>& nums) {
+    int maxSubArray1(vector<int>& nums) {
         int maxSum = INT_MIN;
         int runningSum = 0;
 
