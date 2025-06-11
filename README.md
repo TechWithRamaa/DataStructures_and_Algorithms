@@ -277,6 +277,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0217-contains-duplicate) |
 | [0218-the-skyline-problem](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0218-the-skyline-problem) |
+| [0229-majority-element-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
@@ -796,6 +797,7 @@
 | [0202-happy-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
 | [0246-strobogrammatic-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0246-strobogrammatic-number) |
 | [0266-palindrome-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0266-palindrome-permutation) |
@@ -1198,6 +1200,7 @@
 | [0169-majority-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
@@ -1233,6 +1236,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0229-majority-element-ii) |
 | [0299-bulls-and-cows](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0299-bulls-and-cows) |
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0387-first-unique-character-in-a-string) |
