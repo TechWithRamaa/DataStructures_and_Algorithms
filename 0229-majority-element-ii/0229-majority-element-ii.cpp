@@ -1,5 +1,12 @@
 class Solution {
 public:
+    // Frequency based approach
+    // TC ~ O ( N ) ; SC ~ O ( N )
+    // Naive approach
+
+    // Extended Boyre Moore Algorithm
+    // TC ~ O ( N ) ; SC ~ O ( 1 )
+    // Optimized approach
     vector<int> majorityElement(vector<int>& nums) {
         int cand1 = 0, cand2 = 1;
         int count1 = 0, count2 = 0;
