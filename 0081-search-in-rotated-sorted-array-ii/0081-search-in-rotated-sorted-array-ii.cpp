@@ -3,6 +3,8 @@ public:
     /*
     Yes, allowing duplicates affects the runtime complexity.
     Because in the worst case, when nums[left] == nums[mid] == nums[right], 
+    we cant determine which half is sorted
+    
     you can't reduce the search space logarithmically, and 
     may end up doing a linear scan, leading to O(n) time complexity.
     */
