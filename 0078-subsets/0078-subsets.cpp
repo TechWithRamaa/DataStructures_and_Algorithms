@@ -1,5 +1,14 @@
 class Solution {
 public:
+    // Optimized approach
+    // BitMasking 
+    
+    /*
+    Each number from 0 to 2^n - 1 (bitmask) represents a unique subset, 
+    where the i-th bit tells whether to include nums[i] in the subset.
+    
+    We loop through each bit of the mask and include elements where the bit is set (1).
+    */
     vector<vector<int>> subsets(vector<int>& nums) {
         int n = nums.size();
         vector<vector<int>> result;
