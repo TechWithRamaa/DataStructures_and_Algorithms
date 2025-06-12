@@ -6,6 +6,7 @@ public:
     // For NGE - we have to start from right to left
     // Leverage Monotonic Stack
     // For NGE - the order maintained is Decreasing order ( from down to top )
+    // bottom -> 4 , 3, 1 .. is at the top .. meaning the the stack is decreasing from bottom to top
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
         unordered_map<int, int> nge2;
 
@@ -28,6 +29,11 @@ public:
             if (nge2.find(num) != nge2.end()) {
                 nge1.push_back(nge2[num]);
             }
+        }
+
+        while(!st.empty()) {
+            cout << st.top() << endl;
+            st.pop();
         }
 
         return nge1;
