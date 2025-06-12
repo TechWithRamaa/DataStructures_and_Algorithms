@@ -27,8 +27,11 @@ private:
 
         for (int i = 1; i < stations.size(); i++) {
             double dist = stations[i] - stations[i - 1];
+            //cout << int(dist / maxDist) << endl;
             needed += int(dist / maxDist);
         }
+
+        //cout << needed << "- " << maxDist << endl;
 
         return needed <= k;
     }
