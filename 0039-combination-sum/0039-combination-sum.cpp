@@ -1,5 +1,9 @@
 class Solution {
 public:
+    /*
+    \U0001f538 You can memoize combinationSum, but it's rarely beneficial because each call depends on a unique path and index.
+    \U0001f538 If the problem were to return count of combinations, or allow permutation-based reuse, then memoization would be more useful.
+    */
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> result;
         vector<int> current;
