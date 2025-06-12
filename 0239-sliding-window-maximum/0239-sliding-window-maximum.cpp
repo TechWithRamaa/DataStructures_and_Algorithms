@@ -1,5 +1,18 @@
 class Solution {
 public:
+    // Approach 1 -> TC ~ O ( N * K )
+    // Very Simple & Intutive
+    // using max_element STL, TLE for largest nums size
+    vector<int> maxSlidingWindow1(vector<int>& nums, int k) {
+        vector<int> result;
+
+        for(int i = 0; i <= nums.size() - k; i++) {
+            result.push_back(*max_element(nums.begin() + i, nums.begin() + i + k));
+        }
+
+        return result;
+    }
+
     // we need to maintain largest in the window in the FRONT
     // we maintain a deque of indices
 
