@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Greedy Simulation with MaxHeap (a.k.a. CPU Cycle Simulation)
     // FrequenceMap + MaxHeap + Scheduling & Counting the intervals
     int leastInterval(vector<char>& tasks, int n) {
         int totalIntervals = 0;
