@@ -1,29 +1,29 @@
 class Solution {
 public:
-     int trap(vector<int>& height) {
-        stack<int> elevations;
+    int trap(vector<int>& height) {
+        stack<int> st; // stack of indices
         int waterTrapped = 0;
-        
-        // find the dip
-        // find the left wall and right wall
-        for(int i = 0; i < height.size(); i++) {
-            while(!elevations.empty() && height[elevations.top()] < height[i]) {
-                int smallerElevationIndex = elevations.top();
-                elevations.pop();
 
-                if(elevations.empty()) {
-                    break; // no left boundard exists
+        for (int i = 0; i < height.size(); ++i) {
+            // While stack is not empty and current height is higher than stack top
+            while (!st.empty() && height[i] > height[st.top()]) {
+                int bottom = st.top(); // This is the bottom of the trapped water
+                st.pop();
+
+                if (st.empty()) {
+                    break; // No left wall to trap water
                 }
-                int rightBoudaryIndex = i;
-                int leftBoundaryIndex = elevations.top();
-                int trappingHeight = min(height[rightBoudaryIndex], height[leftBoundaryIndex]) - height[smallerElevationIndex];
-                // the extra variables can be avoided by using it directly
 
-                int width = rightBoudaryIndex - leftBoundaryIndex - 1;
+                int left = st.top(); // Now top of stack is the left wall
+                int right = i;       // current i is the right wall
 
-                waterTrapped += width * trappingHeight;
+                int width = right - left - 1;
+                int boundedHeight = min(height[left], height[right]) - height[bottom];
+
+                waterTrapped += width * boundedHeight;
             }
-            elevations.push(i);
+
+            st.push(i); // Add current bar to stack
         }
 
         return waterTrapped;
