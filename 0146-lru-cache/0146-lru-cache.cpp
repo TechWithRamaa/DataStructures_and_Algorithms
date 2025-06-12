@@ -99,7 +99,7 @@ private:
     unordered_map<int, Node*> cache;
     Node *head, *tail;
  
-    
+    // just relinking
     void addToHead(Node *node) {
         node->next = head->next; 
         head->next->prev = node;
@@ -112,6 +112,7 @@ private:
         addToHead(node);
     }
 
+    // just delinking
     void removeNode(Node* node) {
         node->next->prev = node->prev;
         node->prev->next = node->next;
