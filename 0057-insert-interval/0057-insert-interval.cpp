@@ -1,26 +1,35 @@
 class Solution {
 public:
-    vector<vector<int>> insert(vector<vector<int>>& intervals,
-                               vector<int>& newInterval) {
+    /*
+    Two intervals overlap if:
+        interval A = [a1, a2]
+        interval B = [b1, b2]
+
+        They overlap if: b1 <= a2 && a1 <= b2
+
+        intervals[i][0] <= newInterval[1]
+    */
+    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
         vector<vector<int>> result;
-        int i = 0, n = intervals.size();
+        
+        int i = 0, N = intervals.size();
+        while(i < N && intervals[i][1] < newInterval[0]) {
+            result.push_back(intervals[i]);
+            i++;
+        }
 
-        // Add all intervals that end before the newInterval
-        while (i < n && intervals[i][1] < newInterval[0]) 
-            result.push_back(intervals[i++]);
-
-        // Iteratively adjusts newInterval to encompass overlapping intervals
-        while (i < n && intervals[i][0] <= newInterval[1]) {
-            newInterval[0] = min(newInterval[0], intervals[i][0]);
-            newInterval[1] = max(newInterval[1], intervals[i][1]);
+        while(i < N && intervals[i][0] <= newInterval[1]) {
+            newInterval[0] = min(intervals[i][0], newInterval[0]);
+            newInterval[1] = max(intervals[i][1], newInterval[1]);
             i++;
         }
 
         result.push_back(newInterval);
 
-        // Add all intervals that come after the newInterval
-        while (i < n) 
-            result.push_back(intervals[i++]);
+        while(i < N) {
+            result.push_back(intervals[i]);
+            i++;
+        }
 
         return result;
     }
