@@ -13,11 +13,14 @@ public:
         vector<vector<int>> result;
         
         int i = 0, N = intervals.size();
+
+        // adding non-overlapping intervals
         while(i < N && intervals[i][1] < newInterval[0]) {
             result.push_back(intervals[i]);
             i++;
         }
 
+        // merging overlapping intervals and adding to result
         while(i < N && intervals[i][0] <= newInterval[1]) {
             newInterval[0] = min(intervals[i][0], newInterval[0]);
             newInterval[1] = max(intervals[i][1], newInterval[1]);
@@ -26,6 +29,7 @@ public:
 
         result.push_back(newInterval);
 
+        // adding non-overlapping intervals
         while(i < N) {
             result.push_back(intervals[i]);
             i++;
