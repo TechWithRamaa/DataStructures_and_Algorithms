@@ -1,5 +1,11 @@
 class Solution {
 public:
+    // Merging Overlapping Intervals
+    // Core Idea (Greedy + Sorting)
+    //      Sorting the intervals by start time.
+    //      Iterating through them and:
+    //          If the current interval overlaps with the previous one (i.e., start ≤ previous end), merge them.
+    //          Otherwise, simply add it to the result list.
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         sort(intervals.begin(), intervals.end());
         
