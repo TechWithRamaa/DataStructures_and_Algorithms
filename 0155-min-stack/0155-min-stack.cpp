@@ -1,43 +1,41 @@
 class MinStack {
 private:
-    stack<int> auxillaryStack;
+    stack<int> mainStack;
     stack<int> minStack;
 public:
-    MinStack() {
-        
-    }
-    
+    MinStack() {}
+
     void push(int val) {
-        auxillaryStack.push(val);
-        if(minStack.empty() || minStack.top() >= val) {
+        mainStack.push(val);
+        if (minStack.empty() || minStack.top() >= val) {
             minStack.push(val);
         }
     }
-    
+
     void pop() {
-        if(!auxillaryStack.empty()) {
-           int top = auxillaryStack.top();
-           auxillaryStack.pop();
-           if(minStack.top() == top) {
-            minStack.pop();
-           }
+        if (!mainStack.empty()) {
+            if (minStack.top() == mainStack.top()) {
+                minStack.pop();
+            }
+            mainStack.pop();
         }
     }
-    
+
     int top() {
-        if(!auxillaryStack.empty()) {
-            return auxillaryStack.top();
+        if (!mainStack.empty()) {
+            return mainStack.top();
         }
-        throw out_of_range("auxillaryStack is empty");
+        throw out_of_range("Stack is empty");
     }
-    
+
     int getMin() {
-        if(!minStack.empty()) {
+        if (!minStack.empty()) {
             return minStack.top();
         }
-        throw out_of_range("minStack is empty");
+        throw out_of_range("Min stack is empty");
     }
 };
+
 
 /**
  * Your MinStack object will be instantiated and called as such:
