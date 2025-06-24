@@ -1,7 +1,7 @@
 class Solution {
 public:
     // Fixed Sliding Window
-    // Frequency of characters withing windows should match
+    // Frequency of characters within windows should match
     // with the Frequency of characters in target word
     vector<int> findAnagrams(string s, string p) {
         int N = s.size();
