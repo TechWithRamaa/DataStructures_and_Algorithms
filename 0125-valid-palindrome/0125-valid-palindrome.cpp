@@ -1,7 +1,7 @@
 class Solution {
 public:
     // Two Pointer Approach
-    // core skills expected
+    // core skills expected are
     // bypass or skip special characters & 
     // compare for palindrome only for valid characters
     bool isPalindrome(string s) {
