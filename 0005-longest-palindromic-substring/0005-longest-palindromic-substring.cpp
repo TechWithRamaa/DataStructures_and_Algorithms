@@ -3,7 +3,7 @@ public:
     // the question is on substring not a subsequence
     // therefore, this expanding from center holds only palindrome substrings
 
-    // logic of expanding from center from  all possible positions
+    // logic of expanding from center form  all possible positions
     // 2 pointer for checking if the current window is a palindrome or not
     // Approach - Expand around center, not DP
     // but this solution generate substrings everytime
