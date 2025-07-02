@@ -16,6 +16,7 @@ public:
         */
 
         // single pass 
+        // greedy
         int minBuyPrice = prices[0];
         for(int i = 1; i < prices.size(); i++) {
             minBuyPrice = min(minBuyPrice, prices[i]);
