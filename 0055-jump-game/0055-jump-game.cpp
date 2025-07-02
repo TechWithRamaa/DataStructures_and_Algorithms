@@ -11,7 +11,7 @@ public:
         int farthest = 0;
 
         for(int i = 0; i < nums.size(); i++) {
-            if(i > farthest) 
+            if(i > farthest) // stuck
                 return false;
             
             farthest = max(farthest, i + nums[i]);
