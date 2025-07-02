@@ -2,9 +2,9 @@ class Solution {
 public:
     int change(int amount, const vector<int>& coins) {
         const int N = coins.size();
-        // return countWaysTopDown(amount, coins, N);
-        if(amount == 4681) return 0;
-        return countWaysBottomUp(amount, coins, N);
+        return countWaysTopDown(amount, coins, N);
+        //if(amount == 4681) return 0;
+        //return countWaysBottomUp(amount, coins, N);
     }
 
 private:
