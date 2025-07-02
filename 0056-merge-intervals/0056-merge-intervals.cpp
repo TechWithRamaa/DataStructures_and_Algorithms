@@ -6,6 +6,8 @@ public:
     //      Iterating through them and:
     //          If the current interval overlaps with the previous one (i.e., start ≤ previous end), merge them.
     //          Otherwise, simply add it to the result list.
+
+    // TC -> Sorting: O(n log n) and Merging: O(n) => Total: O(n log n)
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         sort(intervals.begin(), intervals.end());
         
