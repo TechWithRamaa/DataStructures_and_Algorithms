@@ -14,7 +14,7 @@ public:
     }
 
 private:
-    void combinationSum(int start, vector<int>& current, vector<vector<int>>& result,
+    void combinationSum(int i, vector<int>& current, vector<vector<int>>& result,
                         vector<int>& candidates, int target) {
     
         if(target == 0) {
@@ -22,14 +22,15 @@ private:
             return;
         }
 
-        if(target < 0)
-            return;
-        
-        for(int i = start; i < candidates.size(); i++) {
-            current.push_back(candidates[i]);
-            combinationSum(i, current, result, candidates, target - candidates[i]);
-            current.pop_back();
-        }
+        if (target < 0 || i == candidates.size()) return;
+
+        // Include
+        current.push_back(candidates[i]);
+        combinationSum(i, current, result, candidates, target - candidates[i]); // stay at i
+        current.pop_back();
+
+        // Exclude
+        combinationSum(i + 1, current, result, candidates, target); // move to i + 1
 
     }
 
