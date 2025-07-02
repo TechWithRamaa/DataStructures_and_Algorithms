@@ -24,9 +24,10 @@ private:
 
         if(root->val >= maxSoFar) {
             isItAGoodNode = 1; 
+            maxSoFar = max(maxSoFar, root->val);
         }
 
-        maxSoFar = max(maxSoFar, root->val);
+        
 
         return isItAGoodNode + goodNodesSoFar(root->left, maxSoFar) + goodNodesSoFar(root->right, maxSoFar);
     }
