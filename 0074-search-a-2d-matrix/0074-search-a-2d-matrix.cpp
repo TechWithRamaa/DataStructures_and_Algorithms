@@ -7,7 +7,7 @@ public:
         int left = 0, right = M * N - 1;    // Logically visualizing 2D matrix as 1D array
 
         while (left <= right) {
-            // Divide And Conquer technique
+            // Divide And Conquer technique - Binary Search
             int mid = left + (right - left) / 2;
             
             // Convert logical 1D index to actual 2D matrix indices
