@@ -1,46 +1,31 @@
 class Solution {
 public:
-    vector<vector<int>> combinationSum2(vector<int>& candidates, const int target) {
-        vector<vector<int>> result;
-        vector<int> combination;
+    vector<vector<int>> result;
 
-        sort(candidates.begin(), candidates.end());
+    void dfs(vector<int>& candidates, int index, int target, vector<int>& path) {
+        if (target == 0) {
+            result.push_back(path);
+            return;
+        }
 
-        unordered_map<string, vector<vector<int>>> memo;  
-        combinationSum2(candidates, target, 0, combination, result, memo);
+        if (index >= candidates.size() || target < 0) return;
 
-        return result;
+        // ✅ Include current element (only once, so move to index + 1)
+        path.push_back(candidates[index]);
+        dfs(candidates, index + 1, target - candidates[index], path);
+        path.pop_back();
+
+        // ✅ Exclude current element and skip all duplicates
+        int nextIndex = index + 1;
+        while (nextIndex < candidates.size() && candidates[nextIndex] == candidates[index])
+            nextIndex++;  // skip over duplicates
+        dfs(candidates, nextIndex, target, path);
     }
 
-private:
-    void combinationSum2(vector<int>& candidates, int target, int start, vector<int>& combination,
-                         vector<vector<int>>& result, unordered_map<string, vector<vector<int>>> memo) {
-        if (target == 0) {
-            result.push_back(combination);
-            return;
-        }
-
-        string key = to_string(start) + "-" + to_string(target);
-        if (memo.find(key) != memo.end()) {
-            for (const auto& comb : memo[key]) {
-                result.push_back(comb);
-            }
-            return;
-        }
-
-        for (int index = start; index < candidates.size(); index++) {
-            if (index > start && candidates[index] == candidates[index-1])
-                 continue;
-
-            if (candidates[index] > target)
-                break;
-        
-            combination.push_back(candidates[index]);
-            combinationSum2(candidates, target - candidates[index], index + 1, combination, result, memo);
-
-            combination.pop_back();
-        }
-
-        memo[key] = result;
+    vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
+        sort(candidates.begin(), candidates.end());  // sort for deduplication
+        vector<int> path;
+        dfs(candidates, 0, target, path);
+        return result;
     }
 };
