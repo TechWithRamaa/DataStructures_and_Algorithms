@@ -25,7 +25,7 @@ public:
                     auto task = maxHeap.top();
                     maxHeap.pop();
 
-                    interval += 1;
+                    interval += 1; // task execution // 1 unit of cpu time
 
                     if (--task > 0) {
                         waitList.push_back(task);
@@ -33,7 +33,7 @@ public:
                 } else {
                     if (waitList.empty())
                         break;
-                    interval += 1;
+                    interval += 1; // Idle time
                 }
             }
 
