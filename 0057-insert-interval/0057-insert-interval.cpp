@@ -9,6 +9,7 @@ public:
 
         intervals[i][0] <= newInterval[1]
     */
+    // TC & SC ~ O ( N )
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
         vector<vector<int>> result;
         
