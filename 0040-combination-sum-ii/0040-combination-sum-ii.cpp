@@ -1,7 +1,6 @@
 class Solution {
 public:
     
-
     void dfs(vector<int>& candidates, int index, int target, vector<int>& path,  vector<vector<int>>& result) {
         if (target == 0) {
             result.push_back(path);
@@ -24,8 +23,10 @@ public:
 
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
         sort(candidates.begin(), candidates.end());  // sort for deduplication
+        
         vector<vector<int>> result;
         vector<int> path;
+        
         dfs(candidates, 0, target, path, result);
         return result;
     }
