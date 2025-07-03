@@ -1,5 +1,15 @@
 class Solution {
 public:
+    /*
+    Contribution Technique + Monotonic Stack
+    The idea is:
+
+    For each element arr[i], count how many subarrays it is the minimum in.
+
+    Multiply its value by the number of such subarrays.
+
+    Add that contribution to the total.
+    */
     int sumSubarrayMins(const vector<int>& arr) {
         const int MOD = 1e9 + 7;
         int n = arr.size();
