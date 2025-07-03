@@ -10,6 +10,7 @@ public:
             frequency[s[end] - 'A']++;
             mostFrequentCount = max(mostFrequentCount, frequency[s[end] - 'A']);
 
+            // window_size - mostFrequentCount
             if(end - start + 1 - mostFrequentCount > k) {
                 frequency[s[start] - 'A']--;
                 start+=1;
