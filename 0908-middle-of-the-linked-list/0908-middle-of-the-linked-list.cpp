@@ -50,5 +50,9 @@ public:
         return slow;
     }
 
-
+    /*
+    Condition	Result
+        while (fast && fast->next)	Returns second middle in even-length lists
+        while (fast->next && fast->next->next)	Returns first middle in even-length lists
+    */
 };
