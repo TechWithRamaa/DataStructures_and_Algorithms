@@ -8,6 +8,7 @@ public:
         int arrows = 1;
         int lastPoint = points[0][1];
 
+        // Grredy Simulation instead of actual overlapping
         for(const auto& v : points) {
             if(v[0] > lastPoint) {
                 arrows++;
