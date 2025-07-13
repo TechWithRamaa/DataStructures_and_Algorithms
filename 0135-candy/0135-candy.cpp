@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // Greedy in Two Passes
+    // Time: O(N) ; Space: O(N)
     int candy(vector<int>& ratings) {
         int N = ratings.size();
         vector<long long> candies(N, 1);
