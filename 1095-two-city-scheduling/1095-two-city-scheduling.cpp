@@ -5,8 +5,12 @@ public:
         sort(costs.begin(), costs.end(), [](const vector<int> &a, const vector<int> &b){
             return a[0] - a[1] < b[0] - b[1];
         });
-
+        
         int totalCost = 0, N = costs.size(), GROUP_SIZE = N / 2;
+
+        // for(int i = 0; i < N; i++) {
+        //     cout << costs[i][0] << " - " << costs[i][1] << endl; 
+        // }
 
         for(int i = 0; i < N; i++) {
             if(i < GROUP_SIZE)
