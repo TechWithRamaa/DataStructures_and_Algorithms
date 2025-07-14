@@ -11,11 +11,11 @@ public:
 
         // sorting based on capital in ascending order
         sort(projects.begin(), projects.end());
-
-        int index = 0;
+        
         priority_queue<int> maxHeap; // maxHeap for projects yielding maximum project
-        for(int i = 1; i <= k; i++) { 
-
+        int index = 0;
+        
+        for(int i = 1; i <= k; i++) {
             while(index < N && projects[index].first <= w) {
                 maxHeap.push(projects[index].second);
                 index++;
