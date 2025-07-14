@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // sorting + greedy
     int eraseOverlapIntervals(vector<vector<int>>& intervals) {
         // comparator provided to sort on second element of the vector
         sort(intervals.begin(), intervals.end(), [](const vector<int>& a, const vector<int>& b){
