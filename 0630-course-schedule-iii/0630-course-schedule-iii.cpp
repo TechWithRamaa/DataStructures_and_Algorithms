@@ -30,7 +30,11 @@ public:
             return a[1] < b[1];
         });
 
-        priority_queue<int> maxHeap;
+        // stores the duration of courses. 
+        // Longest Duration will be at the top so that
+        // course with the longest duration can be swappable with few upcoming smaller courses
+        // which maximizes the no of courses
+        priority_queue<int> maxHeap; 
         int currentDay = 0;
 
         for(const auto& course : courses) {
