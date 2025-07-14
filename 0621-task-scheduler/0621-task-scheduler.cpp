@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // counting frequency + maxHeap + scheduling simulation + greedy
     int leastInterval(vector<char>& tasks, int n) {
         unordered_map<char, int> freqMap;
 
