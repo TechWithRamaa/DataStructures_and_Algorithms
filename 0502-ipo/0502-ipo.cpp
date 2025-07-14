@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Sorting the projects + Greedy + MaxHeap
     int findMaximizedCapital(int k, int w, vector<int>& profits, vector<int>& capital) {
         int N = profits.size();
 
@@ -14,7 +15,7 @@ public:
         
         priority_queue<int> maxHeap; // maxHeap for projects yielding maximum project
         int index = 0;
-        
+
         for(int i = 1; i <= k; i++) {
             while(index < N && projects[index].first <= w) {
                 maxHeap.push(projects[index].second);
