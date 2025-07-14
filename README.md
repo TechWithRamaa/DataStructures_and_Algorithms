@@ -392,6 +392,7 @@
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1095-two-city-scheduling](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1095-two-city-scheduling) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1127-last-stone-weight](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1127-last-stone-weight) |
 | [1130-last-stone-weight-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1130-last-stone-weight-ii) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1145-number-of-submatrices-that-sum-to-target) |
@@ -1367,6 +1368,7 @@
 | [0797-rabbits-in-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0797-rabbits-in-forest) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1095-two-city-scheduling](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1095-two-city-scheduling) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -1406,6 +1408,7 @@
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1127-last-stone-weight](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1127-last-stone-weight) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2588-maximum-number-of-points-from-grid-queries) |
