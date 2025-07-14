@@ -409,6 +409,7 @@
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1428-jump-game-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1428-jump-game-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1435-xor-queries-of-a-subarray) |
+| [1464-reduce-array-size-to-the-half](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1464-reduce-array-size-to-the-half) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -890,6 +891,7 @@
 | [1227-number-of-equivalent-domino-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1370-count-number-of-nice-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1464-reduce-array-size-to-the-half](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1464-reduce-array-size-to-the-half) |
 | [1500-count-largest-group](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1500-count-largest-group) |
 | [1668-find-longest-awesome-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1668-find-longest-awesome-substring) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -1268,6 +1270,7 @@
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1095-two-city-scheduling](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1095-two-city-scheduling) |
 | [1306-minimum-absolute-difference](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1306-minimum-absolute-difference) |
+| [1464-reduce-array-size-to-the-half](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1464-reduce-array-size-to-the-half) |
 | [1881-closest-subsequence-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1881-closest-subsequence-sum) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -1370,6 +1373,7 @@
 | [1095-two-city-scheduling](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1095-two-city-scheduling) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
+| [1464-reduce-array-size-to-the-half](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1464-reduce-array-size-to-the-half) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -1410,6 +1414,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1127-last-stone-weight](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1127-last-stone-weight) |
+| [1464-reduce-array-size-to-the-half](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1464-reduce-array-size-to-the-half) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2681-put-marbles-in-bags) |
