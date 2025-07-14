@@ -4,8 +4,8 @@ public:
     //                => SC ~ O(n) + O(n)
     int minMeetingRoomsHeap(vector<vector<int>>& intervals) {
         sort(intervals.begin(), intervals.end());
- 
-        priority_queue<int, vector<int>, greater<>> minHeap;
+        
+        priority_queue<int, vector<int>, greater<>> minHeap;  // minHeap of end times
         for(const auto& current : intervals) {
             int start = current[0], end = current[1];
 
