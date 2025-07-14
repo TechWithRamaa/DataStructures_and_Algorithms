@@ -14,7 +14,6 @@ public:
             if(start >= previousEndTime) {
                 previousEndTime = end;
             } else {
-                cout << start << " - " << end << " - " << previousEndTime << endl;
                 count++;
             }
         }
