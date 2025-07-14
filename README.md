@@ -1106,6 +1106,7 @@
 | [1170-shortest-common-supersequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1170-shortest-common-supersequence) |
 | [1178-valid-palindrome-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1178-valid-palindrome-iii) |
 | [1250-longest-common-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1250-longest-common-subsequence) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
