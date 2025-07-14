@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // MinHeap + Greedy
     int connectSticks(vector<int>& sticks) {
         priority_queue<int, vector<int>, greater<>> minHeap;
 
