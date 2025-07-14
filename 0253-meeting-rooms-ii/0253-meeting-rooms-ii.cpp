@@ -10,7 +10,7 @@ public:
             int start = current[0], end = current[1];
 
             if(!minHeap.empty() && start >= minHeap.top()) {
-                minHeap.pop(); // pop when the meeting is over
+                minHeap.pop(); // pop the meeting which got over
             }
             
             minHeap.push(end);
