@@ -6,12 +6,14 @@ public:
         sort(intervals.begin(), intervals.end());
  
         priority_queue<int, vector<int>, greater<>> minHeap;
-        for(vector<int>& interval : intervals) {
-            if(!minHeap.empty() && interval[0] >= minHeap.top()) {
-                minHeap.pop();
+        for(const auto& current : intervals) {
+            int start = current[0], end = current[1];
+
+            if(!minHeap.empty() && start >= minHeap.top()) {
+                minHeap.pop(); // pop when the meeting is over
             }
             
-            minHeap.push(interval[1]);
+            minHeap.push(end);
         }
         
         return minHeap.size();
