@@ -17,12 +17,9 @@ public:
 
             sum = (x + y);
             minCost += sum;
-            
+
             minHeap.push(sum);
         }
-
-        // if(!minHeap.empty())
-        //     minCost += minHeap.top();
 
         return minCost;
     }
