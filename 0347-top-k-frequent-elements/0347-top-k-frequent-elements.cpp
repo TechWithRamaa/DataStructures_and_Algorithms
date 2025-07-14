@@ -1,8 +1,8 @@
 class Solution {
 public:
-    /*
+    
     // Frequency Map + Min Heap ~ O(n) + O(n log k) + O(k)
-    vector<int> topKFrequentMinHeap(vector<int>& nums, int k) {
+    vector<int> topKFrequent(vector<int>& nums, int k) {
         unordered_map<int, int> freqMap;
         
         for(auto num : nums) {
@@ -29,7 +29,7 @@ public:
         
         return result;
     }
-    */
+    
     
     // Frequence Map + Bucket Sort ~ O(n) + O(n) + O(k)
     vector<int> topKFrequent2(vector<int>& nums, int k) {
@@ -59,7 +59,7 @@ public:
     }
 
     // just a practice
-    vector<int> topKFrequent(vector<int>& nums, int k) {
+    vector<int> topKFrequent3(vector<int>& nums, int k) {
         vector<int> result;
 
         unordered_map<int, int> freqMap;
