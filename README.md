@@ -46,6 +46,7 @@
 | [0518-coin-change-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0542-01-matrix) |
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
+| [0678-valid-parenthesis-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [0688-knight-probability-in-chessboard](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0688-knight-probability-in-chessboard) |
 | [0787-sliding-puzzle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0787-sliding-puzzle) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -1091,6 +1092,7 @@
 | [0551-student-attendance-record-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0551-student-attendance-record-i) |
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
 | [0642-design-search-autocomplete-system](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0642-design-search-autocomplete-system) |
+| [0678-valid-parenthesis-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0742-to-lower-case](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0742-to-lower-case) |
@@ -1145,6 +1147,7 @@
 | [0496-next-greater-element-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0503-next-greater-element-ii) |
 | [0636-exclusive-time-of-functions](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0636-exclusive-time-of-functions) |
+| [0678-valid-parenthesis-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0739-daily-temperatures) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
@@ -1369,6 +1372,7 @@
 | [0630-course-schedule-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0630-course-schedule-iii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
 | [0670-maximum-swap](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0670-maximum-swap) |
+| [0678-valid-parenthesis-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0778-reorganize-string) |
