@@ -5,27 +5,21 @@ public:
             return false;
 
         unordered_set<char> vowels = {'a', 'e', 'i', 'o', 'u'};
-        bool atleastOneConsonant = false, atleastOneVowel = false;
+        bool hasVowel = false, hasConsonant = false;
 
         for(auto& ch : word) {
-            if(ch >= '0' && ch <= '9') {
-                cout << "digit - " << ch << endl;
+            if (isdigit(ch)) 
                 continue;
-            } 
-            else if(vowels.count(ch) > 0 || (isupper(ch) && vowels.count(tolower(ch)) > 0)) {
-                cout << "vowel - " << ch << endl;
-                atleastOneVowel = true;
-            }
-            else if(!isalnum(ch)){
-                cout << ch << "endl";
+            if (!isalnum(ch)) 
                 return false;
-            }
-            else if(!atleastOneConsonant) {
-                cout << "consonant - " << ch << endl;
-                atleastOneConsonant = true;
-            } 
+            
+            char lowerCh = tolower(ch);
+            if (vowels.count(lowerCh)) 
+                hasVowel = true;
+            else 
+                hasConsonant = true;
         }
 
-        return atleastOneVowel && atleastOneConsonant;
+        return hasVowel && hasConsonant;
     }
 };
