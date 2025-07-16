@@ -11,6 +11,7 @@ public:
                 }
             }
             res = max(res, cnt);
+            //cout << "pattern - " << pattern[0] << ", " << pattern[1] << " -> " << cnt << endl;
         }
         return res;
     }
