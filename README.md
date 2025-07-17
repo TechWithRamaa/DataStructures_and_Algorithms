@@ -305,6 +305,7 @@
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0268-missing-number) |
 | [0269-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0269-alien-dictionary) |
+| [0271-encode-and-decode-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0271-encode-and-decode-strings) |
 | [0283-move-zeroes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0283-move-zeroes) |
 | [0286-walls-and-gates](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0287-find-the-duplicate-number) |
@@ -1076,6 +1077,7 @@
 | [0257-binary-tree-paths](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0257-binary-tree-paths) |
 | [0266-palindrome-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0266-palindrome-permutation) |
 | [0269-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0269-alien-dictionary) |
+| [0271-encode-and-decode-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0271-encode-and-decode-strings) |
 | [0273-integer-to-english-words](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0273-integer-to-english-words) |
 | [0282-expression-add-operators](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0282-expression-add-operators) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -1481,6 +1483,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0251-flatten-2d-vector](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0251-flatten-2d-vector) |
+| [0271-encode-and-decode-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0271-encode-and-decode-strings) |
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0303-range-sum-query-immutable) |
