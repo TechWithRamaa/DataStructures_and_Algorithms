@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Dynamic Sliding Window
     int characterReplacement(string s, int k) {
         vector<int> frequency(26, 0);
         int mostFrequentCount = 0;
@@ -9,6 +10,9 @@ public:
         for(int end = 0; end < s.length(); end++) {
             frequency[s[end] - 'A']++;
             mostFrequentCount = max(mostFrequentCount, frequency[s[end] - 'A']);
+
+            // Keep expanding the window until less frequent count breaches given k, 
+            // then start shrinking
 
             // window_size - mostFrequentCount
             if(end - start + 1 - mostFrequentCount > k) {
