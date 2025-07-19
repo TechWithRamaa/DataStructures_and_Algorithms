@@ -17,6 +17,9 @@ public:
         ListNode* dummy = new ListNode(0);
         ListNode* temp = dummy;
 
+        // ListNode dummy(0);         // dummy node on stack
+        // ListNode* temp = &dummy;   // temp points to dummy
+
         // whenever there is a scenario involving
         // creation of new nodes or deletion of nodes
         // this operation can involve at head or tail
