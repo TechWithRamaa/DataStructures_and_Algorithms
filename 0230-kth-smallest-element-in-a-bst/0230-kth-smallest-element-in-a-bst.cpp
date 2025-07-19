@@ -11,6 +11,7 @@
  */
 class Solution {
 public:
+    // In-Order Traversal done in Iterative style
     int kthSmallest(TreeNode* root, int k) {
         stack<TreeNode*> st;
         TreeNode* current = root;
