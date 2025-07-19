@@ -8,6 +8,9 @@
  * };
  */
 class Codec {
+private:
+    const string DELIMITER = ",";
+    const string NULL_VALUE = "#";
 public:
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
@@ -23,11 +26,11 @@ public:
             q.pop();
 
             if (node) {
-                serializedString += to_string(node->val) + ",";
+                serializedString += to_string(node->val) + DELIMITER;
                 q.push(node->left);
                 q.push(node->right);
             } else {
-                serializedString += "#,";
+                serializedString += NULL_VALUE + DELIMITER;
             }
         }
 
