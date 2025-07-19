@@ -117,6 +117,7 @@
 | [0437-path-sum-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0449-serialize-and-deserialize-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0572-subtree-of-another-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0652-find-duplicate-subtrees) |
 | [0655-print-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0655-print-binary-tree) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
@@ -203,6 +204,7 @@
 | [0437-path-sum-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0449-serialize-and-deserialize-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0572-subtree-of-another-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0652-find-duplicate-subtrees) |
 | [0655-print-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0655-print-binary-tree) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
@@ -766,6 +768,7 @@
 | [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0543-diameter-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0547-number-of-provinces) |
+| [0572-subtree-of-another-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0572-subtree-of-another-tree) |
 | [0642-design-search-autocomplete-system](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0642-design-search-autocomplete-system) |
 | [0652-find-duplicate-subtrees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0652-find-duplicate-subtrees) |
 | [0655-print-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0655-print-binary-tree) |
@@ -1731,6 +1734,7 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0572-subtree-of-another-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0572-subtree-of-another-tree) |
 ## Number Theory
 |  |
 | ------- |
@@ -1765,4 +1769,8 @@
 | [1203-print-in-order](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1203-print-in-order) |
 | [1316-fizz-buzz-multithreaded](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1316-fizz-buzz-multithreaded) |
 | [1340-the-dining-philosophers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1340-the-dining-philosophers) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
