@@ -130,6 +130,7 @@
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1177-tree-diameter](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1177-tree-diameter) |
 | [1207-delete-nodes-and-return-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1207-delete-nodes-and-return-forest) |
@@ -215,6 +216,7 @@
 | [0930-all-possible-full-binary-trees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0930-all-possible-full-binary-trees) |
 | [0975-range-sum-of-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1207-delete-nodes-and-return-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -400,6 +402,7 @@
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1046-max-consecutive-ones-iii) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1095-two-city-scheduling](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1095-two-city-scheduling) |
@@ -1177,6 +1180,7 @@
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0937-online-stock-span](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -1198,6 +1202,7 @@
 | [0739-daily-temperatures](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1628-count-submatrices-with-all-ones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1628-count-submatrices-with-all-ones) |
@@ -1613,6 +1618,7 @@
 | [0789-kth-largest-element-in-a-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0975-range-sum-of-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0975-range-sum-of-bst) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Data Stream
 |  |
 | ------- |
