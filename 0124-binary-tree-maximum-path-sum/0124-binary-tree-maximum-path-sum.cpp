@@ -26,8 +26,8 @@ private:
         if (!node)
             return 0;
 
-        int leftMax = max(0, dfs(node->left, maxSum));
-        int rightMax = max(0, dfs(node->right, maxSum));
+        int leftMax = max(0, dfs(node->left, maxSum)); // Pruning negative subpaths (dynamic decision-making).
+        int rightMax = max(0, dfs(node->right, maxSum)); // Pruning negative subpaths (dynamic decision-making).
 
         int currentPathSum = node->val + leftMax + rightMax;
 
