@@ -52,7 +52,7 @@ public:
             }
         }
 
-        return node && node->isEnd;
+        return node->isEnd;
     }
 };
 
