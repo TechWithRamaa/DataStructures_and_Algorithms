@@ -60,10 +60,14 @@ public:
 
 private:
     bool dfs(int node, vector<int>& leftChild, vector<int>& rightChild, unordered_set<int>& visited) {
-        if (node == -1) return true;
+        if (node == -1) 
+            return true;
+
         if (visited.count(node)) return false; // cycle
+
         visited.insert(node);
-        return dfs(leftChild[node], leftChild, rightChild, visited) &&
-               dfs(rightChild[node], leftChild, rightChild, visited);
+
+        return dfs(leftChild[node], leftChild, rightChild, visited) 
+                && dfs(rightChild[node], leftChild, rightChild, visited);
     }
 };
