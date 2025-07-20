@@ -49,7 +49,10 @@ public:
 
         // Step 3: DFS
         unordered_set<int> visited;
-        if (!dfs(root, leftChild, rightChild, visited)) return false;
+        
+        // dfs traversal + cycle detection
+        if (!dfs(root, leftChild, rightChild, visited)) 
+            return false;
 
         // Step 4: Check if all nodes are visited
         return visited.size() == n;
