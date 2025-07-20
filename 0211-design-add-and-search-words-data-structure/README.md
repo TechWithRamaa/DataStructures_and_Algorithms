@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/design-add-and-search-words-data-structure">211. Design Add and Search Words Data Structure</a></h2><h3>Medium</h3><hr><p>Design a data structure that supports adding new words and finding if a string matches any previously added string.</p>
+<h2><a href="https://leetcode.com/problems/design-add-and-search-words-data-structure/">211. Design Add and Search Words Data Structure</a></h2><h3>Medium</h3><hr><p>Design a data structure that supports adding new words and finding if a string matches any previously added string.</p>
 
 <p>Implement the <code>WordDictionary</code> class:</p>
 
