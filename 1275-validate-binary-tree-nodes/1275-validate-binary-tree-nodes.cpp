@@ -63,12 +63,12 @@ private:
         if (node == -1) // it means there's no child, safe to return true
             return true;
 
-        if (visited.count(node)) 
-            return false; // cycle
+        // if (visited.count(node)) 
+        //     return false; // cycle
 
         visited.insert(node);
 
-        return dfs(leftChild[node], leftChild, rightChild, visited) 
-                && dfs(rightChild[node], leftChild, rightChild, visited);
+        return !visited.count(leftChild[node]) && dfs(leftChild[node], leftChild, rightChild, visited) 
+               && !visited.count(rightChild[node]) && dfs(rightChild[node], leftChild, rightChild, visited);
     }
 };
