@@ -136,6 +136,7 @@
 | [1207-delete-nodes-and-return-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1254-deepest-leaves-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1254-deepest-leaves-sum) |
+| [1275-validate-binary-tree-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1275-validate-binary-tree-nodes) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
@@ -221,6 +222,7 @@
 | [1207-delete-nodes-and-return-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1254-deepest-leaves-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1254-deepest-leaves-sum) |
+| [1275-validate-binary-tree-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1275-validate-binary-tree-nodes) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
@@ -616,6 +618,7 @@
 | [1177-tree-diameter](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1177-tree-diameter) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1254-deepest-leaves-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1254-deepest-leaves-sum) |
+| [1275-validate-binary-tree-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1275-validate-binary-tree-nodes) |
 | [1428-jump-game-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1428-jump-game-iii) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -643,6 +646,7 @@
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0801-is-graph-bipartite) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1275-validate-binary-tree-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1275-validate-binary-tree-nodes) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
@@ -799,6 +803,7 @@
 | [1207-delete-nodes-and-return-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1254-deepest-leaves-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1254-deepest-leaves-sum) |
+| [1275-validate-binary-tree-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1275-validate-binary-tree-nodes) |
 | [1428-jump-game-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1428-jump-game-iii) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1474-longest-zigzag-path-in-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1474-longest-zigzag-path-in-a-binary-tree) |
@@ -1594,6 +1599,7 @@
 | [0877-shortest-path-visiting-all-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1177-tree-diameter](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1177-tree-diameter) |
+| [1275-validate-binary-tree-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1275-validate-binary-tree-nodes) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
