@@ -1,5 +1,11 @@
 class Solution {
 public:
+    /*
+    
+    Start from the oceans and mark all cells that can flow into them (reverse flow).
+    The cells that are reachable from both Pacific and Atlantic DFS traversals are the answer.
+    
+    */
     vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
         int ROWS = heights.size();
         int COLS = heights[0].size();
