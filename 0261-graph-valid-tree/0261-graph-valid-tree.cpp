@@ -15,7 +15,7 @@ public:
             return false;
         }
 
-        return visited.size() == n; // singlurar connected component
+        return visited.size() == n; // singluar connected component
     }
 private:
     bool dfs(int node, int parent, vector<vector<int>>& graph,  unordered_set<int>& visited) {
