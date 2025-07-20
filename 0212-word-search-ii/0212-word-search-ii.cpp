@@ -1,7 +1,16 @@
-struct TrieNode {
-    TrieNode* children[26] = {nullptr};
-    string wordEndsAs = ""; // Stores the full word if it ends here
-};
+// struct TrieNode {
+//     TrieNode* children[26] = {nullptr};
+//     string wordEndsAs = ""; // Stores the full word if it ends here
+// };
+
+class TrieNode {
+public: 
+	vector<TrieNode*> children;
+	string wordEndsAs;
+	
+	TrieNode() : wordEndsAs(""), children(26, nullptr) {}
+		
+ };
 
 class Trie {
 public:
@@ -24,6 +33,7 @@ public:
     }
 };
 
+// Plain backtracking from every cell becomes too slow because you'd re-check a lot of prefixes.
 class Solution {
 private:
     void dfs(vector<vector<char>>& board, TrieNode* node,
