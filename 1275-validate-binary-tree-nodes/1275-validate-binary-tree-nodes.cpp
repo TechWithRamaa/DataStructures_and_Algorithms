@@ -26,7 +26,7 @@ public:
 
         // Step 1: Calculate indegrees
         for (int i = 0; i < n; i++) {
-            // when a node has indegree > 1, it has no parents, which violates Tree Property
+            // when a node has indegree > 1, it has more than 1 parent, which violates Tree Property
             if (leftChild[i] != -1 && ++indegree[leftChild[i]] > 1) 
                 return false;
 
