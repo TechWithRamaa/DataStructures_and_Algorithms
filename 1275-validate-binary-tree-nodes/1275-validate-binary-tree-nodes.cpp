@@ -60,10 +60,11 @@ public:
 
 private:
     bool dfs(int node, vector<int>& leftChild, vector<int>& rightChild, unordered_set<int>& visited) {
-        if (node == -1) 
+        if (node == -1) // it means there's no child, safe to return true
             return true;
 
-        if (visited.count(node)) return false; // cycle
+        if (visited.count(node)) 
+            return false; // cycle
 
         visited.insert(node);
 
