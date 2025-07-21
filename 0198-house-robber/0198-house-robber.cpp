@@ -1,5 +1,6 @@
 class Solution {
 public:
+ // Top-Down
  int f(vector<int> & nums, int house, vector<int>& dp) 
     {
         //base
@@ -12,6 +13,8 @@ public:
     }
 
 public:
+    // Bottom Up
+    // dp[i]=maximum amount we can rob from houses 0 to i.
     int rob(vector<int>& nums) {
         // vector<int> dp(nums.size(), -1);
         // return f(nums, 0, dp);
