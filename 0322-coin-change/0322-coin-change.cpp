@@ -5,7 +5,7 @@ public:
         const int INF = 1e9; // Large value to represent impossible states
 
         // dp[i][a] = minimum number of coins to make 'a' using first i coins
-        vector<vector<int>> dp(n + 1, vector<int>(amount + 1, INF));
+        vector<vector<int>> dp(n + 1, vector<int>(amount + 1, INF)); // (INF) to represent "impossible".
 
         // Base Case: To form amount = 0, we need 0 coins
         for (int i = 0; i <= n; i++) {
@@ -17,7 +17,7 @@ public:
             for (int a = 1; a <= amount; a++) { // a = 1..amount
                 int notTake = dp[i - 1][a];     // Don't take the i-th coin
 
-                int take = INF;
+                int take = INF; // (INF) to represent "impossible".
                 if (coins[i - 1] <= a) {
                     // Take the coin (i-th coin is coins[i-1])
                     // Since we can use the same coin unlimited times, we stay
