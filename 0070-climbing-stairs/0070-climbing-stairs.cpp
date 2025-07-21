@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // dp[i] represents the number of ways to reach step i
     int climbStairs(int n) {
         int noOfWays = 0;
 
