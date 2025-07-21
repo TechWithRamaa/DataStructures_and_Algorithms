@@ -1,35 +1,35 @@
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
-        vector<vector<int>> dp(coins.size(), vector<int>(amount + 1, -1));
-        
-        int result = coinChange(coins.size() - 1, coins, amount, dp);
-        return (result == INT_MAX) ? -1 : result; 
-    }
+        int n = coins.size();
+        const int INF = 1e9; // Large value to represent impossible states
 
-private:
-    int coinChange(int index, vector<int>& coins, int amount, vector<vector<int>>& dp) {
-        if (amount == 0) return 0;  
-        if (index == 0) {
-            if(amount % coins[index] == 0) {
-                return amount / coins[index];
-            } else {
-                return INT_MAX; 
-            } 
-        } 
-            
+        // dp[i][a] = minimum number of coins to make 'a' using first i coins
+        vector<vector<int>> dp(n + 1, vector<int>(amount + 1, INF));
 
-        if (dp[index][amount] != -1) return dp[index][amount]; 
-
-        int take = INT_MAX;
-        if (coins[index] <= amount) {
-            int subResult = coinChange(index, coins, amount - coins[index], dp);
-            if (subResult != INT_MAX) 
-                take = 1 + subResult;
+        // Base Case: To form amount = 0, we need 0 coins
+        for (int i = 0; i <= n; i++) {
+            dp[i][0] = 0;
         }
 
-        int notTake = coinChange(index - 1, coins, amount, dp);
+        // Fill the table
+        for (int i = 1; i <= n; i++) {          // i = 1..n (coin index)
+            for (int a = 1; a <= amount; a++) { // a = 1..amount
+                int notTake = dp[i - 1][a];     // Don't take the i-th coin
 
-        return dp[index][amount] = min(take, notTake);
+                int take = INF;
+                if (coins[i - 1] <= a) {
+                    // Take the coin (i-th coin is coins[i-1])
+                    // Since we can use the same coin unlimited times, we stay
+                    // on row i
+                    take = 1 + dp[i][a - coins[i - 1]];
+                }
+
+                dp[i][a] = min(take, notTake);
+            }
+        }
+
+        // If dp[n][amount] is INF, it means it's impossible to make that amount
+        return (dp[n][amount] == INF) ? -1 : dp[n][amount];
     }
 };
