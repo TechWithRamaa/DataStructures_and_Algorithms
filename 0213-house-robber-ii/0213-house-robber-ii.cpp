@@ -18,10 +18,11 @@ private:
             int rob = nums[i] + secondLast;
             int dontRob = last;
 
-            maxRob = max(rob, dontRob);
+            int currentRob = max(rob, dontRob);
+            maxRob = max(maxRob, currentRob);
 
             secondLast = last;
-            last = maxRob;
+            last = currentRob;
         }
 
         return maxRob;
