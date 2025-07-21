@@ -1,9 +1,23 @@
 class Solution {
 public:
+    /*
+    Is there any valid way to break the string?
+    Why do we explore all possible splits?
+    
+    Because:
+
+    If one segmentation path fails, another segmentation may succeed.
+    We don't know which words from the dictionary to pick at each step (multiple choices), 
+    so we need to check all possible partitions.
+    */
+
+    // dp[i] = true if the substring s[0...i-1] can be segmented into valid words.
+    // For every position i in s, we check all possible splits s[j...i-1] where 0 <= j < i.
+    // If dp[j] == true and s[j...i-1] is in wordDict, then dp[i] = true.
+    
     bool wordBreak(string s, vector<string>& wordDict) {
         unordered_set<string> dictionary(wordDict.begin(), wordDict.end());
 
-        // dp[i] = can we form s[0..i-1] using words from dict
         vector<bool> dp(s.size() + 1, false);
         dp[0] = true; 
 
