@@ -31,6 +31,7 @@ public:
             int left = center / 2;
             int right = left + (center % 2);
             
+            // expanding it
             while (left >= 0 && right < n && s[left] == s[right]) {
                 count++;
                 left--;
