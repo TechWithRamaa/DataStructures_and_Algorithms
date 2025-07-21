@@ -9,7 +9,7 @@ public:
 
         vector<int> dp(N + 1, 0);
         dp[0] = 1; // base: empty string
-        dp[1] = 1; // base: single character
+        dp[1] = 1; // base: single character - actual first character at i - 1
         
         for(int i = 2; i <= N; i++) {
             if(s[i-1] != '0') 
