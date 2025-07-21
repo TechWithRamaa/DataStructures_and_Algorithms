@@ -7,9 +7,10 @@ public:
         for (int num : nums) {
             auto it = lower_bound(sub.begin(), sub.end(), num); 
 
+            // extend the sequence
             if (it == sub.end()) {
                 sub.push_back(num); 
-            } else {
+            } else { // replace the sequence
                 *it = num;
             }
         }
@@ -24,6 +25,22 @@ public:
     }
  
     // DP ~ O ( n ^ 2)
+    /* Goal of the DP approach:
+        
+       We are computing:
+
+          For each i, what is the length of the Longest Increasing Subsequence (LIS) that ends at index i?
+
+          To do that, we consider every previous index j < i, because:
+
+          We are asking: “Can nums[i] be added to an increasing subsequence that ends at j?”
+
+          If yes (i.e., nums[j] < nums[i]), then we can extend that subsequence by 1.
+
+    */
+
+    // dp[i]=length of LIS ending at index i
+    
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
         vector<int> dp(n, 1); // dp[i] starts with 1 (each element is an LIS of length 1)
