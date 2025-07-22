@@ -388,6 +388,7 @@
 | [0797-rabbits-in-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0797-rabbits-in-forest) |
 | [0833-bus-routes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0833-bus-routes) |
 | [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
+| [0876-hand-of-straights](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0876-hand-of-straights) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0890-lemonade-change](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0890-lemonade-change) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
@@ -908,6 +909,7 @@
 | [0797-rabbits-in-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0797-rabbits-in-forest) |
 | [0807-custom-sort-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0807-custom-sort-string) |
 | [0833-bus-routes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0833-bus-routes) |
+| [0876-hand-of-straights](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -1315,6 +1317,7 @@
 | [0761-employee-free-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0761-employee-free-time) |
 | [0778-reorganize-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0807-custom-sort-string) |
+| [0876-hand-of-straights](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0876-hand-of-straights) |
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1095-two-city-scheduling](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1095-two-city-scheduling) |
@@ -1422,6 +1425,7 @@
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0797-rabbits-in-forest) |
+| [0876-hand-of-straights](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0890-lemonade-change) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1095-two-city-scheduling](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1095-two-city-scheduling) |
