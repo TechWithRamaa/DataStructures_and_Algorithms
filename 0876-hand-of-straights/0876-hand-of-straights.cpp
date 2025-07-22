@@ -1,5 +1,9 @@
 class Solution {
 public:
+    /*
+    Greedy with frequency map: Sort the cards, and for each smallest available card, 
+    try to form a consecutive sequence of length groupSize by consuming frequencies; if not possible, return false.
+    */
     bool isNStraightHand(vector<int>& hand, int groupSize) {
         int N = hand.size();
         
@@ -11,7 +15,7 @@ public:
         unordered_map<int, int> freqMap; 
         for(int card : hand)
             freqMap[card]++;
-            
+
         for(int currentCard : hand) {
             if(freqMap[currentCard] == 0) 
                 continue;
