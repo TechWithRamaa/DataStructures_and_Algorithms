@@ -838,6 +838,7 @@
 | [0412-fizz-buzz](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0412-fizz-buzz) |
 | [0723-candy-crush](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0723-candy-crush) |
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
+| [0874-backspace-string-compare](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0874-backspace-string-compare) |
 | [1324-where-will-the-ball-fall](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1324-where-will-the-ball-fall) |
 | [2048-build-array-from-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2048-build-array-from-permutation) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -1146,6 +1147,7 @@
 | [0782-jewels-and-stones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0782-jewels-and-stones) |
 | [0807-custom-sort-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0807-custom-sort-string) |
 | [0868-push-dominoes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0868-push-dominoes) |
+| [0874-backspace-string-compare](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0874-backspace-string-compare) |
 | [0990-verifying-an-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0990-verifying-an-alien-dictionary) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1170-shortest-common-supersequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1170-shortest-common-supersequence) |
@@ -1201,6 +1203,7 @@
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0739-daily-temperatures) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+| [0874-backspace-string-compare](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0874-backspace-string-compare) |
 | [0937-online-stock-span](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -1282,6 +1285,7 @@
 | [0723-candy-crush](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0723-candy-crush) |
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0868-push-dominoes) |
+| [0874-backspace-string-compare](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0874-backspace-string-compare) |
 | [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
 | [0908-middle-of-the-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0908-middle-of-the-linked-list) |
 | [1028-interval-list-intersections](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1028-interval-list-intersections) |
