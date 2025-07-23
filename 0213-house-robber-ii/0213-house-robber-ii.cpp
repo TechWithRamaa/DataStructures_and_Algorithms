@@ -3,9 +3,11 @@ public:
     int rob(vector<int>& nums) {
         int N = nums.size();
 
-        if (N == 1) {
+        if(N == 0)
+            return 0;
+        
+        if (N == 1)
             return nums[0];
-        }
 
         return max(rob(0, N - 2, nums), rob(1, N - 1, nums));
     }
