@@ -27,6 +27,7 @@ public:
     */
     int minimumDeletions(string s) {
         int b_count = 0, res = 0;
+        
         for (char c : s) {
             if (c == 'b') {
                 b_count++;
@@ -34,6 +35,7 @@ public:
                 res = min(res + 1, b_count);
             }
         }
+        
         return res;
     }
 };
