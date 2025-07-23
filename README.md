@@ -1118,6 +1118,7 @@
 | [0383-ransom-note](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0387-first-unique-character-in-a-string) |
 | [0399-evaluate-division](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0399-evaluate-division) |
+| [0402-remove-k-digits](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0402-remove-k-digits) |
 | [0408-valid-word-abbreviation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0408-valid-word-abbreviation) |
 | [0412-fizz-buzz](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0412-fizz-buzz) |
 | [0424-longest-repeating-character-replacement](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0424-longest-repeating-character-replacement) |
@@ -1184,6 +1185,7 @@
 | [0224-basic-calculator](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0224-basic-calculator) |
 | [0234-palindrome-linked-list](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0234-palindrome-linked-list) |
 | [0316-remove-duplicate-letters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0316-remove-duplicate-letters) |
+| [0402-remove-k-digits](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0402-remove-k-digits) |
 | [0445-add-two-numbers-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0445-add-two-numbers-ii) |
 | [0456-132-pattern](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0496-next-greater-element-i) |
@@ -1212,6 +1214,7 @@
 | [0084-largest-rectangle-in-histogram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
 | [0316-remove-duplicate-letters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0316-remove-duplicate-letters) |
+| [0402-remove-k-digits](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0402-remove-k-digits) |
 | [0456-132-pattern](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0503-next-greater-element-ii) |
@@ -1414,6 +1417,7 @@
 | [0316-remove-duplicate-letters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0316-remove-duplicate-letters) |
 | [0330-patching-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0330-patching-array) |
 | [0334-increasing-triplet-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0334-increasing-triplet-subsequence) |
+| [0402-remove-k-digits](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
