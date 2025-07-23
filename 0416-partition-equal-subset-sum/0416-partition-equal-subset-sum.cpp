@@ -5,39 +5,32 @@ public:
     }
 
 private:
-    bool canPartitionBottomUp(int N, const vector<int>& arr) {
-        int totalSum = accumulate(arr.begin(), arr.end(), 0);
+    bool canPartitionBottomUp(int s, const vector<int>& nums) {
+        int totalSum = accumulate(nums.begin(), nums.end(), 0);
 
         if (totalSum % 2 == 1)
             return false;
-        else {
-            int k = totalSum / 2;
 
-            vector<bool> prev(k + 1, false);
+        int target = totalSum / 2;
+        int N = nums.size();
 
-            prev[0] = true;
+        vector<vector<bool>> dp(N + 1, vector<bool>(target + 1, false));
 
-            if (arr[0] <= k)
-                prev[arr[0]] = true;
+        // Base Case: 0 sum is always possible
+        for (int i = 0; i <= N; i++)
+            dp[i][0] = true;
 
-            for (int ind = 1; ind < N; ind++) {
-                vector<bool> cur(k + 1, false);
-                cur[0] = true;
-
-                for (int target = 1; target <= k; target++) {
-                    bool exclude = prev[target];
-
-                    bool include = false;
-                    if (arr[ind] <= target)
-                        include = prev[target - arr[ind]];
-
-                    cur[target] = exclude || include;
+        for (int i = 1; i <= N; i++) {
+            for (int j = 1; j <= target; j++) {
+                if (j >= nums[i - 1]) {
+                    dp[i][j] = dp[i - 1][j] || dp[i - 1][j - nums[i - 1]];
+                } else {
+                    dp[i][j] = dp[i - 1][j];
                 }
-
-                prev = cur;
             }
-            return prev[k];
         }
+
+        return dp[N][target];
     }
 
     bool canPartitionTopDown(int N, const vector<int>& arr) {
