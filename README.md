@@ -375,6 +375,7 @@
 | [0695-max-area-of-island](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0695-max-area-of-island) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
+| [0723-candy-crush](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0723-candy-crush) |
 | [0724-find-pivot-index](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0733-flood-fill) |
@@ -686,6 +687,7 @@
 | [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0695-max-area-of-island) |
+| [0723-candy-crush](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0723-candy-crush) |
 | [0733-flood-fill](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0733-flood-fill) |
 | [0787-sliding-puzzle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0787-sliding-puzzle) |
 | [0971-shortest-bridge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0971-shortest-bridge) |
@@ -834,6 +836,7 @@
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0353-design-snake-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0353-design-snake-game) |
 | [0412-fizz-buzz](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0412-fizz-buzz) |
+| [0723-candy-crush](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0723-candy-crush) |
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
 | [1324-where-will-the-ball-fall](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1324-where-will-the-ball-fall) |
 | [2048-build-array-from-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2048-build-array-from-permutation) |
@@ -1276,6 +1279,7 @@
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0680-valid-palindrome-ii) |
+| [0723-candy-crush](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0723-candy-crush) |
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0868-push-dominoes) |
 | [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
