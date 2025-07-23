@@ -49,6 +49,7 @@
 | [0647-palindromic-substrings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0678-valid-parenthesis-string) |
 | [0688-knight-probability-in-chessboard](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0688-knight-probability-in-chessboard) |
+| [0747-min-cost-climbing-stairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0747-min-cost-climbing-stairs) |
 | [0787-sliding-puzzle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0787-sliding-puzzle) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0806-domino-and-tromino-tiling) |
@@ -381,6 +382,7 @@
 | [0733-flood-fill](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0739-daily-temperatures) |
+| [0747-min-cost-climbing-stairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0747-min-cost-climbing-stairs) |
 | [0753-open-the-lock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0753-open-the-lock) |
 | [0761-employee-free-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0761-employee-free-time) |
 | [0762-find-anagram-mappings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0762-find-anagram-mappings) |
