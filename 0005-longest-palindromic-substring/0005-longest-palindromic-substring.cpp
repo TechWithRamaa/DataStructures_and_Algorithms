@@ -52,11 +52,14 @@ public:
             int left = center / 2;
             int right = left + (center % 2);
 
-            while((left >= 0 && right < s.size()) && s[left] == s[right]) {
-                if(maxLen <= (right - left + 1)) {
+            while((left >= 0 && right < N) && s[left] == s[right]) {
+                int currentLength = (right - left) + 1; // offset correction
+                
+                if(maxLen <= currentLength) {
                     start = left;
-                    maxLen = (right - left + 1);
+                    maxLen = currentLength;
                 }
+
                 left--;
                 right++;
             }
