@@ -38,7 +38,7 @@ public:
     // Greedy Approach
     // TC ~ O ( N + N ) Two pass
     string minRemoveToMakeValid(string s) {
-        string result;
+        string intermediate;
         string finalResult;
 
         // removes extra )
@@ -46,6 +46,7 @@ public:
         for (char c : s) {
             if (c == '(')
                 openCount++;
+
             if (c == ')') {
                 if (openCount == 0)
                     continue;
@@ -53,23 +54,28 @@ public:
                 openCount--;
             }
 
-            result.push_back(c);
+            intermediate.push_back(c);
         }
+
+        // cout << intermediate << endl;
 
         // removes extra (
         int closedCount = 0;
-        for (int i = result.size() - 1; i >= 0 ; i--) {
-            if (result[i] == ')')
+        for (int i = intermediate.size() - 1; i >= 0 ; i--) {
+            if (intermediate[i] == ')')
                 closedCount++;
-            if (result[i] == '(') {
+
+            if (intermediate[i] == '(') {
                 if (closedCount == 0)
                     continue;
 
                 closedCount--;
             }
 
-            finalResult.push_back(result[i]);            
+            finalResult.push_back(intermediate[i]);            
         }
+
+        // cout << finalResult;
 
         reverse(finalResult.begin(), finalResult.end());;
         return finalResult;
