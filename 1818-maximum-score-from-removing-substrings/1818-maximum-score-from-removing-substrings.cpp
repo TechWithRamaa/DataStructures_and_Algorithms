@@ -16,7 +16,7 @@ public:
 
 private:
     int removePattern(string &s, char first, char second, int score) {
-        string stack;
+        string stack; // clever way of using string as stack so that it can be assigned back to the string
         int total = 0;
 
         for(const auto& ch : s) {
