@@ -23,6 +23,7 @@ public:
         return temp1 == temp2;
     }
 
+    // 2 pointers - optimized for larger inputs
     bool backspaceCompare(string s, string t) {
         int i = s.size() - 1, j = t.size() - 1;
         int skipS = 0, skipT = 0;
@@ -66,7 +67,7 @@ public:
             i--;
             j--;
         }
-        
+
         return true;
     }
 };
