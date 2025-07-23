@@ -36,8 +36,19 @@ public:
     // Expand around center - Simple * Intuitive
     string longestPalindrome(string s) {
         int start = 0, maxLen = 0;
+        const int N = s.length();
+        const int NO_OF_CENTERS = (2 * N - 1);
+        /*
+        Number of centers
+        For a string of length n, there are:
 
-        for(int center = 0; center < (2 * s.size() - 1); center++) {
+        n centers for odd-length palindromes (each character can be the center).
+
+        n - 1 centers for even-length palindromes (between every adjacent pair).
+
+        Total centers = n + (n - 1) = 2n - 1.
+        */
+        for(int center = 0; center < NO_OF_CENTERS; center++) {
             int left = center / 2;
             int right = left + (center % 2);
 
