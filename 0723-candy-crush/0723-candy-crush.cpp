@@ -1,6 +1,6 @@
 class Solution {
 public:
-    // simulation until stable
+    // greedy simulation until stable
     vector<vector<int>> candyCrush(vector<vector<int>>& board) {
         int M = board.size(), N = board[0].size();
         bool changed = true;
