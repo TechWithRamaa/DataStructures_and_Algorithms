@@ -1152,6 +1152,7 @@
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1668-find-longest-awesome-substring](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1668-find-longest-awesome-substring) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
@@ -1200,6 +1201,7 @@
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1628-count-submatrices-with-all-ones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1628-count-submatrices-with-all-ones) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1792-find-the-most-competitive-subsequence) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1909-buildings-with-an-ocean-view](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1909-buildings-with-an-ocean-view) |
 | [1985-maximum-subarray-min-product](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1985-maximum-subarray-min-product) |
 | [3001-apply-operations-to-maximize-score](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3001-apply-operations-to-maximize-score) |
@@ -1434,6 +1436,7 @@
 | [1464-reduce-array-size-to-the-half](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1464-reduce-array-size-to-the-half) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1792-find-the-most-competitive-subsequence) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
