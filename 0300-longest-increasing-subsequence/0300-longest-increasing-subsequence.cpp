@@ -42,17 +42,17 @@ public:
     // dp[i]=length of LIS ending at index i
     
     int lengthOfLIS(vector<int>& nums) {
-        int n = nums.size();
-        vector<int> dp(n, 1); // dp[i] starts with 1 (each element is an LIS of length 1)
+        int N = nums.size();
+        vector<int> dp(N, 1); // dp[i] starts with 1 (each element is an LIS of length 1)
 
         int maxLength = 1;
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < N; i++) {
             for (int j = 0; j < i; j++) {
                 if (nums[j] < nums[i]) {
                   dp[i] = max(dp[i], dp[j] + 1);
                 }
             }
-            maxLength = max(maxLength, dp[i]);
+           maxLength = max(maxLength, dp[i]);
         }
 
         return maxLength;
