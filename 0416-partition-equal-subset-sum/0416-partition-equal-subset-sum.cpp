@@ -14,6 +14,7 @@ private:
         int target = totalSum / 2;
         int N = nums.size();
 
+        // Can we form sum j using the first i numbers from the array?
         vector<vector<bool>> dp(N + 1, vector<bool>(target + 1, false));
 
         // Base Case: 0 sum is always possible
@@ -22,11 +23,10 @@ private:
 
         for (int i = 1; i <= N; i++) {
             for (int j = 1; j <= target; j++) {
-                if (j >= nums[i - 1]) {
-                    dp[i][j] = dp[i - 1][j] || dp[i - 1][j - nums[i - 1]];
-                } else {
-                    dp[i][j] = dp[i - 1][j];
-                }
+                 dp[i][j] = dp[i - 1][j];
+
+                if (j >= nums[i - 1]) 
+                    dp[i][j] = dp[i][j] || dp[i - 1][j - nums[i - 1]];
             }
         }
 
