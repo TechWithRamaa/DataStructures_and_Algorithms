@@ -6,10 +6,7 @@ public:
 
 private:
     bool canPartitionBottomUp(int N, const vector<int>& arr) {
-        int totalSum = 0;
-
-        for (int element : arr)
-            totalSum += element;
+        int totalSum = accumulate(arr.begin(), arr.end(), 0);
 
         if (totalSum % 2 == 1)
             return false;
