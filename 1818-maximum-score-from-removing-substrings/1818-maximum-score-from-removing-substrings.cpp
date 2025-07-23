@@ -2,7 +2,7 @@ class Solution {
 public:
     // Greedy + Stack .. 
     // I mistaken to be Dynamic Programming oops
-    int maximumGain(string s, int x, int y) {
+    int maximumGain(auto& s, int x, int y) {
         int totalScore = 0;
 
         if(x > y) {
@@ -30,7 +30,7 @@ private:
             }
         }
 
-        s = stack;
+        s = stack; 
         return total;
     }
 };
