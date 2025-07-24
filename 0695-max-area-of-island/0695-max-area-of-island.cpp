@@ -1,5 +1,9 @@
 class Solution {
 public:
+    /*
+        Just reuse the DFS for calculating component size
+        and add counting logic
+    */
     int maxAreaOfIsland(vector<vector<int>>& grid) {
         int ROWS = grid.size();
         int COLS = grid[0].size();
