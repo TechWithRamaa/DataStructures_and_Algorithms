@@ -882,6 +882,7 @@
 | [0166-fraction-to-recurring-decimal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0202-happy-number) |
+| [0205-isomorphic-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0229-majority-element-ii) |
@@ -1113,6 +1114,7 @@
 | [0161-one-edit-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0161-one-edit-distance) |
 | [0166-fraction-to-recurring-decimal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0166-fraction-to-recurring-decimal) |
 | [0171-excel-sheet-column-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0171-excel-sheet-column-number) |
+| [0205-isomorphic-strings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
