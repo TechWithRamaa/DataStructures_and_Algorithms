@@ -40,7 +40,7 @@ private:
     }
 
     for (int i = 1; i <= n; ++i) {
-        for (int j = 1; j <= amount; ++j) {
+        for (int j = 0; j <= amount; ++j) {
             // Don't take the coin
             dp[i][j] = dp[i - 1][j];
 
