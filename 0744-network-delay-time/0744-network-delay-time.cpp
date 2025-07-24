@@ -8,7 +8,7 @@ public:
             graph[u].push_back({v, t});
         }
 
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> pq;
         pq.push({0, k});
 
         unordered_map<int, int> dist;
