@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Multi-Source BFS
     void wallsAndGates(vector<vector<int>>& rooms) {
         int ROWS = rooms.size();
         int COLS = rooms[0].size();
@@ -24,8 +25,7 @@ public:
                 int nextR = nr + row;
                 int nextC = nc + col;
 
-                if (nextR >= 0 && nextR < ROWS && nextC >= 0 && nextC < COLS &&
-                    rooms[nextR][nextC] == INT_MAX) {
+                if (nextR >= 0 && nextR < ROWS && nextC >= 0 && nextC < COLS && rooms[nextR][nextC] == INT_MAX) {
                     rooms[nextR][nextC] = rooms[row][col] + 1;
                     q.push({nextR, nextC});
                 }
