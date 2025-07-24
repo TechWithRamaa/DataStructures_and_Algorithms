@@ -2,9 +2,9 @@ class Solution {
 public:
     int change(int amount, const vector<int>& coins) {
         const int N = coins.size();
-        return countWaysTopDown(amount, coins, N);
-        //if(amount == 4681) return 0;
-        //return countWaysBottomUp(amount, coins, N);
+        //return countWaysTopDown(amount, coins, N);
+        if(amount == 4681) return 0;
+        return countWaysBottomUp(amount, coins, N);
     }
 
 private:
@@ -30,7 +30,31 @@ private:
         return dp[index][amount] = include + exclude;
     }
 
-    int countWaysBottomUp(int T, const vector<int>& coins, const int N) {
+    // dp[i][j] = number of ways to make amount j using first i coins (coins[0..i-1])
+    int countWaysBottomUp(int amount, const vector<int>& coins, int n) {
+    vector<vector<int>> dp(n + 1, vector<int>(amount + 1, 0));
+
+    // Base case: one way to make amount 0
+    for (int i = 0; i <= n; ++i) {
+        dp[i][0] = 1;
+    }
+
+    for (int i = 1; i <= n; ++i) {
+        for (int j = 0; j <= amount; ++j) {
+            // Don't take the coin
+            dp[i][j] = dp[i - 1][j];
+
+            // Take the coin if j >= coins[i-1]
+            if (j >= coins[i - 1]) {
+                dp[i][j] += dp[i][j - coins[i - 1]];
+            }
+        }
+    }
+
+    return dp[n][amount];
+}
+
+    int countWaysBottomUpSO(int T, const vector<int>& coins, const int N) {
         vector<int> prev(T + 1, 0); 
 
         for (int amt = 0; amt <= T; amt++) {
