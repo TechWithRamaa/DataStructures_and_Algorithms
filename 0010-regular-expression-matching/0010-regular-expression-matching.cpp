@@ -2,8 +2,8 @@ class Solution {
 public:
     bool isMatch(string s, string p) {
         int M = s.length(), N = p.length();
-        vector<vector<bool>> dp(M + 1, vector<bool>(N + 1, false));
-        dp[0][0] = true;
+        vector<vector<bool>> dp(M + 1, vector<bool>(N + 1, false)); // dp[i][j] = true if s[0..i-1] matches p[0..j-1]
+        dp[0][0] = true; // empty string matches empty pattern
 
         // Initialize first row (empty string s)
         for (int j = 2; j <= N; j++) {
@@ -15,8 +15,7 @@ public:
             for (int j = 1; j <= N; j++) {
                 if (p[j - 1] == '.' || p[j - 1] == s[i - 1]) {
                     dp[i][j] = dp[i - 1][j - 1]; // one match
-                }
-                else if (p[j - 1] == '*') {
+                } else if (p[j - 1] == '*') {
                     dp[i][j] = dp[i][j - 2]; // zero occurrence
 
                     // check one or more only if preceding char matches
