@@ -29,8 +29,7 @@ public:
     }
 
     int uniquePathsR(int m, int n) {
-        vector<vector<int>> dp;
-        dp.resize(m, vector<int>(n, -1));  
+        vector<vector<int>> dp(m, vector<int>(n, -1));  
         return solveR(m - 1, n - 1, dp);
     }
 
@@ -51,6 +50,7 @@ public:
         // Base cases: first row and first column
         for (int j = 0; j < n; j++) 
             dp[0][j] = 1; // There is only 1 way to reach any cell in the first row – by moving right from (0,0)
+            
         for (int i = 0; i < m; i++) 
             dp[i][0] = 1; // There is only 1 way to reach any cell in the first column – by moving down from (0,0)
 
