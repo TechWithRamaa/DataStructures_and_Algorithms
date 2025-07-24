@@ -40,7 +40,7 @@ class Solution {
 public:
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
         int N = edges.size();
-        UnionFind unionSet(N+1);
+        UnionFind unionSet(N+1); // n edges => n + 1 nodes or n nodes => n - 1 edges
 
         vector<int> redundantEdge;
         for(auto& edge: edges) {
