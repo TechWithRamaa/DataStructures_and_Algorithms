@@ -14,7 +14,7 @@ public:
 
         // Fill the table
         for (int i = 1; i <= N; i++) {          // i = 1..n (coin index)
-            for (int a = 1; a <= amount; a++) { // a = 1..amount
+            for (int a = 0; a <= amount; a++) { // a = 1..amount
                 int notTake = dp[i - 1][a];     // Don't take the i-th coin
 
                 int take = INF; // (INF) to represent "impossible".
