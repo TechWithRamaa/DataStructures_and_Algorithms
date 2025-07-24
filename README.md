@@ -21,6 +21,7 @@
 | [0085-maximal-rectangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0085-maximal-rectangle) |
 | [0091-decode-ways](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0097-interleaving-string) |
+| [0115-distinct-subsequences](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -1103,6 +1104,7 @@
 | [0079-word-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0097-interleaving-string) |
+| [0115-distinct-subsequences](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0125-valid-palindrome) |
 | [0126-word-ladder-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0127-word-ladder) |
