@@ -1,7 +1,18 @@
 class Solution {
 public:
     // DFS + Cycle Detection + Connectivity Check
+    /*
+    ✅ A graph is a valid tree if and only if:
+        It is fully connected → every node is reachable from any node
+        It has no cycles
+    \U0001f449 In other words:
+        A tree with n nodes must have exactly n - 1 edges
+        And the graph must be connected (i.e., 1 connected component)
+    */
     bool validTree(int n, vector<vector<int>>& edges) {
+        if (edges.size() != n - 1) 
+            return false;
+
         vector<vector<int>> graph(n);
         unordered_set<int> visited;
         
