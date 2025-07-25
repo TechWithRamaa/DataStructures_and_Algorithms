@@ -17,6 +17,7 @@ public:
                 leftZeros++;
             else
                 rightOnes--;
+                
             maxScore = max(maxScore, leftZeros + rightOnes);
         }
 
