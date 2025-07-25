@@ -12,7 +12,7 @@ public:
         if (positiveNumsSet.empty()) {
             return *max_element(nums.begin(), nums.end());
         }
-        
+
         return accumulate(positiveNumsSet.begin(), positiveNumsSet.end(), 0);
     }
 };
