@@ -12,7 +12,7 @@ public:
         int leftZeros = 0, rightOnes = totalOnes;
         int maxScore = 0;
 
-        for (int i = 0; i < s.length() - 1; ++i) {
+        for (int i = 0; i < s.length() - 1; i++) {
             if (s[i] == '0')
                 leftZeros++;
             else
