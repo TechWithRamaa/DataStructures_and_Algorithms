@@ -517,6 +517,7 @@
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
+| [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Binary Search
 |  |
 | ------- |
@@ -972,6 +973,7 @@
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Math
 |  |
 | ------- |
@@ -1479,6 +1481,7 @@
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3647-zero-array-transformation-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3647-zero-array-transformation-iii) |
+| [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Merge Sort
 |  |
 | ------- |
