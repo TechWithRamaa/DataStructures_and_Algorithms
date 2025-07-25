@@ -1,7 +1,5 @@
 class Solution {
 public:
-   
-
     void dfs(string& s, int start, vector<string>& path, vector<vector<string>>& result) {
         if (start == s.length()) {
             result.push_back(path);
