@@ -34,6 +34,7 @@
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0213-house-robber-ii) |
+| [0221-maximal-square](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0312-burst-balloons) |
@@ -316,6 +317,7 @@
 | [0217-contains-duplicate](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0217-contains-duplicate) |
 | [0218-the-skyline-problem](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0218-the-skyline-problem) |
 | [0219-contains-duplicate-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0219-contains-duplicate-ii) |
+| [0221-maximal-square](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0221-maximal-square) |
 | [0229-majority-element-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0239-sliding-window-maximum) |
@@ -692,6 +694,7 @@
 | [0174-dungeon-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0174-dungeon-game) |
 | [0200-number-of-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
+| [0221-maximal-square](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0286-walls-and-gates](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0286-walls-and-gates) |
 | [0304-range-sum-query-2d-immutable](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0304-range-sum-query-2d-immutable) |
