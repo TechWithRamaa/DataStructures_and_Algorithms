@@ -1131,6 +1131,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0212-word-search-ii) |
+| [0214-shortest-palindrome](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0214-shortest-palindrome) |
 | [0224-basic-calculator](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0242-valid-anagram) |
 | [0246-strobogrammatic-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0246-strobogrammatic-number) |
@@ -1831,6 +1832,7 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0214-shortest-palindrome](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0214-shortest-palindrome) |
 | [0572-subtree-of-another-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0572-subtree-of-another-tree) |
 ## Number Theory
 |  |
@@ -1869,5 +1871,10 @@
 ## Hash Function
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0214-shortest-palindrome) |
 | [0572-subtree-of-another-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0572-subtree-of-another-tree) |
+## Rolling Hash
+|  |
+| ------- |
+| [0214-shortest-palindrome](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0214-shortest-palindrome) |
 <!---LeetCode Topics End-->
