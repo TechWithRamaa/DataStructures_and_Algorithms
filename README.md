@@ -1155,6 +1155,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0443-string-compression](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0443-string-compression) |
 | [0449-serialize-and-deserialize-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0449-serialize-and-deserialize-bst) |
 | [0468-validate-ip-address](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0468-validate-ip-address) |
 | [0516-longest-palindromic-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0516-longest-palindromic-subsequence) |
@@ -1310,6 +1311,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0408-valid-word-abbreviation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0408-valid-word-abbreviation) |
+| [0443-string-compression](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0680-valid-palindrome-ii) |
