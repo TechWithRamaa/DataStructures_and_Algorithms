@@ -1,5 +1,12 @@
 class Solution {
 public:
+    /*
+    Intuition Recap:
+        Traverse from right to left
+        Stack keeps people to the right, in monotonic decreasing order
+        Pop and count everyone smaller than you
+        If one taller person remains (at top), count them too
+    */
     vector<int> canSeePersonsCount(vector<int>& heights) {
         int N = heights.size();
         vector<int> result(N, 0);
