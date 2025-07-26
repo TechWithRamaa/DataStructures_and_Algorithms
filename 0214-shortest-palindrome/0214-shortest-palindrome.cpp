@@ -38,3 +38,21 @@ public:
         return suffixToAdd + s;
     }
 };
+
+/*
+Shortest Palindrome using KMP – Quick Summary
+Goal: Make the shortest palindrome by adding characters in front of a given string s.
+Key idea: Find the longest palindromic prefix of s.
+
+How?
+    Reverse the string → rev_s.
+    Create a combined string → s + '#' + rev_s.
+    Build the LPS array for this combined string.
+    LPS last value gives the length of the longest palindromic prefix in s.
+
+Answer: Add the remaining suffix (from rev_s) in front of s.
+
+Example:
+s = "aacecaaa" → LPS end = 7 → Add "a" → Result = "aaacecaaa"
+
+*/
