@@ -977,6 +977,7 @@
 | [2915-count-of-interesting-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2915-count-of-interesting-subarrays) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3227-find-missing-and-repeated-values](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3227-find-missing-and-repeated-values) |
+| [3474-better-compression-of-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3474-better-compression-of-string) |
 | [3548-find-the-count-of-good-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -1204,6 +1205,7 @@
 | [3243-count-the-number-of-powerful-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3396-valid-word](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3396-valid-word) |
 | [3451-string-compression-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3451-string-compression-iii) |
+| [3474-better-compression-of-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3474-better-compression-of-string) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3637-count-number-of-balanced-permutations) |
@@ -1389,6 +1391,7 @@
 | [2888-minimum-index-of-a-valid-split](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3001-apply-operations-to-maximize-score) |
 | [3430-count-days-without-meetings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3430-count-days-without-meetings) |
+| [3474-better-compression-of-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3474-better-compression-of-string) |
 | [3647-zero-array-transformation-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Counting
@@ -1411,6 +1414,7 @@
 | [2308-divide-array-into-equal-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2308-divide-array-into-equal-pairs) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [3474-better-compression-of-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3474-better-compression-of-string) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Sliding Window
 |  |
