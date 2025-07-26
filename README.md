@@ -375,6 +375,7 @@
 | [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0560-subarray-sum-equals-k) |
+| [0594-longest-harmonious-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0630-course-schedule-iii) |
 | [0636-exclusive-time-of-functions](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0636-exclusive-time-of-functions) |
@@ -918,6 +919,7 @@
 | [0525-contiguous-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
+| [0594-longest-harmonious-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0652-find-duplicate-subtrees](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0652-find-duplicate-subtrees) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
@@ -1352,6 +1354,7 @@
 | [0435-non-overlapping-intervals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0502-ipo) |
+| [0594-longest-harmonious-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0630-course-schedule-iii) |
 | [0642-design-search-autocomplete-system](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0642-design-search-autocomplete-system) |
@@ -1389,6 +1392,7 @@
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0387-first-unique-character-in-a-string) |
+| [0594-longest-harmonious-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0778-reorganize-string) |
 | [1034-subarrays-with-k-different-integers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1034-subarrays-with-k-different-integers) |
@@ -1413,6 +1417,7 @@
 | [0480-sliding-window-median](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0480-sliding-window-median) |
 | [0487-max-consecutive-ones-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0487-max-consecutive-ones-ii) |
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
+| [0594-longest-harmonious-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0594-longest-harmonious-subsequence) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0940-fruit-into-baskets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0940-fruit-into-baskets) |
