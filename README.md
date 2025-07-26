@@ -439,6 +439,7 @@
 | [1207-delete-nodes-and-return-forest](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1207-delete-nodes-and-return-forest) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1293-three-consecutive-odds](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1293-three-consecutive-odds) |
+| [1305-number-of-visible-people-in-a-queue](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1306-minimum-absolute-difference](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1306-minimum-absolute-difference) |
 | [1324-where-will-the-ball-fall](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1324-where-will-the-ball-fall) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -1251,6 +1252,7 @@
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
+| [1305-number-of-visible-people-in-a-queue](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -1277,6 +1279,7 @@
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
+| [1305-number-of-visible-people-in-a-queue](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1628-count-submatrices-with-all-ones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1628-count-submatrices-with-all-ones) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1792-find-the-most-competitive-subsequence) |
