@@ -18,7 +18,7 @@ public:
             }          
          }
          
-        currentTerm += to_string(count) + previousTerm[previousTerm.length() - 1];
+        currentTerm += to_string(count) + previousTerm[previousTerm.length() - 1]; // [previousTerm.length() - 1] => reveals the actual character
             
         return currentTerm;
     }
