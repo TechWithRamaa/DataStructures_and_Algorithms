@@ -11,7 +11,7 @@ public:
         int farthest = 0;
 
         for(int i = 0; i < nums.size(); i++) {
-            cout << "i - " << i << " farthest - " << farthest << endl;
+            // cout << "i - " << i << " farthest - " << farthest << endl;
             if(i > farthest) // stuck
                 return false;
             
