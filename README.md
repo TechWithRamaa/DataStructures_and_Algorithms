@@ -378,6 +378,7 @@
 | [0523-continuous-subarray-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0525-contiguous-array) |
 | [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
+| [0540-single-element-in-a-sorted-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0594-longest-harmonious-subsequence) |
@@ -554,6 +555,7 @@
 | [0374-guess-number-higher-or-lower](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0374-guess-number-higher-or-lower) |
 | [0410-split-array-largest-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0456-132-pattern](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0456-132-pattern) |
+| [0540-single-element-in-a-sorted-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0540-single-element-in-a-sorted-array) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
