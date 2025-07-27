@@ -1,6 +1,17 @@
 class Solution {
 public:
-    int possibleStringCount(string word) {
+     int possibleStringCount(string word) {
+        int n = word.size(), ans = 1;
+        for (int i = 1; i < n; ++i) {
+            if (word[i - 1] == word[i]) {
+                ++ans;
+            }
+        }
+        return ans;
+    }
+    
+    // Actual Generation is not necessary
+    int possibleStringCountD(string word) {
         int N = word.size();
         vector<pair<char, int>> groups;
 
@@ -18,11 +29,6 @@ public:
         set<string> possible;
 
         // Case 1 - No long press
-        string original = "";
-        for (auto& [ch, count] : groups) {
-            original += string(count, ch);
-        }
-
         possible.insert(word);
 
         // Case 2 - Try reducing exactly one group with count > 1
@@ -46,7 +52,7 @@ public:
                 possible.insert(temp);
             }
         }
-
+        
         return possible.size();
     }
 };
