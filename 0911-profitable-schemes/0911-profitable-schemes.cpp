@@ -2,8 +2,7 @@ class Solution {
 public:
     const int MOD = 1e9 + 7;
 
-    int profitableSchemes(int n, int minProfit, vector<int>& group,
-                          vector<int>& profit) {
+    int profitableSchemes(int n, int minProfit, vector<int>& group, vector<int>& profit) {
         int m = group.size();
 
         // dp[people][profit] = number of ways
