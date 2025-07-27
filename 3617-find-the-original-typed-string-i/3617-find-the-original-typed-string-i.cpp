@@ -23,7 +23,7 @@ public:
             original += string(count, ch);
         }
 
-        possible.insert(original);
+        possible.insert(word);
 
         // Case 2 - Try reducing exactly one group with count > 1
         for (int i = 0; i < groups.size(); i++) {
