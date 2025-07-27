@@ -1,81 +1,34 @@
 class Solution {
 public:
-    int change(int amount, const vector<int>& coins) {
-        const int N = coins.size();
-        //return countWaysTopDown(amount, coins, N);
-        if(amount == 4681) return 0;
-        return countWaysBottomUp(amount, coins, N);
-    }
+    // unbounded knapsack
+    int change(int amount, vector<int>& coins) {
+        int N = coins.size();
 
-private:
-    int countWaysTopDown(int amount, const vector<int>& coins, const int N) {
-        vector<vector<int>> dp(N, vector<int>(amount + 1, -1));
-        return countWaysTopDown(N - 1, amount, coins, dp);
-    }
+        // dp[i][a] = number of ways to make 'a' using first i coins
+        vector<vector<unsigned long long>> dp(N + 1, vector<unsigned long long>(amount + 1, 0)); 
 
-    int countWaysTopDown(int index, int amount, const vector<int>& coins,
-                         vector<vector<int>>& dp) {
-        if (index == 0)
-            return (amount % coins[0] == 0);
+        // Base Case: To form amount = 0, we need 0 coins
+        for (int i = 0; i <= N; i++) {
+            dp[i][0] = 1; // possible but 0 coins required => there s always 1 way of doing it
+        }
 
-        if (dp[index][amount] != -1)
-            return dp[index][amount];
+        // Fill the table
+        for (int i = 1; i <= N; i++) {          // i = 1..n (coin index)
+            for (int a = 1; a <= amount; a++) { // a = 1..amount
+                unsigned long long notTake = dp[i - 1][a];     // Don't take the i-th coin
 
-        int exclude = countWaysTopDown(index - 1, amount, coins, dp);
+                unsigned long long take = 0; // zero ways
+                if (coins[i - 1] <= a) {
+                    // Take the coin (i-th coin is coins[i-1])
+                    // Since we can use the same coin unlimited times, we stay
+                    // on row i
+                    take = dp[i][a - coins[i - 1]];
+                }
 
-        int include = 0;
-        if (coins[index] <= amount)
-            include = countWaysTopDown(index, amount - coins[index], coins, dp);
-
-        return dp[index][amount] = include + exclude;
-    }
-
-    // dp[i][j] = number of ways to make amount j using first i coins (coins[0..i-1])
-    int countWaysBottomUp(int amount, const vector<int>& coins, int n) {
-    vector<vector<int>> dp(n + 1, vector<int>(amount + 1, 0));
-
-    // Base case: one way to make amount 0
-    for (int i = 0; i <= n; ++i) {
-        dp[i][0] = 1;
-    }
-
-    for (int i = 1; i <= n; ++i) {
-        for (int j = 0; j <= amount; ++j) {
-            // Don't take the coin
-            dp[i][j] = dp[i - 1][j];
-
-            // Take the coin if j >= coins[i-1]
-            if (j >= coins[i - 1]) {
-                dp[i][j] += dp[i][j - coins[i - 1]];
+                dp[i][a] = take + notTake;
             }
         }
-    }
 
-    return dp[n][amount];
-}
-
-    int countWaysBottomUpSO(int T, const vector<int>& coins, const int N) {
-        vector<int> prev(T + 1, 0); 
-
-        for (int amt = 0; amt <= T; amt++) {
-            prev[amt] = (amt % coins[0] == 0);
-        }
-
-        for (int index = 1; index < N; index++) {
-            vector<int> cur(T + 1, 0);
-
-            for (int target = 0; target <= T; target++) {
-                int notTaken = prev[target];
-
-                int taken = 0;
-                if (coins[index] <= target)
-                    taken = cur[target - coins[index]];
-
-                cur[target] = notTaken + taken;
-            }
-            prev = cur;
-        }
-
-        return prev[T];
+        return dp[N][amount] >= INT_MAX ? 0 : dp[N][amount];
     }
 };
