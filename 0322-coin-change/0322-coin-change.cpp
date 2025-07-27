@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // unbounded knapsack
     int coinChange(vector<int>& coins, int amount) {
         int N = coins.size();
         const int INF = 1e9; // Large value to represent impossible states
@@ -9,12 +10,12 @@ public:
 
         // Base Case: To form amount = 0, we need 0 coins
         for (int i = 0; i <= N; i++) {
-            dp[i][0] = 0;
+            dp[i][0] = 0; // possible but 0 coins required
         }
 
         // Fill the table
         for (int i = 1; i <= N; i++) {          // i = 1..n (coin index)
-            for (int a = 0; a <= amount; a++) { // a = 1..amount
+            for (int a = 1; a <= amount; a++) { // a = 1..amount
                 int notTake = dp[i - 1][a];     // Don't take the i-th coin
 
                 int take = INF; // (INF) to represent "impossible".
