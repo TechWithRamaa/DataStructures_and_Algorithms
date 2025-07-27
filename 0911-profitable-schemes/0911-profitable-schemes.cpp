@@ -25,9 +25,7 @@ public:
                     // ✅ Include current crime if we have enough people
                     if (people + g <= n) {
                         int newProfit = min(minProfit, prof + p); // Cap profit
-                        newDp[people + g][newProfit] =
-                            (newDp[people + g][newProfit] + dp[people][prof]) %
-                            MOD;
+                        newDp[people + g][newProfit] =  (newDp[people + g][newProfit] + dp[people][prof]) % MOD;
                     }
                 }
             }
