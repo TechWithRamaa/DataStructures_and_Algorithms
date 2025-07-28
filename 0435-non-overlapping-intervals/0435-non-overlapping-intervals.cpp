@@ -23,3 +23,14 @@ public:
         return count;
     }
 };
+
+/*
+It’s a classic greedy strategy:
+
+Always pick the interval that frees up the earliest future time.
+This leaves maximum room for future intervals.
+
+Formally:
+It’s the Activity Selection Problem, solved optimally by sorting on end times.
+
+*/
