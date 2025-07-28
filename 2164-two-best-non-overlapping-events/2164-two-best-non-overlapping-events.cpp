@@ -60,3 +60,10 @@ public:
     Use prefix max to avoid scanning the left side every time
     Always compare taking 1 event vs 2 non-overlapping
 */
+
+/*
+✅ Final Takeaway:
+    Use prefix max when you need the best candidate up to some point
+    Use prefix sum when you need the total sum up to that point
+    In at-most-k disjoint interval problems with max sum → use prefix max
+*/
