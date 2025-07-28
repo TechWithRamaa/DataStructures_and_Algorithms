@@ -490,6 +490,7 @@
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2478-longest-nice-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2478-longest-nice-subarray) |
+| [2479-meeting-rooms-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2479-meeting-rooms-iii) |
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2551-apply-operations-to-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2551-apply-operations-to-an-array) |
@@ -872,6 +873,7 @@
 | [1324-where-will-the-ball-fall](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1324-where-will-the-ball-fall) |
 | [2048-build-array-from-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2048-build-array-from-permutation) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2479-meeting-rooms-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2479-meeting-rooms-iii) |
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
 | [2551-apply-operations-to-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2551-apply-operations-to-an-array) |
 ## Hash Table
@@ -979,6 +981,7 @@
 | [2308-divide-array-into-equal-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2308-divide-array-into-equal-pairs) |
 | [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2479-meeting-rooms-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2479-meeting-rooms-iii) |
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -1406,6 +1409,7 @@
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2215-finding-3-digit-even-numbers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2215-finding-3-digit-even-numbers) |
+| [2479-meeting-rooms-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2479-meeting-rooms-iii) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -1561,6 +1565,7 @@
 | [1127-last-stone-weight](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1127-last-stone-weight) |
 | [1464-reduce-array-size-to-the-half](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1464-reduce-array-size-to-the-half) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
+| [2479-meeting-rooms-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2479-meeting-rooms-iii) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2681-put-marbles-in-bags) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
