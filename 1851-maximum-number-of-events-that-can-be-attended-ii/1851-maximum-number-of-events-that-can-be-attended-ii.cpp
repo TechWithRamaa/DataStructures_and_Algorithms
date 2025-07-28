@@ -9,8 +9,8 @@ public:
         vector<vector<long long>> dp(n+1, vector<long long>(k+1, 0));
 
         // iterate in reverse so dp[i+1][*] and dp[*][j-1] are ready
-        for (int i = n-1; i >= 0; --i) {
-            for (int j = 1; j <= k; ++j) {
+        for (int i = n-1; i >= 0; i--) {
+            for (int j = 1; j <= k; j++) {
                 // 1) skip this event
                 long long best = dp[i+1][j];
 
