@@ -83,6 +83,7 @@
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2164-two-best-non-overlapping-events](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2164-two-best-non-overlapping-events) |
 | [2262-solving-questions-with-brainpower](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2262-solving-questions-with-brainpower) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
@@ -475,6 +476,7 @@
 | [2035-count-sub-islands](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2035-count-sub-islands) |
 | [2048-build-array-from-permutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2048-build-array-from-permutation) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2164-two-best-non-overlapping-events](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2164-two-best-non-overlapping-events) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2215-finding-3-digit-even-numbers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2215-finding-3-digit-even-numbers) |
@@ -581,6 +583,7 @@
 | [1646-kth-missing-positive-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2164-two-best-non-overlapping-events](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2164-two-best-non-overlapping-events) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2280-count-good-triplets-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2394-count-subarrays-with-score-less-than-k) |
@@ -1407,6 +1410,7 @@
 | [1881-closest-subsequence-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1881-closest-subsequence-sum) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2164-two-best-non-overlapping-events](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2164-two-best-non-overlapping-events) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2215-finding-3-digit-even-numbers](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2215-finding-3-digit-even-numbers) |
 | [2479-meeting-rooms-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2479-meeting-rooms-iii) |
@@ -1565,6 +1569,7 @@
 | [1127-last-stone-weight](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1127-last-stone-weight) |
 | [1464-reduce-array-size-to-the-half](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1464-reduce-array-size-to-the-half) |
 | [1753-path-with-minimum-effort](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1753-path-with-minimum-effort) |
+| [2164-two-best-non-overlapping-events](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2164-two-best-non-overlapping-events) |
 | [2479-meeting-rooms-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2479-meeting-rooms-iii) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2681-put-marbles-in-bags) |
