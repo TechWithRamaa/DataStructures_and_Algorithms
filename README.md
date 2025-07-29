@@ -1204,6 +1204,7 @@
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0778-reorganize-string) |
 | [0782-jewels-and-stones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0782-jewels-and-stones) |
+| [0793-swap-adjacent-in-lr-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0793-swap-adjacent-in-lr-string) |
 | [0807-custom-sort-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0807-custom-sort-string) |
 | [0868-push-dominoes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0868-push-dominoes) |
 | [0874-backspace-string-compare](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0874-backspace-string-compare) |
@@ -1355,6 +1356,7 @@
 | [0680-valid-palindrome-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0680-valid-palindrome-ii) |
 | [0723-candy-crush](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0723-candy-crush) |
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
+| [0793-swap-adjacent-in-lr-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0793-swap-adjacent-in-lr-string) |
 | [0868-push-dominoes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0868-push-dominoes) |
 | [0874-backspace-string-compare](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0874-backspace-string-compare) |
 | [0875-longest-mountain-in-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0875-longest-mountain-in-array) |
