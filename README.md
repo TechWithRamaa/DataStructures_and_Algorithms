@@ -504,6 +504,7 @@
 | [2479-meeting-rooms-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2479-meeting-rooms-iii) |
 | [2483-task-scheduler-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2483-task-scheduler-ii) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2551-apply-operations-to-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2551-apply-operations-to-an-array) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -1136,6 +1137,7 @@
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2478-longest-nice-subarray](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2478-longest-nice-subarray) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## String
@@ -1953,4 +1955,8 @@
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1706-min-cost-to-connect-all-points) |
+## Brainteaser
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 <!---LeetCode Topics End-->
