@@ -20,9 +20,9 @@ private:
                     int sr, int sc, int toColor, int fromColor) {
         
         visited[sr][sc] = true;
-        if(image[sr][sc] == fromColor) {
+        //if(image[sr][sc] == fromColor) {
             image[sr][sc] = toColor;
-        }
+        //}
 
         int ROWS = image.size();
         int COLS = image[0].size();
