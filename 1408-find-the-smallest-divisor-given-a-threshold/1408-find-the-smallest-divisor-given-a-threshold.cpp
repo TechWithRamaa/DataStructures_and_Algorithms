@@ -2,9 +2,8 @@ class Solution {
 public:
     /*
     Key Observation
-    The smaller the divisor → the larger each ceil(nums[i] / divisor) → total
-    sum increases The larger the divisor → the smaller each ceiling → total sum
-    decreases
+    The smaller the divisor → the larger each ceil(nums[i] / divisor) → total sum increases 
+    The larger the divisor → the smaller each ceiling → total sum decreases
 
     ✅ This is a monotonic function → you can use binary search!
     */
