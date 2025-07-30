@@ -21,12 +21,12 @@ private:
         int low = 0, high = M;
 
         while (low <= high) {
-            int i = (low + high) / 2;    // Partition index for nums1
-            int j = (M + N + 1) / 2 - i; // Partition index for nums2
+            int mid = (low + high) / 2;    // Partition index for nums1
+            int j = (M + N + 1) / 2 - mid; // Partition index for nums2
 
             // Edge cases: -∞ if out of bounds
-            int maxLeftX = (i == 0) ? INT_MIN : nums1[i - 1];
-            int minRightX = (i == M) ? INT_MAX : nums1[i];
+            int maxLeftX = (mid == 0) ? INT_MIN : nums1[mid - 1];
+            int minRightX = (mid == M) ? INT_MAX : nums1[mid];
             int maxLeftY = (j == 0) ? INT_MIN : nums2[j - 1];
             int minRightY = (j == N) ? INT_MAX : nums2[j];
 
@@ -39,10 +39,10 @@ private:
                 }
             } else if (maxLeftX > minRightY) {
                 // Move `i` left
-                high = i - 1;
+                high = mid - 1;
             } else {
                 // Move `i` right
-                low = i + 1;
+                low = mid + 1;
             }
         }
         return 0;
