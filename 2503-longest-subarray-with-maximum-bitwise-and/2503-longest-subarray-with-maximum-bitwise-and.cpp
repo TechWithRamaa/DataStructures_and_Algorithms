@@ -16,3 +16,14 @@ public:
         return longest;
     }
 };
+
+/*
+Key Observations:
+
+The bitwise AND of a subarray gets smaller or stays the same as you extend the subarray.
+So the maximum AND is just the maximum element in the array.
+To get subarrays with that max AND, we just need to find the longest contiguous sequence of the maximum element.
+Why? Because only maxElement & maxElement & ... & maxElement = maxElement
+If you add anything smaller → the AND becomes smaller.
+
+*/
