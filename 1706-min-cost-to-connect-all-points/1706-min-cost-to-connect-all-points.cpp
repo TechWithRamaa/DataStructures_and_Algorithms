@@ -1,4 +1,4 @@
-class Solution1 {
+class Solution {
 public:
     int minCostConnectPoints(vector<vector<int>>& points) {
         int n = points.size();
@@ -69,7 +69,7 @@ public:
     }
 };
 
-class Solution {
+class Solution1 {
 public:
     int minCostConnectPoints(vector<vector<int>>& points) {
         int n = points.size();
