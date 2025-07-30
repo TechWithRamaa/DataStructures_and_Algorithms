@@ -395,6 +395,7 @@
 | [0679-24-game](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0679-24-game) |
 | [0695-max-area-of-island](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0695-max-area-of-island) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
+| [0719-find-k-th-smallest-pair-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0723-candy-crush](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0723-candy-crush) |
 | [0724-find-pivot-index](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0724-find-pivot-index) |
@@ -572,6 +573,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0540-single-element-in-a-sorted-array) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0713-subarray-product-less-than-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0713-subarray-product-less-than-k) |
+| [0719-find-k-th-smallest-pair-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0731-my-calendar-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0731-my-calendar-ii) |
 | [0788-minimize-max-distance-to-gas-station](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0788-minimize-max-distance-to-gas-station) |
 | [0792-binary-search](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0792-binary-search) |
@@ -1354,6 +1356,7 @@
 | [0567-permutation-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0680-valid-palindrome-ii) |
+| [0719-find-k-th-smallest-pair-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0723-candy-crush](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0723-candy-crush) |
 | [0768-partition-labels](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0768-partition-labels) |
 | [0793-swap-adjacent-in-lr-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0793-swap-adjacent-in-lr-string) |
@@ -1407,6 +1410,7 @@
 | [0630-course-schedule-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0630-course-schedule-iii) |
 | [0642-design-search-autocomplete-system](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0642-design-search-autocomplete-system) |
 | [0646-maximum-length-of-pair-chain](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0646-maximum-length-of-pair-chain) |
+| [0719-find-k-th-smallest-pair-distance](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0721-accounts-merge) |
 | [0761-employee-free-time](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0761-employee-free-time) |
 | [0778-reorganize-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0778-reorganize-string) |
