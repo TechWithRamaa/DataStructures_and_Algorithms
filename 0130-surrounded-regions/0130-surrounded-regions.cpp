@@ -53,7 +53,7 @@ private:
         int ROWS = board.size();
         int COLS = board[0].size();
 
-        if(board[row][col] != 'O') return; // prune - no need to explore X 
+        //if(board[row][col] != 'O') return; // prune - no need to explore X 
 
         board[row][col] = '#'; // mark as Safe
 
