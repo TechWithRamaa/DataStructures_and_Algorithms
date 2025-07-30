@@ -33,7 +33,7 @@ public:
 
         int maxTimeTakes = 0;
         for(int i = 1; i <= n; i++) {
-            if(!dist.count(i)) return -1;
+            //if(!dist.count(i)) return -1;
                 maxTimeTakes = max(maxTimeTakes, dist[i]);
         }
 
