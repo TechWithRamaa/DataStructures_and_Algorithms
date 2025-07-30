@@ -1,4 +1,4 @@
-class Solution {
+class Solution1 {
 public:
     int rows, cols;
     vector<vector<int>> directions = {{0,1}, {1,0}, {0,-1}, {-1,0}};
@@ -61,4 +61,50 @@ If not → try a bigger effort (left = mid + 1).
 
 \U0001f527 Check Function:
 Use DFS or BFS to verify if a path exists under the current allowed max effort.
+*/
+
+
+class Solution {
+public:
+    int minimumEffortPath(vector<vector<int>>& heights) {
+        int m = heights.size();
+        int n = heights[0].size();
+        
+        vector<vector<int>> effort(m, vector<int>(n, INT_MAX));
+        priority_queue<tuple<int, int, int>, vector<tuple<int, int, int>>, greater<>> pq;
+        pq.push({0, 0, 0});  // {effort, x, y}
+        effort[0][0] = 0;
+
+        vector<pair<int, int>> dirs = {{0,1}, {1,0}, {0,-1}, {-1,0}};
+
+        while (!pq.empty()) {
+            auto [currEffort, x, y] = pq.top(); pq.pop();
+
+            if (x == m - 1 && y == n - 1)
+                return currEffort;
+
+            for (auto &[dx, dy] : dirs) {
+                int nx = x + dx;
+                int ny = y + dy;
+                if (nx >= 0 && ny >= 0 && nx < m && ny < n) {
+                    int newEffort = max(currEffort, abs(heights[nx][ny] - heights[x][y]));
+                    if (newEffort < effort[nx][ny]) {
+                        effort[nx][ny] = newEffort;
+                        pq.push({newEffort, nx, ny});
+                    }
+                }
+            }
+        }
+
+        return 0; // Just a fallback (we’ll never reach here)
+    }
+};
+
+
+/*
+When to use this approach?
+This is usually faster in practice than binary search + BFS for dense grids.
+
+It’s a direct application of Dijkstra with a clever cost definition.
+
 */
