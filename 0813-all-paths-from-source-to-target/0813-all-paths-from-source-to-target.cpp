@@ -3,7 +3,9 @@ public:
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
         vector<vector<int>> result;
         vector<int> path;
+
         dfs(graph, 0, path, result);
+        
         return result;
     }
 
