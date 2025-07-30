@@ -360,6 +360,7 @@
 | [0362-design-hit-counter](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0362-design-hit-counter) |
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
 | [0370-range-addition](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0370-range-addition) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0380-insert-delete-getrandom-o1](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0380-insert-delete-getrandom-o1) |
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0381-insert-delete-getrandom-o1-duplicates-allowed) |
 | [0384-shuffle-an-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0384-shuffle-an-array) |
@@ -568,6 +569,7 @@
 | [0354-russian-doll-envelopes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0354-russian-doll-envelopes) |
 | [0362-design-hit-counter](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0362-design-hit-counter) |
 | [0374-guess-number-higher-or-lower](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0374-guess-number-higher-or-lower) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0410-split-array-largest-sum) |
 | [0456-132-pattern](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0456-132-pattern) |
 | [0540-single-element-in-a-sorted-array](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0540-single-element-in-a-sorted-array) |
@@ -725,6 +727,7 @@
 | [0317-shortest-distance-from-all-buildings](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0542-01-matrix) |
@@ -1402,6 +1405,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0354-russian-doll-envelopes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0354-russian-doll-envelopes) |
 | [0368-largest-divisible-subset](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0368-largest-divisible-subset) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0502-ipo) |
@@ -1570,6 +1574,7 @@
 | [0253-meeting-rooms-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0347-top-k-frequent-elements) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0480-sliding-window-median](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0480-sliding-window-median) |
 | [0502-ipo](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0621-task-scheduler) |
