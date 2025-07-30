@@ -376,6 +376,7 @@
 | [0480-sliding-window-median](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0480-sliding-window-median) |
 | [0485-max-consecutive-ones](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0485-max-consecutive-ones) |
 | [0487-max-consecutive-ones-ii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0487-max-consecutive-ones-ii) |
+| [0490-the-maze](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0490-the-maze) |
 | [0494-target-sum](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0496-next-greater-element-i) |
 | [0502-ipo](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0502-ipo) |
@@ -642,6 +643,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0433-minimum-genetic-mutation](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0433-minimum-genetic-mutation) |
 | [0449-serialize-and-deserialize-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0449-serialize-and-deserialize-bst) |
+| [0490-the-maze](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0490-the-maze) |
 | [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0547-number-of-provinces) |
@@ -735,6 +737,7 @@
 | [0348-design-tic-tac-toe](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0348-design-tic-tac-toe) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
+| [0490-the-maze](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0490-the-maze) |
 | [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0695-max-area-of-island) |
@@ -834,6 +837,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0417-pacific-atlantic-water-flow) |
 | [0437-path-sum-iii](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0449-serialize-and-deserialize-bst) |
+| [0490-the-maze](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0490-the-maze) |
 | [0529-minesweeper](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0529-minesweeper) |
 | [0543-diameter-of-binary-tree](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0547-number-of-provinces) |
