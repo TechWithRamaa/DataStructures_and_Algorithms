@@ -1,39 +1,64 @@
 class Solution {
 public:
-    int minimumEffortPath(vector<vector<int>>& heights) {
-        const int ROWS = heights.size();
-        const int COLS = heights[0].size();
+    int rows, cols;
+    vector<vector<int>> directions = {{0,1}, {1,0}, {0,-1}, {-1,0}};
+    
+    bool canReach(vector<vector<int>>& heights, int maxEffort) {
+        rows = heights.size();
+        cols = heights[0].size();
+        queue<pair<int, int>> q;
+        vector<vector<bool>> visited(rows, vector<bool>(cols, false));
+        q.push({0, 0});
+        visited[0][0] = true;
 
-        priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, greater<pair<int, pair<int, int>>>> pq;
-        pq.push({0, {0, 0}});
+        while (!q.empty()) {
+            auto [x, y] = q.front(); q.pop();
 
-        vector<vector<int>> dist(ROWS, vector<int>(COLS, INT_MAX));
-        dist[0][0] = 0;
+            if (x == rows - 1 && y == cols - 1) return true;
 
-        while(!pq.empty()) {
-            auto entry = pq.top();
-            pq.pop();
-            
-            int effort = entry.first, cRow = entry.second.first, cCol = entry.second.second;
-
-            if(cRow == ROWS - 1 && cCol == COLS - 1) return effort;
-
-            vector<pair<int, int>> directions = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
-            for(auto [dRow, dCol] : directions) {
-                int newRow = dRow + cRow;
-                int newCol = dCol + cCol;
-
-                if(newRow >= 0 && newRow < ROWS && newCol >= 0 && newCol < COLS) {
-                    int newEffort = max(effort, abs(heights[cRow][cCol] - heights[newRow][newCol]));
-                    if(newEffort < dist[newRow][newCol]) {
-                        dist[newRow][newCol] = newEffort;
-                        pq.push({newEffort, {newRow, newCol}});
+            for (auto& dir : directions) {
+                int nx = x + dir[0], ny = y + dir[1];
+                if (nx >= 0 && ny >= 0 && nx < rows && ny < cols && !visited[nx][ny]) {
+                    int diff = abs(heights[nx][ny] - heights[x][y]);
+                    if (diff <= maxEffort) {
+                        visited[nx][ny] = true;
+                        q.push({nx, ny});
                     }
                 }
             }
+        }
+        return false;
+    }
 
+    int minimumEffortPath(vector<vector<int>>& heights) {
+        int left = 0, right = 1e6, answer = 0;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            if (canReach(heights, mid)) {
+                answer = mid;
+                right = mid - 1; // Try smaller effort
+            } else {
+                left = mid + 1;  // Try larger effort
+            }
         }
 
-        return -1;
+        return answer;
     }
 };
+
+/*
+We are minimizing the maximum difference in heights along any path from (0,0) to (m-1,n-1). 
+This is a classic:
+Binary Search on Answer + BFS/DFS/Union-Find check
+
+\U0001f50d Idea: Binary Search on Effort
+Let’s binary search over the possible effort (range: 0 to 1e6).
+For each effort mid, check if there exists a path from (0,0) to (m-1,n-1) where no edge has a difference > mid.
+If a path exists → try a smaller effort (right = mid).
+If not → try a bigger effort (left = mid + 1).
+
+\U0001f527 Check Function:
+Use DFS or BFS to verify if a path exists under the current allowed max effort.
+*/
