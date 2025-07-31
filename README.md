@@ -425,6 +425,7 @@
 | [0934-bitwise-ors-of-subarrays](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-fruit-into-baskets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0943-sum-of-subarray-minimums) |
+| [0965-unique-email-addresses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0965-unique-email-addresses) |
 | [0971-shortest-bridge](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0971-shortest-bridge) |
 | [0990-verifying-an-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0990-verifying-an-alien-dictionary) |
 | [1014-k-closest-points-to-origin](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1014-k-closest-points-to-origin) |
@@ -983,6 +984,7 @@
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0940-fruit-into-baskets](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0940-fruit-into-baskets) |
+| [0965-unique-email-addresses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0965-unique-email-addresses) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0990-verifying-an-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0990-verifying-an-alien-dictionary) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -1230,6 +1232,7 @@
 | [0868-push-dominoes](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0868-push-dominoes) |
 | [0874-backspace-string-compare](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0874-backspace-string-compare) |
 | [0962-flip-string-to-monotone-increasing](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0962-flip-string-to-monotone-increasing) |
+| [0965-unique-email-addresses](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0965-unique-email-addresses) |
 | [0990-verifying-an-alien-dictionary](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/0990-verifying-an-alien-dictionary) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/TechWithRamaa/DataStructures_and_Algorithms/tree/master/1159-smallest-subsequence-of-distinct-characters) |
